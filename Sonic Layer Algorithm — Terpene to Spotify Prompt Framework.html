@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sonic Layer Algorithm — Terpene → Spotify Prompt Framework</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  :root {
+    --green: #1DB954;
+    --green-dim: #1aa34a;
+    --dark: #121212;
+    --dark2: #1a1a2e;
+    --dark3: #16213e;
+    --card: #1e1e30;
+    --card-hover: #252540;
+    --text: #e0e0e0;
+    --text-dim: #999;
+    --text-bright: #fff;
+    --accent-orange: #f59e0b;
+    --accent-blue: #3b82f6;
+    --accent-purple: #8b5cf6;
+    --accent-pink: #ec4899;
+    --accent-cyan: #06b6d4;
+    --border: rgba(255,255,255,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, var(--dark2) 0%, var(--dark) 50%, #0a1628 100%);
+    padding: 80px 40px 60px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(29,185,84,0.06) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(139,92,246,0.04) 0%, transparent 50%);
+    animation: pulse 8s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+
+  .hero h1 {
+    font-size: 2.8em;
+    font-weight: 800;
+    color: var(--green);
+    position: relative;
+    letter-spacing: -0.5px;
+  }
+
+  .hero .subtitle {
+    font-size: 1.15em;
+    color: var(--text-dim);
+    margin-top: 12px;
+    position: relative;
+    font-weight: 300;
+  }
+
+  .hero .version-badge {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 16px;
+    background: rgba(29,185,84,0.15);
+    border: 1px solid rgba(29,185,84,0.3);
+    border-radius: 20px;
+    font-size: 0.85em;
+    color: var(--green);
+    font-weight: 500;
+    position: relative;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .section-number {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--green), var(--green-dim));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: #000;
+    flex-shrink: 0;
+  }
+
+  .section h2 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--text-bright);
+  }
+
+  .section h2 span {
+    color: var(--green);
+  }
+
+  .prose {
+    color: var(--text);
+    font-size: 0.95em;
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+  .prose strong { color: var(--text-bright); font-weight: 600; }
+
+  /* Flow diagram */
+  .flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    background: var(--card);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    margin: 24px 0;
+  }
+
+  .flow-step {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .flow-arrow {
+    color: var(--text-dim);
+    font-size: 1.2em;
+  }
+
+  .fs-input { background: rgba(139,92,246,0.2); color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
+  .fs-process { background: rgba(59,130,246,0.2); color: #93c5fd; border: 1px solid rgba(59,130,246,0.3); }
+  .fs-output { background: rgba(29,185,84,0.2); color: #86efac; border: 1px solid rgba(29,185,84,0.3); }
+
+  /* Cards grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    transition: all 0.2s;
+  }
+
+  .card:hover {
+    background: var(--card-hover);
+    border-color: rgba(29,185,84,0.2);
+    transform: translateY(-2px);
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 1.05em;
+    margin-bottom: 8px;
+    color: var(--text-bright);
+  }
+
+  .card-meta {
+    font-size: 0.8em;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+
+  .badge-sleep { background: rgba(99,102,241,0.2); color: #a5b4fc; }
+  .badge-warm { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .badge-contemplate { background: rgba(6,182,212,0.2); color: #67e8f9; }
+  .badge-social { background: rgba(236,72,153,0.2); color: #f9a8d4; }
+  .badge-focus { background: rgba(59,130,246,0.2); color: #93c5fd; }
+  .badge-uplift { background: rgba(29,185,84,0.2); color: #86efac; }
+  .badge-energy { background: rgba(239,68,68,0.2); color: #fca5a5; }
+  .badge-split { background: rgba(139,92,246,0.2); color: #c4b5fd; }
+
+  /* Tables */
+  .table-wrap {
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88em;
+  }
+
+  thead th {
+    background: rgba(29,185,84,0.12);
+    padding: 14px 16px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--green);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  tbody td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tbody tr:hover { background: rgba(255,255,255,0.02); }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.9em; color: var(--accent-cyan); }
+
+  /* Algorithm box */
+  .algo-box {
+    background: linear-gradient(135deg, #0f172a 0%, #1a1a2e 100%);
+    border: 1px solid rgba(29,185,84,0.25);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 24px 0;
+    position: relative;
+  }
+
+  .algo-box::before {
+    content: 'ALGORITHM';
+    position: absolute;
+    top: -10px; left: 24px;
+    background: var(--green);
+    color: #000;
+    padding: 2px 12px;
+    border-radius: 6px;
+    font-size: 0.7em;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  .algo-step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+
+  .algo-step:last-child { margin-bottom: 0; }
+
+  .algo-num {
+    width: 32px; height: 32px;
+    background: rgba(29,185,84,0.15);
+    border: 1px solid rgba(29,185,84,0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85em;
+    color: var(--green);
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .algo-content {
+    flex: 1;
+  }
+
+  .algo-content h4 {
+    font-weight: 600;
+    color: var(--text-bright);
+    margin-bottom: 4px;
+    font-size: 0.95em;
+  }
+
+  .algo-content p {
+    font-size: 0.88em;
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .formula {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    color: var(--accent-cyan);
+    line-height: 1.8;
+    overflow-x: auto;
+  }
+
+  .formula .comment { color: #6b7280; }
+  .formula .keyword { color: var(--green); font-weight: 600; }
+  .formula .value { color: var(--accent-orange); }
+  .formula .type { color: var(--accent-purple); }
+
+  /* Terpene profiles */
+  .terp-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 4px 0;
+  }
+
+  .terp-name {
+    width: 130px;
+    font-size: 0.8em;
+    color: var(--text-dim);
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .terp-track {
+    flex: 1;
+    height: 8px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .terp-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+  }
+
+  .terp-pct {
+    width: 40px;
+    font-size: 0.75em;
+    color: var(--text-dim);
+    font-family: monospace;
+  }
+
+  /* Example section */
+  .example-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px;
+    margin: 20px 0;
+  }
+
+  .example-box h4 {
+    color: var(--accent-orange);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 0.95em;
+  }
+
+  .prompt-output {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(29,185,84,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 12px 0;
+    font-size: 0.9em;
+    line-height: 1.7;
+    color: var(--text);
+    font-style: italic;
+  }
+
+  .highlight { color: var(--green); font-weight: 500; }
+
+  /* Divider */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+    margin: 40px 0;
+  }
+
+  /* Artist pool */
+  .artist-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+  }
+
+  .artist-tag {
+    padding: 5px 12px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 0.78em;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+
+  .artist-tag:hover { background: rgba(29,185,84,0.1); border-color: rgba(29,185,84,0.3); }
+
+  .note {
+    background: rgba(245,158,11,0.08);
+    border-left: 3px solid var(--accent-orange);
+    padding: 16px 20px;
+    border-radius: 0 10px 10px 0;
+    margin: 16px 0;
+    font-size: 0.88em;
+    color: var(--text);
+  }
+
+  .note strong { color: var(--accent-orange); }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85em;
+  }
+
+  .footer .green { color: var(--green); }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 1.8em; }
+    .container { padding: 24px 16px; }
+    .card-grid { grid-template-columns: 1fr; }
+    .flow { flex-direction: column; }
+    .flow-arrow { transform: rotate(90deg); }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>The Sonic Layer Algorithm</h1>
+  <div class="subtitle">Terpene Profile → Spotify Prompt — A Reproducible Framework</div>
+  <div class="version-badge">Solful x Terpene Amplification • Charles's Listening DNA</div>
+</div>
+
+<div class="container">
+
+<!-- SECTION 1: Overview -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">1</div>
+    <h2>The <span>Pipeline</span></h2>
+  </div>
+
+  <p class="prose">Every strain carries a terpene fingerprint — a ratio of aromatic molecules that determines not just how it smells, but how it <strong>feels</strong>. This framework transforms that chemical fingerprint into a Spotify prompt by passing it through six sequential stages. Each stage narrows the musical space until you have a prompt specific enough for Spotify's AI to generate a coherent playlist that <strong>matches the strain's experiential arc</strong>.</p>
+
+  <div class="flow">
+    <div class="flow-step fs-input">Terpene Analysis</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-process">Energy Classification</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-process">Tempo + Duration</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-process">Arc + Texture</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-process">Artist Mapping</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-output">Spotify Prompt</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 2: Terpene → Energy Classification -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">2</div>
+    <h2>Stage 1: <span>Terpene → Energy Classification</span></h2>
+  </div>
+
+  <p class="prose">The dominant terpene sets the <strong>gravitational center</strong> of the playlist, but the secondary and tertiary terpenes <strong>modify the direction</strong>. Think of it like a chord: the root note is the dominant terpene, and the other terpenes add color. The reported effect (from farm or dispensary notes) acts as a <strong>tiebreaker</strong> when the terpene profile is ambiguous.</p>
+
+  <div class="algo-box">
+    <div class="algo-step">
+      <div class="algo-num">1</div>
+      <div class="algo-content">
+        <h4>Identify the Dominant Terpene</h4>
+        <p>The terpene with the highest percentage sets the base energy. If two terpenes are within 15% of each other, treat the profile as "balanced" and lean on the reported effect to classify.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">2</div>
+      <div class="algo-content">
+        <h4>Apply Modifier Terpenes</h4>
+        <p>Secondary terpenes push the base energy up or down. Limonene lifts any base. Myrcene pulls any base toward sedation. Pinene adds clarity/alertness. Linalool smooths edges. Ocimene adds cerebral brightness. Bisabolol adds gentle warmth.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">3</div>
+      <div class="algo-content">
+        <h4>Check for Paradox Strains</h4>
+        <p>Some strains defy their terpene profile (e.g., Avenue of the Giants: 1.94% myrcene but energizing). When the reported effect contradicts the terpene prediction, <strong>trust the effect</strong> and let the terpene profile shape the texture instead of the energy level.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">4</div>
+      <div class="algo-content">
+        <h4>Assign to Energy Category</h4>
+        <p>Map the result to one of 8 categories (see table below). Each category has preset BPM ranges, energy levels, vocal rules, and arc shapes.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="color: var(--text-bright); margin: 24px 0 12px; font-size: 1.1em;">Terpene Base Energy Map</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Terpene</th>
+          <th>Base Energy</th>
+          <th>Musical Quality</th>
+          <th>Modifier Effect</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>β-Caryophyllene</strong></td>
+          <td>Medium-Low</td>
+          <td>Warm, centered, mid-tempo groove</td>
+          <td>Grounds any blend; social anchor</td>
+        </tr>
+        <tr>
+          <td><strong>Limonene</strong></td>
+          <td>Medium-High</td>
+          <td>Bright, lifted, positive valence</td>
+          <td>Lifts energy; adds sparkle and optimism</td>
+        </tr>
+        <tr>
+          <td><strong>Myrcene</strong></td>
+          <td>Low (dose-dependent)</td>
+          <td>Sedating, body-heavy, couch-lock at &gt;1%</td>
+          <td>Pulls toward rest; heavy body at high %</td>
+        </tr>
+        <tr>
+          <td><strong>α-Humulene</strong></td>
+          <td>Low-Medium</td>
+          <td>Earthy depth, grounded space</td>
+          <td>Adds organic depth to any blend</td>
+        </tr>
+        <tr>
+          <td><strong>α-Pinene</strong></td>
+          <td>Medium-High</td>
+          <td>Electric clarity, alert focus</td>
+          <td>Adds crispness; brief clarity window</td>
+        </tr>
+        <tr>
+          <td><strong>β-Ocimene</strong></td>
+          <td>High</td>
+          <td>Bright cerebral energy, vivid</td>
+          <td>Pushes toward vivid, joyful alertness</td>
+        </tr>
+        <tr>
+          <td><strong>Linalool</strong></td>
+          <td>Low-Medium</td>
+          <td>Soft, smooth, calming</td>
+          <td>Smooths edges; adds gentle softness</td>
+        </tr>
+        <tr>
+          <td><strong>α-Bisabolol</strong></td>
+          <td>Low</td>
+          <td>Gentle warmth, serene</td>
+          <td>Adds tenderness and candlelight quality</td>
+        </tr>
+        <tr>
+          <td><strong>Terpinolene</strong></td>
+          <td>Medium</td>
+          <td>Creative uplift, subtle mental engagement</td>
+          <td>Adds thoughtful/creative undertone</td>
+        </tr>
+        <tr>
+          <td><strong>trans-β-Farnesene</strong></td>
+          <td>Low</td>
+          <td>Heavy floral sweetness, surrender</td>
+          <td>Deepens sedation; full surrender</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <strong>Myrcene Threshold Rule:</strong> When myrcene exceeds 1.0%, it creates a "gravity well" — the playlist must account for deep body sedation regardless of other terpenes present. Below 0.5%, myrcene acts as a mild modifier. Between 0.5% and 1.0%, it's a significant but not dominant force.
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 3: Eight Energy Categories -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">3</div>
+    <h2>Stage 2: <span>The Eight Energy Categories</span></h2>
+  </div>
+
+  <p class="prose">Each category is a complete musical template with preset parameters. Once you classify a strain, these parameters give you the skeleton of the prompt. The terpene profile then <strong>fine-tunes</strong> within these ranges.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-title">Deep Rest / Sleep</div>
+      <div class="card-meta"><span class="badge badge-sleep">ENERGY 0.05–0.25</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> Start 75–80, descend to 55 or below</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 90 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Iso principle — start where the listener is, then gradually descend. Remove percussion by midpoint. Approach silence by the end.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> None. Instrumental only.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Warm darkness, weighted blanket, sub-bass, no sharp edges.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Myrcene &gt;1%, or heavy caryophyllene + farnesene, or effect = "sedative/sleepy/heavy"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Warm Relaxation</div>
+      <div class="card-meta"><span class="badge badge-warm">ENERGY 0.20–0.45</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 75–95 steady</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 75–90 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Steady center with gentle late descent. Never rushed, never sleepy.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> Tender vocals in first half only, or none.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Analog warmth, candlelight, acoustic instruments, soft vibraphone, nylon guitar.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Caryophyllene-dominant with moderate myrcene, or effect = "relaxed/calm/peaceful"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Contemplative Drift</div>
+      <div class="card-meta"><span class="badge badge-contemplate">ENERGY 0.30–0.50</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 80–100 steady</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 75–90 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Wandering, dreamy, layered. Mind drifts while body stays settled.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> Minimal or soft first half only.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Hazy, golden, reverb-washed, layered samples, interesting details to notice.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Limonene-dominant with linalool or caryophyllene close behind, or effect = "contemplative/creative/curious"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Body/Mind Split</div>
+      <div class="card-meta"><span class="badge badge-split">ENERGY 0.35–0.55</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 80–90</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 75 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Dual layer — heavy cushioned bottom with sparkling upper register.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> None. Instrumental only.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Velvet bass + crystalline highs. Jazz-electronic fusion. Lying on velvet watching fireworks.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: High myrcene + ocimene or linalool, or effect = "body relaxed + mind active"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Clear Focus</div>
+      <div class="card-meta"><span class="badge badge-focus">ENERGY 0.40–0.55</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 95–105 steady</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 60 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Perfectly steady. Clean and level throughout.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> None.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Clean air, natural light, spacious, precise. Supports concentration without demanding attention.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: CBD strains, or terpinolene + pinene, or effect = "focused/clear/productive"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Easy Social</div>
+      <div class="card-meta"><span class="badge badge-social">ENERGY 0.45–0.65</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 90–115 (builds, then winds down)</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 75–90 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Conversational — build gently, peak in middle, warm wind-down.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> Yes. Real voices, human warmth.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Analog, live instruments, real mixes. Present but never demanding. Like good conversation.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Caryophyllene-dominant + limonene or myrcene, or effect = "social/uplifting/happy"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Bright Uplift</div>
+      <div class="card-meta"><span class="badge badge-uplift">ENERGY 0.60–0.80</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 105–125</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 60–70 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Sustained high. Pure effervescence from start to finish.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> Welcome — feel-good hooks, clear vocals.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Bright synths, tight percussion, crisp production. Major keys only. Everything smiling.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Limonene-dominant, or balanced bright profile, or effect = "euphoric/cheerful/energized"</em></p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Vivid Energy</div>
+      <div class="card-meta"><span class="badge badge-energy">ENERGY 0.65–0.85</span></div>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>BPM:</strong> 105–120+</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Duration:</strong> 60–75 minutes</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Arc:</strong> Propulsive build then hold. Forward momentum.</p>
+      <p style="font-size:0.85em; margin-bottom:8px;"><strong>Vocals:</strong> Powerful vocals welcome. Can be vocal-forward.</p>
+      <p style="font-size:0.85em;"><strong>Texture:</strong> Prominent percussion, heavy bass, crackling highs. Organic + electronic. Electric and alive.</p>
+      <p style="font-size:0.82em; color:var(--text-dim); margin-top:8px;"><em>Triggers: Ocimene-dominant, or pinene + effect override, or effect = "energizing/buzzy/invigorating/talkative"</em></p>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 4: Duration + Tempo Formula -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">4</div>
+    <h2>Stage 3: <span>Duration + Tempo Formula</span></h2>
+  </div>
+
+  <p class="prose">Duration and tempo aren't arbitrary — they're derived from the strain's energy category and the shape of its arc. Longer sessions are for experiences that need time to develop (sleep descent, social gatherings). Shorter sessions are for states that don't need a journey (focus work, bright uplift).</p>
+
+  <div class="formula">
+    <span class="comment">// Duration Formula</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Deep Rest"</span> → <span class="type">90 min</span> <span class="comment">// needs full iso-principle descent</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Easy Social"</span> → <span class="type">75-90 min</span> <span class="comment">// social sessions run long</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Warm Relaxation"</span> → <span class="type">75-90 min</span> <span class="comment">// longer if myrcene > 0.3%</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Contemplative Drift"</span> → <span class="type">75-90 min</span> <span class="comment">// longer if psychedelic/drift effect</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Body/Mind Split"</span> → <span class="type">75 min</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Clear Focus"</span> → <span class="type">60 min</span> <span class="comment">// shorter = sharper focus</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Bright Uplift"</span> → <span class="type">60-70 min</span> <span class="comment">// sustained energy, not a marathon</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Vivid Energy"</span> → <span class="type">60-75 min</span> <span class="comment">// high energy can't sustain 90 min</span><br>
+    <br>
+    <span class="comment">// Tempo Formula</span><br>
+    <span class="keyword">base_bpm</span> = category.bpm_range<br>
+    <span class="keyword">IF</span> limonene > <span class="value">0.4%</span> → nudge bpm <span class="type">+5</span><br>
+    <span class="keyword">IF</span> myrcene > <span class="value">0.5%</span> → nudge bpm <span class="type">-5</span><br>
+    <span class="keyword">IF</span> ocimene present → nudge bpm <span class="type">+5</span><br>
+    <span class="keyword">IF</span> bisabolol present → nudge bpm <span class="type">-5</span><br>
+    <span class="keyword">IF</span> arc = <span class="value">"descending"</span> → specify start_bpm AND end_bpm<br>
+    <span class="keyword">IF</span> arc = <span class="value">"building"</span> → specify start_bpm AND peak_bpm
+  </div>
+
+  <div class="note">
+    <strong>The Iso Principle:</strong> For sleep/rest playlists, always start where the listener currently is (gentle contentment at ~80 BPM) and gradually guide them down. Never start at silence — that's jarring. The descent should feel inevitable, not forced. This is borrowed from music therapy and is the most critical concept for the Deep Rest category.
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 5: Arc Shape + Texture -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">5</div>
+    <h2>Stage 4: <span>Arc Shape + Texture Mapping</span></h2>
+  </div>
+
+  <p class="prose">The arc describes <strong>how the playlist moves through time</strong>, and the texture describes <strong>what it sounds like</strong>. Both are driven by the terpene profile. The dominant terpene sets the arc type; the secondary terpenes color the texture.</p>
+
+  <h3 style="color: var(--text-bright); margin: 24px 0 12px; font-size: 1.1em;">Arc Types</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Arc Shape</th>
+          <th>Description</th>
+          <th>When to Use</th>
+          <th>Prompt Language</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Steady Center</strong></td>
+          <td>Flat energy throughout</td>
+          <td>Focus, warm relaxation with caryophyllene</td>
+          <td>"Keep energy steady and centered — never rushed, never sleepy"</td>
+        </tr>
+        <tr>
+          <td><strong>Descending / Iso</strong></td>
+          <td>Start warm, dissolve to silence</td>
+          <td>Deep rest, high myrcene</td>
+          <td>"Start at X BPM and slowly descend to Y BPM by the end"</td>
+        </tr>
+        <tr>
+          <td><strong>Conversational</strong></td>
+          <td>Build → peak → warm decline</td>
+          <td>Social strains, caryophyllene + limonene</td>
+          <td>"Start around X BPM... build into... wind down the last 20 minutes"</td>
+        </tr>
+        <tr>
+          <td><strong>Sustained High</strong></td>
+          <td>High energy from start to finish</td>
+          <td>Bright uplift, limonene-dominant</td>
+          <td>"Target X-Y BPM throughout. No ballads, no heaviness."</td>
+        </tr>
+        <tr>
+          <td><strong>Propulsive Build</strong></td>
+          <td>Start strong, build higher, hold</td>
+          <td>Vivid energy, ocimene or pinene</td>
+          <td>"Start at X BPM and build to Y by midpoint, then hold"</td>
+        </tr>
+        <tr>
+          <td><strong>Dreamy Wander</strong></td>
+          <td>Loose, exploratory, non-linear</td>
+          <td>Contemplative drift, limonene + linalool</td>
+          <td>"The body stays settled and the mind wanders freely"</td>
+        </tr>
+        <tr>
+          <td><strong>Dual Layer</strong></td>
+          <td>Heavy bottom, sparkling top simultaneously</td>
+          <td>Body/mind split, myrcene + ocimene</td>
+          <td>"The body melts but the mind stays lit up"</td>
+        </tr>
+        <tr>
+          <td><strong>Grateful Exhale</strong></td>
+          <td>Emotionally warm descent</td>
+          <td>Evening relaxation with terpinolene/bisabolol</td>
+          <td>"The whole set should feel like a long, grateful exhale"</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="color: var(--text-bright); margin: 24px 0 12px; font-size: 1.1em;">Terpene → Texture Translation</h3>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Terpene</th>
+          <th>Texture Keywords for Prompt</th>
+          <th>Production Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>β-Caryophyllene</strong></td>
+          <td>warm, analog, Rhodes, centered, grounded</td>
+          <td>Live instruments preferred. Analog production.</td>
+        </tr>
+        <tr>
+          <td><strong>Limonene</strong></td>
+          <td>bright, crisp, sparkling, clean, sunny</td>
+          <td>Major keys. Tight production. Clear mix.</td>
+        </tr>
+        <tr>
+          <td><strong>Myrcene</strong> (low)</td>
+          <td>soft, hazy, golden, reverb-washed</td>
+          <td>Wide stereo, warm saturation, loose feel.</td>
+        </tr>
+        <tr>
+          <td><strong>Myrcene</strong> (high &gt;1%)</td>
+          <td>heavy, weighted, gravity, sub-bass, dissolving</td>
+          <td>Remove percussion over time. Approach silence.</td>
+        </tr>
+        <tr>
+          <td><strong>α-Pinene</strong></td>
+          <td>electric, crackling, precise, detailed</td>
+          <td>Crisp highs, prominent percussion, clarity.</td>
+        </tr>
+        <tr>
+          <td><strong>β-Ocimene</strong></td>
+          <td>vivid, bright percussion, organic+electronic, alive</td>
+          <td>Detailed rhythm. Mix organic with electronic brightness.</td>
+        </tr>
+        <tr>
+          <td><strong>Linalool</strong></td>
+          <td>smooth, polished, softened edges</td>
+          <td>Clean production but not sterile. Soft dynamics.</td>
+        </tr>
+        <tr>
+          <td><strong>α-Bisabolol</strong></td>
+          <td>candlelight, gentle, nylon guitar, vibraphone</td>
+          <td>Acoustic textures. Nothing sharp. Delicate.</td>
+        </tr>
+        <tr>
+          <td><strong>Terpinolene</strong></td>
+          <td>creative undertone, thoughtful, minor keys welcome</td>
+          <td>Allows warm minor keys. Reflective quality.</td>
+        </tr>
+        <tr>
+          <td><strong>trans-β-Farnesene</strong></td>
+          <td>intimate, barely-there, velvet quiet</td>
+          <td>Extreme softness. Final surrender territory.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="color: var(--text-bright); margin: 24px 0 12px; font-size: 1.1em;">Vocal Rules by Category</h3>
+
+  <div class="formula">
+    <span class="comment">// Vocal Decision Tree</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Deep Rest"</span> → <span class="type">NO vocals, NO percussion after midpoint</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Clear Focus"</span> → <span class="type">NO vocals, NO busy arrangements</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Body/Mind Split"</span> → <span class="type">NO vocals (instrumental only)</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Warm Relaxation"</span> → <span class="type">Tender vocals first half ONLY, or none</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Contemplative Drift"</span> → <span class="type">Soft vocals first half, or none</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Easy Social"</span> → <span class="type">YES — real voices, warmth</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Bright Uplift"</span> → <span class="type">YES — feel-good hooks welcome</span><br>
+    <span class="keyword">IF</span> category = <span class="value">"Vivid Energy"</span> → <span class="type">YES, prominent — can be vocal-forward</span><br>
+    <br>
+    <span class="comment">// Pinene modifier: if α-pinene > 0.15%, vocals lean more talkative/extroverted</span><br>
+    <span class="comment">// Linalool modifier: if present, vocals (if any) should be soft/intimate</span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 6: Artist Mapping -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">6</div>
+    <h2>Stage 5: <span>Artist Mapping from Your Library</span></h2>
+  </div>
+
+  <p class="prose">The most powerful aspect of this algorithm is that every artist reference comes from <strong>your actual Spotify listening data</strong> — 460 Liked Songs, 30 On Repeat tracks, Top Songs 2021–2025, followed artists, and curated playlists. This is what makes the prompts work: Spotify's AI knows your taste and uses these anchors to stay in your musical DNA.</p>
+
+  <p class="prose">Below is your artist pool organized by the energy zones they anchor. When building a prompt, pull 4–8 artists from the appropriate zone, mixing across sub-genres for texture.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Energy Zone</th>
+          <th>Your Artists</th>
+          <th>Use For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sleep / Ambient</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Silentjay</span>
+              <span class="artist-tag">Schwey</span>
+              <span class="artist-tag">Satchy</span>
+            </div>
+          </td>
+          <td>Final 30 min of sleep playlists. Near-silence zone.</td>
+        </tr>
+        <tr>
+          <td><strong>Intimate Jazz</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Chet Baker</span>
+              <span class="artist-tag">Ahmad Jamal</span>
+              <span class="artist-tag">Grant Green</span>
+              <span class="artist-tag">Cal Tjader</span>
+              <span class="artist-tag">Oscar Peterson</span>
+            </div>
+          </td>
+          <td>Deep rest openings. Warm relaxation cores. Contemplative midpoints.</td>
+        </tr>
+        <tr>
+          <td><strong>Acoustic / Brazilian</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Stan Getz</span>
+              <span class="artist-tag">Joao Gilberto</span>
+              <span class="artist-tag">Baden Powell</span>
+              <span class="artist-tag">Ivan Lins</span>
+              <span class="artist-tag">Agustin Pereyra Lucena</span>
+              <span class="artist-tag">Toco</span>
+              <span class="artist-tag">Lucas Arruda</span>
+            </div>
+          </td>
+          <td>Bossa nova sections. Warm wind-downs. Lazy afternoon vibes.</td>
+        </tr>
+        <tr>
+          <td><strong>Lo-fi / Instrumental Hip-Hop</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Nujabes</span>
+              <span class="artist-tag">Jazz Liberatorz</span>
+              <span class="artist-tag">MF DOOM (instrumental)</span>
+            </div>
+          </td>
+          <td>Contemplative drift. Cozy mental engagement. Transitions.</td>
+        </tr>
+        <tr>
+          <td><strong>Neo-Soul / R&B</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Erykah Badu</span>
+              <span class="artist-tag">Moonchild</span>
+              <span class="artist-tag">D'Angelo</span>
+              <span class="artist-tag">Sade</span>
+              <span class="artist-tag">Leon Bridges</span>
+              <span class="artist-tag">Maxwell</span>
+              <span class="artist-tag">Anderson .Paak</span>
+            </div>
+          </td>
+          <td>Social warmth. Vocal-forward energy. Contemplative tenderness.</td>
+        </tr>
+        <tr>
+          <td><strong>Jazz-Funk / Brazilian Fusion</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Azymuth</span>
+              <span class="artist-tag">Marcos Valle</span>
+              <span class="artist-tag">Cortex</span>
+              <span class="artist-tag">Herbie Hancock</span>
+              <span class="artist-tag">Donald Byrd</span>
+              <span class="artist-tag">Bossacucanova</span>
+            </div>
+          </td>
+          <td>Contemplative drift cores. Dreamy mid-sections. Creative exploration.</td>
+        </tr>
+        <tr>
+          <td><strong>Global Grooves / Dub</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Khruangbin</span>
+              <span class="artist-tag">Khruangbin (dub)</span>
+              <span class="artist-tag">St Germain</span>
+              <span class="artist-tag">Thievery Corporation</span>
+              <span class="artist-tag">Toro y Moi</span>
+              <span class="artist-tag">FKJ</span>
+            </div>
+          </td>
+          <td>Warm relaxation anchors. Social easy-going. Dub for cushioned ease.</td>
+        </tr>
+        <tr>
+          <td><strong>Modern Jazz / Electronic</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Robert Glasper</span>
+              <span class="artist-tag">Tom Misch</span>
+              <span class="artist-tag">Yussef Dayes</span>
+              <span class="artist-tag">Kiefer</span>
+              <span class="artist-tag">Dinner Party</span>
+              <span class="artist-tag">Harvey Sutherland</span>
+              <span class="artist-tag">Snarky Puppy</span>
+            </div>
+          </td>
+          <td>Body/mind split. Focus. Textured modern grooves.</td>
+        </tr>
+        <tr>
+          <td><strong>Afrobeat / World</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Kokoroko</span>
+              <span class="artist-tag">Ezra Collective</span>
+              <span class="artist-tag">SAULT</span>
+              <span class="artist-tag">Hiatus Kaiyote</span>
+              <span class="artist-tag">Free Nationals</span>
+            </div>
+          </td>
+          <td>Vivid energy. Propulsive momentum. World-fusion brightness.</td>
+        </tr>
+        <tr>
+          <td><strong>Dance / Electronic-Pop</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">KAYTRANADA</span>
+              <span class="artist-tag">Peggy Gou</span>
+              <span class="artist-tag">Parcels</span>
+              <span class="artist-tag">Hot Chip</span>
+              <span class="artist-tag">Chromeo</span>
+              <span class="artist-tag">Polo & Pan</span>
+              <span class="artist-tag">Roosevelt</span>
+            </div>
+          </td>
+          <td>Bright uplift. Effervescent energy. Polished electronic.</td>
+        </tr>
+        <tr>
+          <td><strong>Classic Feel-Good</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Miami Sound Machine</span>
+              <span class="artist-tag">Michael Jackson</span>
+              <span class="artist-tag">Jamiroquai</span>
+              <span class="artist-tag">Earth Wind & Fire</span>
+              <span class="artist-tag">Kool & The Gang</span>
+              <span class="artist-tag">Diana Ross</span>
+              <span class="artist-tag">Marvin Gaye</span>
+              <span class="artist-tag">Sharon Jones</span>
+            </div>
+          </td>
+          <td>Bright uplift sunny. Vivid vocal energy. Pure uncomplicated joy.</td>
+        </tr>
+        <tr>
+          <td><strong>Japanese / Pacific</strong></td>
+          <td>
+            <div class="artist-tags">
+              <span class="artist-tag">Shigeru Suzuki</span>
+              <span class="artist-tag">Masayoshi Takanaka</span>
+            </div>
+          </td>
+          <td>Dreamy contemplative closers. Pacific shimmer texture.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="formula">
+    <span class="comment">// Artist Selection Formula</span><br>
+    <span class="keyword">SELECT</span> 4-8 artists from appropriate energy zone(s)<br>
+    <span class="keyword">ALWAYS</span> include at least 1 artist for each <span class="type">playlist phase</span> (open, middle, close)<br>
+    <span class="keyword">MIX</span> across sub-genres for texture variety<br>
+    <span class="keyword">REFERENCE</span> specific albums/tracks when possible <span class="comment">// "Ahmad Jamal's Crystal" not just "Ahmad Jamal"</span><br>
+    <span class="keyword">FOR</span> descending arcs: start zone should be 1-2 levels <span class="type">above</span> the end zone<br>
+    <span class="keyword">FOR</span> social arcs: mix warm vocal artists with acoustic closers
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 7: Prompt Assembly -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">7</div>
+    <h2>Stage 6: <span>Prompt Assembly Template</span></h2>
+  </div>
+
+  <p class="prose">Now you have all the ingredients. The final step is assembling them into a Spotify prompt using a consistent structure. The prompt architecture follows this sequence — each element flows naturally into the next.</p>
+
+  <div class="algo-box">
+    <div class="algo-step">
+      <div class="algo-num">1</div>
+      <div class="algo-content">
+        <h4>Opening: Duration + Core Feeling</h4>
+        <p>"Create a [duration]-minute playlist that [core emotional quality from effect + terpene translation]."</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">2</div>
+      <div class="algo-content">
+        <h4>Tempo Target</h4>
+        <p>For steady arcs: "Target [BPM range] BPM throughout."<br>For descending: "Start at [X] BPM and slowly descend to [Y] BPM by the end."<br>For building: "Start at [X] BPM and build to [Y] by midpoint, then hold."</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">3</div>
+      <div class="algo-content">
+        <h4>Phase 1 — Opening (first 15-25 min)</h4>
+        <p>"Start with [genre/texture description] — [Artist]'s [specific album/track], [Artist]'s [specific work]."<br>Always name 2-3 specific artists with album or track references.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">4</div>
+      <div class="algo-content">
+        <h4>Phase 2 — Core (middle section)</h4>
+        <p>"Move into / Build into / Settle into [genre/texture] through the middle — [Artist]'s [work], [Artist]'s [work]."<br>This is the longest section. Name 2-4 artists.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">5</div>
+      <div class="algo-content">
+        <h4>Phase 3 — Close (final 20-40 min)</h4>
+        <p>"Close with / Wind down with / Final [X] minutes: [description] — [Artist]'s [work]."<br>For sleep playlists, this section is the longest and most detailed.</p>
+      </div>
+    </div>
+    <div class="algo-step">
+      <div class="algo-num">6</div>
+      <div class="algo-content">
+        <h4>Production Notes + Constraints</h4>
+        <p>"[Texture keywords from terpene translation]. [Vocal rule]. [What to avoid]. The vibe is [evocative metaphor]."<br>Always end with a vivid metaphor that captures the feeling.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>The Metaphor Rule:</strong> Every prompt ends with a sensory metaphor that ties the music back to the strain experience. This is the most important creative element — it gives Spotify's AI an emotional north star. Draw from the strain's aroma, effect, and name. Examples: "late evening on a porch with a clear head" (Mike's Bomba), "carbonation in your ears" (Carambola), "hammock with zero obligations" (Natty Bumppo).
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 8: Worked Example -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">8</div>
+    <h2>Worked Example: <span>New Strain → Prompt</span></h2>
+  </div>
+
+  <p class="prose">Let's walk through the full algorithm with a hypothetical new strain to show how it works end-to-end.</p>
+
+  <div class="example-box">
+    <h4>INPUT: "Mango Haze"</h4>
+    <p style="font-size:0.9em; margin-bottom:16px;">
+      <strong>Farm:</strong> Emerald Triangle, Humboldt<br>
+      <strong>Terpenes:</strong> Myrcene 0.62% (dominant), Limonene 0.41%, β-Caryophyllene 0.22%, α-Pinene 0.10%<br>
+      <strong>Effect:</strong> Physically relaxed but mentally spacious. Euphoric drift.<br>
+      <strong>Aroma:</strong> Mango, pine, sweet earth
+    </p>
+
+    <p style="font-size:0.88em; line-height:1.7; margin-bottom:12px;">
+      <strong>Step 1 — Classify:</strong> Myrcene dominant (0.62%) but below 1% threshold, so it's not Deep Rest. Limonene is close behind (0.41%), creating a "relaxed body + lifted mind" split. Effect says "physically relaxed but mentally spacious" — this is <strong>Contemplative Drift</strong> territory (trending toward Body/Mind Split but without the heavy myrcene gravity).
+    </p>
+
+    <p style="font-size:0.88em; line-height:1.7; margin-bottom:12px;">
+      <strong>Step 2 — Parameters:</strong> Contemplative Drift → BPM 80-100, Energy 0.30-0.50, Duration 90 min (longer because "drift" effect), Arc = Dreamy Wander. Myrcene nudge: -5 BPM → 75-95. Limonene nudge: +5 → 80-95 (net neutral). Pinene adds a touch of clarity.
+    </p>
+
+    <p style="font-size:0.88em; line-height:1.7; margin-bottom:12px;">
+      <strong>Step 3 — Texture:</strong> Myrcene (moderate) = hazy, golden, reverb-washed. Limonene = bright, sunny top end. Pinene = a touch of electric clarity. Combined: "sun-drenched haze with moments of precision." Vocals: soft first half only.
+    </p>
+
+    <p style="font-size:0.88em; line-height:1.7; margin-bottom:12px;">
+      <strong>Step 4 — Artists:</strong> Opening (tropical drift): Khruangbin dub, Toro y Moi. Core (dreamy fusion): Azymuth, Marcos Valle, Cortex. Close (ambient drift): Nujabes, Shigeru Suzuki, Monster Rally.
+    </p>
+
+    <p style="font-size:0.88em; line-height:1.7; margin-bottom:4px;">
+      <strong>Step 5 — Metaphor:</strong> Drawn from mango aroma + drift effect → "floating in a warm tropical current, watching sunlight fracture through the surface."
+    </p>
+  </div>
+
+  <h3 style="color: var(--text-bright); margin: 24px 0 12px; font-size: 1.1em;">Generated Prompt Output</h3>
+
+  <div class="prompt-output">
+    Create a 90-minute playlist where the body goes soft and the mind drifts into wide, sun-drenched space. Start around 85 BPM with hazy tropical grooves — Khruangbin's most reverb-drenched Hasta El Cielo dub cuts, Toro y Moi's live Fillmore recordings at their dreamiest. Move into spacious Brazilian-jazz fusion through the middle — Azymuth's cosmic Telecommunication pieces, Marcos Valle's most expansive arrangements, Cortex's Troupeau Bleu with its golden warmth. Weave in a touch of Hiatus Kaiyote's Mood Valiant textures for modern shimmer. Final 30 minutes: pure drift — Nujabes' Spiritual State outros, Shigeru Suzuki's Pacific album shimmer, Monster Rally's tropical collages dissolving into space. Production should feel sun-drenched and slightly melted — heavy reverb, warm saturation, wide stereo field. Soft vocals welcome in the first half if they add to the haze. No sharp edges, no precision, no urgency. The vibe is floating in a warm tropical current, watching sunlight fracture through the surface.
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 9: Quick Decision Matrix -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">9</div>
+    <h2>Quick Decision <span>Matrix</span></h2>
+  </div>
+
+  <p class="prose">For rapid classification when you get a new strain's COA (Certificate of Analysis), use this lookup. Find the dominant terpene, check the modifier, and read across for the default category. Always cross-check against the reported effect.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Dominant Terpene</th>
+          <th>+ Limonene High</th>
+          <th>+ Myrcene High</th>
+          <th>+ Pinene/Ocimene</th>
+          <th>+ Linalool/Bisabolol</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>β-Caryophyllene</strong></td>
+          <td>Easy Social</td>
+          <td>Warm Relaxation</td>
+          <td>Vivid Energy</td>
+          <td>Warm Relaxation</td>
+        </tr>
+        <tr>
+          <td><strong>Limonene</strong></td>
+          <td>Bright Uplift</td>
+          <td>Contemplative Drift</td>
+          <td>Bright Uplift</td>
+          <td>Contemplative Drift</td>
+        </tr>
+        <tr>
+          <td><strong>Myrcene &lt;1%</strong></td>
+          <td>Contemplative Drift</td>
+          <td>Warm Relaxation</td>
+          <td>Vivid Energy*</td>
+          <td>Body/Mind Split</td>
+        </tr>
+        <tr>
+          <td><strong>Myrcene &gt;1%</strong></td>
+          <td>Contemplative Drift</td>
+          <td>Deep Rest</td>
+          <td>Vivid Energy*</td>
+          <td>Deep Rest</td>
+        </tr>
+        <tr>
+          <td><strong>β-Ocimene</strong></td>
+          <td>Vivid Energy</td>
+          <td>Body/Mind Split</td>
+          <td>Vivid Energy</td>
+          <td>Bright Uplift</td>
+        </tr>
+        <tr>
+          <td><strong>α-Pinene</strong></td>
+          <td>Clear Focus</td>
+          <td>Clear Focus</td>
+          <td>Vivid Energy</td>
+          <td>Clear Focus</td>
+        </tr>
+        <tr>
+          <td><strong>Terpinolene</strong></td>
+          <td>Bright Uplift</td>
+          <td>Clear Focus</td>
+          <td>Vivid Energy</td>
+          <td>Contemplative Drift</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <strong>* Paradox Override:</strong> Entries marked with * indicate paradox strains where the effect overrides the expected terpene classification. Avenue of the Giants (1.94% myrcene → Vivid Energy) is the prime example. Always verify against reported effect before finalizing.
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 10: Checklist -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-number">10</div>
+    <h2>Prompt Quality <span>Checklist</span></h2>
+  </div>
+
+  <p class="prose">Before submitting a prompt to Spotify's Prompted Playlist feature, run it through these checks.</p>
+
+  <div class="card" style="max-width: 680px;">
+    <div style="font-size:0.9em; line-height:2;">
+      <p><strong style="color:var(--green);">Structure:</strong> Does the prompt specify duration, BPM target(s), and at least 3 playlist phases?</p>
+      <p><strong style="color:var(--green);">Artists:</strong> Are 4-8 artists named, all from Charles's library? Are specific albums/tracks referenced?</p>
+      <p><strong style="color:var(--green);">Arc:</strong> Does the energy shape match the strain's category? Does it describe how the playlist moves through time?</p>
+      <p><strong style="color:var(--green);">Texture:</strong> Are production keywords present that match the terpene profile? (warm/bright/hazy/crisp/etc.)</p>
+      <p><strong style="color:var(--green);">Vocals:</strong> Is the vocal rule explicitly stated? (instrumental only / vocals welcome / vocals first half only)</p>
+      <p><strong style="color:var(--green);">Constraints:</strong> Does the prompt say what to <em>avoid</em>? (no bright tones / no ballads / no minor keys / etc.)</p>
+      <p><strong style="color:var(--green);">Metaphor:</strong> Does it end with a sensory metaphor connecting the music to the strain experience?</p>
+      <p><strong style="color:var(--green);">Terpene Truth:</strong> Would someone consuming this strain and pressing play feel like the music matches their state?</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>The Sonic Layer Algorithm — <span class="green">Solful x Terpene Amplification</span></p>
+  <p style="margin-top:8px;">Built from 22 strain mappings × 989+ Spotify data points from Charles's listening DNA</p>
+  <p style="margin-top:4px; font-size:0.8em;">Framework v1.0 — March 2026</p>
+</div>
+
+</div>
+</body>
+</html>

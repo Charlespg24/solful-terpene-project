@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-01",
+    "description": "Essential oil palette for strain-matched aromatherapy blends",
+    "standardBatchSize": "40 drops (2ml)"
+  },
+  "oils": {
+    "Black Pepper": {
+      "botanicalName": "Piper nigrum",
+      "primaryTerpene": "β-Caryophyllene",
+      "secondaryTerpenes": ["Limonene", "α-Pinene"],
+      "aromaProfile": ["Spicy", "Warm", "Sharp", "Woody"],
+      "usageNotes": "Anchor oil for caryophyllene delivery. Used in 23/23 blends. Typically 25-50% of total blend.",
+      "safetyNotes": "Food-grade. May cause warming sensation.",
+      "averageDropsPerBlend": 11.5,
+      "blendAppearances": 23
+    },
+    "Lemongrass": {
+      "botanicalName": "Cymbopogon citratus",
+      "primaryTerpene": "Myrcene",
+      "secondaryTerpenes": ["Citral", "Geraniol"],
+      "aromaProfile": ["Citrus", "Herbal", "Fresh", "Earthy"],
+      "usageNotes": "Primary myrcene source. Used in 21/23 blends. Dominates high-myrcene strains (up to 50% of blend).",
+      "safetyNotes": "Food-grade. May cause skin sensitivity.",
+      "averageDropsPerBlend": 11.2,
+      "blendAppearances": 21
+    },
+    "Lemon": {
+      "botanicalName": "Citrus limon",
+      "primaryTerpene": "Limonene",
+      "secondaryTerpenes": ["β-Pinene", "γ-Terpinene"],
+      "aromaProfile": ["Bright citrus", "Fresh", "Clean", "Zesty"],
+      "usageNotes": "Clean limonene delivery. Used when 'lemon' appears in aroma notes.",
+      "safetyNotes": "Food-grade. Photosensitizing - avoid sun exposure after topical use.",
+      "averageDropsPerBlend": 8.0,
+      "blendAppearances": 6
+    },
+    "Sweet Orange": {
+      "botanicalName": "Citrus sinensis",
+      "primaryTerpene": "Limonene",
+      "secondaryTerpenes": ["Myrcene", "α-Pinene"],
+      "aromaProfile": ["Sweet citrus", "Warm", "Fruity", "Cheerful"],
+      "usageNotes": "Warmer, sweeter citrus than lemon. Used for 'mandarin', 'orange blossom' aroma notes.",
+      "safetyNotes": "Food-grade. Less photosensitizing than lemon.",
+      "averageDropsPerBlend": 12.0,
+      "blendAppearances": 8
+    },
+    "Grapefruit": {
+      "botanicalName": "Citrus paradisi",
+      "primaryTerpene": "Limonene",
+      "secondaryTerpenes": ["Myrcene", "Nootkatone"],
+      "aromaProfile": ["Bright", "Tart", "Fresh", "Tropical"],
+      "usageNotes": "Tropical citrus character. Used for guava, tropical fruit notes.",
+      "safetyNotes": "Food-grade. Mildly photosensitizing.",
+      "averageDropsPerBlend": 7.0,
+      "blendAppearances": 2
+    },
+    "Bergamot": {
+      "botanicalName": "Citrus bergamia",
+      "primaryTerpene": "Limonene",
+      "secondaryTerpenes": ["Linalool", "Linalyl acetate"],
+      "aromaProfile": ["Complex citrus", "Floral", "Tea-like", "Sophisticated"],
+      "usageNotes": "Key ingredient in Earl Grey tea. Sophisticated citrus for dessert-forward strains.",
+      "safetyNotes": "Food-grade. Photosensitizing - use bergapten-free if possible.",
+      "averageDropsPerBlend": 12.0,
+      "blendAppearances": 3
+    },
+    "Lavender": {
+      "botanicalName": "Lavandula angustifolia",
+      "primaryTerpene": "Linalool",
+      "secondaryTerpenes": ["Linalyl acetate", "β-Ocimene"],
+      "aromaProfile": ["Floral", "Sweet", "Herbaceous", "Calming"],
+      "usageNotes": "Primary linalool source. Used when 'lavender' or 'floral' appears in aroma.",
+      "safetyNotes": "Food-grade. Generally very well tolerated.",
+      "averageDropsPerBlend": 5.3,
+      "blendAppearances": 9
+    },
+    "Sage": {
+      "botanicalName": "Salvia officinalis",
+      "primaryTerpene": "α-Humulene",
+      "secondaryTerpenes": ["α-Thujone", "Camphor", "1,8-Cineole"],
+      "aromaProfile": ["Herbal", "Earthy", "Sharp", "Medicinal"],
+      "usageNotes": "Primary humulene source. Adds grounding, earthy depth. Oak-like character.",
+      "safetyNotes": "Use sparingly. Not for prolonged use or during pregnancy.",
+      "averageDropsPerBlend": 4.7,
+      "blendAppearances": 13
+    },
+    "Rosemary": {
+      "botanicalName": "Rosmarinus officinalis",
+      "primaryTerpene": "1,8-Cineole",
+      "secondaryTerpenes": ["α-Pinene", "Camphor", "β-Caryophyllene"],
+      "aromaProfile": ["Herbal", "Fresh", "Camphoraceous", "Energizing"],
+      "usageNotes": "Secondary caryophyllene source with energizing quality. Used in heavier, sedative blends for balance.",
+      "safetyNotes": "Food-grade. Avoid during pregnancy and with epilepsy.",
+      "averageDropsPerBlend": 6.5,
+      "blendAppearances": 4
+    },
+    "Pine": {
+      "botanicalName": "Pinus sylvestris",
+      "primaryTerpene": "α-Pinene",
+      "secondaryTerpenes": ["β-Pinene", "Limonene", "β-Caryophyllene"],
+      "aromaProfile": ["Forest", "Fresh", "Clean", "Balsamic"],
+      "usageNotes": "Primary pinene source. Used when 'pine' appears in aroma notes.",
+      "safetyNotes": "Food-grade. May cause skin sensitization.",
+      "averageDropsPerBlend": 6.0,
+      "blendAppearances": 7
+    },
+    "Basil": {
+      "botanicalName": "Ocimum basilicum",
+      "primaryTerpene": "β-Ocimene",
+      "secondaryTerpenes": ["Linalool", "Eugenol", "1,8-Cineole"],
+      "aromaProfile": ["Sweet", "Herbal", "Slightly spicy", "Fresh"],
+      "usageNotes": "Primary ocimene source. One of few oils high in this rare terpene.",
+      "safetyNotes": "Food-grade. Use in moderation.",
+      "averageDropsPerBlend": 6.0,
+      "blendAppearances": 5
+    },
+    "German Chamomile": {
+      "botanicalName": "Matricaria chamomilla",
+      "primaryTerpene": "α-Bisabolol",
+      "secondaryTerpenes": ["Chamazulene", "trans-β-Farnesene"],
+      "aromaProfile": ["Sweet", "Herbal", "Apple-like", "Warm"],
+      "usageNotes": "Primary bisabolol source. Blue color from chamazulene. Soft, calming quality.",
+      "safetyNotes": "Food-grade. Generally very well tolerated.",
+      "averageDropsPerBlend": 6.0,
+      "blendAppearances": 7
+    },
+    "Tea Tree": {
+      "botanicalName": "Melaleuca alternifolia",
+      "primaryTerpene": "Terpinolene",
+      "secondaryTerpenes": ["γ-Terpinene", "α-Terpinene", "1,8-Cineole"],
+      "aromaProfile": ["Medicinal", "Fresh", "Camphoraceous", "Clean"],
+      "usageNotes": "One of few oils high in terpinolene. Used for strains with this rare terpene.",
+      "safetyNotes": "Food-grade. May cause skin sensitization in some individuals.",
+      "averageDropsPerBlend": 8.0,
+      "blendAppearances": 2
+    },
+    "Eucalyptus": {
+      "botanicalName": "Eucalyptus globulus",
+      "primaryTerpene": "1,8-Cineole",
+      "secondaryTerpenes": ["α-Pinene", "Limonene"],
+      "aromaProfile": ["Fresh", "Camphoraceous", "Clean", "Invigorating"],
+      "usageNotes": "Used when 'eucalyptus' appears in aroma notes. Adds clarity and freshness.",
+      "safetyNotes": "Food-grade. Not for use with young children.",
+      "averageDropsPerBlend": 8.0,
+      "blendAppearances": 1
+    },
+    "Peppermint": {
+      "botanicalName": "Mentha piperita",
+      "primaryTerpene": "Menthol",
+      "secondaryTerpenes": ["Menthone", "1,8-Cineole", "Limonene"],
+      "aromaProfile": ["Cool", "Fresh", "Minty", "Invigorating"],
+      "usageNotes": "Used when 'mint', 'menthol', or 'peppermint' appears in aroma notes.",
+      "safetyNotes": "Food-grade. Can be overwhelming - use sparingly.",
+      "averageDropsPerBlend": 4.5,
+      "blendAppearances": 6
+    },
+    "Geranium": {
+      "botanicalName": "Pelargonium graveolens",
+      "primaryTerpene": "Citronellol",
+      "secondaryTerpenes": ["Geraniol", "Linalool", "Citronellyl formate"],
+      "aromaProfile": ["Floral", "Rose-like", "Fruity", "Sweet"],
+      "usageNotes": "Adds fruity, floral top notes. Used for berry, cherry, jasmine, honeysuckle notes.",
+      "safetyNotes": "Food-grade. Generally well tolerated.",
+      "averageDropsPerBlend": 4.2,
+      "blendAppearances": 11
+    },
+    "Ylang Ylang": {
+      "botanicalName": "Cananga odorata",
+      "primaryTerpene": "Linalool",
+      "secondaryTerpenes": ["Germacrene", "β-Caryophyllene", "Farnesene"],
+      "aromaProfile": ["Exotic", "Floral", "Sweet", "Tropical"],
+      "usageNotes": "One of few oils containing farnesene. Adds exotic, sandalwood-like depth.",
+      "safetyNotes": "Food-grade. Can be overpowering - use sparingly.",
+      "averageDropsPerBlend": 4.0,
+      "blendAppearances": 3
+    },
+    "Clove": {
+      "botanicalName": "Syzygium aromaticum",
+      "primaryTerpene": "Eugenol",
+      "secondaryTerpenes": ["β-Caryophyllene", "Acetyl eugenol"],
+      "aromaProfile": ["Spicy", "Warm", "Sweet", "Medicinal"],
+      "usageNotes": "Adds warmth and spice. Used for cinnamon, nutmeg, brown sugar notes.",
+      "safetyNotes": "Food-grade. Use sparingly - can cause irritation.",
+      "averageDropsPerBlend": 2.0,
+      "blendAppearances": 6
+    }
+  }
+}

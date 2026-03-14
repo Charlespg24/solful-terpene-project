@@ -1,0 +1,673 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-01",
+    "description": "Strain-matched Spotify playlist prompts using Terpene-Music Crossmodal Framework",
+    "promptArchitecture": "Session length → Emotional arc (matching effect intent) → Tempo/energy targets → Texture/timbre descriptors → Artist/genre anchors → Session phase guidance (iso principle)",
+    "source": "The Sonic Layer - Strain-Matched Spotify Playlist Prompts"
+  },
+  "vibeCategories": {
+    "deepRestSleep": {
+      "name": "Deep Rest / Sleep",
+      "bpmRange": { "min": 55, "max": 80 },
+      "energyRange": { "min": 0.05, "max": 0.25 },
+      "direction": "descending",
+      "strains": ["Pinnacle", "Mule Fuel", "Black Lime Chem"]
+    },
+    "warmRelaxation": {
+      "name": "Warm Relaxation",
+      "bpmRange": { "min": 75, "max": 95 },
+      "energyRange": { "min": 0.20, "max": 0.45 },
+      "direction": "steady",
+      "strains": ["Mike's Bomba", "Blueberry Muffin", "Moonlight", "Rasta Governmint"]
+    },
+    "contemplativeDrift": {
+      "name": "Contemplative Drift",
+      "bpmRange": { "min": 80, "max": 100 },
+      "energyRange": { "min": 0.30, "max": 0.50 },
+      "direction": "steady",
+      "strains": ["Satsuma Sherbet", "Mandarin Cherry Tree", "Lemon Papaya Banana", "Strawberry Biscotti"]
+    },
+    "bodyMindSplit": {
+      "name": "Body/Mind Split",
+      "bpmRange": { "min": 80, "max": 90 },
+      "energyRange": { "min": 0.35, "max": 0.55 },
+      "direction": "steady",
+      "strains": ["Glitter Bomb"]
+    },
+    "easySocial": {
+      "name": "Easy Social",
+      "bpmRange": { "min": 90, "max": 110 },
+      "energyRange": { "min": 0.45, "max": 0.65 },
+      "direction": "steady",
+      "strains": ["Natty Bumppo", "Pink Jesus Reserve", "Guava Gift"]
+    },
+    "clearFocus": {
+      "name": "Clear Focus",
+      "bpmRange": { "min": 95, "max": 105 },
+      "energyRange": { "min": 0.40, "max": 0.55 },
+      "direction": "steady",
+      "strains": ["Love and Laughter"]
+    },
+    "brightUplift": {
+      "name": "Bright Uplift",
+      "bpmRange": { "min": 105, "max": 125 },
+      "energyRange": { "min": 0.60, "max": 0.80 },
+      "direction": "ascending",
+      "strains": ["Carambola", "Peach Flambé", "Tropicanna Cherry"]
+    },
+    "vividEnergy": {
+      "name": "Vivid Energy",
+      "bpmRange": { "min": 110, "max": 125 },
+      "energyRange": { "min": 0.65, "max": 0.85 },
+      "direction": "ascending",
+      "strains": ["Tropical Sleigh Ride", "Avenue of the Giants", "Purple Candy Cane"]
+    }
+  },
+  "strainPrompts": {
+    "mikes-bomba": {
+      "name": "Mike's Bomba",
+      "farm": "Glentucky Family Farm",
+      "region": "Sonoma",
+      "vibeCategory": "warmRelaxation",
+      "intent": "Grounded calm with clear mental edges",
+      "terpeneProfile": {
+        "dominant": "β-Caryophyllene",
+        "secondary": ["Limonene", "α-Humulene"]
+      },
+      "translation": "Caryophyllene = warm, centered, mid-tempo groove. Limonene lifts it slightly from pure sedation. Humulene adds earthy depth.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 85, "end": 95 },
+      "spotifyPrompt": "Create a 75-minute playlist that feels grounded but mentally clear. Mid-tempo grooves around 85-95 BPM with warm, analog textures — think Rhodes keys, upright bass, unhurried drums. Start with mellow jazz-soul like Khruangbin or Kaytranada's downtempo work, settle into modal jazz and neo-soul instrumentals mid-session, and close with warm ambient pieces. Keep the energy steady and centered — never rushed, never sleepy. The vibe is a late evening on a porch with a clear head. No lyrics after the first 20 minutes.",
+      "artistReferences": ["Khruangbin", "Kaytranada"],
+      "textureDescriptors": ["Rhodes keys", "upright bass", "unhurried drums", "analog textures"],
+      "sessionPhases": {
+        "onset": "mellow jazz-soul",
+        "peak": "modal jazz and neo-soul instrumentals",
+        "descent": "warm ambient pieces"
+      },
+      "vocalGuidance": "No lyrics after the first 20 minutes"
+    },
+    "guava-gift": {
+      "name": "Guava Gift",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "vibeCategory": "easySocial",
+      "intent": "Open and expansive, easy social lift",
+      "terpeneProfile": {
+        "dominant": "β-Caryophyllene",
+        "percentages": {
+          "β-Caryophyllene": 0.73,
+          "Limonene": 0.50,
+          "Myrcene": 0.33,
+          "α-Humulene": 0.25
+        }
+      },
+      "translation": "Caryophyllene grounds the base, but limonene and myrcene together push toward warm euphoria. Social energy = moderate danceability.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 100, "peak": 115, "end": 90 },
+      "spotifyPrompt": "Create a 90-minute playlist for an open, social hang — bright but not manic, warm but not heavy. Start around 100 BPM with feel-good indie and tropical-influenced tracks — Toro y Moi, Jungle, early Tame Impala. Build into groovy, sunlit funk and disco edits around 110-115 BPM through the middle. Wind down the last 20 minutes with warm bossa nova or acoustic neo-soul. Major keys throughout. The energy should feel like a golden hour backyard gathering where everyone's laughing easily.",
+      "artistReferences": ["Toro y Moi", "Jungle", "Tame Impala"],
+      "textureDescriptors": ["feel-good indie", "tropical-influenced", "sunlit funk", "disco edits"],
+      "sessionPhases": {
+        "onset": "feel-good indie and tropical-influenced tracks",
+        "peak": "groovy, sunlit funk and disco edits",
+        "descent": "warm bossa nova or acoustic neo-soul"
+      },
+      "vocalGuidance": "Vocals welcome throughout"
+    },
+    "carambola": {
+      "name": "Carambola",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "vibeCategory": "brightUplift",
+      "intent": "Light and playful, effervescent energy",
+      "terpeneProfile": {
+        "dominant": "Limonene",
+        "percentages": {
+          "Limonene": 0.44,
+          "β-Caryophyllene": 0.18,
+          "Linalool": 0.12,
+          "α-Bisabolol": 0.09
+        }
+      },
+      "translation": "Limonene-forward = highest valence, brightest energy. Linalool softens the edges. Bisabolol adds gentle warmth. Pure uplift.",
+      "defaultDuration": 60,
+      "bpmTarget": { "start": 110, "end": 125 },
+      "spotifyPrompt": "Create a 60-minute playlist that's pure effervescence — bright, playful, and uplifting without being aggressive. Target 110-125 BPM. Lean into sunny indie pop, citrus-bright electronic, and feel-good dance tracks. Think Parcels, Franc Moody, Channel Tres, Confidence Man. Keep production crisp and clean — bright synths, tight percussion, major keys. Everything should feel like carbonation in your ears. No ballads, no minor keys, no heaviness. The whole playlist should make you want to move and smile.",
+      "artistReferences": ["Parcels", "Franc Moody", "Channel Tres", "Confidence Man"],
+      "textureDescriptors": ["sunny indie pop", "citrus-bright electronic", "bright synths", "tight percussion"],
+      "sessionPhases": {
+        "onset": "sunny indie pop",
+        "peak": "feel-good dance tracks",
+        "descent": "maintains energy throughout"
+      },
+      "vocalGuidance": "Vocals welcome, major keys only"
+    },
+    "strawberry-biscotti": {
+      "name": "Strawberry Biscotti",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "vibeCategory": "contemplativeDrift",
+      "intent": "Cozy anchor with a curious mind",
+      "terpeneProfile": {
+        "percentages": {
+          "Limonene": 0.38,
+          "β-Caryophyllene": 0.29,
+          "Myrcene": 0.25,
+          "α-Bisabolol": 0.13
+        }
+      },
+      "translation": "Balanced profile — limonene brightens, caryophyllene grounds, myrcene softens. The 'mentally engaging' quality calls for music with interesting details to notice.",
+      "defaultDuration": 80,
+      "bpmTarget": { "start": 85, "end": 90 },
+      "spotifyPrompt": "Create an 80-minute playlist that feels like being wrapped in a blanket with an interesting book. Comfortable and warm but mentally engaging. Start with textured trip-hop and downtempo around 85-90 BPM — Bonobo, Little People, Emancipator. Move into layered instrumental hip-hop with interesting sample choices — Madlib instrumentals, Nujabes, J Dilla beats. Close with warm, detail-rich ambient. The production should reward close listening — subtle percussion layers, unexpected textures, warm bass. Energy stays moderate throughout. Cozy but never boring.",
+      "artistReferences": ["Bonobo", "Little People", "Emancipator", "Madlib", "Nujabes", "J Dilla"],
+      "textureDescriptors": ["textured trip-hop", "layered instrumental hip-hop", "subtle percussion layers", "unexpected textures"],
+      "sessionPhases": {
+        "onset": "textured trip-hop and downtempo",
+        "peak": "layered instrumental hip-hop",
+        "descent": "warm, detail-rich ambient"
+      },
+      "vocalGuidance": "Primarily instrumental"
+    },
+    "pinnacle": {
+      "name": "Pinnacle",
+      "farm": "Dos Rios Farms",
+      "region": "Mendocino",
+      "vibeCategory": "deepRestSleep",
+      "intent": "Deep surrender into velvet quiet",
+      "terpeneProfile": {
+        "percentages": {
+          "β-Caryophyllene": 0.61,
+          "Limonene": 0.46,
+          "α-Humulene": 0.19,
+          "trans-β-Farnesene": 0.14
+        }
+      },
+      "translation": "Despite caryophyllene dominance, the effect is deeply sedative and blissful. Farnesene adds heavy floral sweetness. Full surrender mode.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 75, "end": 55 },
+      "spotifyPrompt": "Create a 90-minute playlist for total surrender. Start at 75 BPM and slowly descend to 55 BPM by the end. Open with deep, velvet-textured downtempo — Tycho's slower work, Boards of Canada, Helios. Transition into pure ambient and drone by the midpoint — Brian Eno, Stars of the Lid, Grouper. Final 30 minutes should be barely-there sound design — long tones, deep bass swells, no rhythm. Think warm darkness, not cold emptiness. Every track should feel like sinking deeper into a soft surface. Exclusively instrumental. No sudden dynamic shifts.",
+      "artistReferences": ["Tycho", "Boards of Canada", "Helios", "Brian Eno", "Stars of the Lid", "Grouper"],
+      "textureDescriptors": ["velvet-textured downtempo", "ambient and drone", "long tones", "deep bass swells"],
+      "sessionPhases": {
+        "onset": "deep, velvet-textured downtempo",
+        "peak": "pure ambient and drone",
+        "descent": "barely-there sound design"
+      },
+      "vocalGuidance": "Exclusively instrumental"
+    },
+    "tropical-sleigh-ride": {
+      "name": "Tropical Sleigh Ride",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "vibeCategory": "vividEnergy",
+      "intent": "Vivid lift with present clarity",
+      "terpeneProfile": {
+        "dominant": "β-Ocimene",
+        "percentages": {
+          "β-Ocimene": 0.71,
+          "β-Caryophyllene": 0.70,
+          "α-Humulene": 0.28,
+          "Limonene": 0.22
+        }
+      },
+      "translation": "Ocimene = bright cerebral energy. Caryophyllene anchors it so it doesn't scatter. The 'joyful, alert' effect = high positive energy with focus.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 110, "end": 120 },
+      "spotifyPrompt": "Create a 75-minute playlist that's vivid and joyful but stays present — bright energy without losing focus. Target 110-120 BPM. Start with upbeat world-fusion and Afrobeat-influenced tracks — Mdou Moctar, Khruangbin's uptempo work, KOKOROKO. Build into bright indie dance and synth-forward grooves — Caribou, Four Tet's dancier tracks, Floating Points. Keep percussion prominent and crisp throughout — the rhythm should feel alive and detailed. Mix organic instruments with electronic brightness. The vibe is tropical sunrise with a clear mind. Vocals are welcome if they add energy.",
+      "artistReferences": ["Mdou Moctar", "Khruangbin", "KOKOROKO", "Caribou", "Four Tet", "Floating Points"],
+      "textureDescriptors": ["world-fusion", "Afrobeat-influenced", "synth-forward grooves", "crisp percussion"],
+      "sessionPhases": {
+        "onset": "upbeat world-fusion and Afrobeat",
+        "peak": "bright indie dance and synth-forward grooves",
+        "descent": "maintains energy"
+      },
+      "vocalGuidance": "Vocals welcome if they add energy"
+    },
+    "pink-jesus-reserve": {
+      "name": "Pink Jesus Reserve",
+      "farm": "Sonoma Hills Farm",
+      "region": "Sonoma",
+      "vibeCategory": "easySocial",
+      "intent": "Buoyant and warm, ready to share",
+      "terpeneProfile": {
+        "dominant": "β-Caryophyllene",
+        "percentages": {
+          "β-Caryophyllene": 0.78,
+          "Myrcene": 0.38,
+          "α-Humulene": 0.27,
+          "α-Bisabolol": 0.15
+        }
+      },
+      "translation": "Heavy caryophyllene = warm social anchor. Myrcene adds body. The 'social, uplifting' effect needs warmth with gentle buoyancy, not aggressive energy.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 95, "end": 100 },
+      "spotifyPrompt": "Create a 90-minute playlist for a warm gathering — buoyant and generous, like good conversation between close friends. Start around 95-100 BPM with soulful, feel-good grooves — Leon Bridges, Tom Misch, Hiatus Kaiyote. Settle into mid-tempo soul, R&B, and warm jazz through the middle — Robert Glasper, Thundercat's mellower work, Erykah Badu deep cuts. Close with gentle acoustic warmth. The production should feel analog and human — live instruments, warm mixes, real voices. Keep the energy conversational — present but never demanding.",
+      "artistReferences": ["Leon Bridges", "Tom Misch", "Hiatus Kaiyote", "Robert Glasper", "Thundercat", "Erykah Badu"],
+      "textureDescriptors": ["soulful grooves", "analog", "live instruments", "warm mixes"],
+      "sessionPhases": {
+        "onset": "soulful, feel-good grooves",
+        "peak": "mid-tempo soul, R&B, and warm jazz",
+        "descent": "gentle acoustic warmth"
+      },
+      "vocalGuidance": "Real voices welcome throughout"
+    },
+    "mule-fuel": {
+      "name": "Mule Fuel",
+      "farm": "Solful Exclusive",
+      "region": "Exclusive",
+      "vibeCategory": "deepRestSleep",
+      "intent": "Gentle contentment settling toward rest",
+      "terpeneProfile": {
+        "dominant": "Myrcene",
+        "percentages": {
+          "Myrcene": 2.22,
+          "α-Pinene": 0.54,
+          "β-Caryophyllene": 0.34,
+          "Limonene": 0.28
+        }
+      },
+      "translation": "Massive myrcene = deep sedation, muscle relaxation, couch-lock. Pinene adds a brief window of clarity before the sedation takes hold. The iso principle is critical here.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 85, "mid": 65, "end": 60 },
+      "spotifyPrompt": "Create a 90-minute playlist that starts with gentle contentment and gradually dissolves into deep rest. First 20 minutes: warm, unhurried acoustic and lo-fi at 80-85 BPM — Iron & Wine, Nils Frahm's piano pieces, Bon Iver's quieter work. Middle 30 minutes: descend to 65-70 BPM with ambient and instrumental — Sigur Rós ambient works, Ólafur Arnalds, ambient guitar loops. Final 40 minutes: pure sleep-adjacent soundscapes below 60 BPM — deep drones, slow-evolving textures, nature recordings layered with soft tones. Think warm gravity slowly pulling you down. No percussion after the midpoint. Nothing bright. Nothing sharp.",
+      "artistReferences": ["Iron & Wine", "Nils Frahm", "Bon Iver", "Sigur Rós", "Ólafur Arnalds"],
+      "textureDescriptors": ["warm acoustic", "lo-fi", "ambient guitar loops", "deep drones", "nature recordings"],
+      "sessionPhases": {
+        "onset": "warm, unhurried acoustic and lo-fi",
+        "peak": "ambient and instrumental descent",
+        "descent": "sleep-adjacent soundscapes"
+      },
+      "vocalGuidance": "No percussion after midpoint"
+    },
+    "love-and-laughter": {
+      "name": "Love and Laughter",
+      "farm": "Heartrock Mountain Farm",
+      "region": "Mendocino",
+      "vibeCategory": "clearFocus",
+      "intent": "Clear and steady, nothing clouded",
+      "isCBD": true,
+      "terpeneProfile": {
+        "percentages": {
+          "Myrcene": 0.56,
+          "Terpinolene": 0.28,
+          "β-Caryophyllene": 0.20,
+          "α-Pinene": 0.13
+        }
+      },
+      "translation": "Non-intoxicating CBD strain. Terpinolene adds gentle creative uplift. Pinene supports focus. Myrcene keeps it grounded. The 'energizing, focusing' effect without any fog.",
+      "defaultDuration": 60,
+      "bpmTarget": { "start": 95, "end": 105 },
+      "spotifyPrompt": "Create a 60-minute playlist for clear, steady focus — no cloud, no haze, just calm productivity. Target 95-105 BPM throughout. Lean into minimalist post-rock and ambient electronic — Explosions in the Sky's quieter pieces, Tycho, Kiasmos, Jon Hopkins' gentler work. Keep instrumentation clean and spacious — piano with subtle electronics, clear guitar motifs, precise rhythms. No lyrics. No busy arrangements. The production should feel like clean air and natural light. Every track should support concentration without demanding attention. Think study session in a sunlit room.",
+      "artistReferences": ["Explosions in the Sky", "Tycho", "Kiasmos", "Jon Hopkins"],
+      "textureDescriptors": ["minimalist post-rock", "ambient electronic", "clean and spacious", "precise rhythms"],
+      "sessionPhases": {
+        "onset": "minimalist post-rock",
+        "peak": "ambient electronic",
+        "descent": "maintains steady focus"
+      },
+      "vocalGuidance": "No lyrics"
+    },
+    "blueberry-muffin": {
+      "name": "Blueberry Muffin",
+      "farm": "Briceland Forest Farm",
+      "region": "Humboldt",
+      "vibeCategory": "warmRelaxation",
+      "intent": "Quiet peace with a soft glow",
+      "terpeneProfile": {
+        "percentages": {
+          "β-Caryophyllene": 0.47,
+          "Myrcene": 0.40,
+          "α-Bisabolol": 0.25,
+          "α-Humulene": 0.16
+        }
+      },
+      "translation": "Caryophyllene and myrcene together = warm relaxation. Bisabolol adds gentle softness. The 'peaceful, joyful' effect is serene contentment.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 75, "end": 70 },
+      "spotifyPrompt": "Create a 75-minute playlist that glows softly — peaceful and warm, like candlelight. Start with gentle folk-adjacent ambient around 75 BPM — Gregory Alan Isakov instrumentals, Sleeping at Last, The Album Leaf. Settle into soft jazz piano and string arrangements — Esbjörn Svensson Trio's quieter pieces, Ludovico Einaudi, Nils Frahm. Close with barely-there ambient warmth — Max Richter's sleep-adjacent work, ambient harp. Everything should feel like being held gently. Major keys or soft modal. Acoustic textures preferred — piano, strings, soft guitar. No sharp edges anywhere.",
+      "artistReferences": ["Gregory Alan Isakov", "Sleeping at Last", "The Album Leaf", "Esbjörn Svensson Trio", "Ludovico Einaudi", "Nils Frahm", "Max Richter"],
+      "textureDescriptors": ["folk-adjacent ambient", "soft jazz piano", "string arrangements", "ambient harp"],
+      "sessionPhases": {
+        "onset": "gentle folk-adjacent ambient",
+        "peak": "soft jazz piano and string arrangements",
+        "descent": "barely-there ambient warmth"
+      },
+      "vocalGuidance": "Primarily instrumental, acoustic textures"
+    },
+    "mandarin-cherry-tree": {
+      "name": "Mandarin Cherry Tree",
+      "farm": "Sticky Fields",
+      "region": "Mendocino",
+      "vibeCategory": "contemplativeDrift",
+      "intent": "Settled body, gently wandering mind",
+      "terpeneProfile": {
+        "dominant": "Limonene",
+        "percentages": {
+          "Limonene": 0.52,
+          "β-Caryophyllene": 0.36,
+          "α-Humulene": 0.13,
+          "Linalool": 0.11
+        }
+      },
+      "translation": "Limonene leads but linalool + caryophyllene pull toward relaxation. The 'creativity + serenity' combo = music that's settled but mentally interesting.",
+      "defaultDuration": 80,
+      "bpmTarget": { "start": 85, "end": 75 },
+      "spotifyPrompt": "Create an 80-minute playlist where the body stays settled and the mind wanders freely. Start around 85 BPM with dreamy, citrus-tinted indie — Beach House, Washed Out, Toro y Moi's chillwave work. Move into impressionist electronic and ambient — Bibio, Boards of Canada's warmer tracks, Casino Versus Japan. Close with soft, drifting soundscapes — Debussy performed on modern synths, gentle ambient with floral textures. The production should feel slightly hazy and golden — reverb-washed, warm analog tones, nothing clinical. Think Sunday afternoon sunbeam on a couch with your eyes half-closed.",
+      "artistReferences": ["Beach House", "Washed Out", "Toro y Moi", "Bibio", "Boards of Canada", "Casino Versus Japan"],
+      "textureDescriptors": ["dreamy indie", "citrus-tinted", "impressionist electronic", "hazy and golden", "reverb-washed"],
+      "sessionPhases": {
+        "onset": "dreamy, citrus-tinted indie",
+        "peak": "impressionist electronic and ambient",
+        "descent": "soft, drifting soundscapes"
+      },
+      "vocalGuidance": "Vocals welcome in dreamy style"
+    },
+    "glitter-bomb": {
+      "name": "Glitter Bomb",
+      "farm": "Sol Spirit Farm",
+      "region": "Trinity",
+      "vibeCategory": "bodyMindSplit",
+      "intent": "Body at ease, mind sparkling",
+      "terpeneProfile": {
+        "dominant": "Myrcene",
+        "percentages": {
+          "Myrcene": 1.23,
+          "β-Caryophyllene": 0.42,
+          "β-Ocimene": 0.17,
+          "Linalool": 0.15
+        }
+      },
+      "translation": "Heavy myrcene relaxes the body, but ocimene + linalool keep the mind bright and sparkling. The 'physically relaxing, cerebral' split is unique.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 80, "end": 90 },
+      "spotifyPrompt": "Create a 75-minute playlist where the body melts but the mind stays lit up. Start with deep, cushioned grooves around 80-90 BPM — FKJ instrumentals, Tom Misch & Yussef Dayes, Alfa Mist. Layer in sparkling, detailed electronic textures through the middle — Floating Points' shorter pieces, Rival Consoles, Kiasmos. Close with ambient that has crystalline upper-register detail over deep bass warmth — Stars of the Lid, Tim Hecker's softer work. Production should feel like lying on velvet while watching fireworks — heavy bottom, glittering top. Instrumental only. Let the contrast between heavy body and bright mind carry the whole set.",
+      "artistReferences": ["FKJ", "Tom Misch", "Yussef Dayes", "Alfa Mist", "Floating Points", "Rival Consoles", "Kiasmos", "Stars of the Lid", "Tim Hecker"],
+      "textureDescriptors": ["cushioned grooves", "sparkling electronic textures", "crystalline upper-register", "deep bass warmth"],
+      "sessionPhases": {
+        "onset": "deep, cushioned grooves",
+        "peak": "sparkling, detailed electronic textures",
+        "descent": "crystalline ambient over deep bass"
+      },
+      "vocalGuidance": "Instrumental only"
+    },
+    "satsuma-sherbet": {
+      "name": "Satsuma Sherbet",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "vibeCategory": "contemplativeDrift",
+      "intent": "Quiet ease with thoughtful undertones",
+      "terpeneProfile": {
+        "dominant": "Limonene",
+        "percentages": {
+          "Limonene": 0.55,
+          "β-Caryophyllene": 0.45,
+          "α-Humulene": 0.13,
+          "Myrcene": 0.11
+        }
+      },
+      "translation": "Limonene leads but caryophyllene nearly matches it — creating a contemplative brightness rather than pure uplift. 'Happy, contemplative' = positive but introspective.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 90, "end": 100 },
+      "spotifyPrompt": "Create a 75-minute playlist that's quietly happy and gently thoughtful. Not sad, not euphoric — just settled and contemplative with a warm undertone. Target 90-100 BPM. Start with thoughtful indie and soft electronic — Washed Out, Toro y Moi's 'Outer Peace' era, Men I Trust. Move into contemplative jazz and ambient — GoGo Penguin, Portico Quartet, Nils Frahm's mid-tempo work. Close with warm, meditative pieces. Major keys but never saccharine. The vibe is sitting with a cup of tea, watching clouds move, feeling quietly grateful. Vocals okay in the first half if they're soft.",
+      "artistReferences": ["Washed Out", "Toro y Moi", "Men I Trust", "GoGo Penguin", "Portico Quartet", "Nils Frahm"],
+      "textureDescriptors": ["thoughtful indie", "soft electronic", "contemplative jazz", "meditative"],
+      "sessionPhases": {
+        "onset": "thoughtful indie and soft electronic",
+        "peak": "contemplative jazz and ambient",
+        "descent": "warm, meditative pieces"
+      },
+      "vocalGuidance": "Vocals okay in first half if soft"
+    },
+    "avenue-of-the-giants": {
+      "name": "Avenue of the Giants",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "vibeCategory": "vividEnergy",
+      "intent": "Forward momentum with electric clarity",
+      "terpeneProfile": {
+        "dominant": "Myrcene",
+        "percentages": {
+          "Myrcene": 1.94,
+          "β-Caryophyllene": 0.43,
+          "β-Ocimene": 0.24,
+          "α-Pinene": 0.26
+        }
+      },
+      "translation": "Paradox strain — massive myrcene should sedate, but the effect is 'energizing, buzzy, motivating.' Pinene adds electric clarity. Ocimene adds brightness. The music needs to capture this paradox: deep foundation with electric surface.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 105, "peak": 120, "end": 120 },
+      "spotifyPrompt": "Create a 75-minute playlist that's propulsive and electric — forward momentum with a deep foundation underneath. Start at 105 BPM and build to 120 by midpoint, then hold. Open with driving post-rock and shoegaze — Mogwai's uptempo pieces, M83, DIIV. Build into energizing electronic with real weight — Moderat, Jon Hopkins 'Open Eye Signal' energy, Bicep. Keep bass heavy and textured throughout — the low end should feel massive while the highs crackle with clarity. This is a redwood forest soundtrack — towering and electric. No chill, no drift. Pure forward motion. Instrumental preferred but powerful vocals welcome if they add momentum.",
+      "artistReferences": ["Mogwai", "M83", "DIIV", "Moderat", "Jon Hopkins", "Bicep"],
+      "textureDescriptors": ["driving post-rock", "shoegaze", "heavy bass", "electric highs"],
+      "sessionPhases": {
+        "onset": "driving post-rock and shoegaze",
+        "peak": "energizing electronic with real weight",
+        "descent": "maintains momentum"
+      },
+      "vocalGuidance": "Instrumental preferred, powerful vocals welcome"
+    },
+    "peach-flambe": {
+      "name": "Peach Flambé",
+      "farm": "Terrapin Farms",
+      "region": "Humboldt",
+      "vibeCategory": "brightUplift",
+      "intent": "Sunny drive with bright momentum",
+      "terpeneProfile": {
+        "percentages": {
+          "β-Caryophyllene": 0.25,
+          "Myrcene": 0.21,
+          "Limonene": 0.20,
+          "α-Humulene": 0.12
+        }
+      },
+      "translation": "Evenly balanced profile — no single terpene dominates. 'Happy, energized, motivated' with a sweet, fruity aroma. Bright and uncomplicated joy.",
+      "defaultDuration": 60,
+      "bpmTarget": { "start": 105, "end": 115 },
+      "spotifyPrompt": "Create a 60-minute playlist for a sunny drive with the windows down. Bright, warm, and effortlessly happy. Target 105-115 BPM throughout. Think golden California afternoon — Fleetwood Mac vibes meeting modern indie pop. Mix in Vampire Weekend, Phoenix, MGMT's catchier work, Dayglow, Still Woozy. Keep production warm and sunny — acoustic guitar mixed with bright synths, handclaps, feel-good hooks. Major keys only. Every song should feel like it's smiling. No deep cuts or experimental moments — just pure, uncomplicated sunny energy from start to finish.",
+      "artistReferences": ["Fleetwood Mac", "Vampire Weekend", "Phoenix", "MGMT", "Dayglow", "Still Woozy"],
+      "textureDescriptors": ["sunny", "acoustic guitar with bright synths", "handclaps", "feel-good hooks"],
+      "sessionPhases": {
+        "onset": "bright indie pop",
+        "peak": "pure sunny energy",
+        "descent": "maintains energy throughout"
+      },
+      "vocalGuidance": "Vocals welcome, major keys only"
+    },
+    "rasta-governmint": {
+      "name": "Rasta Governmint",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "vibeCategory": "warmRelaxation",
+      "intent": "Profound ease with cushioned edges",
+      "terpeneProfile": {
+        "dominant": "β-Caryophyllene",
+        "percentages": {
+          "β-Caryophyllene": 0.60,
+          "Limonene": 0.39,
+          "α-Humulene": 0.17,
+          "Myrcene": 0.16
+        }
+      },
+      "translation": "Caryophyllene-forward with limonene warmth. 'Euphoric, supremely relaxed, comforted' — deep ease that still feels positive. Not sleepy, just profoundly comfortable.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 90, "end": 75 },
+      "spotifyPrompt": "Create a 90-minute playlist for profound, cushioned ease — deeply comfortable and gently euphoric. Start around 90 BPM with warm dub reggae and roots grooves — classic Lee 'Scratch' Perry productions, Scientist dub mixes, Augustus Pablo. Flow into deep, spacious trip-hop and downtempo — Massive Attack's mellower work, Thievery Corporation, Nightmares on Wax. Close with warm, padded ambient — deep reverb, soft bass pulses, nothing sharp. The production should feel like every hard edge in the world has been rounded off. Think heavy velvet curtains and incense. Low end should be prominent but gentle — felt more than heard.",
+      "artistReferences": ["Lee 'Scratch' Perry", "Scientist", "Augustus Pablo", "Massive Attack", "Thievery Corporation", "Nightmares on Wax"],
+      "textureDescriptors": ["dub reggae", "roots grooves", "spacious trip-hop", "padded ambient", "deep reverb"],
+      "sessionPhases": {
+        "onset": "warm dub reggae and roots grooves",
+        "peak": "deep, spacious trip-hop and downtempo",
+        "descent": "warm, padded ambient"
+      },
+      "vocalGuidance": "Dub vocals welcome"
+    },
+    "purple-candy-cane": {
+      "name": "Purple Candy Cane",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "vibeCategory": "vividEnergy",
+      "intent": "Vibrant and vocal, fully awake",
+      "terpeneProfile": {
+        "percentages": {
+          "Myrcene": 0.54,
+          "β-Caryophyllene": 0.31,
+          "α-Pinene": 0.20,
+          "α-Humulene": 0.13
+        }
+      },
+      "translation": "'Energized, invigorated, talkative' — pinene supports alertness, myrcene is moderate. This is the most extroverted strain. Music should be vivid and vocal-forward.",
+      "defaultDuration": 60,
+      "bpmTarget": { "start": 110, "end": 120 },
+      "spotifyPrompt": "Create a 60-minute playlist that's vibrant, vocal, and fully alive. This is social energy turned up. Target 110-120 BPM. Open with high-energy soul and funk — Anderson .Paak, Vulfpeck, Daft Punk's funkier tracks. Build into bold, confident pop and dance — Dua Lipa, Jessie Ware 'What's Your Pleasure' era, Roisin Murphy. Keep vocals prominent throughout — this playlist celebrates the human voice. Production should be bright, punchy, and polished. Include tracks with call-and-response energy, group vocals, and infectious hooks. No instrumentals. No whisper-quiet moments. Fully awake from start to finish.",
+      "artistReferences": ["Anderson .Paak", "Vulfpeck", "Daft Punk", "Dua Lipa", "Jessie Ware", "Roisin Murphy"],
+      "textureDescriptors": ["high-energy soul", "funk", "bold pop", "bright and punchy"],
+      "sessionPhases": {
+        "onset": "high-energy soul and funk",
+        "peak": "bold, confident pop and dance",
+        "descent": "maintains energy"
+      },
+      "vocalGuidance": "Vocals prominent throughout, no instrumentals"
+    },
+    "lemon-papaya-banana": {
+      "name": "Lemon Papaya Banana",
+      "farm": "Terrapin Farms",
+      "region": "Humboldt",
+      "vibeCategory": "contemplativeDrift",
+      "intent": "Soft body, drifting expansive mind",
+      "terpeneProfile": {
+        "dominant": "Myrcene",
+        "percentages": {
+          "Myrcene": 0.57,
+          "Limonene": 0.29,
+          "β-Caryophyllene": 0.16,
+          "α-Humulene": 0.05
+        }
+      },
+      "translation": "Myrcene relaxes the body while limonene keeps the mind floating pleasantly. 'Physically relaxed, spacey, euphoric' = psychedelic drift territory.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 80, "end": 0 },
+      "spotifyPrompt": "Create a 90-minute playlist where the body goes soft and the mind drifts into wide-open space. Start at 80 BPM with hazy, tropical psychedelia — Tame Impala's 'Currents' deep cuts, Unknown Mortal Orchestra, Drugdealer. Drift into spacious, reverb-heavy ambient and shoegaze through the middle — Cocteau Twins instrumentals, Slowdive's dreamier tracks, Beach House remixes. Final 30 minutes: pure expansive ambient with no rhythm — Harold Budd, Grouper, deep space drones with warm overtones. Production should feel sun-bleached and slightly melted — heavy reverb, soft saturation, wide stereo field. Like floating in warm ocean water looking up at clouds.",
+      "artistReferences": ["Tame Impala", "Unknown Mortal Orchestra", "Drugdealer", "Cocteau Twins", "Slowdive", "Beach House", "Harold Budd", "Grouper"],
+      "textureDescriptors": ["hazy tropical psychedelia", "reverb-heavy ambient", "shoegaze", "sun-bleached", "wide stereo field"],
+      "sessionPhases": {
+        "onset": "hazy, tropical psychedelia",
+        "peak": "spacious, reverb-heavy ambient and shoegaze",
+        "descent": "pure expansive ambient with no rhythm"
+      },
+      "vocalGuidance": "Dreamy vocals welcome early, instrumental later"
+    },
+    "tropicanna-cherry": {
+      "name": "Tropicanna Cherry",
+      "farm": "Sunrise Gardens",
+      "region": "Mendocino",
+      "vibeCategory": "brightUplift",
+      "intent": "Bright lift with clear, lively edges",
+      "terpeneProfile": {
+        "percentages": {
+          "β-Caryophyllene": 0.37,
+          "Limonene": 0.29,
+          "Linalool": 0.15,
+          "α-Humulene": 0.11
+        }
+      },
+      "translation": "Balanced bright profile — caryophyllene grounds, limonene lifts, linalool smooths. 'Euphoric, cerebral, cheerful' = clean, bright social energy with polish.",
+      "defaultDuration": 70,
+      "bpmTarget": { "start": 105, "end": 115 },
+      "spotifyPrompt": "Create a 70-minute playlist that's bright, cheerful, and polished — crisp edges with a warm center. Target 105-115 BPM. Start with lively, well-produced indie pop — Alvvays, Japanese Breakfast, Clairo's upbeat tracks. Build into bright, sophisticated electronic-pop — Disclosure's vocal tracks, Jessie Ware, Robyn. Keep production clean and detailed — tight drums, sparkling synths, clear vocals. The vibe is a spring afternoon that just keeps getting better. Mix in a few unexpected gems — a French pop track, a Brazilian electronic cut, something with hand percussion. Everything polished but never sterile.",
+      "artistReferences": ["Alvvays", "Japanese Breakfast", "Clairo", "Disclosure", "Jessie Ware", "Robyn"],
+      "textureDescriptors": ["lively indie pop", "sophisticated electronic-pop", "tight drums", "sparkling synths"],
+      "sessionPhases": {
+        "onset": "lively, well-produced indie pop",
+        "peak": "bright, sophisticated electronic-pop",
+        "descent": "maintains cheerful energy"
+      },
+      "vocalGuidance": "Clear vocals welcome"
+    },
+    "moonlight": {
+      "name": "Moonlight",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "vibeCategory": "warmRelaxation",
+      "intent": "Warm stillness with a grateful heart",
+      "terpeneProfile": {
+        "percentages": {
+          "Myrcene": 0.74,
+          "β-Caryophyllene": 0.51,
+          "Terpinolene": 0.38,
+          "α-Bisabolol": 0.24
+        }
+      },
+      "translation": "Myrcene sedation + caryophyllene warmth + terpinolene's subtle creative undertone. 'Physically relaxed, calm, grateful' — the gratitude quality is distinct. Bisabolol adds gentleness.",
+      "defaultDuration": 80,
+      "bpmTarget": { "start": 75, "end": 60 },
+      "spotifyPrompt": "Create an 80-minute playlist for quiet gratitude at the end of a day. Physically still, emotionally warm, gently reflective. Start around 75 BPM with tender, stripped-back folk and ambient — Adrianne Lenker's solo work, Big Thief's gentlest songs (instrumental versions), Novo Amor. Settle into warm, nocturnal ambient and modern classical — Max Richter, A Winged Victory for the Sullen, Jóhann Jóhannsson's quieter film scores. Close with nighttime soundscapes — distant chimes, soft field recordings, lunar ambient. Everything should feel like moonlight through a window. Warm minor keys welcome. The whole set should feel like a long, grateful exhale.",
+      "artistReferences": ["Adrianne Lenker", "Big Thief", "Novo Amor", "Max Richter", "A Winged Victory for the Sullen", "Jóhann Jóhannsson"],
+      "textureDescriptors": ["stripped-back folk", "nocturnal ambient", "modern classical", "nighttime soundscapes"],
+      "sessionPhases": {
+        "onset": "tender, stripped-back folk and ambient",
+        "peak": "warm, nocturnal ambient and modern classical",
+        "descent": "nighttime soundscapes"
+      },
+      "vocalGuidance": "Gentle vocals welcome, warm minor keys"
+    },
+    "natty-bumppo": {
+      "name": "Natty Bumppo",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "vibeCategory": "easySocial",
+      "intent": "Easy and unbothered, warm drift",
+      "terpeneProfile": {
+        "dominant": "β-Caryophyllene",
+        "percentages": {
+          "β-Caryophyllene": 0.63,
+          "Limonene": 0.35,
+          "α-Humulene": 0.25,
+          "Myrcene": 0.19
+        }
+      },
+      "translation": "Caryophyllene-forward with limonene lift. 'Happy, carefree, physically relaxed' — the most laid-back of the caryophyllene strains. Easy, unbothered energy.",
+      "defaultDuration": 75,
+      "bpmTarget": { "start": 90, "end": 100 },
+      "spotifyPrompt": "Create a 75-minute playlist that's completely unbothered — easy, carefree, nothing to prove. Target 90-100 BPM with a lazy groove. Start with laid-back soul and jazz — Mac DeMarco, Mild High Club, Chet Baker's vocals. Flow into carefree reggae-influenced grooves and island-adjacent indie — Stick Figure instrumentals, Collie Buddz acoustic tracks, Jack Johnson's better deep cuts. Close with warm, lazy dub and downtempo. The production should feel like it recorded itself by accident on a perfect afternoon. Nothing polished, nothing trying hard. Analog warmth, tape hiss welcome, loose timing. The vibe is hammock with zero obligations.",
+      "artistReferences": ["Mac DeMarco", "Mild High Club", "Chet Baker", "Stick Figure", "Collie Buddz", "Jack Johnson"],
+      "textureDescriptors": ["laid-back soul", "jazz", "reggae-influenced", "island-adjacent", "lazy dub"],
+      "sessionPhases": {
+        "onset": "laid-back soul and jazz",
+        "peak": "carefree reggae-influenced grooves",
+        "descent": "warm, lazy dub and downtempo"
+      },
+      "vocalGuidance": "Laid-back vocals welcome"
+    },
+    "black-lime-chem": {
+      "name": "Black Lime Chem",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "vibeCategory": "deepRestSleep",
+      "intent": "Heavy dissolve into blissful dark",
+      "terpeneProfile": {
+        "dominant": "Myrcene",
+        "percentages": {
+          "Myrcene": 1.69,
+          "α-Pinene": 0.39,
+          "β-Caryophyllene": 0.27,
+          "β-Ocimene": 0.19
+        }
+      },
+      "translation": "Very heavy myrcene = deep sedation and bliss. Pinene provides brief initial clarity window. 'Heavy, blissful, sleepy' — this is end-of-night, full surrender territory alongside Pinnacle and Mule Fuel.",
+      "defaultDuration": 90,
+      "bpmTarget": { "start": 75, "mid": 60, "end": 0 },
+      "spotifyPrompt": "Create a 90-minute playlist for heavy, blissful descent into sleep. The first 15 minutes can have gentle clarity — crisp ambient guitar at 75 BPM, clean piano tones, Nils Frahm's 'Says' energy. Then begin the dissolve: 70 BPM downtempo through minutes 15-35 — Tycho's 'Past Is Prologue,' Helios, Library Tapes. After minute 35, drop below 60 BPM and remove all rhythm — deep drone ambient, Lustmord's warmer pieces, sleep-focused soundscapes. Final 30 minutes should approach silence — barely audible tones, deep sub-bass you feel more than hear, the sonic equivalent of a weighted blanket. No sudden sounds. No bright tones after the first section. Complete dissolution.",
+      "artistReferences": ["Nils Frahm", "Tycho", "Helios", "Library Tapes", "Lustmord"],
+      "textureDescriptors": ["crisp ambient guitar", "clean piano", "deep drone ambient", "sleep-focused soundscapes", "weighted blanket"],
+      "sessionPhases": {
+        "onset": "gentle clarity with crisp ambient guitar",
+        "peak": "downtempo dissolution",
+        "descent": "deep drone ambient approaching silence"
+      },
+      "vocalGuidance": "No vocals, complete dissolution"
+    }
+  }
+}

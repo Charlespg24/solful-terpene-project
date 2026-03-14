@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-01",
+    "totalStrains": 23,
+    "target": "Solful Dispensary"
+  },
+  "strains": [
+    {
+      "id": 1,
+      "name": "Mike's Bomba",
+      "farm": "Glentucky Family Farm",
+      "region": "Sonoma",
+      "intent": "Grounded calm with clear mental edges.",
+      "effects": ["Relaxed", "Calm", "Alert"],
+      "aroma": ["Fuel", "Lemon Cream", "Forest Floor"],
+      "totalTerpenes": 1.38,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.47,
+        "Limonene": 0.32,
+        "α-Humulene": 0.18,
+        "Linalool": 0.07
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 20, "terpene": "β-Caryophyllene"},
+          {"name": "Lemon", "drops": 10, "terpene": "Limonene"},
+          {"name": "Sage", "drops": 8, "terpene": "α-Humulene"},
+          {"name": "Lavender", "drops": 2, "terpene": "Linalool"}
+        ]
+      },
+      "rationale": "Black pepper delivers the dominant caryophyllene (50% of blend). Lemon oil matches the 'lemon cream' aroma note. Sage provides humulene with an herbal, grounding quality that complements the 'forest floor' character. A whisper of lavender rounds out the linalool."
+    },
+    {
+      "id": 2,
+      "name": "Guava Gift",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "intent": "Open and expansive, easy social lift.",
+      "effects": ["Social", "Inspiring", "Euphoric"],
+      "aroma": ["Fresh Guava", "Lemon Rind", "Tamarind"],
+      "totalTerpenes": 2.34,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.73,
+        "Limonene": 0.50,
+        "Myrcene": 0.33,
+        "α-Humulene": 0.25
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 14, "terpene": "β-Caryophyllene"},
+          {"name": "Grapefruit", "drops": 10, "terpene": "Limonene"},
+          {"name": "Lemongrass", "drops": 8, "terpene": "Myrcene"},
+          {"name": "Basil", "drops": 6, "terpene": "α-Humulene"},
+          {"name": "Rosemary", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Black pepper leads with caryophyllene. Grapefruit brings tropical citrus that echoes the guava aroma. Lemongrass delivers myrcene for the euphoric lift. Basil adds humulene with a bright, fresh edge. A touch of rosemary for herbal depth."
+    },
+    {
+      "id": 3,
+      "name": "Carambola",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "intent": "Light and playful, effervescent energy.",
+      "effects": ["Energetic", "Fun", "Giggly"],
+      "aroma": ["Orange", "Diesel", "Incense"],
+      "totalTerpenes": 1.45,
+      "terpeneProfile": {
+        "Limonene": 0.44,
+        "β-Caryophyllene": 0.18,
+        "Linalool": 0.12,
+        "α-Bisabolol": 0.09
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Sweet Orange", "drops": 16, "terpene": "Limonene"},
+          {"name": "Rosemary", "drops": 8, "terpene": "β-Caryophyllene"},
+          {"name": "Lavender", "drops": 6, "terpene": "Linalool"},
+          {"name": "German Chamomile", "drops": 6, "terpene": "α-Bisabolol"},
+          {"name": "Black Pepper", "drops": 4, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Limonene-dominant and uplifting. Sweet orange (40%) captures the 'orange, diesel' aroma profile. Rosemary provides caryophyllene with an energizing quality. Lavender for the linalool. German chamomile delivers the α-bisabolol and softens the blend."
+    },
+    {
+      "id": 4,
+      "name": "Strawberry Biscotti",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "intent": "Cozy anchor with a curious mind.",
+      "effects": ["Comforting", "Mentally Engaging", "Appetite Inducing"],
+      "aroma": ["Kettle Corn", "Fuel", "Sour Strawberry Candy"],
+      "totalTerpenes": 1.48,
+      "terpeneProfile": {
+        "Limonene": 0.38,
+        "β-Caryophyllene": 0.29,
+        "Myrcene": 0.25,
+        "α-Bisabolol": 0.13
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Bergamot", "drops": 14, "terpene": "Limonene"},
+          {"name": "Black Pepper", "drops": 10, "terpene": "β-Caryophyllene"},
+          {"name": "Lemongrass", "drops": 8, "terpene": "Myrcene"},
+          {"name": "German Chamomile", "drops": 6, "terpene": "α-Bisabolol"},
+          {"name": "Clove", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Balanced profile with comfort as the effect. Bergamot brings sophisticated citrus that pairs with the 'sour strawberry candy' note. Black pepper for caryophyllene. Lemongrass for myrcene. German chamomile for bisabolol. A touch of clove adds warmth."
+    },
+    {
+      "id": 5,
+      "name": "Pinnacle",
+      "farm": "Dos Rios Farms",
+      "region": "Mendocino",
+      "intent": "Deep surrender into velvet quiet.",
+      "effects": ["Heavy", "Sedative", "Blissful"],
+      "aroma": ["Sweet Cream", "Nutmeg", "Fennel Seeds"],
+      "totalTerpenes": 3.35,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.61,
+        "Limonene": 0.46,
+        "α-Humulene": 0.19,
+        "trans-β-Farnesene": 0.14
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Sweet Orange", "drops": 10, "terpene": "Limonene"},
+          {"name": "Rosemary", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Sage", "drops": 6, "terpene": "α-Humulene"},
+          {"name": "Ylang Ylang", "drops": 4, "terpene": "Farnesene"},
+          {"name": "Clove", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "The heaviest, most sedative strain. Black pepper and rosemary together deliver concentrated caryophyllene. Sweet orange for the limonene and 'sweet cream' aroma. Sage for humulene with earthy depth. Ylang ylang is one of the few oils containing farnesene, amplifying the blissful effect."
+    },
+    {
+      "id": 6,
+      "name": "Tropical Sleigh Ride",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "intent": "Vivid lift with present clarity.",
+      "effects": ["Joyful", "Alert", "Euphoric"],
+      "aroma": ["Peppermint", "Honeysuckle", "Hint of Ginger"],
+      "totalTerpenes": 2.35,
+      "terpeneProfile": {
+        "β-Ocimene": 0.71,
+        "β-Caryophyllene": 0.70,
+        "α-Humulene": 0.28,
+        "Limonene": 0.22
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Basil", "drops": 14, "terpene": "β-Ocimene"},
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Peppermint", "drops": 6, "terpene": "Menthol"},
+          {"name": "Grapefruit", "drops": 4, "terpene": "Limonene"},
+          {"name": "Geranium", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Basil delivers the rare ocimene (35% of blend) that defines this strain's unique character. Black pepper for the heavy caryophyllene. Peppermint captures the distinctive aroma note. Grapefruit adds citrus brightness. Geranium brings the honeysuckle floral quality."
+    },
+    {
+      "id": 7,
+      "name": "Pink Jesus Reserve",
+      "farm": "Sonoma Hills Farm",
+      "region": "Sonoma",
+      "intent": "Buoyant and warm, ready to share.",
+      "effects": ["Social", "Uplifting", "Euphoric"],
+      "aroma": ["Raspberry", "French Lavender", "Pineapple"],
+      "totalTerpenes": 1.89,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.78,
+        "Myrcene": 0.38,
+        "α-Humulene": 0.27,
+        "α-Bisabolol": 0.15
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 14, "terpene": "β-Caryophyllene"},
+          {"name": "Lemongrass", "drops": 8, "terpene": "Myrcene"},
+          {"name": "Lavender", "drops": 6, "terpene": "Linalool"},
+          {"name": "Sage", "drops": 6, "terpene": "α-Humulene"},
+          {"name": "German Chamomile", "drops": 4, "terpene": "α-Bisabolol"},
+          {"name": "Geranium", "drops": 2, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Black pepper anchors the high caryophyllene content. Lemongrass delivers myrcene for euphoria. Lavender captures the 'French lavender' aroma note. Sage for humulene depth. German chamomile for bisabolol. A whisper of geranium adds the fruity, floral top notes."
+    },
+    {
+      "id": 8,
+      "name": "Mule Fuel",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "intent": "Gentle contentment settling toward rest.",
+      "effects": ["Happy", "Hungry", "Sleepy"],
+      "aroma": ["Skunk", "Diesel", "Lemon", "Leather"],
+      "totalTerpenes": 3.97,
+      "terpeneProfile": {
+        "Myrcene": 2.22,
+        "α-Pinene": 0.54,
+        "β-Caryophyllene": 0.34,
+        "Limonene": 0.28
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 20, "terpene": "Myrcene"},
+          {"name": "Pine", "drops": 8, "terpene": "α-Pinene"},
+          {"name": "Black Pepper", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Lemon", "drops": 6, "terpene": "Limonene"}
+        ]
+      },
+      "rationale": "Exceptionally high myrcene (2.22%) makes this the most sedating strain. Lemongrass dominates the blend (50%) to match. Pine needle oil captures the pinene for alertness contrast. Black pepper for caryophyllene. Lemon for the citrus diesel notes."
+    },
+    {
+      "id": 9,
+      "name": "Love and Laughter",
+      "farm": "Heartrock Mountain Farm",
+      "region": "Mendocino",
+      "intent": "Clear and steady, nothing clouded.",
+      "effects": ["Energizing", "Focusing", "Non-Intoxicating"],
+      "aroma": ["Flowers", "Eucalyptus", "Berries"],
+      "badge": "CBD",
+      "totalTerpenes": 1.72,
+      "terpeneProfile": {
+        "Myrcene": 0.56,
+        "Terpinolene": 0.28,
+        "β-Caryophyllene": 0.20,
+        "α-Pinene": 0.13
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 14, "terpene": "Myrcene"},
+          {"name": "Tea Tree", "drops": 8, "terpene": "Terpinolene"},
+          {"name": "Eucalyptus", "drops": 8, "terpene": "1,8-Cineole"},
+          {"name": "Black Pepper", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Geranium", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "The only CBD strain in the collection. Lemongrass for the dominant myrcene. Tea tree is one of the few oils high in terpinolene, capturing this strain's unique character. Eucalyptus matches the aroma and adds clarity. Black pepper for caryophyllene. Geranium brings floral berry notes."
+    },
+    {
+      "id": 10,
+      "name": "Blueberry Muffin",
+      "farm": "Briceland Forest Farm",
+      "region": "Humboldt",
+      "intent": "Quiet peace with a soft glow.",
+      "effects": ["Relaxed", "Peaceful", "Joyful"],
+      "aroma": ["Blueberry", "Fresh Dough", "Cinnamon"],
+      "totalTerpenes": 1.66,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.47,
+        "Myrcene": 0.40,
+        "α-Bisabolol": 0.25,
+        "α-Humulene": 0.16
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Lemongrass", "drops": 10, "terpene": "Myrcene"},
+          {"name": "German Chamomile", "drops": 8, "terpene": "α-Bisabolol"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Geranium", "drops": 4, "terpene": "Floral"},
+          {"name": "Clove", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Black pepper and lemongrass anchor the caryophyllene and myrcene. German chamomile brings the α-bisabolol for a soft, calming quality. Sage adds humulene depth. Geranium contributes fruity, berry-like notes. A touch of clove echoes the cinnamon aroma."
+    },
+    {
+      "id": 11,
+      "name": "Mandarin Cherry Tree",
+      "farm": "Sticky Fields",
+      "region": "Mendocino",
+      "intent": "Settled body, gently wandering mind.",
+      "effects": ["Full Body Relaxation", "Serenity", "Creativity"],
+      "aroma": ["Mandarin Orange", "Sandalwood", "Lavender"],
+      "totalTerpenes": 1.75,
+      "terpeneProfile": {
+        "Limonene": 0.52,
+        "β-Caryophyllene": 0.36,
+        "α-Humulene": 0.13,
+        "Linalool": 0.11
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Sweet Orange", "drops": 16, "terpene": "Limonene"},
+          {"name": "Black Pepper", "drops": 10, "terpene": "β-Caryophyllene"},
+          {"name": "Lavender", "drops": 6, "terpene": "Linalool"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Ylang Ylang", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Sweet orange dominates (40%) to match the mandarin aroma. Black pepper delivers caryophyllene. Lavender captures the floral note and linalool content. Sage for humulene grounding. Ylang ylang adds exotic floral depth reminiscent of sandalwood."
+    },
+    {
+      "id": 12,
+      "name": "Glitter Bomb",
+      "farm": "Sol Spirit Farm",
+      "region": "Trinity",
+      "intent": "Body at ease, mind sparkling.",
+      "effects": ["Physically Relaxing", "Cerebral", "Euphoric"],
+      "aroma": ["Kiwi", "Pine", "Musk"],
+      "totalTerpenes": 2.39,
+      "terpeneProfile": {
+        "Myrcene": 1.23,
+        "β-Caryophyllene": 0.42,
+        "β-Ocimene": 0.17,
+        "Linalool": 0.15
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 18, "terpene": "Myrcene"},
+          {"name": "Black Pepper", "drops": 10, "terpene": "β-Caryophyllene"},
+          {"name": "Basil", "drops": 4, "terpene": "β-Ocimene"},
+          {"name": "Lavender", "drops": 4, "terpene": "Linalool"},
+          {"name": "Pine", "drops": 4, "terpene": "α-Pinene"}
+        ]
+      },
+      "rationale": "High myrcene (1.23%) calls for lemongrass dominance (45%). Black pepper for the caryophyllene. Basil captures the ocimene. Lavender for linalool. Pine needle oil matches the 'pine' aroma note and adds forest character."
+    },
+    {
+      "id": 13,
+      "name": "Satsuma Sherbet",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "intent": "Quiet ease with thoughtful undertones.",
+      "effects": ["Happy", "Contemplative", "Comfortable"],
+      "aroma": ["Mandarin Orange", "Mochi", "Mint"],
+      "totalTerpenes": 1.85,
+      "terpeneProfile": {
+        "Limonene": 0.55,
+        "β-Caryophyllene": 0.45,
+        "α-Humulene": 0.13,
+        "Myrcene": 0.11
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Sweet Orange", "drops": 16, "terpene": "Limonene"},
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Lemongrass", "drops": 4, "terpene": "Myrcene"},
+          {"name": "Peppermint", "drops": 4, "terpene": "Menthol"}
+        ]
+      },
+      "rationale": "Sweet orange (40%) captures the mandarin citrus. Black pepper delivers caryophyllene backbone. Sage for humulene. Lemongrass for myrcene. Peppermint matches the 'mint' aroma note and adds refreshing brightness."
+    },
+    {
+      "id": 14,
+      "name": "Avenue of the Giants",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "intent": "Forward momentum with electric clarity.",
+      "effects": ["Energizing", "Buzzy", "Motivating"],
+      "aroma": ["Pine Needles", "Menthol", "Jasmine"],
+      "totalTerpenes": 3.48,
+      "terpeneProfile": {
+        "Myrcene": 1.94,
+        "β-Caryophyllene": 0.43,
+        "α-Pinene": 0.26,
+        "β-Ocimene": 0.24
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 16, "terpene": "Myrcene"},
+          {"name": "Pine", "drops": 8, "terpene": "α-Pinene"},
+          {"name": "Black Pepper", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Basil", "drops": 4, "terpene": "β-Ocimene"},
+          {"name": "Peppermint", "drops": 4, "terpene": "Menthol"},
+          {"name": "Geranium", "drops": 2, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Very high myrcene (1.94%) with lemongrass at 40%. Pine needle oil captures the 'pine needles' aroma note and pinene. Black pepper for caryophyllene. Basil for ocimene. Peppermint for the menthol. Geranium adds jasmine-like floral notes."
+    },
+    {
+      "id": 15,
+      "name": "Peach Flambé",
+      "farm": "Terrapin Farms",
+      "region": "Humboldt",
+      "intent": "Sunny drive with bright momentum.",
+      "effects": ["Happy", "Energized", "Motivated"],
+      "aroma": ["White Peach", "Cashew Butter", "Brown Sugar"],
+      "totalTerpenes": 1.05,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.25,
+        "Myrcene": 0.21,
+        "Limonene": 0.20,
+        "α-Humulene": 0.12
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Bergamot", "drops": 10, "terpene": "Limonene"},
+          {"name": "Black Pepper", "drops": 10, "terpene": "β-Caryophyllene"},
+          {"name": "Lemongrass", "drops": 8, "terpene": "Myrcene"},
+          {"name": "Geranium", "drops": 6, "terpene": "Floral"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Clove", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Balanced, lower-terpene profile. Bergamot brings sophisticated citrus matching the peach. Black pepper for caryophyllene. Lemongrass for myrcene. Geranium adds fruity, peachy notes. Sage for humulene. Clove echoes the 'brown sugar' warmth."
+    },
+    {
+      "id": 16,
+      "name": "Rasta Governmint",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "intent": "Profound ease with cushioned edges.",
+      "effects": ["Euphoric", "Supremely Relaxed", "Comforted"],
+      "aroma": ["Sour Cherry", "Frankincense", "Oak"],
+      "totalTerpenes": 1.92,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.60,
+        "Limonene": 0.39,
+        "α-Humulene": 0.17,
+        "Myrcene": 0.16
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 14, "terpene": "β-Caryophyllene"},
+          {"name": "Lemon", "drops": 10, "terpene": "Limonene"},
+          {"name": "Rosemary", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Sage", "drops": 6, "terpene": "α-Humulene"},
+          {"name": "Geranium", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Caryophyllene-forward with black pepper and rosemary. Lemon for the limonene citrus. Sage for humulene and oak-like earthiness. Geranium adds fruity cherry notes. Note: If you add Frankincense Serrata, swap Rosemary for Frankincense (6 drops) to match the aroma directly."
+    },
+    {
+      "id": 17,
+      "name": "Purple Candy Cane",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "intent": "Vibrant and vocal, fully awake.",
+      "effects": ["Energized", "Invigorated", "Talkative"],
+      "aroma": ["Mango", "Peppermint Candy", "Orange Blossom"],
+      "totalTerpenes": 1.55,
+      "terpeneProfile": {
+        "Myrcene": 0.54,
+        "β-Caryophyllene": 0.31,
+        "α-Pinene": 0.20,
+        "α-Humulene": 0.13
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 12, "terpene": "Myrcene"},
+          {"name": "Black Pepper", "drops": 8, "terpene": "β-Caryophyllene"},
+          {"name": "Sweet Orange", "drops": 8, "terpene": "Limonene"},
+          {"name": "Pine", "drops": 6, "terpene": "α-Pinene"},
+          {"name": "Peppermint", "drops": 4, "terpene": "Menthol"},
+          {"name": "Sage", "drops": 2, "terpene": "α-Humulene"}
+        ]
+      },
+      "rationale": "Myrcene-forward for the mango note. Black pepper for caryophyllene. Sweet orange captures the 'orange blossom' aroma. Pine for the pinene. Peppermint matches the 'peppermint candy' perfectly. A touch of sage for humulene grounding."
+    },
+    {
+      "id": 18,
+      "name": "Lemon Papaya Banana",
+      "farm": "Terrapin Farms",
+      "region": "Humboldt",
+      "intent": "Soft body, drifting expansive mind.",
+      "effects": ["Physically Relaxed", "Spacey", "Euphoric"],
+      "aroma": ["Papaya", "Honeydew Melon", "Lemon Zest"],
+      "totalTerpenes": 1.38,
+      "terpeneProfile": {
+        "Myrcene": 0.57,
+        "Limonene": 0.29,
+        "β-Caryophyllene": 0.16,
+        "α-Humulene": 0.05
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 14, "terpene": "Myrcene"},
+          {"name": "Lemon", "drops": 10, "terpene": "Limonene"},
+          {"name": "Black Pepper", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Geranium", "drops": 6, "terpene": "Floral"},
+          {"name": "Ylang Ylang", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Myrcene-dominant with lemongrass at 35%. Lemon captures the 'lemon zest' perfectly. Black pepper for caryophyllene. Geranium adds tropical, fruity notes matching papaya and melon. Ylang ylang brings exotic sweetness."
+    },
+    {
+      "id": 19,
+      "name": "Tropicanna Cherry",
+      "farm": "Sunrise Gardens",
+      "region": "Mendocino",
+      "intent": "Bright lift with clear, lively edges.",
+      "effects": ["Euphoric", "Cerebral", "Cheerful"],
+      "aroma": ["Sour Cherry", "Sweet Citrus", "Nutmeg"],
+      "totalTerpenes": 1.18,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.37,
+        "Limonene": 0.29,
+        "Linalool": 0.15,
+        "α-Humulene": 0.11
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Sweet Orange", "drops": 10, "terpene": "Limonene"},
+          {"name": "Lavender", "drops": 6, "terpene": "Linalool"},
+          {"name": "Geranium", "drops": 6, "terpene": "Floral"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Clove", "drops": 2, "terpene": "β-Caryophyllene"}
+        ]
+      },
+      "rationale": "Black pepper for the caryophyllene backbone. Sweet orange captures the 'sweet citrus' note. Lavender for linalool softness. Geranium adds cherry-like fruity notes. Sage for humulene depth. Clove echoes the nutmeg warmth."
+    },
+    {
+      "id": 20,
+      "name": "Moonlight",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "intent": "Soft gratitude in a settled body.",
+      "effects": ["Physically Relaxed", "Calm", "Grateful"],
+      "aroma": ["Watermelon Candy", "Citrus Zest", "Earl Grey"],
+      "totalTerpenes": 2.67,
+      "terpeneProfile": {
+        "Myrcene": 0.74,
+        "β-Caryophyllene": 0.51,
+        "Terpinolene": 0.38,
+        "α-Bisabolol": 0.24
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 12, "terpene": "Myrcene"},
+          {"name": "Black Pepper", "drops": 10, "terpene": "β-Caryophyllene"},
+          {"name": "Tea Tree", "drops": 8, "terpene": "Terpinolene"},
+          {"name": "German Chamomile", "drops": 6, "terpene": "α-Bisabolol"},
+          {"name": "Bergamot", "drops": 4, "terpene": "Limonene"}
+        ]
+      },
+      "rationale": "Lemongrass carries the dominant myrcene. Tea tree for terpinolene. German chamomile for bisabolol. Bergamot is the key ingredient in Earl Grey tea, a direct aroma hit that also delivers citrus zest."
+    },
+    {
+      "id": 21,
+      "name": "Natty Bumppo",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "intent": "Loose and easy, happily untethered.",
+      "effects": ["Happy", "Carefree", "Physically Relaxed"],
+      "aroma": ["Kerosene", "Musk", "Sour Plum"],
+      "totalTerpenes": 1.86,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.63,
+        "Limonene": 0.35,
+        "α-Humulene": 0.25,
+        "Myrcene": 0.19
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 14, "terpene": "β-Caryophyllene"},
+          {"name": "Lemon", "drops": 10, "terpene": "Limonene"},
+          {"name": "Sage", "drops": 6, "terpene": "α-Humulene"},
+          {"name": "Lemongrass", "drops": 6, "terpene": "Myrcene"},
+          {"name": "Geranium", "drops": 4, "terpene": "Floral"}
+        ]
+      },
+      "rationale": "Caryophyllene-forward with black pepper as the base. Lemon delivers the limonene. Sage for humulene. Lemongrass for myrcene. Geranium adds sour plum fruitiness. The 'kerosene/musk' character emerges from the terpene interaction itself."
+    },
+    {
+      "id": 22,
+      "name": "Black Lime Chem",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "intent": "Weighted bliss melting toward rest.",
+      "effects": ["Heavy", "Blissful", "Sleepy"],
+      "aroma": ["Sharp Lime", "Rhubarb", "Glue"],
+      "totalTerpenes": 3.08,
+      "terpeneProfile": {
+        "Myrcene": 1.69,
+        "α-Pinene": 0.39,
+        "β-Caryophyllene": 0.27,
+        "β-Ocimene": 0.19
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Lemongrass", "drops": 16, "terpene": "Myrcene"},
+          {"name": "Pine", "drops": 8, "terpene": "α-Pinene"},
+          {"name": "Black Pepper", "drops": 6, "terpene": "β-Caryophyllene"},
+          {"name": "Basil", "drops": 6, "terpene": "β-Ocimene"},
+          {"name": "Lemon", "drops": 4, "terpene": "Limonene"}
+        ]
+      },
+      "rationale": "Heavy myrcene strain, sleepy and blissful. Pine delivers the pinene. Basil covers the ocimene. Lemon for the 'sharp lime' aroma (no lime oil in palette, lemon is close). The 'glue' character is that chem funk that emerges from the terpene combo itself."
+    },
+    {
+      "id": 23,
+      "name": "Pineapple Mojito",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "intent": "Rooted ease with a quiet glow.",
+      "effects": ["Relaxed", "Grounded", "Euphoric"],
+      "aroma": ["Pineapple", "Ginger", "Mint", "Gas"],
+      "totalTerpenes": 2.55,
+      "terpeneProfile": {
+        "β-Caryophyllene": 0.63,
+        "Limonene": 0.56,
+        "α-Bisabolol": 0.24,
+        "α-Humulene": 0.19,
+        "Linalool": 0.16,
+        "α-Pinene": 0.14,
+        "Myrcene": 0.11
+      },
+      "oilRecipe": {
+        "totalDrops": 40,
+        "oils": [
+          {"name": "Black Pepper", "drops": 12, "terpene": "β-Caryophyllene"},
+          {"name": "Sweet Orange", "drops": 10, "terpene": "Limonene"},
+          {"name": "German Chamomile", "drops": 6, "terpene": "α-Bisabolol"},
+          {"name": "Sage", "drops": 4, "terpene": "α-Humulene"},
+          {"name": "Lavender", "drops": 4, "terpene": "Linalool"},
+          {"name": "Pine", "drops": 2, "terpene": "α-Pinene"},
+          {"name": "Lemongrass", "drops": 2, "terpene": "Myrcene"}
+        ]
+      },
+      "rationale": "Caryophyllene and limonene nearly equal, so black pepper and sweet orange share the lead. German chamomile for the significant bisabolol. Sage for humulene. Lavender for linalool. Pine and lemongrass in supporting roles for the pinene and myrcene. Seven-oil blend reflecting the strain's unusually broad terpene diversity. Child of Carambola (already in the collection), inheriting its bisabolol trait."
+    }
+  ]
+}

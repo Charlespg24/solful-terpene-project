@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-01",
+    "description": "Terpene reference database for strain-matched aromatherapy"
+  },
+  "terpenes": {
+    "β-Caryophyllene": {
+      "aliases": ["Beta-Caryophyllene", "BCP", "Caryophyllene"],
+      "category": "Sesquiterpene",
+      "aroma": ["Spicy", "Peppery", "Woody", "Clove"],
+      "effects": ["Anti-inflammatory", "Pain relief", "Anxiety reduction"],
+      "notes": "First terpene proven to selectively activate CB2 cannabinoid receptor (PNAS, 2008). Functions as a dietary cannabinoid.",
+      "essentialOilSources": [
+        {"oil": "Black Pepper", "concentration": "High", "isPrimary": true},
+        {"oil": "Clove", "concentration": "High", "isPrimary": false},
+        {"oil": "Rosemary", "concentration": "Medium", "isPrimary": false},
+        {"oil": "Basil", "concentration": "Low", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "23/23 strains (100%)",
+      "typicalRange": "0.16% - 0.78%"
+    },
+    "Limonene": {
+      "aliases": ["D-Limonene"],
+      "category": "Monoterpene",
+      "aroma": ["Citrus", "Lemon", "Orange", "Fresh"],
+      "effects": ["Mood elevation", "Stress relief", "Energizing"],
+      "notes": "Most common citrus terpene. Rapidly absorbed through inhalation.",
+      "essentialOilSources": [
+        {"oil": "Lemon", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Sweet Orange", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Grapefruit", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Bergamot", "concentration": "High", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "21/23 strains (91%)",
+      "typicalRange": "0.20% - 0.56%"
+    },
+    "Myrcene": {
+      "aliases": ["β-Myrcene", "Beta-Myrcene"],
+      "category": "Monoterpene",
+      "aroma": ["Earthy", "Musky", "Herbal", "Clove-like"],
+      "effects": ["Sedative", "Relaxing", "Muscle relaxant", "Enhances THC absorption"],
+      "notes": "Most abundant terpene in cannabis. Responsible for the 'couch-lock' effect at high concentrations. This is the terpene in mango that gave rise to the 'mango myth'.",
+      "essentialOilSources": [
+        {"oil": "Lemongrass", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Thyme", "concentration": "High", "isPrimary": false},
+        {"oil": "Hops", "concentration": "High", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "22/23 strains (96%)",
+      "typicalRange": "0.11% - 2.22%"
+    },
+    "α-Humulene": {
+      "aliases": ["Alpha-Humulene", "Humulene"],
+      "category": "Sesquiterpene",
+      "aroma": ["Earthy", "Woody", "Herbal", "Spicy"],
+      "effects": ["Anti-inflammatory", "Appetite suppressant", "Antibacterial"],
+      "notes": "Found in hops, giving beer its distinctive aroma. Often co-occurs with caryophyllene.",
+      "essentialOilSources": [
+        {"oil": "Sage", "concentration": "High", "isPrimary": true},
+        {"oil": "Basil", "concentration": "Medium", "isPrimary": false},
+        {"oil": "Black Pepper", "concentration": "Low", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "19/23 strains (83%)",
+      "typicalRange": "0.05% - 0.28%"
+    },
+    "Linalool": {
+      "aliases": [],
+      "category": "Monoterpene alcohol",
+      "aroma": ["Floral", "Lavender", "Sweet", "Citrus"],
+      "effects": ["Calming", "Sedative", "Anti-anxiety", "Analgesic"],
+      "notes": "Key component of lavender. Silexan (standardized lavender oil) shown comparable to paroxetine for generalized anxiety disorder.",
+      "essentialOilSources": [
+        {"oil": "Lavender", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Bergamot", "concentration": "Medium", "isPrimary": false},
+        {"oil": "Geranium", "concentration": "Low", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "9/23 strains (39%)",
+      "typicalRange": "0.07% - 0.16%"
+    },
+    "α-Pinene": {
+      "aliases": ["Alpha-Pinene", "Pinene"],
+      "category": "Monoterpene",
+      "aroma": ["Pine", "Forest", "Fresh", "Sharp"],
+      "effects": ["Alertness", "Memory retention", "Bronchodilator", "Anti-inflammatory"],
+      "notes": "Most common terpene in nature. May counteract some THC-induced memory impairment.",
+      "essentialOilSources": [
+        {"oil": "Pine", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Rosemary", "concentration": "High", "isPrimary": false},
+        {"oil": "Eucalyptus", "concentration": "Medium", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "8/23 strains (35%)",
+      "typicalRange": "0.13% - 0.54%"
+    },
+    "α-Bisabolol": {
+      "aliases": ["Alpha-Bisabolol", "Bisabolol", "Levomenol"],
+      "category": "Sesquiterpene alcohol",
+      "aroma": ["Floral", "Sweet", "Honey", "Chamomile"],
+      "effects": ["Anti-inflammatory", "Skin healing", "Antibacterial", "Calming"],
+      "notes": "Primary active component of German chamomile. Gentle and well-tolerated.",
+      "essentialOilSources": [
+        {"oil": "German Chamomile", "concentration": "Very High", "isPrimary": true},
+        {"oil": "Candeia", "concentration": "High", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "7/23 strains (30%)",
+      "typicalRange": "0.09% - 0.25%"
+    },
+    "β-Ocimene": {
+      "aliases": ["Beta-Ocimene", "Ocimene"],
+      "category": "Monoterpene",
+      "aroma": ["Sweet", "Herbal", "Woody", "Citrus"],
+      "effects": ["Uplifting", "Antiviral", "Antifungal", "Decongestant"],
+      "notes": "Less common in cannabis. Contributes to sweet, fresh character. Found in basil and orchids.",
+      "essentialOilSources": [
+        {"oil": "Basil", "concentration": "High", "isPrimary": true},
+        {"oil": "Lavender", "concentration": "Low", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "4/23 strains (17%)",
+      "typicalRange": "0.17% - 0.71%"
+    },
+    "Terpinolene": {
+      "aliases": [],
+      "category": "Monoterpene",
+      "aroma": ["Floral", "Herbal", "Pine", "Citrus"],
+      "effects": ["Uplifting", "Sedative (in higher doses)", "Antioxidant"],
+      "notes": "Relatively rare as a dominant terpene. Found in tea tree, nutmeg, and apples.",
+      "essentialOilSources": [
+        {"oil": "Tea Tree", "concentration": "High", "isPrimary": true},
+        {"oil": "Nutmeg", "concentration": "Medium", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "2/23 strains (9%)",
+      "typicalRange": "0.28% - 0.38%"
+    },
+    "trans-β-Farnesene": {
+      "aliases": ["Farnesene", "Beta-Farnesene"],
+      "category": "Sesquiterpene",
+      "aroma": ["Green apple", "Woody", "Floral"],
+      "effects": ["Calming", "Anti-inflammatory", "Antibacterial"],
+      "notes": "Found in green apple skin and ylang ylang. Relatively rare in cannabis.",
+      "essentialOilSources": [
+        {"oil": "Ylang Ylang", "concentration": "Medium", "isPrimary": true},
+        {"oil": "German Chamomile", "concentration": "Low", "isPrimary": false}
+      ],
+      "prevalenceInCollection": "1/23 strains (4%)",
+      "typicalRange": "0.14%"
+    }
+  }
+}

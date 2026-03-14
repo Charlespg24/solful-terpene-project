@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pink Rider — Terpene Beverage Recipes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --bg: #0C0C0C;
+    --bg-card: #141210;
+    --bg-surface: #1A1816;
+    --bg-highlight: #1E1C18;
+    --border: #2A2622;
+    --border-light: #1E1C1A;
+    --text: #F5F0E8;
+    --text-sec: #9B9185;
+    --text-muted: #6B6560;
+    --gold: #C8A97E;
+    --gold-dim: rgba(200,169,126,0.12);
+    --sage: #7C9082;
+    --sage-dim: rgba(124,144,130,0.10);
+    --rose: #B07A7A;
+    --rose-dim: rgba(176,122,122,0.10);
+    --lime: #A8B85C;
+    --lime-dim: rgba(168,184,92,0.10);
+    --sky: #7A9EB0;
+    --sky-dim: rgba(122,158,176,0.10);
+    --amber: #C89A5C;
+    --amber-dim: rgba(200,154,92,0.10);
+    --terpinolene: #8EAE68;
+    --caryophyllene: #C8A97E;
+    --ocimene: #7CB888;
+    --limonene: #D4C85C;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    padding: 60px 0 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+
+  .header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  .header h1 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+
+  .header .intent {
+    font-size: 18px;
+    color: var(--text-sec);
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+
+  .header .farm {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+  }
+
+  /* PROFILE BAR */
+  .profile-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .profile-cell {
+    background: var(--bg-card);
+    padding: 20px 24px;
+    text-align: center;
+  }
+
+  .profile-cell .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .profile-cell .value {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* TERPENE BREAKDOWN */
+  .terpene-section {
+    margin-bottom: 48px;
+  }
+
+  .terpene-section h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  .terpene-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .terp-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .terp-name {
+    font-size: 13px;
+    color: var(--text-sec);
+    min-width: 140px;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  .terp-bar-bg {
+    flex: 1;
+    height: 28px;
+    background: var(--bg-surface);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .terp-bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: rgba(0,0,0,0.7);
+    font-weight: 500;
+    transition: width 1s ease;
+  }
+
+  .terp-pct {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    min-width: 48px;
+  }
+
+  /* OIL BRIDGE */
+  .oil-bridge {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 48px;
+    padding: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .oil-bridge-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .oil-tag {
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    color: var(--text-sec);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .oil-tag .arrow {
+    color: var(--text-muted);
+    font-size: 10px;
+  }
+
+  .oil-tag .food {
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  /* NAVIGATION */
+  .nav {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 32px;
+    padding: 4px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow-x: auto;
+  }
+
+  .nav-btn {
+    flex: 1;
+    padding: 12px 16px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .nav-btn:hover {
+    color: var(--text-sec);
+    background: var(--bg-surface);
+  }
+
+  .nav-btn.active {
+    background: var(--bg-highlight);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+
+  .nav-btn .emoji {
+    margin-right: 4px;
+    font-size: 15px;
+  }
+
+  /* RECIPE CARD */
+  .recipe-card {
+    display: none;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease;
+  }
+
+  .recipe-card.active {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .recipe-header {
+    padding: 32px 32px 24px;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .recipe-category {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .recipe-name {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .recipe-tagline {
+    font-size: 15px;
+    color: var(--text-sec);
+    font-style: italic;
+  }
+
+  .recipe-meta {
+    display: flex;
+    gap: 24px;
+    padding: 16px 32px;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .meta-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .meta-value {
+    font-size: 13px;
+    color: var(--text-sec);
+    font-weight: 500;
+  }
+
+  /* INGREDIENTS TABLE */
+  .recipe-body {
+    padding: 28px 32px;
+  }
+
+  .section-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .ingredient-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 32px;
+  }
+
+  .ingredient-row {
+    display: grid;
+    grid-template-columns: 80px 1fr 100px;
+    gap: 16px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    align-items: center;
+  }
+
+  .ingredient-row:nth-child(odd) {
+    background: var(--bg-surface);
+  }
+
+  .ing-layer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .ing-name {
+    font-size: 14px;
+    color: var(--text);
+  }
+
+  .ing-amount {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-sec);
+    text-align: right;
+  }
+
+  .terpene-tag {
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+    font-weight: 500;
+  }
+
+  .tag-terpinolene { background: rgba(142,174,104,0.15); color: #8EAE68; }
+  .tag-caryophyllene { background: rgba(200,169,126,0.15); color: #C8A97E; }
+  .tag-ocimene { background: rgba(124,184,136,0.15); color: #7CB888; }
+  .tag-limonene { background: rgba(212,200,92,0.15); color: #D4C85C; }
+  .tag-aroma { background: rgba(176,122,122,0.12); color: #B07A7A; }
+  .tag-functional { background: rgba(122,158,176,0.12); color: #7A9EB0; }
+
+  /* SYRUP RECIPE */
+  .syrup-note {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 28px;
+    font-size: 13px;
+    color: var(--text-sec);
+    line-height: 1.7;
+  }
+
+  .syrup-note strong {
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  /* METHOD */
+  .method-text {
+    font-size: 14px;
+    color: var(--text-sec);
+    line-height: 1.8;
+    margin-bottom: 28px;
+  }
+
+  .method-text .step {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* WHY IT WORKS */
+  .rationale {
+    background: var(--gold-dim);
+    border: 1px solid rgba(200,169,126,0.2);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .rationale-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .rationale-text {
+    font-size: 14px;
+    color: var(--text-sec);
+    line-height: 1.8;
+  }
+
+  .rationale-text strong {
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* TERPENE MAP */
+  .terp-map {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .terp-map-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+  }
+
+  .terp-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .terp-map-label {
+    color: var(--text-sec);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .terp-map-ing {
+    color: var(--text);
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  /* BATCH BLEND */
+  .batch-section {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-light);
+  }
+
+  .batch-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .batch-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+    background: var(--bg-surface);
+    border-radius: 6px;
+    font-size: 13px;
+  }
+
+  .batch-item .name { color: var(--text-sec); }
+  .batch-item .amt {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  /* PROCESS DISPLAY */
+  .process-section {
+    margin-bottom: 48px;
+    padding: 24px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .process-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .process-step {
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 12px;
+    align-items: start;
+  }
+
+  .step-num {
+    width: 28px;
+    height: 28px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+
+  .step-num.done {
+    background: var(--gold-dim);
+    border-color: rgba(200,169,126,0.3);
+    color: var(--gold);
+  }
+
+  .step-content {
+    padding-top: 4px;
+  }
+
+  .step-label {
+    font-size: 13px;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .step-detail {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding-top: 48px;
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+  }
+
+  .footer p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 640px) {
+    .header h1 { font-size: 36px; }
+    .recipe-name { font-size: 26px; }
+    .profile-bar { grid-template-columns: 1fr; }
+    .recipe-meta { flex-direction: column; gap: 8px; }
+    .ingredient-row { grid-template-columns: 70px 1fr 80px; gap: 8px; }
+    .recipe-header, .recipe-body { padding-left: 20px; padding-right: 20px; }
+    .recipe-meta { padding-left: 20px; padding-right: 20px; }
+    .batch-grid { grid-template-columns: 1fr; }
+    .nav { gap: 2px; }
+    .nav-btn { padding: 10px 8px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-label">Terpene Beverage Recipes</div>
+    <h1>Pink Rider</h1>
+    <div class="intent">Bright momentum with creative spark.</div>
+    <div class="farm">Greenshock Farms, Mendocino &mdash; Pretty in Pink &times; Tropical Sleigh Ride</div>
+  </div>
+
+  <!-- PROFILE BAR -->
+  <div class="profile-bar">
+    <div class="profile-cell">
+      <div class="label">Effects</div>
+      <div class="value">Energized &middot; Motivated &middot; Creative</div>
+    </div>
+    <div class="profile-cell">
+      <div class="label">Aroma Targets</div>
+      <div class="value">Honeydew Melon &middot; Key Lime &middot; Spearmint</div>
+    </div>
+    <div class="profile-cell">
+      <div class="label">Energy Tier</div>
+      <div class="value" style="color: var(--lime);">&#9650; HIGH</div>
+    </div>
+  </div>
+
+  <!-- TERPENE BREAKDOWN -->
+  <div class="terpene-section">
+    <h3>Terpene Profile &mdash; Proportional Ratios</h3>
+    <div class="terpene-bars">
+      <div class="terp-row">
+        <div class="terp-name">Terpinolene</div>
+        <div class="terp-bar-bg">
+          <div class="terp-bar-fill" style="width:49%; background: var(--terpinolene);">49%</div>
+        </div>
+        <div class="terp-pct">0.67%</div>
+      </div>
+      <div class="terp-row">
+        <div class="terp-name">&beta;-Caryophyllene</div>
+        <div class="terp-bar-bg">
+          <div class="terp-bar-fill" style="width:22%; background: var(--caryophyllene);">22%</div>
+        </div>
+        <div class="terp-pct">0.30%</div>
+      </div>
+      <div class="terp-row">
+        <div class="terp-name">&beta;-Ocimene</div>
+        <div class="terp-bar-bg">
+          <div class="terp-bar-fill" style="width:15%; background: var(--ocimene);">15%</div>
+        </div>
+        <div class="terp-pct">0.20%</div>
+      </div>
+      <div class="terp-row">
+        <div class="terp-name">Limonene</div>
+        <div class="terp-bar-bg">
+          <div class="terp-bar-fill" style="width:15%; background: var(--limonene);">15%</div>
+        </div>
+        <div class="terp-pct">0.20%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OIL BRIDGE -->
+  <div class="oil-bridge">
+    <div class="oil-bridge-label">Essential Oil &rarr; Food Translation</div>
+    <div class="oil-tag">Tea Tree <span class="arrow">&rarr;</span> <span class="food">Green Apple, Marjoram</span></div>
+    <div class="oil-tag">Black Pepper <span class="arrow">&rarr;</span> <span class="food">Cracked Pepper, Cinnamon</span></div>
+    <div class="oil-tag">Basil <span class="arrow">&rarr;</span> <span class="food">Fresh Basil</span></div>
+    <div class="oil-tag">Lemon <span class="arrow">&rarr;</span> <span class="food">Key Lime</span></div>
+    <div class="oil-tag">Peppermint <span class="arrow">&rarr;</span> <span class="food">Spearmint</span></div>
+    <div class="oil-tag">Geranium <span class="arrow">&rarr;</span> <span class="food">Honeydew Melon</span></div>
+  </div>
+
+  <!-- FRAMEWORK PROCESS -->
+  <div class="process-section">
+    <div class="process-title">Framework Process — Executed</div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num done">1</div>
+        <div class="step-content">
+          <div class="step-label">Parse Card</div>
+          <div class="step-detail">Extracted 4 terpenes, 3 aroma targets, 3 effects, 6-oil recipe</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num done">2</div>
+        <div class="step-content">
+          <div class="step-label">Calculate Ratios</div>
+          <div class="step-detail">Named total 1.37% &rarr; Terpinolene 49% | Caryophyllene 22% | Ocimene 15% | Limonene 15%</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num done">3</div>
+        <div class="step-content">
+          <div class="step-label">Map Terpenes &rarr; Ingredients</div>
+          <div class="step-detail">Tea Tree &rarr; green apple + marjoram &bull; Black Pepper &rarr; cracked pepper &bull; Basil &rarr; fresh basil &bull; Lemon &rarr; key lime &bull; Peppermint &rarr; spearmint &bull; Geranium &rarr; honeydew</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num done">4</div>
+        <div class="step-content">
+          <div class="step-label">Apply Category Architecture</div>
+          <div class="step-detail">5 recipes generated: mocktail, cocktail, juice, herbal tea, wellness shot</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num done">5</div>
+        <div class="step-content">
+          <div class="step-label">Tune by Vibe</div>
+          <div class="step-detail">HIGH energy &rarr; carbonated, cold, tart-forward, light body &bull; Creative Flow vibe adjustments applied</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <div class="nav" id="nav">
+    <button class="nav-btn active" onclick="showRecipe('mocktail')"><span class="emoji">&#127865;</span>Mocktail</button>
+    <button class="nav-btn" onclick="showRecipe('cocktail')"><span class="emoji">&#127864;</span>Cocktail</button>
+    <button class="nav-btn" onclick="showRecipe('juice')"><span class="emoji">&#129380;</span>Juice</button>
+    <button class="nav-btn" onclick="showRecipe('tea')"><span class="emoji">&#127861;</span>Herbal Tea</button>
+    <button class="nav-btn" onclick="showRecipe('shot')"><span class="emoji">&#128138;</span>Wellness Shot</button>
+  </div>
+
+  <!-- ==================== MOCKTAIL ==================== -->
+  <div class="recipe-card active" id="mocktail">
+    <div class="recipe-header">
+      <div class="recipe-category" style="color: var(--sage);">&#127865; Mocktail</div>
+      <div class="recipe-name">Bright Momentum</div>
+      <div class="recipe-tagline">The first sip that wakes up the room.</div>
+    </div>
+    <div class="recipe-meta">
+      <div class="meta-item"><span class="meta-label">Glass</span><span class="meta-value">Highball, over ice</span></div>
+      <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">~10 oz</span></div>
+      <div class="meta-item"><span class="meta-label">Method</span><span class="meta-value">Shaken &amp; built</span></div>
+      <div class="meta-item"><span class="meta-label">Temp</span><span class="meta-value">Ice cold</span></div>
+    </div>
+    <div class="recipe-body">
+      <div class="section-title">Ingredients</div>
+      <div class="ingredient-list">
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Base</div>
+          <div class="ing-name">Fresh green apple juice <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">3 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--sky);">Body</div>
+          <div class="ing-name">Sparkling water <span class="terpene-tag tag-functional">Carbonation</span></div>
+          <div class="ing-amount">3 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--limonene);">Accent</div>
+          <div class="ing-name">Fresh key lime juice <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">0.75 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--rose);">Accent</div>
+          <div class="ing-name">Honeydew melon puree <span class="terpene-tag tag-aroma">Aroma Target</span></div>
+          <div class="ing-amount">1 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--caryophyllene);">Modifier</div>
+          <div class="ing-name">Basil&ndash;black pepper syrup <span class="terpene-tag tag-ocimene">Ocimene</span> <span class="terpene-tag tag-caryophyllene">Caryo</span></div>
+          <div class="ing-amount">0.5 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--text-muted);">Modifier</div>
+          <div class="ing-name">Lemon bitters <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">2 dashes</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--text-muted);">Garnish</div>
+          <div class="ing-name">Spearmint sprig + apple slice + cracked pepper</div>
+          <div class="ing-amount">&mdash;</div>
+        </div>
+      </div>
+
+      <div class="syrup-note">
+        <strong>Basil&ndash;Black Pepper Syrup:</strong> Combine 1 cup sugar and 1 cup water over medium heat. Once dissolved, remove from heat. Add 10 bruised basil leaves and 1 tsp cracked black pepper. Steep 20 minutes. Fine strain into a jar. Keeps refrigerated 2 weeks.
+      </div>
+
+      <div class="section-title">Method</div>
+      <div class="method-text">
+        <span class="step">1.</span> Add honeydew puree, key lime juice, and syrup to a shaker with ice. Shake briefly (5 seconds&mdash;just to chill and integrate).
+        <span class="step">2.</span> Strain into an ice-filled highball glass.
+        <span class="step">3.</span> Pour green apple juice over ice.
+        <span class="step">4.</span> Top slowly with sparkling water.
+        <span class="step">5.</span> Add lemon bitters.
+        <span class="step">6.</span> Garnish: press spearmint sprig against the inside wall of the glass, rest a thin green apple slice on the rim, and finish with 2&ndash;3 cracks of fresh black pepper over the surface.
+      </div>
+
+      <div class="rationale">
+        <div class="rationale-title">Why It Works</div>
+        <div class="rationale-text">
+          <strong>Green apple juice</strong> carries the dominant terpinolene (49% of profile) as the base.
+          <strong>Key lime</strong> delivers limonene and directly mirrors the "Key Lime" aroma descriptor.
+          <strong>Honeydew puree</strong> hits the "Honeydew Melon" aroma target.
+          <strong>Basil</strong> in the syrup carries &beta;-ocimene; <strong>black pepper</strong> in the syrup carries &beta;-caryophyllene&mdash;dual terpene delivery in a single modifier.
+          <strong>Spearmint</strong> garnish delivers the "Hint of Spearmint" note and adds ocimene.
+          Full carbonation and tart-forward balance reflect the HIGH energy classification.
+        </div>
+        <div class="terp-map">
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--terpinolene)"></span><span class="terp-map-label">Terpinolene</span><span class="terp-map-ing">&larr; Apple</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--caryophyllene)"></span><span class="terp-map-label">Caryo</span><span class="terp-map-ing">&larr; Pepper</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--ocimene)"></span><span class="terp-map-label">Ocimene</span><span class="terp-map-ing">&larr; Basil</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--limonene)"></span><span class="terp-map-label">Limonene</span><span class="terp-map-ing">&larr; Lime</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== COCKTAIL ==================== -->
+  <div class="recipe-card" id="cocktail">
+    <div class="recipe-header">
+      <div class="recipe-category" style="color: var(--gold);">&#127864; Cocktail</div>
+      <div class="recipe-name">Creative Spark</div>
+      <div class="recipe-tagline">The drink that makes you want to make things.</div>
+    </div>
+    <div class="recipe-meta">
+      <div class="meta-item"><span class="meta-label">Glass</span><span class="meta-value">Coupe, up</span></div>
+      <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">~5 oz</span></div>
+      <div class="meta-item"><span class="meta-label">Style</span><span class="meta-value">Gin Sour variant</span></div>
+      <div class="meta-item"><span class="meta-label">ABV</span><span class="meta-value">~18%</span></div>
+    </div>
+    <div class="recipe-body">
+      <div class="section-title">Ingredients</div>
+      <div class="ingredient-list">
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--gold);">Spirit</div>
+          <div class="ing-name">London Dry Gin <span class="terpene-tag tag-limonene">Limonene</span> <span class="terpene-tag tag-terpinolene">Pinene</span></div>
+          <div class="ing-amount">2 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--limonene);">Citrus</div>
+          <div class="ing-name">Fresh key lime juice <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">0.75 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Sweetener</div>
+          <div class="ing-name">Green apple&ndash;marjoram syrup <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">0.75 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--sky);">Texture</div>
+          <div class="ing-name">Aquafaba <span class="terpene-tag tag-functional">Foam</span></div>
+          <div class="ing-amount">0.5 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--caryophyllene);">Modifier</div>
+          <div class="ing-name">Cracked black pepper (in shaker) <span class="terpene-tag tag-caryophyllene">Caryo</span></div>
+          <div class="ing-amount">3 cracks</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--ocimene);">Modifier</div>
+          <div class="ing-name">Fresh basil leaves (muddled) <span class="terpene-tag tag-ocimene">Ocimene</span></div>
+          <div class="ing-amount">2 leaves</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--text-muted);">Garnish</div>
+          <div class="ing-name">Expressed lime zest + basil leaf + pepper crack</div>
+          <div class="ing-amount">&mdash;</div>
+        </div>
+      </div>
+
+      <div class="syrup-note">
+        <strong>Green Apple&ndash;Marjoram Syrup:</strong> Combine 1 cup fresh green apple juice with 1 cup sugar. Stir cold until dissolved. Add 4 sprigs fresh marjoram. Steep 2 hours in the refrigerator. Fine strain. Keeps 10 days refrigerated. Cold method preserves volatile terpinolene.
+      </div>
+
+      <div class="section-title">Method</div>
+      <div class="method-text">
+        <span class="step">1.</span> Gently muddle 2 basil leaves with 3 cracks of black pepper in the base of a shaker.
+        <span class="step">2.</span> Add gin, key lime juice, apple-marjoram syrup, and aquafaba.
+        <span class="step">3.</span> Dry shake vigorously for 15 seconds (no ice&mdash;builds the foam).
+        <span class="step">4.</span> Add ice and shake hard for 12 seconds.
+        <span class="step">5.</span> Double-strain through a fine mesh into a chilled coupe.
+        <span class="step">6.</span> Express a key lime zest twist over the surface and discard. Float a single basil leaf. Finish with one dramatic crack of pepper from height.
+      </div>
+
+      <div class="rationale">
+        <div class="rationale-title">Why It Works</div>
+        <div class="rationale-text">
+          <strong>Gin</strong>&rsquo;s juniper and botanical distillation provides a natural terpene platform (pinene + limonene) that harmonizes with the strain&rsquo;s profile.
+          <strong>Green apple&ndash;marjoram syrup</strong> delivers terpinolene as the dominant flavor layer (49%).
+          <strong>Key lime</strong> carries limonene (15%) and directly mirrors the aroma target.
+          <strong>Muddled basil</strong> releases &beta;-ocimene (15%).
+          <strong>Cracked pepper</strong> delivers &beta;-caryophyllene (22%) into the liquid and the aroma.
+          The coupe presentation and aquafaba foam create the "elevated creative energy" that matches the strain&rsquo;s intent: bright momentum with creative spark.
+        </div>
+        <div class="terp-map">
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--terpinolene)"></span><span class="terp-map-label">Terpinolene</span><span class="terp-map-ing">&larr; Apple-Marjoram</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--caryophyllene)"></span><span class="terp-map-label">Caryo</span><span class="terp-map-ing">&larr; Black Pepper</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--ocimene)"></span><span class="terp-map-label">Ocimene</span><span class="terp-map-ing">&larr; Basil</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--limonene)"></span><span class="terp-map-label">Limonene</span><span class="terp-map-ing">&larr; Lime + Gin</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== JUICE ==================== -->
+  <div class="recipe-card" id="juice">
+    <div class="recipe-header">
+      <div class="recipe-category" style="color: var(--lime);">&#129380; Fresh Juice</div>
+      <div class="recipe-name">Morning Momentum</div>
+      <div class="recipe-tagline">The green juice that actually tastes like something you'd choose.</div>
+    </div>
+    <div class="recipe-meta">
+      <div class="meta-item"><span class="meta-label">Format</span><span class="meta-value">Cold-pressed</span></div>
+      <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">~14 oz</span></div>
+      <div class="meta-item"><span class="meta-label">Temp</span><span class="meta-value">Cold / over ice</span></div>
+      <div class="meta-item"><span class="meta-label">Best</span><span class="meta-value">Morning / Pre-work</span></div>
+    </div>
+    <div class="recipe-body">
+      <div class="section-title">Ingredients</div>
+      <div class="ingredient-list">
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Primary</div>
+          <div class="ing-name">Green apple (whole) <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">2 medium</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--rose);">Primary</div>
+          <div class="ing-name">Honeydew melon (cubed) <span class="terpene-tag tag-aroma">Aroma Target</span></div>
+          <div class="ing-amount">1 cup</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--sky);">Secondary</div>
+          <div class="ing-name">Cucumber <span class="terpene-tag tag-functional">Cooling</span></div>
+          <div class="ing-amount">&frac12; medium</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--limonene);">Citrus</div>
+          <div class="ing-name">Key lime (whole, juiced) <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">1 whole</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--ocimene);">Herb</div>
+          <div class="ing-name">Fresh basil leaves <span class="terpene-tag tag-ocimene">Ocimene</span></div>
+          <div class="ing-amount">6&ndash;8 leaves</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--ocimene);">Herb</div>
+          <div class="ing-name">Fresh spearmint <span class="terpene-tag tag-aroma">Aroma Target</span></div>
+          <div class="ing-amount">4&ndash;5 leaves</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--amber);">Functional</div>
+          <div class="ing-name">Fresh ginger root <span class="terpene-tag tag-functional">Warming</span></div>
+          <div class="ing-amount">&frac12; inch knob</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--caryophyllene);">Spike</div>
+          <div class="ing-name">Cracked black pepper <span class="terpene-tag tag-caryophyllene">Caryo</span></div>
+          <div class="ing-amount">Pinch</div>
+        </div>
+      </div>
+
+      <div class="section-title">Method</div>
+      <div class="method-text">
+        <span class="step">1.</span> Run through a cold-press juicer in this order: cucumber first (primes the press), then honeydew, then apple, then basil and spearmint together, then ginger, then lime last (its acidity cleans the press).
+        <span class="step">2.</span> Pour into a glass. Stir in a pinch of cracked black pepper.
+        <span class="step">3.</span> Serve immediately over ice, or cap and refrigerate (consume within 4 hours for maximum terpene potency).
+      </div>
+
+      <div class="rationale">
+        <div class="rationale-title">Why It Works</div>
+        <div class="rationale-text">
+          <strong>Green apple</strong> forms the terpinolene-dominant base (49% of profile). <strong>Honeydew</strong> directly delivers the "Honeydew Melon" aroma note and adds approachable sweetness. <strong>Basil</strong> carries &beta;-ocimene (15%). <strong>Key lime</strong> carries limonene (15%) and mirrors the "Key Lime" aroma descriptor. <strong>Black pepper</strong>&mdash;even a pinch&mdash;delivers meaningful &beta;-caryophyllene for CB2 receptor activation. <strong>Spearmint</strong> hits the "Hint of Spearmint" aroma target. <strong>Cucumber</strong> bridges the melon note and adds hydration. Cold-pressed format preserves maximum volatile terpenes. The juice format (vs. smoothie) matches the HIGH energy tier&mdash;light, clean, and fast-absorbing.
+        </div>
+        <div class="terp-map">
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--terpinolene)"></span><span class="terp-map-label">Terpinolene</span><span class="terp-map-ing">&larr; Apple</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--caryophyllene)"></span><span class="terp-map-label">Caryo</span><span class="terp-map-ing">&larr; Black Pepper</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--ocimene)"></span><span class="terp-map-label">Ocimene</span><span class="terp-map-ing">&larr; Basil + Mint</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--limonene)"></span><span class="terp-map-label">Limonene</span><span class="terp-map-ing">&larr; Key Lime</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TEA ==================== -->
+  <div class="recipe-card" id="tea">
+    <div class="recipe-header">
+      <div class="recipe-category" style="color: var(--sage);">&#127861; Herbal Tea Blend</div>
+      <div class="recipe-name">The Spark Steep</div>
+      <div class="recipe-tagline">The tea you brew before opening a blank page.</div>
+    </div>
+    <div class="recipe-meta">
+      <div class="meta-item"><span class="meta-label">Format</span><span class="meta-value">Hot or iced</span></div>
+      <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">~10 oz per cup</span></div>
+      <div class="meta-item"><span class="meta-label">Steep</span><span class="meta-value">175&deg;F / 3 min</span></div>
+      <div class="meta-item"><span class="meta-label">Caffeine</span><span class="meta-value">Light (green tea)</span></div>
+    </div>
+    <div class="recipe-body">
+      <div class="section-title">Ingredients &mdash; Per Cup</div>
+      <div class="ingredient-list">
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--sage);">Base</div>
+          <div class="ing-name">Green tea (sencha or dragonwell) <span class="terpene-tag tag-functional">L-Theanine</span></div>
+          <div class="ing-amount">1 tsp</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Primary</div>
+          <div class="ing-name">Dried marjoram <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">1 tsp</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--ocimene);">Secondary</div>
+          <div class="ing-name">Dried spearmint <span class="terpene-tag tag-ocimene">Ocimene</span></div>
+          <div class="ing-amount">&frac12; tsp</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--caryophyllene);">Accent</div>
+          <div class="ing-name">Cracked black peppercorns <span class="terpene-tag tag-caryophyllene">Caryo</span></div>
+          <div class="ing-amount">3&ndash;4 corns</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--limonene);">Accent</div>
+          <div class="ing-name">Dried key lime zest <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">2 strips</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Accent</div>
+          <div class="ing-name">Freshly grated nutmeg <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">&frac14; tsp</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--text-muted);">Sweetener</div>
+          <div class="ing-name">Tea tree honey or raw honey</div>
+          <div class="ing-amount">To taste</div>
+        </div>
+      </div>
+
+      <div class="section-title">Method &mdash; Hot</div>
+      <div class="method-text">
+        <span class="step">1.</span> Combine marjoram, spearmint, peppercorns, lime zest, and nutmeg in a tea infuser or French press.
+        <span class="step">2.</span> Add green tea.
+        <span class="step">3.</span> Pour 175&deg;F water (not boiling&mdash;protects volatile terpenes and prevents bitterness).
+        <span class="step">4.</span> Steep exactly 3 minutes. Remove infuser or press.
+        <span class="step">5.</span> Add honey to taste. Sip slowly.
+      </div>
+
+      <div class="section-title">Method &mdash; Iced</div>
+      <div class="method-text">
+        Brew hot using <strong>double concentration</strong> (double all herb amounts, same water). Steep 3 minutes. Strain directly into a glass packed with ice. Add 2 oz cold water. Stir. Garnish with a fresh spearmint sprig.
+      </div>
+
+      <div class="batch-section">
+        <div class="section-title">Batch Blend &mdash; Makes ~10 Cups</div>
+        <div class="batch-grid">
+          <div class="batch-item"><span class="name">Dried marjoram</span><span class="amt">3 tbsp</span></div>
+          <div class="batch-item"><span class="name">Green tea</span><span class="amt">3 tbsp</span></div>
+          <div class="batch-item"><span class="name">Dried spearmint</span><span class="amt">1.5 tbsp</span></div>
+          <div class="batch-item"><span class="name">Dried lime zest</span><span class="amt">2 tsp</span></div>
+          <div class="batch-item"><span class="name">Cracked peppercorns</span><span class="amt">1 tsp</span></div>
+          <div class="batch-item"><span class="name">Fresh grated nutmeg</span><span class="amt">1 tsp</span></div>
+        </div>
+        <div class="method-text" style="margin-top: 12px; font-size: 12px; color: var(--text-muted);">
+          Store in an airtight jar away from light and heat. Use ~1.5 tbsp per cup. Keeps 2&ndash;3 months.
+        </div>
+      </div>
+
+      <div class="rationale" style="margin-top: 28px;">
+        <div class="rationale-title">Why It Works</div>
+        <div class="rationale-text">
+          <strong>Marjoram</strong> is the primary terpinolene-carrier herb&mdash;it&rsquo;s the tea tree equivalent for beverages, delivering the dominant terpene (49%) in an infusible format.
+          <strong>Green tea</strong> provides clean caffeine + L-theanine, matching the HIGH energy tier without jitter.
+          <strong>Spearmint</strong> delivers the "Hint of Spearmint" aroma target and adds &beta;-ocimene.
+          <strong>Cracked peppercorns</strong> steep gently to release &beta;-caryophyllene without overwhelming the blend.
+          <strong>Lime zest</strong> carries limonene in its essential oils (60&ndash;95% of citrus rind oil is limonene).
+          <strong>Nutmeg</strong> provides a second terpinolene source, adding warm complexity.
+          The 175&deg;F water and 3-minute steep preserve volatile terpenes while extracting full flavor.
+        </div>
+        <div class="terp-map">
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--terpinolene)"></span><span class="terp-map-label">Terpinolene</span><span class="terp-map-ing">&larr; Marjoram + Nutmeg</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--caryophyllene)"></span><span class="terp-map-label">Caryo</span><span class="terp-map-ing">&larr; Peppercorns</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--ocimene)"></span><span class="terp-map-label">Ocimene</span><span class="terp-map-ing">&larr; Spearmint</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--limonene)"></span><span class="terp-map-label">Limonene</span><span class="terp-map-ing">&larr; Lime Zest</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== WELLNESS SHOT ==================== -->
+  <div class="recipe-card" id="shot">
+    <div class="recipe-header">
+      <div class="recipe-category" style="color: var(--amber);">&#128138; Wellness Shot</div>
+      <div class="recipe-name">Ignition</div>
+      <div class="recipe-tagline">Concentrated creative rocket fuel. Pre-everything.</div>
+    </div>
+    <div class="recipe-meta">
+      <div class="meta-item"><span class="meta-label">Format</span><span class="meta-value">Shoot it</span></div>
+      <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">~2.5 oz</span></div>
+      <div class="meta-item"><span class="meta-label">Temp</span><span class="meta-value">Room temp</span></div>
+      <div class="meta-item"><span class="meta-label">Best</span><span class="meta-value">Pre-workout / Pre-meeting</span></div>
+    </div>
+    <div class="recipe-body">
+      <div class="section-title">Ingredients</div>
+      <div class="ingredient-list">
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Base</div>
+          <div class="ing-name">Cold-pressed green apple juice <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">1.5 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--limonene);">Citrus</div>
+          <div class="ing-name">Fresh key lime juice <span class="terpene-tag tag-limonene">Limonene</span></div>
+          <div class="ing-amount">0.5 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--amber);">Functional</div>
+          <div class="ing-name">Fresh ginger (grated &amp; pressed) <span class="terpene-tag tag-functional">Thermogenic</span></div>
+          <div class="ing-amount">0.25 oz</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--ocimene);">Spike</div>
+          <div class="ing-name">Fresh basil leaves (muddled) <span class="terpene-tag tag-ocimene">Ocimene</span></div>
+          <div class="ing-amount">4&ndash;5 leaves</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--caryophyllene);">Spike</div>
+          <div class="ing-name">Freshly cracked black pepper <span class="terpene-tag tag-caryophyllene">Caryo + Piperine</span></div>
+          <div class="ing-amount">Pinch</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--terpinolene);">Spike</div>
+          <div class="ing-name">Freshly grated nutmeg <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">Pinch</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--sky);">Absorb</div>
+          <div class="ing-name">MCT oil <span class="terpene-tag tag-functional">Fat-soluble uptake</span></div>
+          <div class="ing-amount">&frac12; tsp</div>
+        </div>
+        <div class="ingredient-row">
+          <div class="ing-layer" style="color: var(--text-muted);">Sweet</div>
+          <div class="ing-name">Tea tree honey <span class="terpene-tag tag-terpinolene">Terpinolene</span></div>
+          <div class="ing-amount">&frac12; tsp</div>
+        </div>
+      </div>
+
+      <div class="section-title">Method</div>
+      <div class="method-text">
+        <span class="step">1.</span> Muddle basil leaves in a shot glass or small cup.
+        <span class="step">2.</span> Add apple juice, key lime juice, and pressed ginger.
+        <span class="step">3.</span> Add pepper, nutmeg, MCT oil, and honey.
+        <span class="step">4.</span> Stir vigorously for 10 seconds (or cap a small jar and shake).
+        <span class="step">5.</span> Shoot it. Chase with water if you want. Go do the thing.
+      </div>
+
+      <div class="rationale">
+        <div class="rationale-title">Why It Works</div>
+        <div class="rationale-text">
+          Maximum terpene concentration in minimum volume&mdash;every ingredient has a job.
+          <strong>Green apple</strong> delivers terpinolene base. <strong>Key lime</strong> delivers limonene. <strong>Basil</strong> delivers &beta;-ocimene. <strong>Black pepper</strong> delivers &beta;-caryophyllene for CB2 receptor activation <em>plus</em> piperine, which increases bioavailability of fat-soluble compounds by up to 2000%.
+          <strong>MCT oil</strong> ensures lipophilic terpene molecules cross cell membranes efficiently&mdash;terpenes are fat-soluble, so fat dramatically amplifies absorption.
+          <strong>Nutmeg</strong> and <strong>tea tree honey</strong> add secondary terpinolene layers.
+          <strong>Ginger</strong> adds thermogenic warmth and anti-inflammatory support.
+          Room temperature serving preserves aromatic perception (cold numbs taste receptors).
+        </div>
+        <div class="terp-map">
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--terpinolene)"></span><span class="terp-map-label">Terpinolene</span><span class="terp-map-ing">&larr; Apple + Nutmeg + Honey</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--caryophyllene)"></span><span class="terp-map-label">Caryo</span><span class="terp-map-ing">&larr; Black Pepper</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--ocimene)"></span><span class="terp-map-label">Ocimene</span><span class="terp-map-ing">&larr; Basil</span></div>
+          <div class="terp-map-item"><span class="terp-dot" style="background:var(--limonene)"></span><span class="terp-map-label">Limonene</span><span class="terp-map-ing">&larr; Key Lime</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Pink Rider &mdash; Greenshock Farms, Mendocino</p>
+    <p style="margin-top: 4px; color: var(--text-muted);">Generated via Terpene Beverage Recipe Framework v1.0 &mdash; Solful Sessions</p>
+  </div>
+
+</div>
+
+<script>
+function showRecipe(id) {
+  // Hide all cards
+  document.querySelectorAll('.recipe-card').forEach(c => c.classList.remove('active'));
+  // Remove active from all nav buttons
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+  // Show selected card
+  document.getElementById(id).classList.add('active');
+
+  // Activate nav button
+  const labels = { mocktail: 0, cocktail: 1, juice: 2, tea: 3, shot: 4 };
+  document.querySelectorAll('.nav-btn')[labels[id]].classList.add('active');
+}
+</script>
+</body>
+</html>
