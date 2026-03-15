@@ -181,102 +181,1002 @@ const WINE_VARIETAL_TERPENES = {
 };
 
 const CANNABIS_STRAINS = {
-  "Mike's Bomba": {
-    source: "Glentucky Family Farm, Sonoma", energy: "LOW",
-    effects: ["Relaxed", "Calm", "Alert"],
-    profile: { "\u03B2-caryophyllene": 0.47, limonene: 0.32, "\u03B1-humulene": 0.18, linalool: 0.07 },
-    totalTerpenes: 1.38,
+  "Amaretto Mintz": {
+    "source": "Higher Heights, Comptche, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Physically Relaxed",
+      "Calm",
+      "Joyful"
+    ],
+    "aroma": [
+      "Mint",
+      "Almond Paste",
+      "Hint of Cherry"
+    ],
+    "intent": "Marzipan calm with a joyful mint finish",
+    "totalTerpenes": 1.48,
+    "profile": {
+      "β-caryophyllene": 0.44,
+      "limonene": 0.32,
+      "linalool": 0.17,
+      "α-humulene": 0.15
+    },
+    "accent_color": "#C8A97E"
   },
-  "Guava Gift": {
-    source: "Alpenglow Farms, Humboldt", energy: "HIGH",
-    effects: ["Social", "Inspiring", "Euphoric"],
-    profile: { "\u03B2-caryophyllene": 0.73, limonene: 0.50, myrcene: 0.33, "\u03B1-humulene": 0.25 },
-    totalTerpenes: 2.34,
+  "Avenue of the Giants": {
+    "source": "Happy Day Farms, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Energizing",
+      "Buzzy",
+      "Motivating"
+    ],
+    "aroma": [
+      "Pine Needles",
+      "Menthol",
+      "Jasmine"
+    ],
+    "intent": "Forward momentum with electric clarity",
+    "totalTerpenes": 3.48,
+    "profile": {
+      "myrcene": 1.94,
+      "β-caryophyllene": 0.43,
+      "α-pinene": 0.26,
+      "β-ocimene": 0.24
+    },
+    "accent_color": "#8EAE68"
   },
-  "Carambola": {
-    source: "Higher Heights, Mendocino", energy: "HIGH",
-    effects: ["Energetic", "Fun", "Giggly"],
-    profile: { limonene: 0.44, "\u03B2-caryophyllene": 0.18, linalool: 0.12, "\u03B1-bisabolol": 0.09 },
-    totalTerpenes: 1.45,
-  },
-  "GSC (Girl Scout Cookies)": {
-    source: "Various", energy: "MEDIUM",
-    effects: ["Euphoric", "Relaxed", "Happy"],
-    profile: { "\u03B2-caryophyllene": 0.45, limonene: 0.35, linalool: 0.22, "\u03B1-humulene": 0.15 },
-    totalTerpenes: 1.17,
+  "Black Lime Chem": {
+    "source": "Moon Gazer Farms, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Heavy",
+      "Blissful",
+      "Sleepy"
+    ],
+    "aroma": [
+      "Sharp Lime",
+      "Rhubarb",
+      "Glue"
+    ],
+    "intent": "Weighted bliss melting toward rest",
+    "totalTerpenes": 3.08,
+    "profile": {
+      "myrcene": 1.69,
+      "α-pinene": 0.39,
+      "β-caryophyllene": 0.27,
+      "β-ocimene": 0.19
+    },
+    "accent_color": "#8EAE68"
   },
   "Blue Dream": {
-    source: "Various", energy: "MEDIUM-HIGH",
-    effects: ["Creative", "Uplifted", "Relaxed"],
-    profile: { myrcene: 0.55, "\u03B1-pinene": 0.30, "\u03B2-caryophyllene": 0.25, limonene: 0.10 },
-    totalTerpenes: 1.20,
+    "source": "Alpenglow Farms, Humboldt County",
+    "energy": "HIGH",
+    "effects": [
+      "Social",
+      "Invigorating",
+      "Relaxing"
+    ],
+    "aroma": [
+      "Blueberry",
+      "Menthol",
+      "Powdered Sugar"
+    ],
+    "intent": "Bright social energy wrapped in blueberry calm",
+    "totalTerpenes": 2.79,
+    "profile": {
+      "myrcene": 1.21,
+      "α-pinene": 0.5,
+      "β-caryophyllene": 0.3,
+      "β-pinene": 0.24
+    },
+    "accent_color": "#8EAE68"
   },
-  "Granddaddy Purple": {
-    source: "Various", energy: "LOW",
-    effects: ["Relaxed", "Sleepy", "Euphoric"],
-    profile: { myrcene: 0.65, "\u03B2-caryophyllene": 0.20, "\u03B1-pinene": 0.15, linalool: 0.10 },
-    totalTerpenes: 1.10,
+  "Blueberry Muffin": {
+    "source": "Briceland Forest Farm, Humboldt",
+    "energy": "LOW",
+    "effects": [
+      "Relaxed",
+      "Peaceful",
+      "Joyful"
+    ],
+    "aroma": [
+      "Blueberry",
+      "Fresh Dough",
+      "Cinnamon"
+    ],
+    "intent": "Quiet peace with a soft glow",
+    "totalTerpenes": 1.66,
+    "profile": {
+      "β-caryophyllene": 0.47,
+      "myrcene": 0.4,
+      "α-bisabolol": 0.25,
+      "α-humulene": 0.16
+    },
+    "accent_color": "#C8A97E"
   },
-  "OG Kush": {
-    source: "Various", energy: "MEDIUM",
-    effects: ["Relaxed", "Euphoric", "Happy"],
-    profile: { myrcene: 0.40, limonene: 0.35, "\u03B2-caryophyllene": 0.30, linalool: 0.15 },
-    totalTerpenes: 1.20,
+  "Carambola": {
+    "source": "Higher Heights, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Energetic",
+      "Fun",
+      "Giggly"
+    ],
+    "aroma": [
+      "Orange",
+      "Diesel",
+      "Incense"
+    ],
+    "intent": "Light and playful, effervescent energy",
+    "totalTerpenes": 1.45,
+    "profile": {
+      "limonene": 0.44,
+      "β-caryophyllene": 0.18,
+      "linalool": 0.12,
+      "α-bisabolol": 0.09
+    },
+    "accent_color": "#D4C85C"
   },
-  "Jack Herer": {
-    source: "Various", energy: "HIGH",
-    effects: ["Creative", "Energetic", "Focused"],
-    profile: { "\u03B1-pinene": 0.45, limonene: 0.25, myrcene: 0.20, "\u03B2-caryophyllene": 0.15 },
-    totalTerpenes: 1.05,
+  "Doc's OG": {
+    "source": "Happy Day Farms, Laytonville, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Contemplative",
+      "Physically Relaxing",
+      "Stress Relieving"
+    ],
+    "aroma": [
+      "Chamomile",
+      "Pepper",
+      "Cedar",
+      "Hint of Fuel"
+    ],
+    "intent": "Contemplative stillness with chamomile warmth",
+    "totalTerpenes": 2.62,
+    "profile": {
+      "β-caryophyllene": 0.79,
+      "myrcene": 0.56,
+      "limonene": 0.29,
+      "α-humulene": 0.25
+    },
+    "accent_color": "#C8A97E"
   },
-  "Lavender": {
-    source: "Various", energy: "LOW",
-    effects: ["Relaxed", "Calm", "Sleepy"],
-    profile: { linalool: 0.60, myrcene: 0.30, "\u03B2-caryophyllene": 0.20, "\u03B1-pinene": 0.10 },
-    totalTerpenes: 1.20,
+  "Doctor Greenshock": {
+    "source": "Greenshock Farms, Willits, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Calming",
+      "Euphoric",
+      "Tension Relieving"
+    ],
+    "aroma": [
+      "Sandalwood",
+      "Mint",
+      "Aged Hash"
+    ],
+    "intent": "Calm euphoria melting tension like warm sandalwood oil",
+    "totalTerpenes": 1.66,
+    "profile": {
+      "myrcene": 0.66,
+      "β-caryophyllene": 0.3,
+      "α-pinene": 0.29,
+      "β-ocimene": 0.12
+    },
+    "accent_color": "#8EAE68"
   },
-  "Durban Poison": {
-    source: "Various", energy: "HIGH",
-    effects: ["Energetic", "Uplifted", "Creative"],
-    profile: { terpinolene: 0.50, myrcene: 0.25, ocimene: 0.15, "\u03B1-pinene": 0.10 },
-    totalTerpenes: 1.00,
+  "Double Lantern": {
+    "source": "Greenshock Farms, Willits, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Physically Relaxing",
+      "Heavy",
+      "Blissful"
+    ],
+    "aroma": [
+      "Diesel",
+      "Pine",
+      "Black Pepper"
+    ],
+    "intent": "Total physical surrender in diesel-spiced bliss",
+    "totalTerpenes": 2.67,
+    "profile": {
+      "β-caryophyllene": 1.38,
+      "α-humulene": 0.54,
+      "limonene": 0.25,
+      "myrcene": 0.12
+    },
+    "accent_color": "#C8A97E"
   },
-  "Bubba Kush": {
-    source: "Various", energy: "LOW",
-    effects: ["Relaxed", "Sleepy", "Happy"],
-    profile: { "\u03B2-caryophyllene": 0.50, myrcene: 0.35, limonene: 0.15, "\u03B1-humulene": 0.10 },
-    totalTerpenes: 1.10,
+  "Forbidden Blueprint": {
+    "source": "Alpenglow Farms, Benbow, Humboldt County",
+    "energy": "MID",
+    "effects": [
+      "Relaxed",
+      "Euphoric",
+      "Comfortable"
+    ],
+    "aroma": [
+      "Candied Plum",
+      "Maple Syrup",
+      "Raspberry"
+    ],
+    "intent": "Euphoric ease wrapped in dark fruit velvet",
+    "totalTerpenes": 2.5,
+    "profile": {
+      "β-caryophyllene": 0.89,
+      "limonene": 0.47,
+      "α-humulene": 0.39,
+      "linalool": 0.14
+    },
+    "accent_color": "#C8A97E"
   },
-  "Amnesia Haze": {
-    source: "Various", energy: "HIGH",
-    effects: ["Euphoric", "Creative", "Energetic"],
-    profile: { linalool: 0.40, myrcene: 0.30, limonene: 0.25, "\u03B2-caryophyllene": 0.15 },
-    totalTerpenes: 1.10,
+  "Frank Hill": {
+    "source": "Greenshock Farms, Willits, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Euphoric",
+      "Heavy",
+      "Physically Relaxing"
+    ],
+    "aroma": [
+      "Propane",
+      "Burnt Rubber",
+      "Cedar"
+    ],
+    "intent": "Raw euphoric weight with industrial aromatics",
+    "totalTerpenes": 2.25,
+    "profile": {
+      "β-caryophyllene": 0.75,
+      "limonene": 0.55,
+      "α-humulene": 0.25,
+      "myrcene": 0.18
+    },
+    "accent_color": "#C8A97E"
   },
-  "Super Lemon Haze": {
-    source: "Various", energy: "HIGH",
-    effects: ["Energetic", "Happy", "Uplifted"],
-    profile: { limonene: 0.55, "\u03B2-caryophyllene": 0.20, myrcene: 0.15, linalool: 0.10 },
-    totalTerpenes: 1.00,
+  "G2D": {
+    "source": "Terrapin Farms, Orleans, Humboldt County",
+    "energy": "LOW",
+    "effects": [
+      "Heavy",
+      "Physically Relaxed",
+      "Sleepy"
+    ],
+    "aroma": [
+      "Mint",
+      "Forest Floor",
+      "Diesel"
+    ],
+    "intent": "Forest-floor heaviness pulling toward sleep",
+    "totalTerpenes": 2.37,
+    "profile": {
+      "limonene": 0.57,
+      "β-caryophyllene": 0.54,
+      "myrcene": 0.27,
+      "linalool": 0.23
+    },
+    "accent_color": "#D4C85C"
   },
-  "Wedding Cake": {
-    source: "Various", energy: "MEDIUM",
-    effects: ["Relaxed", "Euphoric", "Happy"],
-    profile: { "\u03B2-caryophyllene": 0.45, limonene: 0.40, myrcene: 0.25, linalool: 0.10 },
-    totalTerpenes: 1.20,
+  "Glitter Bomb": {
+    "source": "Sol Spirit Farm, Trinity",
+    "energy": "HIGH",
+    "effects": [
+      "Physically Relaxing",
+      "Cerebral",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Kiwi",
+      "Pine",
+      "Musk"
+    ],
+    "intent": "Body at ease, mind sparkling",
+    "totalTerpenes": 2.39,
+    "profile": {
+      "myrcene": 1.23,
+      "β-caryophyllene": 0.42,
+      "β-ocimene": 0.17,
+      "linalool": 0.15
+    },
+    "accent_color": "#8EAE68"
   },
-  "Pineapple Express": {
-    source: "Various", energy: "HIGH",
-    effects: ["Happy", "Uplifted", "Euphoric"],
-    profile: { myrcene: 0.40, limonene: 0.35, "\u03B1-pinene": 0.20, "\u03B2-caryophyllene": 0.15 },
-    totalTerpenes: 1.10,
+  "Granny Candy": {
+    "source": "WildLand Cannabis, Covelo, Mendocino County",
+    "energy": "HIGH",
+    "effects": [
+      "Social",
+      "Easygoing",
+      "Clearheaded"
+    ],
+    "aroma": [
+      "Sour Strawberry",
+      "Hint of Fuel",
+      "Pineapple"
+    ],
+    "intent": "Easygoing social warmth with clear-headed sweetness",
+    "totalTerpenes": 2.09,
+    "profile": {
+      "myrcene": 0.88,
+      "β-caryophyllene": 0.35,
+      "α-pinene": 0.21,
+      "β-ocimene": 0.2
+    },
+    "accent_color": "#8EAE68"
   },
-  "Original Glue (GG4)": {
-    source: "Various", energy: "LOW-MEDIUM",
-    effects: ["Relaxed", "Euphoric", "Sleepy"],
-    profile: { "\u03B2-caryophyllene": 0.55, myrcene: 0.30, limonene: 0.20, "\u03B1-humulene": 0.15 },
-    totalTerpenes: 1.20,
+  "Guava Gift": {
+    "source": "Alpenglow Farms, Humboldt",
+    "energy": "HIGH",
+    "effects": [
+      "Social",
+      "Inspiring",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Fresh Guava",
+      "Lemon Rind",
+      "Tamarind"
+    ],
+    "intent": "Open and expansive, easy social lift",
+    "totalTerpenes": 2.34,
+    "profile": {
+      "β-caryophyllene": 0.73,
+      "limonene": 0.5,
+      "myrcene": 0.33,
+      "α-humulene": 0.25
+    },
+    "accent_color": "#C8A97E"
   },
+  "Headband": {
+    "source": "Sol Spirit Farm, Trinity County",
+    "energy": "MID",
+    "effects": [
+      "Uplifting",
+      "Physically Relaxing",
+      "Carefree"
+    ],
+    "aroma": [
+      "Skunk",
+      "Earthy",
+      "Pine"
+    ],
+    "intent": "Carefree elevation with grounded body warmth",
+    "totalTerpenes": 2.78,
+    "profile": {
+      "β-caryophyllene": 0.95,
+      "limonene": 0.6,
+      "α-humulene": 0.4,
+      "myrcene": 0.35
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Hella Jelly": {
+    "source": "WildLand Cannabis, Covelo, Mendocino County",
+    "energy": "HIGH",
+    "effects": [
+      "Energized",
+      "Upbeat",
+      "Serene"
+    ],
+    "aroma": [
+      "Watermelon Candy",
+      "Strawberry",
+      "Cherry"
+    ],
+    "intent": "Candy-coated energy with serene confidence",
+    "totalTerpenes": 1.23,
+    "profile": {
+      "β-caryophyllene": 0.52,
+      "α-humulene": 0.18,
+      "α-bisabolol": 0.17,
+      "myrcene": 0.14
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Jade Skunk": {
+    "source": "Heartrock Mountain Farm, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Heavily Sedative",
+      "Body Relaxing",
+      "Peaceful"
+    ],
+    "aroma": [
+      "Fig Jam",
+      "Cloves",
+      "Skunk"
+    ],
+    "intent": "Deep sedation like sinking into warm earth",
+    "totalTerpenes": 2.25,
+    "profile": {
+      "myrcene": 1.14,
+      "β-caryophyllene": 0.31,
+      "limonene": 0.14,
+      "α-humulene": 0.14
+    },
+    "accent_color": "#8EAE68"
+  },
+  "King's Poison": {
+    "source": "Sticky Fields, Willits, Mendocino County",
+    "energy": "LOW",
+    "effects": [
+      "Blissful",
+      "Physically Relaxing",
+      "Sedative"
+    ],
+    "aroma": [
+      "Fig Jam",
+      "Nutmeg",
+      "Honey Mustard"
+    ],
+    "intent": "Regal sedation sweetened with fig and warm spice",
+    "totalTerpenes": 1.42,
+    "profile": {
+      "β-caryophyllene": 0.44,
+      "limonene": 0.35,
+      "α-humulene": 0.16,
+      "linalool": 0.11
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Lemon Papaya Banana": {
+    "source": "Terrapin Farms, Humboldt",
+    "energy": "LOW",
+    "effects": [
+      "Physically Relaxed",
+      "Spacey",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Papaya",
+      "Honeydew Melon",
+      "Lemon Zest"
+    ],
+    "intent": "Soft body, drifting expansive mind",
+    "totalTerpenes": 1.38,
+    "profile": {
+      "myrcene": 0.57,
+      "limonene": 0.29,
+      "β-caryophyllene": 0.16,
+      "α-humulene": 0.05
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Love and Laughter CBD": {
+    "source": "Heartrock Mountain Farm, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Energizing",
+      "Focusing",
+      "Non-Intoxicating"
+    ],
+    "aroma": [
+      "Flowers",
+      "Eucalyptus",
+      "Berries"
+    ],
+    "intent": "Clear and steady, nothing clouded",
+    "totalTerpenes": 1.72,
+    "profile": {
+      "myrcene": 0.56,
+      "terpinolene": 0.28,
+      "β-caryophyllene": 0.2,
+      "α-pinene": 0.13
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Madd Fruit": {
+    "source": "Malama The Roots, Potter Valley, Mendocino County",
+    "energy": "MID",
+    "effects": [
+      "Relaxed",
+      "Happy",
+      "Tranquil"
+    ],
+    "aroma": [
+      "Ripe Berries",
+      "Papaya",
+      "Hint of Spice"
+    ],
+    "intent": "Happy tranquility in a tropical fruit garden",
+    "totalTerpenes": 1.95,
+    "profile": {
+      "β-caryophyllene": 0.7,
+      "α-humulene": 0.31,
+      "limonene": 0.29,
+      "myrcene": 0.21
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Mandarin Cherry Tree": {
+    "source": "Sticky Fields, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Full Body Relaxation",
+      "Serenity",
+      "Creativity"
+    ],
+    "aroma": [
+      "Mandarin Orange",
+      "Sandalwood",
+      "Lavender"
+    ],
+    "intent": "Settled body, gently wandering mind",
+    "totalTerpenes": 1.75,
+    "profile": {
+      "limonene": 0.52,
+      "β-caryophyllene": 0.36,
+      "α-humulene": 0.13,
+      "linalool": 0.11
+    },
+    "accent_color": "#D4C85C"
+  },
+  "Mike's Bomba": {
+    "source": "Glentucky Family Farm, Sonoma",
+    "energy": "LOW",
+    "effects": [
+      "Relaxed",
+      "Calm",
+      "Alert"
+    ],
+    "aroma": [
+      "Fuel",
+      "Lemon Cream",
+      "Forest Floor"
+    ],
+    "intent": "Grounded calm with clear mental edges",
+    "totalTerpenes": 1.38,
+    "profile": {
+      "β-caryophyllene": 0.47,
+      "limonene": 0.32,
+      "α-humulene": 0.18,
+      "linalool": 0.07
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Moonlight": {
+    "source": "Moon Gazer Farms, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Physically Relaxed",
+      "Calm",
+      "Grateful"
+    ],
+    "aroma": [
+      "Watermelon Candy",
+      "Citrus Zest",
+      "Earl Grey"
+    ],
+    "intent": "Soft gratitude in a settled body",
+    "totalTerpenes": 2.67,
+    "profile": {
+      "myrcene": 0.74,
+      "β-caryophyllene": 0.51,
+      "terpinolene": 0.38,
+      "α-bisabolol": 0.24
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Mule Fuel": {
+    "source": "Alpenglow Farms, Humboldt",
+    "energy": "LOW",
+    "effects": [
+      "Happy",
+      "Hungry",
+      "Sleepy"
+    ],
+    "aroma": [
+      "Skunk",
+      "Diesel",
+      "Lemon",
+      "Leather"
+    ],
+    "intent": "Gentle contentment settling toward rest",
+    "totalTerpenes": 3.97,
+    "profile": {
+      "myrcene": 2.22,
+      "α-pinene": 0.54,
+      "β-caryophyllene": 0.34,
+      "limonene": 0.28
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Natty Bumppo": {
+    "source": "Moon Gazer Farms, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Happy",
+      "Carefree",
+      "Physically Relaxed"
+    ],
+    "aroma": [
+      "Kerosene",
+      "Musk",
+      "Sour Plum"
+    ],
+    "intent": "Loose and easy, happily untethered",
+    "totalTerpenes": 1.86,
+    "profile": {
+      "β-caryophyllene": 0.63,
+      "limonene": 0.35,
+      "α-humulene": 0.25,
+      "myrcene": 0.19
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Peach Flambé": {
+    "source": "Terrapin Farms, Humboldt",
+    "energy": "HIGH",
+    "effects": [
+      "Happy",
+      "Energized",
+      "Motivated"
+    ],
+    "aroma": [
+      "White Peach",
+      "Cashew Butter",
+      "Brown Sugar"
+    ],
+    "intent": "Sunny drive with bright momentum",
+    "totalTerpenes": 1.05,
+    "profile": {
+      "β-caryophyllene": 0.25,
+      "myrcene": 0.21,
+      "limonene": 0.2,
+      "α-humulene": 0.12
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Pineapple Mojito": {
+    "source": "Higher Heights, Mendocino",
+    "energy": "MEDIUM",
+    "effects": [
+      "Relaxed",
+      "Grounded",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Pineapple",
+      "Ginger",
+      "Mint",
+      "Gas"
+    ],
+    "intent": "Rooted ease with a quiet glow",
+    "totalTerpenes": 2.55,
+    "profile": {
+      "β-caryophyllene": 0.63,
+      "limonene": 0.56,
+      "α-bisabolol": 0.24,
+      "α-humulene": 0.19,
+      "linalool": 0.16,
+      "α-pinene": 0.14,
+      "myrcene": 0.11
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Pink Jesus Reserve": {
+    "source": "Sonoma Hills Farm, Sonoma",
+    "energy": "HIGH",
+    "effects": [
+      "Social",
+      "Uplifting",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Raspberry",
+      "French Lavender",
+      "Pineapple"
+    ],
+    "intent": "Buoyant and warm, ready to share",
+    "totalTerpenes": 1.89,
+    "profile": {
+      "β-caryophyllene": 0.78,
+      "myrcene": 0.38,
+      "α-humulene": 0.27,
+      "α-bisabolol": 0.15
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Pink Rider": {
+    "source": "Higher Heights, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Motivated",
+      "Creative",
+      "Social"
+    ],
+    "aroma": [
+      "Lemon Bar",
+      "Pink Grapefruit",
+      "Sugar Cookie"
+    ],
+    "intent": "Vivid creative lift with social magnetism",
+    "totalTerpenes": 1.44,
+    "profile": {
+      "terpinolene": 0.38,
+      "β-caryophyllene": 0.22,
+      "β-ocimene": 0.2,
+      "limonene": 0.18
+    },
+    "accent_color": "#6BAE8E"
+  },
+  "Pinnacle": {
+    "source": "Dos Rios Farms, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Heavy",
+      "Sedative",
+      "Blissful"
+    ],
+    "aroma": [
+      "Sweet Cream",
+      "Nutmeg",
+      "Fennel Seeds"
+    ],
+    "intent": "Deep surrender into velvet quiet",
+    "totalTerpenes": 3.35,
+    "profile": {
+      "β-caryophyllene": 0.61,
+      "limonene": 0.46,
+      "α-humulene": 0.19,
+      "trans-β-farnesene": 0.14
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Purple Candy Cane": {
+    "source": "Greenshock Farms, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Energized",
+      "Invigorated",
+      "Talkative"
+    ],
+    "aroma": [
+      "Mango",
+      "Peppermint Candy",
+      "Orange Blossom"
+    ],
+    "intent": "Vibrant and vocal, fully awake",
+    "totalTerpenes": 1.55,
+    "profile": {
+      "myrcene": 0.54,
+      "β-caryophyllene": 0.31,
+      "α-pinene": 0.2,
+      "α-humulene": 0.13
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Rasta Governmint": {
+    "source": "Higher Heights, Mendocino",
+    "energy": "LOW",
+    "effects": [
+      "Euphoric",
+      "Supremely Relaxed",
+      "Comforted"
+    ],
+    "aroma": [
+      "Sour Cherry",
+      "Frankincense",
+      "Oak"
+    ],
+    "intent": "Profound ease with cushioned edges",
+    "totalTerpenes": 1.92,
+    "profile": {
+      "β-caryophyllene": 0.6,
+      "limonene": 0.39,
+      "α-humulene": 0.17,
+      "myrcene": 0.16
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Sand Castle": {
+    "source": "Whitethorn Valley Farm, Whitethorn, Humboldt County",
+    "energy": "LOW",
+    "effects": [
+      "Comforting",
+      "Stress Relieving",
+      "Joyful"
+    ],
+    "aroma": [
+      "Banana",
+      "Pineapple Gum",
+      "Hibiscus"
+    ],
+    "intent": "Tropical comfort like warm sand between your toes",
+    "totalTerpenes": 1.86,
+    "profile": {
+      "terpinolene": 0.56,
+      "β-caryophyllene": 0.32,
+      "myrcene": 0.23,
+      "α-humulene": 0.14
+    },
+    "accent_color": "#6BAE8E"
+  },
+  "Satsuma Sherbet": {
+    "source": "Alpenglow Farms, Humboldt",
+    "energy": "MEDIUM",
+    "effects": [
+      "Happy",
+      "Contemplative",
+      "Comfortable"
+    ],
+    "aroma": [
+      "Mandarin Orange",
+      "Mochi",
+      "Mint"
+    ],
+    "intent": "Quiet ease with thoughtful undertones",
+    "totalTerpenes": 1.85,
+    "profile": {
+      "limonene": 0.55,
+      "β-caryophyllene": 0.45,
+      "α-humulene": 0.13,
+      "myrcene": 0.11
+    },
+    "accent_color": "#D4C85C"
+  },
+  "Sour Diesel": {
+    "source": "Alpenglow Farms, Humboldt County",
+    "energy": "HIGH",
+    "effects": [
+      "Cerebral",
+      "Energetic",
+      "Joyful"
+    ],
+    "aroma": [
+      "Diesel",
+      "Black Pepper",
+      "Hint of Lemon"
+    ],
+    "intent": "Electric cerebral joy with diesel fuel clarity",
+    "totalTerpenes": 2.27,
+    "profile": {
+      "β-caryophyllene": 0.7,
+      "limonene": 0.63,
+      "α-humulene": 0.29,
+      "myrcene": 0.16
+    },
+    "accent_color": "#C8A97E"
+  },
+  "Sprite": {
+    "source": "Alpenglow Farms, Benbow, Humboldt County",
+    "energy": "LOW",
+    "effects": [
+      "Blissful",
+      "Cozy",
+      "Physically Relaxing"
+    ],
+    "aroma": [
+      "Yuzu",
+      "Propane",
+      "Tamarind",
+      "Pine Needles"
+    ],
+    "intent": "Citrus-kissed bliss melting into cozy stillness",
+    "totalTerpenes": 2.58,
+    "profile": {
+      "myrcene": 1.23,
+      "limonene": 0.45,
+      "linalool": 0.27,
+      "β-caryophyllene": 0.21
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Strawberry Biscotti": {
+    "source": "Happy Day Farms, Mendocino",
+    "energy": "MEDIUM",
+    "effects": [
+      "Comforting",
+      "Mentally Engaging",
+      "Appetite Inducing"
+    ],
+    "aroma": [
+      "Kettle Corn",
+      "Fuel",
+      "Sour Strawberry Candy"
+    ],
+    "intent": "Cozy anchor with a curious mind",
+    "totalTerpenes": 1.48,
+    "profile": {
+      "limonene": 0.38,
+      "β-caryophyllene": 0.29,
+      "myrcene": 0.25,
+      "α-bisabolol": 0.13
+    },
+    "accent_color": "#D4C85C"
+  },
+  "Toronja": {
+    "source": "Malama The Roots, Potter Valley, Mendocino County",
+    "energy": "MID",
+    "effects": [
+      "Buzzy",
+      "Stress-Free",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Grapefruit",
+      "Pastry Dough",
+      "Black Pepper"
+    ],
+    "intent": "Buzzy grapefruit euphoria dissolving stress",
+    "totalTerpenes": 1.14,
+    "profile": {
+      "myrcene": 0.53,
+      "β-caryophyllene": 0.27,
+      "α-humulene": 0.11,
+      "trans-β-farnesene": 0.08
+    },
+    "accent_color": "#8EAE68"
+  },
+  "Tropical Sleigh Ride": {
+    "source": "Greenshock Farms, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Joyful",
+      "Alert",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Peppermint",
+      "Honeysuckle",
+      "Hint of Ginger"
+    ],
+    "intent": "Vivid lift with present clarity",
+    "totalTerpenes": 2.35,
+    "profile": {
+      "β-ocimene": 0.71,
+      "β-caryophyllene": 0.7,
+      "α-humulene": 0.28,
+      "limonene": 0.22
+    },
+    "accent_color": "#B8785C"
+  },
+  "Tropicanna Cherry": {
+    "source": "Sunrise Gardens, Mendocino",
+    "energy": "HIGH",
+    "effects": [
+      "Euphoric",
+      "Cerebral",
+      "Cheerful"
+    ],
+    "aroma": [
+      "Sour Cherry",
+      "Sweet Citrus",
+      "Nutmeg"
+    ],
+    "intent": "Bright lift with clear, lively edges",
+    "totalTerpenes": 1.18,
+    "profile": {
+      "β-caryophyllene": 0.37,
+      "limonene": 0.29,
+      "linalool": 0.15,
+      "α-humulene": 0.11
+    },
+    "accent_color": "#C8A97E"
+  },
+  "XJ-13": {
+    "source": "Briceland Forest Farm, Briceland, Humboldt County",
+    "energy": "HIGH",
+    "effects": [
+      "Energized",
+      "Creative",
+      "Focused"
+    ],
+    "aroma": [
+      "Pine Needles",
+      "Citrus",
+      "Bubblegum"
+    ],
+    "intent": "Laser-focused creative energy with forest clarity",
+    "totalTerpenes": 2.51,
+    "profile": {
+      "terpinolene": 1.01,
+      "β-ocimene": 0.28,
+      "β-caryophyllene": 0.27,
+      "myrcene": 0.18
+    },
+    "accent_color": "#6BAE8E"
+  }
 };
 
 const WINERIES = [
@@ -434,11 +1334,19 @@ const MatchCard = ({ match, rank }) => {
           </div>
         </div>
       </div>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginBottom: 8 }}>
+      {match.intent && <div style={{ fontSize: 11, color: "#888", fontStyle: "italic", marginBottom: 6 }}>{match.intent}</div>}
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginBottom: 6 }}>
         {match.effects.map(e => (
           <span key={e} style={{ padding: "2px 8px", borderRadius: 10, fontSize: 10, background: "#ffffff0a", color: "#aaa" }}>{e}</span>
         ))}
       </div>
+      {match.aroma && match.aroma.length > 0 && (
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginBottom: 8 }}>
+          {match.aroma.map(a => (
+            <span key={a} style={{ padding: "2px 8px", borderRadius: 10, fontSize: 10, background: (match.accent_color || "#888") + "18", color: match.accent_color || "#888" }}>{a}</span>
+          ))}
+        </div>
+      )}
       <div>
         {Object.entries(match.profile).sort((a, b) => b[1] - a[1]).map(([t, v]) => (
           <TerpeneBar key={t} terpene={t} value={v} maxValue={Math.max(...Object.values(match.profile))} />
@@ -670,7 +1578,7 @@ function App() {
       {/* Footer */}
       <div style={{ textAlign: "center", marginTop: 32, padding: 16, borderTop: "1px solid #1a1a1a", fontSize: 10, color: "#555" }}>
         <div style={{ marginBottom: 4 }}>Wine terpene data: UC Davis Waterhouse Lab, SevenFifty Daily, Nature Horticulture Research</div>
-        <div style={{ marginBottom: 4 }}>Cannabis profiles: Solful Sessions + common strain databases</div>
+        <div style={{ marginBottom: 4 }}>Cannabis profiles: 43 strains from Chuck's Solful Sessions library (NorCal craft farms)</div>
         <div>Algorithm: Cosine similarity on normalized terpene vectors + dominant terpene bonus</div>
       </div>
     </div>

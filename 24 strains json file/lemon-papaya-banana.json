@@ -1,0 +1,538 @@
+{
+  "strain_name": "Lemon Papaya Banana",
+  "slug": "lemon-papaya-banana",
+  "layer_1_flower": {
+    "strain_name": "Lemon Papaya Banana",
+    "slug": "lemon-papaya-banana",
+    "farm": "Terrapin Farms",
+    "region": "Humboldt",
+    "energy": "LOW",
+    "intent": "Soft body, drifting expansive mind",
+    "effects": [
+      "Physically Relaxed",
+      "Spacey",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Papaya",
+      "Honeydew Melon",
+      "Lemon Zest"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 1.38,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.57,
+        "ratio": 0.41
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.29,
+        "ratio": 0.21
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.16,
+        "ratio": 0.12
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.05,
+        "ratio": 0.04
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "rest",
+      "body"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Ylang Ylang",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Myrcene-dominant with lemongrass at 35%. Lemon captures the lemon zest perfectly. Black pepper for caryophyllene. Geranium adds tropical, fruity notes matching papaya and melon. Ylang ylang brings exotic sweetness.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      73,
+      97
+    ],
+    "energy": 0.39,
+    "valence": 0.47,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Soft body, drifting expansive mind. Genres: ambient, dub, lo-fi hip hop, funk. Tempo around 73-97 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 73,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 68,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 83,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Lemon Papaya Banana Tea",
+    "description": "Soft tropical comfort brew",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5 minutes",
+    "caffeine": "none (herbal",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried papaya pieces",
+      "0.5 tbsp dried banana chips",
+      "1 tsp dried lemon peel",
+      "1 small bay leaf",
+      "pinch of vanilla powder",
+      "0.5 oz coconut cream",
+      "tiny pinch of ground cinnamon",
+      "fresh mint sprig (garnish)",
+      "thin lemon wheel (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 155°F (68°C).",
+      "In a tea infuser, combine 1 tbsp dried papaya pieces, 0.5 tbsp dried banana chips, 1 tsp dried lemon peel, 1 small bay leaf, and a pinch of vanilla powder.",
+      "Steep for 5 minutes to extract the tropical sweetness gently.",
+      "Strain into a warm teacup.",
+      "Stir in 0.5 oz coconut cream and a tiny pinch of ground cinnamon.",
+      "Garnish with a fresh mint sprig and thin lemon wheel."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Lemon Papaya Banana",
+      "description": "Soft tropical body, expansive mind",
+      "glass": "highball",
+      "volume": "7 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "1.5 oz fresh papaya puree",
+        "0.75 oz banana puree (frozen)",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz honeydew melon juice (or syrup)",
+        "0.75 oz coconut cream",
+        "pinch of vanilla powder",
+        "1 small bay leaf (remove before serving)",
+        "crushed ice",
+        "papaya slice (garnish)",
+        "banana wheel (garnish)",
+        "fresh mint sprig (garnish)"
+      ],
+      "method": [
+        "In a blender, combine 1.5 oz fresh papaya puree and 0.75 oz banana puree (frozen banana blended smooth).",
+        "Add 0.75 oz fresh lemon juice and 0.5 oz honeydew melon juice (or 0.5 oz honeydew syrup + 0.25 oz water).",
+        "Pour in 0.75 oz coconut cream.",
+        "Add a pinch of vanilla powder and a small bay leaf (remove before serving).",
+        "Blend for 8 seconds until creamy and smooth.",
+        "Pour into a highball glass with crushed ice.",
+        "Garnish with a papaya slice, banana wheel, and fresh mint."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Lemon Papaya Banana",
+      "description": "Cachaça-spiked papaya-banana drift",
+      "glass": "highball",
+      "volume": "7.5 oz",
+      "temp": "chilled",
+      "style": "tropical relaxation",
+      "spirit": "cachaça",
+      "abv": "14%",
+      "ingredients": [
+        "1.5 oz cachaça",
+        "1.5 oz fresh papaya puree",
+        "0.75 oz banana puree (frozen)",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz honeydew melon juice",
+        "0.75 oz coconut cream",
+        "1 small bay leaf",
+        "pinch of vanilla powder",
+        "crushed ice",
+        "papaya slice (garnish)",
+        "banana wheel (garnish)",
+        "fresh mint sprig (garnish)"
+      ],
+      "method": [
+        "Pour 1.5 oz cachaça into a blender.",
+        "Add 1.5 oz fresh papaya puree and 0.75 oz banana puree (frozen, blended smooth).",
+        "Pour in 0.75 oz fresh lemon juice and 0.5 oz honeydew melon juice.",
+        "Add 0.75 oz coconut cream, a small bay leaf, and a pinch of vanilla powder.",
+        "Blend for 10 seconds until smooth and creamy.",
+        "Pour into a highball glass with crushed ice.",
+        "Garnish with a papaya slice, banana wheel, and a mint sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Lemon Papaya Banana Juice",
+      "description": "",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "tropical smoothie blend",
+      "timing": "serve immediately after",
+      "ingredients": [
+        "1 ripe papaya",
+        "1 ripe banana (frozen)",
+        "1 fresh lemon",
+        "0.75 cup fresh honeydew melon",
+        "0.75 oz coconut cream",
+        "1 oz cold filtered water",
+        "papaya slice (garnish)",
+        "banana wheel (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Peel and chop 1 ripe papaya, removing seeds (yields ~2 oz puree when blended).",
+        "Blend papaya until smooth and strain through fine mesh.",
+        "Peel and freeze 1 ripe banana, then blend until completely smooth (yields ~0.75 oz puree).",
+        "Squeeze 1 fresh lemon for juice (yields ~0.75 oz).",
+        "Blend 0.75 cup fresh honeydew melon chunks until liquid (yields ~0.5 oz juice).",
+        "Strain honeydew through cheesecloth.",
+        "Combine all juices and purees with 0.75 oz coconut cream.",
+        "Add 1 oz cold filtered water and stir well.",
+        "Pour over ice and garnish with papaya slice and banana wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Lemon Papaya Banana Shot",
+      "description": "One-sip tropical drift",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1 oz cachaça",
+        "0.75 oz fresh papaya puree",
+        "0.25 oz banana puree",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of vanilla powder",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz cachaça with 0.75 oz fresh papaya puree and 0.25 oz banana puree.",
+        "Add 0.25 oz fresh lemon juice and a tiny pinch of vanilla powder.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "Myrcene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "Myrcene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "Myrcene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "Myrcene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Brie",
+      "desc": "A NorCal cheese board featuring brie, camembert, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "Myrcene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Drifting Light",
+    "scent_notes": {
+      "top": "lemongrass, bergamot",
+      "heart": "bay laurel, neroli",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 5
+        },
+        {
+          "oil": "Lemon",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        },
+        {
+          "oil": "Geranium",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Lemon",
+        "Black Pepper"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Lemon",
+        "Black Pepper"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Island Drift",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Lemongrass and Lemon essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 367,
+    "text": "The lemongrass is dominant from the first breath — fourteen drops that slow the room like honey poured over time itself. In Humboldt, where Terrapin Farms sits between ridges that catch the coastal fog and hold it like cupped hands, the afternoon air already carries that heavy sweetness, and the oil simply amplifies what the land was already saying in its slow botanical dialect.\n\nLemon enters next, ten drops of zest so bright it could cut glass, but here it dissolves into the heavy haze like sunlight through gauze, losing its edges without losing its identity. The papaya note lives somewhere in the overlap, tropical and overripe and perfectly content to be both — the scent of fruit that has decided there is no rush toward anything, not even ripeness.\n\nBlack pepper holds the low end with six drops, just enough structural warmth to keep the drift from becoming weightless, to remind the body that gravity is still a participant even when everything feels like floating. Geranium adds the honeydew melon quality, its soft floral fruitiness a stand-in for the tropical fruit that the strain's name promises but the oils deliver through translation rather than imitation.\n\nYlang ylang is the closer. Four drops of exotic sweetness that Bonobo might sample for a late-night downtempo set, the kind of scent that makes you close your eyes not because you are tired but because the inside of your eyelids has become more interesting than the room, more spacious, more hospitable to the kind of thoughts that only arrive when the body stops supervising.\n\nSomeone has left Lemon Papaya Banana on the nightstand next to an open book, face-down, its pages fanning slightly in a breeze from nowhere in particular. She does not mind losing her place. The body is soft and the mind is drifting through landscapes that have no geography but feel completely real — papaya groves that smell like geranium, melon fields where lemongrass grows between the rows.\n\nThe five oils have turned the bedroom into a departure lounge for somewhere warmer, and the lemon zest in the air is the last thing she notices before noticing itself becomes a gentle, expansive luxury rather than a task."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

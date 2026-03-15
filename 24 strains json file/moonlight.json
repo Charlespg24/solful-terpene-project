@@ -1,0 +1,534 @@
+{
+  "strain_name": "Moonlight",
+  "slug": "moonlight",
+  "layer_1_flower": {
+    "strain_name": "Moonlight",
+    "slug": "moonlight",
+    "farm": "Moon Gazer Farms",
+    "region": "Mendocino",
+    "energy": "LOW",
+    "intent": "Soft gratitude in a settled body",
+    "effects": [
+      "Physically Relaxed",
+      "Calm",
+      "Grateful"
+    ],
+    "aroma": [
+      "Watermelon Candy",
+      "Citrus Zest",
+      "Earl Grey"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 2.67,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.74,
+        "ratio": 0.28
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.51,
+        "ratio": 0.19
+      },
+      {
+        "name": "Terpinolene",
+        "pct": 0.38,
+        "ratio": 0.14
+      },
+      {
+        "name": "α-Bisabolol",
+        "pct": 0.24,
+        "ratio": 0.09
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "grounded",
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Tea Tree",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "German Chamomile",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Bergamot",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Lemongrass carries the dominant myrcene. Tea tree for terpinolene. German chamomile for bisabolol. Bergamot is the key ingredient in Earl Grey tea, a direct aroma hit that also delivers citrus zest.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      74,
+      97
+    ],
+    "energy": 0.38,
+    "valence": 0.46,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Soft gratitude in a settled body. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 74-97 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 74,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 69,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 84,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Moonlight Tea",
+    "description": "Soft bergamot and watermelon comfort brew",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "3-4 minutes (in stages)",
+    "caffeine": "moderate (black tea and green tea",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 Earl Grey tea bag",
+      "1 green tea bag",
+      "0.5 oz fresh watermelon juice",
+      "4-5 dried chamomile flowers",
+      "tiny pinch of ground cinnamon",
+      "0.25 oz honey or agave syrup",
+      "thin apple slice (garnish)",
+      "dried chamomile flower (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 190°F (88°C).",
+      "Steep 1 Earl Grey tea bag and 1 green tea bag together for 3 minutes.",
+      "Remove tea bags and stir in 0.5 oz fresh watermelon juice (or 0.5 tbsp dried watermelon pieces if available).",
+      "Add 4-5 dried chamomile flowers and let steep for 1 more minute.",
+      "Strain into a warm teacup.",
+      "Stir in a tiny pinch of ground cinnamon and 0.25 oz honey or agave syrup.",
+      "Garnish with a thin apple slice and chamomile flower."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Moonlight",
+      "description": "Nighttime watermelon comfort",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "3 oz fresh watermelon juice",
+        "0.5 oz fresh lemon juice",
+        "1 oz chilled brewed Earl Grey tea",
+        "0.5 oz chamomile-green apple syrup",
+        "tiny pinch of ground cinnamon",
+        "thin watermelon wedge (garnish)",
+        "apple slice (garnish)"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "In a mixing glass, combine 3 oz fresh watermelon juice and 0.5 oz fresh lemon juice.",
+        "Add 1 oz chilled brewed Earl Grey tea (steeped, cooled) and 0.5 oz chamomile-green apple syrup.",
+        "Stir in a tiny pinch of ground cinnamon.",
+        "Stir gently with ice for 8 seconds.",
+        "Strain into the rocks glass.",
+        "Garnish with a thin watermelon wedge and an apple slice."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Moonlight",
+      "description": "Cognac-infused watermelon and Earl Grey ease",
+      "glass": "rocks",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "elegant",
+      "spirit": "cognac",
+      "abv": "15%",
+      "ingredients": [
+        "1.5 oz cognac",
+        "2.5 oz fresh watermelon juice",
+        "0.5 oz fresh lemon juice",
+        "1 oz chilled brewed Earl Grey tea",
+        "0.5 oz chamomile-green apple syrup",
+        "tiny pinch of ground cinnamon",
+        "thin watermelon wedge (garnish)",
+        "candied apple slice (garnish)",
+        "large ice cubes"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Pour 1.5 oz cognac into a mixing glass.",
+        "Add 2.5 oz fresh watermelon juice, 0.5 oz fresh lemon juice, and 1 oz chilled brewed Earl Grey tea.",
+        "Add 0.5 oz chamomile-green apple syrup and a tiny pinch of ground cinnamon.",
+        "Stir with ice for 10 seconds.",
+        "Strain into the rocks glass.",
+        "Garnish with a thin watermelon wedge and candied apple slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Moonlight Juice",
+      "description": "Watermelon and Earl Grey with apple lightness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "watermelon tea blend",
+      "timing": "serve immediately after",
+      "ingredients": [
+        "2 cups fresh watermelon chunks",
+        "1 Earl Grey tea bag",
+        "2 oz hot water (tea)",
+        "0.75 cup fresh green apple chunks",
+        "4-5 dried chamomile flowers",
+        "1 oz warm filtered water (chamomile)",
+        "0.5 oz fresh lemon juice",
+        "0.5 oz chamomile-green apple syrup",
+        "1 oz cold filtered water",
+        "watermelon wedge (garnish)",
+        "apple slice (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh watermelon chunks through a cold press (yields ~3 oz juice).",
+        "Brew 1 Earl Grey tea bag in 2 oz hot water for 3 minutes, then chill completely.",
+        "Blend 0.75 cup fresh green apple chunks until liquid (yields ~0.5 oz juice), strain through cheesecloth.",
+        "Steep 4-5 dried chamomile flowers in 1 oz warm filtered water for 2 minutes, then chill.",
+        "Combine watermelon juice, cooled Earl Grey, apple juice, and chamomile water.",
+        "Add 0.5 oz fresh lemon juice and 0.5 oz chamomile-green apple syrup.",
+        "Add 1 oz cold filtered water to reach desired consistency.",
+        "Pour over ice and garnish with watermelon wedge and apple slice."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Moonlight Shot",
+      "description": "One-sip nighttime ease",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1 oz cognac",
+        "0.75 oz fresh watermelon juice",
+        "0.25 oz chilled Earl Grey tea",
+        "tiny pinch of ground cinnamon",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz cognac with 0.75 oz fresh watermelon juice.",
+        "Add 0.25 oz chilled Earl Grey tea and a tiny pinch of ground cinnamon.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Brie",
+      "desc": "A NorCal cheese board featuring brie, camembert, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Gratitude Hour",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 4
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Tea Tree",
+          "drops": 3
+        },
+        {
+          "oil": "German Chamomile",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Tea Tree"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Tea Tree"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Earl Grey Ember",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Lemongrass and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 408,
+    "text": "Twelve drops of lemongrass carry the dominant warmth through the room like a river through a Mendocino valley — steady, warm, the kind of current that does not hurry because it has already calculated the gradient and knows exactly when it will arrive. Moon Gazer Farms built this strain on the idea that the body can be grateful, that ease is not just the absence of tension but the active presence of something softer.\n\nBlack pepper adds ten drops of warm spice, the earthy warmth that makes the physical relaxation feel like a choice rather than a collapse — the difference between lying down and being laid down, between sinking and settling. Tea tree arrives with eight drops of the rare sharp clarity, the unusual molecule that gives Moonlight its distinctive edge, its watermelon candy note that emerges from chemistry rather than flavor and makes the whole blend slightly mysterious, slightly nocturnal.\n\nGerman chamomile provides six drops of the soft calming molecule, the soft cushion beneath everything else, the molecular equivalent of the mattress you do not notice because it is doing its job perfectly. And then bergamot at four drops, and the Earl Grey aroma clicks into place with such precision it feels like recognition rather than discovery: bergamot is Earl Grey, the essential oil that has always been the tea what it is, and here it is again, in a cannabis strain from Mendocino, proving that molecules are faithful regardless of address.\n\nTycho plays softly from a speaker balanced on a stack of books. The citrus zest quality lives in the bergamot, the grateful calm lives in the chamomile, and the the rare sharp clarity gives the whole blend its midnight quality — not dark, exactly, but lunar, reflective, the kind of light that shows things differently than daylight does, emphasizing texture over color, depth over detail.\n\nA woman sits by the window with an actual cup of Earl Grey, and the blend has turned the ordinary into ceremony without adding a single gesture or prop. The settled body is not tired. The calm is not emptiness. It is that rare neurological state where the system stops cataloging threats and starts cataloging gifts, and the five oils — lemongrass, pepper, tea tree, chamomile, bergamot — are the first entry on the list, and the tea is the second, and the window is the third, and the list continues softly into a night that has no agenda."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

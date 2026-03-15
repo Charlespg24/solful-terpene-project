@@ -1,0 +1,510 @@
+{
+  "strain_name": "Sand Castle",
+  "slug": "sand-castle",
+  "layer_1_flower": {
+    "strain_name": "Sand Castle",
+    "slug": "sand-castle",
+    "farm": "Whitethorn Valley Farm",
+    "region": "Whitethorn, Humboldt County",
+    "energy": "LOW",
+    "intent": "Tropical comfort like warm sand between your toes",
+    "effects": [
+      "Comforting",
+      "Stress Relieving",
+      "Joyful"
+    ],
+    "aroma": [
+      "Banana",
+      "Pineapple Gum",
+      "Hibiscus"
+    ],
+    "lineage": "Banana Pie X Papaya Bomb",
+    "dominant_terpene": "Terpinolene",
+    "total_terpenes_pct": 1.86,
+    "terpene_profile": [
+      {
+        "name": "Terpinolene",
+        "pct": 0.56,
+        "ratio": 0.45
+      },
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.32,
+        "ratio": 0.26
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.23,
+        "ratio": 0.18
+      },
+      {
+        "name": "\u03b1-Humulene",
+        "pct": 0.14,
+        "ratio": 0.11
+      }
+    ],
+    "accent_color": "#6BAE8E",
+    "vibe_tags": [
+      "cozy",
+      "social"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Tea Tree",
+        "drops": 19,
+        "pct": 47.5
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 7,
+        "pct": 17.5
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Tea Tree carries the dominant terpinolene. Black Pepper matches the banana aroma note. Lemongrass provides Myrcene support. Sage rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      65,
+      90
+    ],
+    "energy": 0.3,
+    "valence": 0.4,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "downtempo"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Tycho",
+      "Thievery Corporation",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A low-energy session. Tropical comfort like warm sand between your toes. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 65-90 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 65,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 60,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 80,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Sand Tea",
+    "description": "Banana and pineapple gum infused chamomile blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "185\u00b0F",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 chamomile tea bag",
+      "1 tsp dried banana chip",
+      "1 tsp pineapple sage leaf",
+      "1 tsp dried hibiscus flowers",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 185\u00b0F.",
+      "Add chamomile tea bag and steep for 5 minutes.",
+      "Add dried banana chip and let infuse for 1 minute.",
+      "Add pineapple sage leaf and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Sand Fizz",
+      "description": "Banana and pineapple gum refresher",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz banana syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh pineapple juice",
+        "2 oz sparkling water",
+        "banana garnish"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Combine 2 oz banana syrup and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz fresh pineapple juice.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with banana."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Sand Sour",
+      "description": "Bourbon-based banana and pineapple gum cocktail",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "shaken",
+      "spirit": "bourbon",
+      "abv": "18%",
+      "ingredients": [
+        "2 oz bourbon",
+        "1.5 oz banana syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh pineapple juice",
+        "1 egg white (optional)",
+        "banana garnish"
+      ],
+      "method": [
+        "Combine 2 oz bourbon, 1.5 oz banana syrup, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz fresh pineapple juice.",
+        "Dry shake for 5 seconds (if using egg white).",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled coupe.",
+        "Garnish with banana."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Sand Juice",
+      "description": "Cold-pressed banana and pineapple blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh banana chunks",
+        "1 cup fresh pineapple chunks",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh banana through a cold press.",
+        "Press 1 cup pineapple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Sand Shot",
+      "description": "One-sip banana concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz bourbon",
+        "0.75 oz fresh banana juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of hibiscus",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz bourbon with 0.75 oz fresh banana juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Medjool Dates Stuffed with Goat Cheese",
+      "desc": "Plump dates filled with herbed ch\u00e8vre and topped with a walnut half and honey drizzle.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Wild Mushroom Toast with Thyme",
+      "desc": "Saut\u00e9ed mixed mushrooms on sourdough with fresh thyme and shaved Parmesan.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Lamb Tagine with Preserved Lemon",
+      "desc": "Slow-braised lamb with apricots, olives, preserved lemon, and warming spices.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Cardamom Rice Pudding",
+      "desc": "Creamy arborio rice pudding with cardamom, rosewater, and crushed pistachios.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Manchego & Membrillo",
+      "desc": "Aged Manchego with quince paste, Marcona almonds, and crusty bread.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Still Water",
+    "scent_notes": {
+      "top": "tea tree, black pepper",
+      "heart": "marjoram, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Tea Tree",
+          "drops": 6
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Tea Tree",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "color": "6BAE8E",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Tea Tree",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Sand Ember",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Tea Tree",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Sage",
+        "part": "dried leaves",
+        "terpene_target": "\u03b1-Humulene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your tropical space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#6BAE8E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Essential oil blend via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 249,
+    "text": "19 drops of tea tree carry the dominant Terpinolene through the room slowly \u2014 the way Whitethorn Valley Farm intended when they cultivated Sand Castle in Whitethorn, Humboldt County. The lineage reads Banana Pie X Papaya Bomb, but what arrives in the glass is something that transcends parentage: banana, pineapple gum, and hibiscus.\n\nThe second oil \u2014 Black Pepper \u2014 adds 10 drops of brightness that matches the pineapple gum note in the flower itself. Comforting is not a command here but an invitation, the way the best strains suggest rather than insist. The body settles into stress relieving with the kind of molecular precision that only terpenes at 1.86% total can deliver.\n\nIn the dimly lit room, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of Terpinolene, already primed for tropical comfort like warm sand between your toes. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Whitethorn Valley Farm grows in Whitethorn, Humboldt County: not just cannabis, but context. The indica genetics express through terpenes that speak the same chemical language as bay laurel on a Humboldt hillside. The session settles into its final form \u2014 joyful, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "mendocino-headlands",
+        "location_name": "Mendocino Headlands State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene"
+        ],
+        "match_score": 0.33
+      }
+    ],
+    "terpene_walk": "Begin at Mount Tamalpais State Park, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "summer/fall"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Gew\u00fcrztraminer",
+        "winery": "Navarro Vineyards",
+        "region": "Anderson Valley",
+        "terpene_bridge": "Gew\u00fcrztraminer carries terpinolene-adjacent aromatics \u2014 lychee, rose, and allspice that mirror the fresh, herbal quality.",
+        "tasting_note": "Lychee, rose petal, exotic spice",
+        "serving_temp_f": 46,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Riesling",
+        "winery": "Smith-Madrone",
+        "region": "Spring Mountain",
+        "terpene_bridge": "Riesling's terpene-rich profile carries floral and citrus compounds that harmonize with terpinolene's bright complexity.",
+        "tasting_note": "White peach, lime blossom, slate minerality",
+        "serving_temp_f": 46,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Saison",
+        "brewery": "Sante Adairius",
+        "region": "Santa Cruz",
+        "hop_varietals": [
+          "Saaz"
+        ],
+        "terpene_bridge": "Saaz hops carry terpinolene, and saison yeast produces spicy, herbal phenolics that amplify the terpene's complexity.",
+        "tasting_note": "White pepper, lemon, fresh hay",
+        "abv": "6.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Pilsner",
+        "brewery": "Trumer Brauerei",
+        "region": "Berkeley",
+        "hop_varietals": [
+          "Saaz",
+          "Tettnang"
+        ],
+        "terpene_bridge": "Noble hops carry terpinolene in their essential oil profile \u2014 clean, herbal, slightly floral.",
+        "tasting_note": "Crackers, wildflowers, crisp mineral finish",
+        "abv": "4.9%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "strain_name": "Guava Gift",
+  "slug": "guava-gift",
+  "layer_1_flower": {
+    "strain_name": "Guava Gift",
+    "slug": "guava-gift",
+    "farm": "Alpenglow Farms",
+    "region": "Humboldt",
+    "energy": "HIGH",
+    "intent": "Open and expansive, easy social lift",
+    "effects": [
+      "Social",
+      "Inspiring",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Fresh Guava",
+      "Lemon Rind",
+      "Tamarind"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 2.34,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.73,
+        "ratio": 0.31
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.5,
+        "ratio": 0.21
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.33,
+        "ratio": 0.14
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.25,
+        "ratio": 0.11
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "social",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Grapefruit",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Basil",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Rosemary",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Black pepper leads with caryophyllene. Grapefruit brings tropical citrus that echoes the guava aroma. Lemongrass delivers myrcene for the euphoric lift. Basil adds humulene with a bright, fresh edge. A touch of rosemary for herbal depth.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      80,
+      105
+    ],
+    "energy": 0.49,
+    "valence": 0.53,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Open and expansive, easy social lift. Genres: deep house, reggae, jazz, funk. Tempo around 80-105 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 80,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 105,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 92,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Guava Harmony",
+    "description": "Gentle guava leaf infusion with subtle tropical notes.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tbsp Dried guava leaf",
+      "0.5 oz Fresh guava puree",
+      "0.5 oz Fresh lime juice",
+      "0.5 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 195°F.",
+      "Add 1 tbsp dried guava leaf pieces and 0.5 oz fresh guava puree to infuser.",
+      "Steep for 4 minutes.",
+      "Remove infuser and add 0.5 oz lime juice and 0.5 tsp honey.",
+      "Stir and serve with a dried guava chip."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Social Guava",
+      "description": "Tropical guava and tamarind sparkle with expansive warmth.",
+      "glass": "Highball",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "3 oz Fresh guava nectar",
+        "1 oz Tamarind paste (diluted)",
+        "3 oz Sparkling water",
+        "0.5 oz Fresh lemon juice",
+        "1 each Lemon wheel & rosemary sprig"
+      ],
+      "method": [
+        "Pour 3 oz fresh guava nectar into highball glass over ice.",
+        "Add 1 oz tamarind paste (dissolved in 1 oz water).",
+        "Top with 3 oz sparkling water.",
+        "Add 0.5 oz fresh lemon juice (juice, not zest).",
+        "Garnish with lemon wheel and rosemary sprig."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Tropical Elevation",
+      "description": "White rum carries guava and tamarind to bright social heights.",
+      "glass": "Tiki mug",
+      "volume": "~7 oz",
+      "temp": "Ice cold",
+      "style": "Tropical/shaken",
+      "spirit": "Pisco or white rum (40% ABV)",
+      "abv": "~28%",
+      "ingredients": [
+        "2 oz Pisco or white rum",
+        "2.5 oz Guava puree",
+        "0.75 oz Tamarind paste",
+        "0.5 oz Lime juice",
+        "1 each Guava slice, lemon twist, rosemary"
+      ],
+      "method": [
+        "Combine 2 oz white rum (pisco preferred) with 2.5 oz guava puree in shaker.",
+        "Add 0.75 oz tamarind paste, 0.5 oz lime juice, and ice.",
+        "Shake vigorously for 12 seconds.",
+        "Strain into tiki mug filled with crushed ice.",
+        "Garnish with guava slice, lemon twist, and rosemary sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Guava Dawn",
+      "description": "Pressed guava and tamarind with bright citrus whisper.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed fresh",
+      "timing": "Consume within 1 hour for optimal brightness",
+      "ingredients": [
+        "4 oz Fresh guava (pressed)",
+        "1 tsp Tamarind paste",
+        "1 oz Filtered water",
+        "0.5 oz Fresh lime juice",
+        "1 wheel Lemon wheel"
+      ],
+      "method": [
+        "Cold-press 4 oz fresh guava (with skin).",
+        "Strain through fine mesh into container.",
+        "Whisk in 1 tsp tamarind paste with 1 oz filtered water until smooth.",
+        "Add 0.5 oz fresh lime juice and combine.",
+        "Pour into glass over ice and garnish with lemon wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Guava Spark",
+      "description": "A tropical punch of guava and tamarind intensity.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature to slightly chilled",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "1 oz Pisco",
+        "0.5 oz Guava puree",
+        "0.25 oz Tamarind paste (diluted)",
+        "1 piece Dried guava chip"
+      ],
+      "method": [
+        "Pour 1 oz pisco into shot glass.",
+        "Add 0.5 oz guava puree (at room temperature).",
+        "Float 0.25 oz tamarind paste (pre-thinned with water).",
+        "Stir briefly to combine layers.",
+        "Garnish with a pinch of dried guava or tamarind crystal."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Gruyère",
+      "desc": "Light and bright cheese plate with aged gouda, gruyère, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Social Glow",
+    "scent_notes": {
+      "top": "black pepper, bergamot",
+      "heart": "clove bud, neroli",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Grapefruit",
+          "drops": 3
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 3
+        },
+        {
+          "oil": "Basil",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Grapefruit",
+        "Lemongrass"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Grapefruit",
+        "Lemongrass"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Tropical Ember",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Black Pepper and Grapefruit essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 366,
+    "text": "The grapefruit oil cracks open like a sunrise over the Humboldt hills — ten drops of tropical citrus that light up the room before the pepper even gets a word in. Alpenglow Farms knows something about first impressions: their guava carries that same immediate generosity, that willingness to show up bright and unguarded and trust that the room will meet you halfway.\n\nBlack pepper follows, fourteen drops of warmth that transforms the social energy from effervescent to substantive. This is not nervous energy buzzing in search of a direction. This is Anderson .Paak territory — rhythmic, confident, generous with the groove. The spicy backbone is sturdy enough to host the whole party, solid enough that everyone in the room can lean against it.\n\nLemongrass brings the sedating quality in through the back door, eight drops of grassy sweetness that softens every conversation into something more honest, more connected to the body rather than the performance of sociability. Basil adds a bright herbal edge, six drops of the kind of clarity that makes you say the true thing instead of the polite thing and somehow makes both sound the same.\n\nRosemary whispers from its two drops in the corner of the blend, adding just enough herbal depth to keep the freshness from floating away into pure citrus abstraction. The fresh guava aroma is not in any one bottle — it is what happens when grapefruit meets pepper meets lemongrass in humid Humboldt air, a tropical alchemy that the strain itself performs in the flower and the oils reproduce in the room.\n\nA gathering is forming on the farmhouse porch. Someone has brought a tamarind paste to spread on grilled sourdough from the bakery in town. The lemon rind quality in the evening light turns everything slightly golden, and the conversation has reached that rare altitude where nobody is performing and everyone is present. Guava Gift circulates through the group like a host who remembers everyone's name and everyone's drink — open, expansive, easy — and the five oils have been doing their invisible work for thirty minutes, and no one has noticed because the room already feels like the room they have always wanted to be in."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

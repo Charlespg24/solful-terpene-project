@@ -1,0 +1,505 @@
+{
+  "strain_name": "Tropical Sleigh Ride",
+  "slug": "tropical-sleigh-ride",
+  "layer_1_flower": {
+    "strain_name": "Tropical Sleigh Ride",
+    "slug": "tropical-sleigh-ride",
+    "farm": "Greenshock Farms",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Vivid lift with present clarity",
+    "effects": [
+      "Joyful",
+      "Alert",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Peppermint",
+      "Honeysuckle",
+      "Hint of Ginger"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Ocimene",
+    "total_terpenes_pct": 2.35,
+    "terpene_profile": [
+      {
+        "name": "β-Ocimene",
+        "pct": 0.71,
+        "ratio": 0.3
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.7,
+        "ratio": 0.3
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.28,
+        "ratio": 0.12
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.22,
+        "ratio": 0.09
+      }
+    ],
+    "accent_color": "#B8785C",
+    "vibe_tags": [
+      "creative",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Basil",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Peppermint",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Grapefruit",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Basil delivers the rare ocimene (35% of blend) that defines this strain's unique character. Black pepper for the heavy caryophyllene. Peppermint captures the distinctive aroma note. Grapefruit adds citrus brightness. Geranium brings the honeysuckle floral quality.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      87,
+      111
+    ],
+    "energy": 0.55,
+    "valence": 0.59,
+    "genres": [
+      "indie pop",
+      "tropical",
+      "bossa nova",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Jungle",
+      "Tom Misch",
+      "Seu Jorge",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Vivid lift with present clarity. Genres: indie pop, tropical, bossa nova, deep house. Tempo around 87-111 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 87,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 111,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 99,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Mint Meditation",
+    "description": "Cooling mint and warming ginger tea for alert serenity.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tbsp Fresh mint leaves (bruised)",
+      "3-4 slices Fresh ginger slices",
+      "2-3 flowers Honeysuckle flowers (dried)",
+      "0.5 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 195°F.",
+      "Add 1 tbsp fresh mint leaves (lightly bruised) to infuser.",
+      "Add 3-4 thin ginger slices and 2-3 honeysuckle flowers (or dried).",
+      "Steep for 4 minutes.",
+      "Remove infuser, add 0.5 tsp honey, stir and serve with mint leaf."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Mint Lift",
+      "description": "Fresh mint and ginger sparkle with tropical joy and clarity.",
+      "glass": "Highball",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "8-10 leaves Fresh mint (muddled)",
+        "0.5 oz Fresh ginger juice",
+        "2 oz Fresh grapefruit juice",
+        "0.75 oz Elderflower cordial",
+        "2 oz Sparkling water"
+      ],
+      "method": [
+        "Muddle 8-10 fresh mint leaves gently in shaker.",
+        "Add 0.5 oz fresh ginger juice, 2 oz grapefruit juice, and 0.75 oz elderflower cordial.",
+        "Fill with ice and shake for 10 seconds.",
+        "Strain into highball glass filled with crushed ice.",
+        "Top with 2 oz sparkling water and garnish with mint sprig and grapefruit wheel."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Tiki Clarity",
+      "description": "White rum carries mint, ginger, and grapefruit into euphoric focus.",
+      "glass": "Tiki mug",
+      "volume": "~7 oz",
+      "temp": "Ice cold",
+      "style": "Tropical/shaken",
+      "spirit": "White rum or pisco (40% ABV)",
+      "abv": "~28%",
+      "ingredients": [
+        "10 leaves Fresh mint (muddled)",
+        "1.5 oz White rum",
+        "1 oz Fresh grapefruit juice",
+        "0.5 oz Fresh ginger juice",
+        "0.25 oz Elderflower cordial"
+      ],
+      "method": [
+        "Muddle 10 fresh mint leaves in mixing glass.",
+        "Add 1.5 oz white rum, 1 oz grapefruit juice, 0.5 oz fresh ginger juice, and 0.25 oz elderflower cordial.",
+        "Shake vigorously with ice for 12 seconds.",
+        "Strain into tiki mug filled with crushed ice.",
+        "Garnish with mint sprig, grapefruit wheel, and candied ginger slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Clarity Blend",
+      "description": "Cold-pressed mint and ginger with grapefruit brilliance.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 1 hour of pressing",
+      "ingredients": [
+        "2 oz Fresh mint (pressed)",
+        "0.5 oz Fresh ginger (pressed)",
+        "3 oz Fresh grapefruit juice",
+        "1 oz Coconut water",
+        "1 each Mint sprig & grapefruit wheel"
+      ],
+      "method": [
+        "Cold-press 2 oz fresh mint leaves (with stems).",
+        "Strain through fine mesh.",
+        "Cold-press 0.5 oz fresh ginger (unpeeled) and combine.",
+        "Add 3 oz fresh grapefruit juice and 1 oz coconut water.",
+        "Pour over ice and garnish with mint sprig and grapefruit wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Euphoric Rush",
+      "description": "A vibrant ginger-mint spark with tropical clarity.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Ice cold (chilled shot glass)",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "5 leaves Fresh mint (muddled)",
+        "1 oz White rum",
+        "0.5 oz Fresh ginger-grapefruit juice",
+        "1 each Mint leaf & ginger slice"
+      ],
+      "method": [
+        "Muddle 5 fresh mint leaves in shot glass.",
+        "Add 1 oz white rum.",
+        "Top with 0.5 oz fresh ginger-grapefruit juice (blended).",
+        "Stir once.",
+        "Garnish with a single mint leaf and thin ginger slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "β-Ocimene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "β-Ocimene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "β-Ocimene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "β-Ocimene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Fresh Goat Cheese",
+      "desc": "Light and bright cheese plate with fresh goat cheese, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "β-Ocimene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Electric Bloom",
+    "scent_notes": {
+      "top": "basil, black pepper",
+      "heart": "mint, clove bud",
+      "base": "patchouli"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Basil",
+          "drops": 6
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Grapefruit",
+          "drops": 1
+        },
+        {
+          "oil": "Geranium",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Basil",
+        "Black Pepper",
+        "Peppermint"
+      ],
+      "color": "terracotta",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Basil",
+        "Black Pepper",
+        "Peppermint"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Honeysuckle Flame",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Basil",
+        "part": "dried leaves",
+        "terpene_target": "β-Ocimene"
+      },
+      {
+        "plant": "Mint",
+        "part": "dried leaves",
+        "terpene_target": "β-Ocimene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#B8785C",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Basil and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 373,
+    "text": "Basil erupts into the room with the confidence of a lead dancer who has rehearsed this entrance a thousand times — fourteen drops of green electricity that announces what Greenshock Farms has been cultivating in the Mendocino hills: a strain that does not ask permission to be vivid, does not apologize for its brightness, does not dim itself for the comfort of quieter flowers.\n\nThe the bright herbal molecule is rare in cannabis. Most strains carry it as a trace note, an afterthought. Tropical Sleigh Ride leads with it, and the basil captures that herbal brightness the way Jungle captures a groove — with joyful precision and zero hesitation, as if the band arrived already playing and the audience simply materialized around them.\n\nBlack pepper follows immediately, twelve drops of spicy heat that gives the brightness somewhere substantial to land. Without the pepper, the basil would be a sparkler. With it, the combination becomes a bonfire — controlled, warm, radiating in every direction from a center that holds.\n\nPeppermint arrives at six drops and suddenly the honeysuckle aroma makes sense. The menthol creates a cooling corridor through the warm basil-pepper atmosphere, and the hint of ginger materializes from the interaction like a spice ghost who was always standing in the corner waiting to be noticed. Grapefruit adds four drops of pink citrus at the edge, and geranium closes with four drops of floral sweetness that transforms the herbal-spicy foundation into something approaching tropical. It is the difference between a garden and a garden party, between green and verdant.\n\nSomeone has just opened every window in the house, and the Mendocino air pours through carrying pine and ocean salt that merge with the five oils still spinning from the diffuser on the kitchen counter. the blend does that — it makes you want more air, more light, more of whatever is happening right now and right now and right now.\n\nThe clarity is not analytical but present, a joyful alertness that treats each moment as genuinely the most interesting thing that has ever occurred. Which, at this exact second in the hills, with basil and pepper and mint threading through the afternoon in a braid of green and warm and cool, it absolutely is."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-herb",
+        "location_name": "SF Botanical Garden — Herb Garden",
+        "shared_terpenes": [
+          "β-Ocimene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Ocimene"
+        ],
+        "match_score": 0.75
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "roys-redwoods",
+        "location_name": "Roy's Redwoods Open Space Preserve",
+        "shared_terpenes": [
+          "α-Humulene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Herb Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Viognier",
+        "winery": "Tablas Creek",
+        "region": "Paso Robles",
+        "terpene_bridge": "Viognier carries floral terpenes that complement ocimene's bright, sweet character.",
+        "tasting_note": "White peach, apricot, honeysuckle",
+        "serving_temp_f": 50,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Hazy IPA",
+        "brewery": "Moonraker Brewing",
+        "region": "Auburn",
+        "hop_varietals": [
+          "Galaxy",
+          "Mosaic"
+        ],
+        "terpene_bridge": "Galaxy hops are notably high in β-ocimene, creating tropical, basil-adjacent aromatics.",
+        "tasting_note": "Mango, passionfruit, soft mouthfeel",
+        "abv": "6.8%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

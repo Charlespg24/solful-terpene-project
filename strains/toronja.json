@@ -1,0 +1,510 @@
+{
+  "strain_name": "Toronja",
+  "slug": "toronja",
+  "layer_1_flower": {
+    "strain_name": "Toronja",
+    "slug": "toronja",
+    "farm": "Malama The Roots",
+    "region": "Potter Valley, Mendocino County",
+    "energy": "MID",
+    "intent": "Buzzy grapefruit euphoria dissolving stress",
+    "effects": [
+      "Buzzy",
+      "Stress-Free",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Grapefruit",
+      "Pastry Dough",
+      "Black Pepper"
+    ],
+    "lineage": "Face Melt (Grapefruit Chem X THC Bomb) X Governmint Oasis",
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 1.14,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.53,
+        "ratio": 0.54
+      },
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.27,
+        "ratio": 0.27
+      },
+      {
+        "name": "\u03b1-Humulene",
+        "pct": 0.11,
+        "ratio": 0.11
+      },
+      {
+        "name": "trans-\u03b2-Farnesene",
+        "pct": 0.08,
+        "ratio": 0.08
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "social",
+      "uplifting"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 22,
+        "pct": 55.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 11,
+        "pct": 27.5
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Ylang Ylang",
+        "drops": 3,
+        "pct": 7.5
+      }
+    ],
+    "blend_rationale": "Lemongrass carries the dominant myrcene. Black Pepper matches the grapefruit aroma note. Sage provides \u03b1-Humulene support. Ylang Ylang rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      85,
+      110
+    ],
+    "energy": 0.55,
+    "valence": 0.6,
+    "genres": [
+      "indie rock",
+      "neo-soul",
+      "jazz",
+      "alternative",
+      "trip-hop"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Erykah Badu",
+      "Tame Impala",
+      "Nujabes"
+    ],
+    "spotify_prompt": "A mid-energy session. Buzzy grapefruit euphoria dissolving stress. Genres: indie rock, neo-soul, jazz, alternative. Tempo around 85-110 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 85,
+        "mood": "easy opening"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 90,
+        "mood": "warm plateau"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 105,
+        "mood": "gentle landing"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Toronja Tea",
+    "description": "Grapefruit and pastry dough infused oolong blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "195\u00b0F",
+    "steep_time": "3-4 minutes",
+    "caffeine": "moderate (30-50 mg)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 oolong tea bag",
+      "1 tsp fresh grapefruit peel",
+      "1 tsp vanilla extract",
+      "1 tsp cracked black peppercorn",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 195\u00b0F.",
+      "Add oolong tea bag and steep for 3-4 minutes.",
+      "Add fresh grapefruit peel and let infuse for 1 minute.",
+      "Add vanilla extract and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Toronja Fizz",
+      "description": "Grapefruit and pastry dough refresher",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz fresh grapefruit juice",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz vanilla simple syrup",
+        "2 oz sparkling water",
+        "grapefruit garnish"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Combine 2 oz fresh grapefruit juice and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz vanilla simple syrup.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with grapefruit."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Toronja Spritz",
+      "description": "Gin-based grapefruit and pastry dough cocktail",
+      "glass": "highball",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "built",
+      "spirit": "gin",
+      "abv": "14%",
+      "ingredients": [
+        "2 oz gin",
+        "1.5 oz fresh grapefruit juice",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz vanilla simple syrup",
+        "2 oz sparkling water",
+        "grapefruit garnish"
+      ],
+      "method": [
+        "Combine 2 oz gin, 1.5 oz fresh grapefruit juice, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz vanilla simple syrup.",
+        "Add ice.",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled highball.",
+        "Garnish with grapefruit."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Toronja Juice",
+      "description": "Cold-pressed grapefruit and lemon blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh grapefruit chunks",
+        "0.5 oz fresh lemon juice",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh grapefruit through a cold press.",
+        "Press 1 green apple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Toronja Shot",
+      "description": "One-sip grapefruit concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz gin",
+        "0.75 oz fresh grapefruit juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of black pepper",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz gin with 0.75 oz fresh grapefruit juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Spiced Cashews with Lime & Chili",
+      "desc": "Roasted cashews with lime zest, chili flakes, and smoked paprika.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Ahi Tuna Poke Bowl",
+      "desc": "Fresh ahi tuna with avocado, sesame, ponzu, and crispy shallots.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Salmon with Herb Butter",
+      "desc": "Wild-caught salmon with compound butter of dill, lemon, and capers over wilted greens.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Lemon Olive Oil Cake",
+      "desc": "Moist cake with Meyer lemon, local olive oil, and a dusting of powdered sugar.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Mozzarella & Heirloom Tomatoes",
+      "desc": "Hand-pulled mozzarella with heirloom tomatoes, basil oil, and aged balsamic.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Warm Signal",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 7
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        },
+        {
+          "oil": "Ylang Ylang",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Sage"
+      ],
+      "color": "8EAE68",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Sage"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Toronja Wisp",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Sage",
+        "part": "dried leaves",
+        "terpene_target": "\u03b1-Humulene"
+      },
+      {
+        "plant": "Chamomile",
+        "part": "dried flowers",
+        "terpene_target": "trans-\u03b2-Farnesene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your buzzy space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 3200,
+    "brightness": "moderate (40-55%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "leather",
+      "cotton",
+      "ceramic",
+      "warm wood"
+    ],
+    "spatial_setup": "Mixed seating heights, conversation-friendly arrangement. Ambient background music visible.",
+    "room_temp_f": 70,
+    "scent_anchor": "Essential oil blend via diffuser, started 25 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Balance Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 6,
+      "cycles": 8
+    },
+    "nervous_system_target": "vagal balance",
+    "timing": "Begin with the first sip. Alternate breathing cycles with mindful tasting.",
+    "guidance_text": "Find your center. Breathe in through the nose for four counts. Hold for four, noticing the stillness. Exhale slowly through the mouth for six counts, letting the breath carry tension away."
+  },
+  "layer_13_narrative": {
+    "word_count": 250,
+    "text": "22 drops of lemongrass carry the dominant Myrcene through the room steadily \u2014 the way Malama The Roots intended when they cultivated Toronja in Potter Valley, Mendocino County. The lineage reads Face Melt (Grapefruit Chem X THC Bomb) X Governmint Oasis, but what arrives in the glass is something that transcends parentage: grapefruit, pastry dough, and black pepper.\n\nThe second oil \u2014 Black Pepper \u2014 adds 11 drops of brightness that matches the pastry dough note in the flower itself. Buzzy is not a command here but an invitation, the way the best strains suggest rather than insist. The body balances into stress-free with the kind of molecular precision that only terpenes at 1.14% total can deliver.\n\nIn the warm gathering space, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of Myrcene, already primed for buzzy grapefruit euphoria dissolving stress. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Malama The Roots grows in Potter Valley, Mendocino County: not just cannabis, but context. The hybrid genetics express through terpenes that speak the same chemical language as rosemary in a Mendocino garden. The session balances into its final form \u2014 euphoric, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "mendocino-headlands",
+        "location_name": "Mendocino Headlands State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene"
+        ],
+        "match_score": 0.33
+      }
+    ],
+    "terpene_walk": "Begin at Mount Tamalpais State Park, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/spring"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality \u2014 both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Grenache",
+        "winery": "Tablas Creek",
+        "region": "Paso Robles",
+        "terpene_bridge": "Grenache's lush fruit and herbaceous undertones complement myrcene's tropical warmth.",
+        "tasting_note": "Strawberry, garrigue herbs, warm spice",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant \u2014 cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant myrcene, connecting malt-forward English ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

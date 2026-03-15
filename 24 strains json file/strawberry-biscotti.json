@@ -1,0 +1,503 @@
+{
+  "strain_name": "Strawberry Biscotti",
+  "slug": "strawberry-biscotti",
+  "layer_1_flower": {
+    "strain_name": "Strawberry Biscotti",
+    "slug": "strawberry-biscotti",
+    "farm": "Happy Day Farms",
+    "region": "Mendocino",
+    "energy": "MEDIUM",
+    "intent": "Cozy anchor with a curious mind",
+    "effects": [
+      "Comforting",
+      "Mentally Engaging",
+      "Appetite Inducing"
+    ],
+    "aroma": [
+      "Kettle Corn",
+      "Fuel",
+      "Sour Strawberry Candy"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Limonene",
+    "total_terpenes_pct": 1.48,
+    "terpene_profile": [
+      {
+        "name": "Limonene",
+        "pct": 0.38,
+        "ratio": 0.26
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.29,
+        "ratio": 0.2
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.25,
+        "ratio": 0.17
+      },
+      {
+        "name": "α-Bisabolol",
+        "pct": 0.13,
+        "ratio": 0.09
+      }
+    ],
+    "accent_color": "#D4C85C",
+    "vibe_tags": [
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Bergamot",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "German Chamomile",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Clove",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Balanced profile with comfort as the effect. Bergamot brings sophisticated citrus that pairs with the sour strawberry candy note. Black pepper for caryophyllene. Lemongrass for myrcene. German chamomile for bisabolol. A touch of clove adds warmth.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      78,
+      103
+    ],
+    "energy": 0.46,
+    "valence": 0.56,
+    "genres": [
+      "funk",
+      "soul",
+      "pop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Anderson .Paak",
+      "Vulfpeck",
+      "Lizzo",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A balanced, social, warm session. Cozy anchor with a curious mind. Genres: funk, soul, pop, deep house. Tempo around 78-103 BPM.",
+    "iso_principle": [
+      {
+        "phase": "open",
+        "minutes": 8,
+        "bpm_target": 78,
+        "mood": "easing in"
+      },
+      {
+        "phase": "groove",
+        "minutes": 12,
+        "bpm_target": 90,
+        "mood": "comfortable flow"
+      },
+      {
+        "phase": "reflect",
+        "minutes": 10,
+        "bpm_target": 83,
+        "mood": "gentle unwinding"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Kettle Corn Serenity",
+    "description": "Chamberlain tea with strawberry warmth and cinnamon depth.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tbsp Dried strawberry pieces",
+      "1 stick Cinnamon stick (broken)",
+      "0.5 tsp Vanilla extract",
+      "0.75 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 190°F.",
+      "Add 1 tbsp dried strawberry pieces and 1 cinnamon stick (broken) to infuser.",
+      "Steep for 4 minutes, stirring gently.",
+      "Remove infuser and add 0.5 tsp vanilla extract and 0.75 tsp honey.",
+      "Stir and serve with a cinnamon stick."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Curious Cozy",
+      "description": "",
+      "glass": "Rocks",
+      "volume": "~5 oz",
+      "temp": "Chilled",
+      "ingredients": [
+        "4-5 berries Fresh strawberries (muddled)",
+        "1 oz Bergamot tea (cooled)",
+        "0.75 oz Vanilla syrup",
+        "1 stick Cinnamon stick (garnish)"
+      ],
+      "method": [
+        "Muddle 4-5 fresh strawberries (hulled) gently in shaker.",
+        "Add 1 oz bergamot tea (cooled), 0.75 oz vanilla syrup, and ice.",
+        "Shake for 8 seconds.",
+        "Strain into rocks glass over large ice cube.",
+        "Garnish with a cinnamon stick and strawberry slice."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Biscotti Bliss",
+      "description": "Bourbon and strawberry with subtle clove warmth.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 43°F)",
+      "style": "Classic/stirred",
+      "spirit": "Bourbon (100 proof)",
+      "abv": "~34%",
+      "ingredients": [
+        "5 berries Fresh strawberries (muddled)",
+        "1.5 oz Bourbon",
+        "0.5 oz Clove-cinnamon syrup",
+        "0.25 oz Dry vermouth",
+        "1 berry Fresh strawberry & cinnamon rim"
+      ],
+      "method": [
+        "Muddle 5 fresh strawberries in mixing glass.",
+        "Add 1.5 oz bourbon, 0.5 oz clove-cinnamon syrup, and 0.25 oz dry vermouth.",
+        "Stir with ice for 12 seconds.",
+        "Fine-strain into chilled coupe.",
+        "Garnish with a fresh strawberry and cinnamon-dusted rim."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Berry Meditation",
+      "description": "Cold-pressed strawberry with earthy cinnamon kiss.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed smoothie",
+      "timing": "Best consumed within 1 hour",
+      "ingredients": [
+        "5 oz Fresh strawberry (pressed)",
+        "2 oz Oat milk",
+        "1-2 drops Vanilla extract",
+        "0.25 oz Cinnamon-honey syrup",
+        "1 wheel Strawberry wheel & cinnamon"
+      ],
+      "method": [
+        "Cold-press 5 oz fresh strawberries (hulled).",
+        "Strain through fine mesh.",
+        "Add 2 oz oat milk and 0.5 oz vanilla extract (1-2 drops).",
+        "Whisk in 0.25 oz cinnamon-honey syrup.",
+        "Pour over crushed ice and garnish with a strawberry wheel and cinnamon dusting."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Sweet Curiosity",
+      "description": "",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature to slightly chilled",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "3 berries Fresh strawberry (muddled)",
+        "1 oz Bourbon",
+        "0.25 oz Cinnamon-honey syrup",
+        "pinch Cinnamon & strawberry"
+      ],
+      "method": [
+        "Muddle 3 fresh strawberries in shot glass.",
+        "Add 1 oz bourbon.",
+        "Top with 0.25 oz cinnamon-honey syrup.",
+        "Stir gently.",
+        "Garnish with a pinch of cinnamon and a strawberry slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Spiced Mixed Nuts with Sage & Brown Butter",
+      "desc": "Local walnuts and pecans toasted in brown butter with crispy sage leaves and a whisper of cayenne.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Wild Mushroom Bruschetta",
+      "desc": "Foraged chanterelles and maitake on grilled levain with shaved Bellwether Farms pecorino and truffle oil.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Heritage Pork Chop with Apple Mostarda",
+      "desc": "Thick-cut Sonoma County pork with house-made apple mostarda, roasted brassicas, and pan jus.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Brown Butter Financier with Stone Fruit",
+      "desc": "Warm almond cake with brown butter, topped with roasted seasonal stone fruit and vanilla bean ice cream.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Mixed Selection: Chèvre, Burrata",
+      "desc": "Balanced board with chèvre, burrata, quince paste, roasted grapes, and artisan crackers.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Warm Curiosity",
+    "scent_notes": {
+      "top": "bergamot, black pepper",
+      "heart": "neroli, clove bud",
+      "base": "cedarwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Bergamot",
+          "drops": 4
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 3
+        },
+        {
+          "oil": "German Chamomile",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Bergamot",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "color": "sunny yellow",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Bergamot",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Kettle Smoke",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light as you transition between activities. The scent bridges one moment to the next with ease."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 3200,
+    "brightness": "moderate (45-60%)",
+    "hue_color": "#D4C85C",
+    "textures": [
+      "leather",
+      "canvas",
+      "ceramic",
+      "mixed wood"
+    ],
+    "spatial_setup": "Flexible seating, a mix of ambient and task lighting. Conversation-friendly arrangement.",
+    "room_temp_f": 70,
+    "scent_anchor": "Bergamot and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Balance Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 4,
+      "hold_sec_2": 4,
+      "cycles": 6
+    },
+    "nervous_system_target": "balanced",
+    "timing": "Begin 10 minutes into the diffuser session. Box breathing for equilibrium.",
+    "guidance_text": "Find a comfortable seat. Inhale through the nose for four counts. Hold for four. Exhale through the mouth for four. Hold empty for four. Each cycle is a complete square. Let the scent anchor each corner."
+  },
+  "layer_13_narrative": {
+    "word_count": 397,
+    "text": "Bergamot leads with fourteen drops and suddenly the room smells like a bakery that moonlights as a library — warm, complex, the scent of pages and pastry sharing an afternoon. This is Happy Day Farms' most comforting Mendocino creation, and the sophisticated citrus of bergamot — not bright like lemon, not sweet like orange, but something closer to the first sip of Earl Grey in a warm cup on a cold morning — catches the sour strawberry candy note and holds it gently, the way you hold a conversation you don't want to end.\n\nBlack pepper adds ten drops of spiced warmth, the steady heat of a wood-fired oven still cooling at the end of the day, still radiating into the room long after the bread has been pulled and set on the counter to rest. Lemongrass brings eight drops of grassy warmth, and the kettle corn aroma suddenly makes sense: it is the grassy sweetness meeting the warm spice, creating that buttery caramel quality that no single oil can produce alone, only the collaboration between oils, only the willingness to let molecules finish each other's sentences.\n\nGerman chamomile at six drops provides the the soft calming molecule, a cushioning effect that Chet Baker achieved with silence — the pauses between trumpet notes that make the notes matter more, the space that turns playing into music and scent into atmosphere. Clove closes the blend with two drops of concentrated warmth, a direct echo of the cinnamon quality that Strawberry Biscotti's aroma implies but the oils deliver through clove's deeper, more resonant register.\n\nThe fuel note is not in any bottle on the shelf. It is the background hum of terpene interaction, the evidence that these molecules were built for each other across botanical kingdoms and have been waiting, in their separate plants, for someone to introduce them.\n\nA woman opens a cookbook, then closes it. The appetite is not for recipes but for the feeling of being fed, the curious satisfaction that comes from a warm kitchen and a wandering mind and the absolute absence of urgency. the blend asked one question and the cozy anchor answered: you do not need to go anywhere to arrive somewhere interesting. The bergamot and the clove both agree, and the kettle corn sweetness in the air is the period at the end of the sentence, and the sentence says stay."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Citrus Collection, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "year-round"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

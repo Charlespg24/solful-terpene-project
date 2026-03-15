@@ -1,0 +1,510 @@
+{
+  "strain_name": "Blueberry Muffin",
+  "slug": "blueberry-muffin",
+  "layer_1_flower": {
+    "strain_name": "Blueberry Muffin",
+    "slug": "blueberry-muffin",
+    "farm": "Briceland Forest Farm",
+    "region": "Humboldt",
+    "energy": "LOW",
+    "intent": "Quiet peace with a soft glow",
+    "effects": [
+      "Relaxed",
+      "Peaceful",
+      "Joyful"
+    ],
+    "aroma": [
+      "Blueberry",
+      "Fresh Dough",
+      "Cinnamon"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.66,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.47,
+        "ratio": 0.28
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.4,
+        "ratio": 0.24
+      },
+      {
+        "name": "α-Bisabolol",
+        "pct": 0.25,
+        "ratio": 0.15
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.16,
+        "ratio": 0.1
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "grounded",
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "German Chamomile",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Clove",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Black pepper and lemongrass anchor the caryophyllene and myrcene. German chamomile brings the α-bisabolol for a soft, calming quality. Sage adds humulene depth. Geranium contributes fruity, berry-like notes. A touch of clove echoes the cinnamon aroma.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      69,
+      91
+    ],
+    "energy": 0.34,
+    "valence": 0.42,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "ambient",
+      "dub"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Bonobo"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Quiet peace with a soft glow. Genres: deep house, reggae, jazz, ambient. Tempo around 69-91 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 69,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 64,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 79,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Blueberry Muffin Tea",
+    "description": "Blueberry and chamomile with real cinnamon for quiet peace.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tbsp Dried blueberry pieces",
+      "1 stick Cinnamon stick (broken)",
+      "0.5 tsp Dried chamomile flowers",
+      "1 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 185°F.",
+      "Add 1 tbsp dried blueberry pieces and 1 cinnamon stick (broken) to infuser.",
+      "Add 0.5 tsp dried chamomile flowers.",
+      "Steep for 4 minutes, stirring gently.",
+      "Remove infuser, add 1 tsp honey and 0.25 oz vanilla extract (1-2 drops), stir and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Cozy Blueberry",
+      "description": "Soft blueberry sweetness with vanilla and cinnamon wrapped in cream.",
+      "glass": "Rocks",
+      "volume": "~5.5 oz",
+      "temp": "Chilled",
+      "ingredients": [
+        "6-8 berries Fresh blueberries (muddled)",
+        "1 oz Vanilla oat milk",
+        "0.75 oz Cinnamon-honey syrup",
+        "1.5 oz Chilled chamomile tea",
+        "1 each Blueberry & cinnamon stick"
+      ],
+      "method": [
+        "Muddle 6-8 fresh blueberries gently in rocks glass.",
+        "Add 1 oz vanilla oat milk and 0.75 oz cinnamon-honey syrup.",
+        "Add 2-3 large ice cubes.",
+        "Top with 1.5 oz chilled chamomile tea and stir gently.",
+        "Garnish with fresh blueberry and cinnamon stick."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Bourbon Berry Comfort",
+      "description": "Bourbon and blueberry with vanilla cinnamon warmth.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 43°F)",
+      "style": "Classic/stirred",
+      "spirit": "Bourbon (100 proof)",
+      "abv": "~34%",
+      "ingredients": [
+        "8 berries Fresh blueberries (muddled)",
+        "1.5 oz Bourbon",
+        "0.5 oz Vanilla syrup",
+        "0.25 oz Cinnamon-simple syrup",
+        "1 berry Blueberry & cinnamon rim"
+      ],
+      "method": [
+        "Muddle 8 fresh blueberries in mixing glass.",
+        "Add 1.5 oz bourbon, 0.5 oz vanilla syrup, and 0.25 oz cinnamon-infused simple syrup.",
+        "Stir with ice for 12 seconds.",
+        "Fine-strain into chilled coupe.",
+        "Garnish with fresh blueberry and cinnamon-dusted rim."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Blueberry Dream",
+      "description": "Cold-pressed blueberry with vanilla warmth and subtle cinnamon.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed smoothie",
+      "timing": "Best consumed within 1 hour",
+      "ingredients": [
+        "5 oz Fresh blueberry (pressed)",
+        "2 oz Vanilla oat milk",
+        "0.5 oz Cinnamon-honey syrup",
+        "1 berry + pinch Blueberry & cinnamon"
+      ],
+      "method": [
+        "Cold-press 5 oz fresh blueberries.",
+        "Strain through fine mesh.",
+        "Add 2 oz vanilla oat milk and stir gently.",
+        "Whisk in 0.5 oz cinnamon-honey syrup.",
+        "Pour over regular ice and garnish with blueberry and cinnamon dusting."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Muffin Moment",
+      "description": "A cozy blueberry and cinnamon moment of comfort.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature to slightly chilled",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "4 berries Fresh blueberry (muddled)",
+        "1 oz Bourbon",
+        "0.25 oz Cinnamon-honey syrup",
+        "1 berry + pinch Blueberry & cinnamon"
+      ],
+      "method": [
+        "Muddle 4 fresh blueberries in shot glass.",
+        "Add 1 oz bourbon.",
+        "Top with 0.25 oz cinnamon-honey syrup.",
+        "Stir gently.",
+        "Garnish with a blueberry and tiny cinnamon stick or dusting."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Aged Gouda",
+      "desc": "A NorCal cheese board featuring aged gouda, gruyère, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Berry Hearth",
+    "scent_notes": {
+      "top": "black pepper, lemongrass",
+      "heart": "clove bud, bay laurel",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 4
+        },
+        {
+          "oil": "German Chamomile",
+          "drops": 3
+        },
+        {
+          "oil": "Sage",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "German Chamomile"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "German Chamomile"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Berry Smoke",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Black Pepper and Lemongrass essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 383,
+    "text": "Twelve drops of black pepper, and the warm spice settles over Briceland Forest Farm's gentlest Humboldt strain like a blanket over a sleeping child — not to restrict movement but to define the edges of safety, to say this is the space where nothing needs to be defended, where warmth is structural rather than emotional.\n\nLemongrass adds ten drops of grassy warmth, and the fresh dough note in the aroma makes sense immediately: it is the grassy sweetness meeting the warm spice, creating something that smells like a kitchen where someone has been baking all morning without any particular deadline, without any particular recipe, just the meditative act of measuring and mixing as its own reward.\n\nGerman chamomile provides eight drops of the most significant the soft calming molecule presence in any blend in the collection, and Enya would approve of its effect: a calming so thorough it borders on the sacred, a softness that makes even silence feel gentle and textured rather than empty. Sage adds four drops of herbal earthiness, dry and grounding, the herb that connects kitchens to apothecaries to the ancient practice of burning plants to change the quality of a room.\n\nGeranium at four drops brings the blueberry translation. Not literally — geranium is rose-adjacent — but the fruity, slightly tart floral quality lands close enough to blueberry that the brain makes the connection and accepts it without argument, the way the brain accepts that blue can be warm and quiet can be full. Clove closes with two drops of cinnamon warmth, the spice note that ties the entire blend back to the bakery.\n\nA man pulls an actual blueberry muffin from an actual oven, and Blueberry Muffin the strain has already made the kitchen into a sanctuary — not the dramatic kind with stained glass and organ music, but the domestic kind where the holiest act is pulling something warm from the oven and setting it on a wire rack to cool.\n\nThe joyful quality is not excitement. It is the quieter version — the peace that comes with a soft glow behind the eyes and the smell of something you made with your hands and the absolute certainty that this moment needs nothing added and nothing removed and the six oils have known this all along."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

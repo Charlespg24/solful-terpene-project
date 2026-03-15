@@ -1,0 +1,544 @@
+{
+  "strain_name": "Purple Candy Cane",
+  "slug": "purple-candy-cane",
+  "layer_1_flower": {
+    "strain_name": "Purple Candy Cane",
+    "slug": "purple-candy-cane",
+    "farm": "Greenshock Farms",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Vibrant and vocal, fully awake",
+    "effects": [
+      "Energized",
+      "Invigorated",
+      "Talkative"
+    ],
+    "aroma": [
+      "Mango",
+      "Peppermint Candy",
+      "Orange Blossom"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 1.55,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.54,
+        "ratio": 0.35
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.31,
+        "ratio": 0.2
+      },
+      {
+        "name": "α-Pinene",
+        "pct": 0.2,
+        "ratio": 0.13
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.13,
+        "ratio": 0.08
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "creative",
+      "social"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Sweet Orange",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Pine",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Peppermint",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Myrcene-forward for the mango note. Black pepper for caryophyllene. Sweet orange captures the orange blossom aroma. Pine for the pinene. Peppermint matches the peppermint candy perfectly. A touch of sage for humulene grounding.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      72,
+      94
+    ],
+    "energy": 0.35,
+    "valence": 0.41,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Vibrant and vocal, fully awake. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 72-94 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 72,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 94,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 83,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Purple Candy Cane Tea",
+    "description": "Tropical mint with orange blossom comfort",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "minimal (herbal blend)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried mango pieces",
+      "6-8 dried mint leaves",
+      "1 tsp dried orange peel",
+      "0.5 tsp orange blossom petals",
+      "0.5 oz coconut cream",
+      "tiny pinch of ground cinnamon",
+      "fresh mint sprig (garnish)",
+      "thin orange wheel (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 160°F (71°C).",
+      "In a tea infuser, combine 1 tbsp dried mango pieces, 6-8 dried mint leaves, 1 tsp dried orange peel, and 0.5 tsp orange blossom petals (or 0.25 tsp orange blossom concentrate).",
+      "Steep for 4 minutes to allow the tropical notes to infuse gently.",
+      "Strain into a warm teacup.",
+      "Stir in 0.5 oz coconut cream and a tiny pinch of ground cinnamon.",
+      "Garnish with a fresh mint sprig and thin orange wheel."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Purple Candy Cane",
+      "description": "Tropical candy shop in a glass",
+      "glass": "tiki",
+      "volume": "7 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "crushed ice",
+        "2 oz fresh mango puree",
+        "0.75 oz fresh orange juice",
+        "6-8 fresh mint leaves",
+        "0.5 oz orange blossom water",
+        "0.75 oz coconut cream",
+        "mango slice (garnish)",
+        "candied orange wheel (garnish)",
+        "cinnamon stick (garnish)",
+        "fresh mint sprig (garnish)"
+      ],
+      "method": [
+        "Fill a tiki glass with crushed ice.",
+        "In a blender, combine 2 oz fresh mango puree, 0.75 oz fresh orange juice, and 6-8 fresh mint leaves.",
+        "Add 0.5 oz orange blossom water and 0.75 oz coconut cream.",
+        "Blend for 8 seconds until smooth and frothy.",
+        "Pour into the tiki glass.",
+        "Garnish with a mango slice, a candied orange wheel, a cinnamon stick, and a fresh mint sprig."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Purple Candy Cane",
+      "description": "Rum-spiked mango mint tropical vibrancy",
+      "glass": "tiki",
+      "volume": "7.5 oz",
+      "temp": "chilled",
+      "style": "tropical fruity",
+      "spirit": "white rum",
+      "abv": "15%",
+      "ingredients": [
+        "1.75 oz white rum",
+        "2 oz fresh mango puree",
+        "0.75 oz fresh orange juice",
+        "0.5 oz orange blossom water",
+        "6-8 fresh mint leaves",
+        "0.5 oz coconut cream",
+        "1 small sprig fresh rosemary",
+        "crushed ice",
+        "mango slice (garnish)",
+        "candied orange wheel (garnish)",
+        "cinnamon stick (garnish)",
+        "fresh mint sprig (garnish)"
+      ],
+      "method": [
+        "Fill a tiki glass with crushed ice.",
+        "Pour 1.75 oz white rum into a blender.",
+        "Add 2 oz fresh mango puree, 0.75 oz fresh orange juice, and 0.5 oz orange blossom water.",
+        "Add 6-8 fresh mint leaves and 0.5 oz coconut cream.",
+        "Add 1 small sprig fresh rosemary (for pinene depth).",
+        "Blend for 10 seconds until smooth and creamy.",
+        "Pour into the tiki glass.",
+        "Garnish with a mango slice, candied orange wheel, a cinnamon stick, and fresh mint sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Purple Candy Cane Juice",
+      "description": "Mango mint with orange blossom sweetness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "tropical mango blend",
+      "timing": "serve immediately to preserve mango",
+      "ingredients": [
+        "1.5 cups fresh ripe mango chunks",
+        "1 fresh orange",
+        "8-10 fresh mint leaves",
+        "1 oz cold filtered water (mint extraction)",
+        "0.5 oz orange blossom water",
+        "0.5 oz coconut cream",
+        "1 oz cold filtered water",
+        "mango slice (garnish)",
+        "fresh mint sprig (garnish)",
+        "cinnamon dust (garnish)",
+        "crushed ice"
+      ],
+      "method": [
+        "Blend 1.5 cups fresh ripe mango chunks until smooth (yields ~3 oz puree).",
+        "Strain through fine mesh to remove any pulp.",
+        "Squeeze 1 fresh orange for juice (yields ~0.75 oz).",
+        "Blend 8-10 fresh mint leaves with 1 oz cold filtered water, then strain through cheesecloth.",
+        "Combine mango puree, orange juice, mint water, and 0.5 oz orange blossom water.",
+        "Stir in 0.5 oz coconut cream.",
+        "Add 1 oz cold filtered water to reach desired consistency.",
+        "Pour over crushed ice and garnish with mango slice, mint sprig, and a cinnamon dust."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Purple Candy Cane Shot",
+      "description": "One-sip mango tropical energy",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1 oz white rum",
+        "0.75 oz fresh mango puree",
+        "0.25 oz orange juice",
+        "0.1 oz orange blossom water",
+        "2-3 fresh mint leaves",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz white rum with 0.75 oz fresh mango puree.",
+        "Add 0.25 oz orange juice and 0.1 oz orange blossom water.",
+        "Add 2-3 fresh mint leaves and muddle very gently.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Camembert",
+      "desc": "Light and bright cheese plate with brie, camembert, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Candy Voltage",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 4
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Sweet Orange",
+          "drops": 3
+        },
+        {
+          "oil": "Pine",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Sweet Orange"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Sweet Orange"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Mango Spark",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Lemongrass and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 381,
+    "text": "The lemongrass comes first, twelve drops of grassy sweetness carrying the mango note that gives Greenshock Farms' most energizing Mendocino strain its tropical opening movement. This is not the sleepy heaviness of nighttime preparations — this is grassy sweetness in its morning suit, bright-eyed and sociable, ready to talk, ready to listen, ready to do both simultaneously.\n\nSweet orange and black pepper arrive together, eight drops each, like Vulfpeck's rhythm section locking into a groove that makes sitting still feel like a waste of a perfectly good body. The orange blossom aroma blooms from the sweet orange oil in real time, and the spiced warmth from the pepper gives every sentence that follows a spine, a posture, a reason to stand up straight.\n\nPine adds six drops of clarity to the blend — the kind that makes ideas sharper and words easier to find, the kind that turns the tip of the tongue into a reliable address rather than a temporary holding facility. Peppermint follows with four drops of cool precision that matches the peppermint candy aroma note so exactly it feels engineered rather than botanical, as if the strain and the oil were designed in the same laboratory by someone who understood that accuracy is its own form of beauty.\n\nTwo drops of sage anchor everything in earth. Not enough to slow the momentum, not nearly enough to suggest rest — just enough to keep the energy from floating into aimless, decorative chatter. Purple Candy Cane knows the difference between vibrant and scattered, between vocal and noisy, between fully awake and merely caffeinated.\n\nThe kitchen is full of people this morning. Someone is telling a story that keeps getting interrupted by better stories, and nobody minds because the interruptions are the point, the stories are the point, the overlapping voices are the proof that the room has reached that temperature where formality melts and what remains is genuine exchange.\n\nThe six oils have turned the morning into an open floor, and every voice in the room has found its register — confident, warm, precise — and the mango sweetness in the air is the standing invitation to say whatever you have been meaning to say, only louder, only brighter, only now while the peppermint is still cool on the inhale."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

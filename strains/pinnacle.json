@@ -1,0 +1,506 @@
+{
+  "strain_name": "Pinnacle",
+  "slug": "pinnacle",
+  "layer_1_flower": {
+    "strain_name": "Pinnacle",
+    "slug": "pinnacle",
+    "farm": "Dos Rios Farms",
+    "region": "Mendocino",
+    "energy": "LOW",
+    "intent": "Deep surrender into velvet quiet",
+    "effects": [
+      "Heavy",
+      "Sedative",
+      "Blissful"
+    ],
+    "aroma": [
+      "Sweet Cream",
+      "Nutmeg",
+      "Fennel Seeds"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 3.35,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.61,
+        "ratio": 0.18
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.46,
+        "ratio": 0.14
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.19,
+        "ratio": 0.06
+      },
+      {
+        "name": "trans-β-Farnesene",
+        "pct": 0.14,
+        "ratio": 0.04
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "rest"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Sweet Orange",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Rosemary",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Ylang Ylang",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Clove",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "The heaviest, most sedative strain. Black pepper and rosemary together deliver concentrated caryophyllene. Sweet orange for the limonene and sweet cream aroma. Sage for humulene with earthy depth. Ylang ylang is one of the few oils containing farnesene, amplifying the blissful effect.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      83,
+      108
+    ],
+    "energy": 0.53,
+    "valence": 0.58,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Deep surrender into velvet quiet. Genres: deep house, reggae, jazz, funk. Tempo around 83-108 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 83,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 78,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 93,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Nutmeg Dream",
+    "description": "Warming fennel and nutmeg tea for deep rest.",
+    "glass": "Teacup with saucer",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tsp Fennel seeds (toasted)",
+      "1 piece Clove",
+      "0.25 tsp Freshly grated nutmeg",
+      "1 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 185°F.",
+      "Toast 1 tsp fennel seeds and 1 clove together for 20 seconds.",
+      "Add to infuser with 0.25 tsp freshly grated nutmeg.",
+      "Steep for 5 minutes in 6 oz water.",
+      "Remove infuser, stir in 1 tsp honey and 0.5 oz coconut cream, serve with nutmeg dust."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Velvet Descent",
+      "description": "Coconut cream and nutmeg guide you into blissful surrender.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Warm (145°F)",
+      "ingredients": [
+        "2 oz Coconut cream (warmed)",
+        "0.25 tsp Freshly grated nutmeg",
+        "1 oz Vanilla oat milk",
+        "0.5 oz Fennel seed tea (cooled)"
+      ],
+      "method": [
+        "Heat 2 oz coconut cream gently (do not boil).",
+        "Toast 0.25 tsp freshly grated nutmeg in small pot for 10 seconds.",
+        "Whisk together coconut cream and nutmeg, remove from heat.",
+        "Add 1 oz vanilla oat milk and 0.5 oz fennel seed tea (steeped).",
+        "Pour into chilled coupe and float a small pinch of nutmeg on top."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Cognac Velvet",
+      "description": "Cognac's richness deepens nutmeg and cream into sedative bliss.",
+      "glass": "Snifter",
+      "volume": "~4 oz",
+      "temp": "Warm (140°F)",
+      "style": "Warm/stirred",
+      "spirit": "VS Cognac (40% ABV)",
+      "abv": "~30%",
+      "ingredients": [
+        "1.5 oz VS Cognac (warmed)",
+        "1.5 oz Coconut cream",
+        "0.25 tsp Freshly grated nutmeg",
+        "2-3 seeds Fennel seeds (toasted)"
+      ],
+      "method": [
+        "Gently warm 1.5 oz VS cognac in a small saucepan (do not boil).",
+        "Toast 0.25 tsp freshly grated nutmeg and 2-3 fennel seeds together for 15 seconds.",
+        "Pour warm cognac into snifter.",
+        "Whisk in 1.5 oz coconut cream carefully.",
+        "Float spiced mixture on top and garnish with a nutmeg dusting."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Cream Meditation",
+      "description": "Creamy, spiced, with gentle green apple undertones.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Chilled (around 45°F)",
+      "format": "Creamy blended beverage",
+      "timing": "Serve immediately after",
+      "ingredients": [
+        "2 oz Fresh pear juice",
+        "3 oz Oat milk",
+        "0.5 oz Coconut cream",
+        "0.25 tsp Freshly grated nutmeg",
+        "0.5 oz Fennel seed tea (cooled)"
+      ],
+      "method": [
+        "Blend 2 oz fresh pear juice with 3 oz oat milk until smooth.",
+        "Add 0.5 oz coconut cream and 0.25 tsp freshly grated nutmeg.",
+        "Whisk in 0.5 oz fennel seed tea (steeped, cooled).",
+        "Pour into glass filled with regular ice.",
+        "Garnish with a thin pear slice and nutmeg dust."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Blissful Surrender",
+      "description": "A warming spiced shot of nutmeg and cognac richness.",
+      "glass": "Cordial glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature",
+      "timing": "Consume at leisure (sip slowly)",
+      "ingredients": [
+        "1 oz VS Cognac",
+        "0.5 oz Coconut cream",
+        "0.125 tsp Freshly grated nutmeg",
+        "pinch Fennel seed"
+      ],
+      "method": [
+        "Pour 1 oz VS cognac into cordial glass.",
+        "Add 0.5 oz coconut cream (room temperature).",
+        "Stir gently to combine.",
+        "Top with freshly grated nutmeg (about 0.125 tsp).",
+        "Garnish with a pinch of fennel seed on the rim."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Aged Gouda",
+      "desc": "A NorCal cheese board featuring aged gouda, gruyère, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Velvet Surrender",
+    "scent_notes": {
+      "top": "black pepper, bergamot",
+      "heart": "clove bud, neroli",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Sweet Orange",
+          "drops": 4
+        },
+        {
+          "oil": "Rosemary",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Sweet Orange",
+        "Rosemary"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Sweet Orange",
+        "Rosemary"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Velvet Ash",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Black Pepper and Sweet Orange essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 382,
+    "text": "Black pepper begins with twelve drops, and then rosemary arrives with six more, and together they build a spice structure so dense and warm it could hold up a cathedral ceiling or, more practically, hold up a body that has decided it is done holding itself up. This is Dos Rios Farms' deepest Mendocino creation — the velvet quiet at the bottom of the well, the last color before dark — and the blend knows it.\n\nSweet orange adds ten drops of gentle citrus that catches the sweet cream aroma and turns it into something luminous, the way candlelight makes a room more beautiful not by adding brightness but by subtracting everything that is not essential. Sage follows with six drops of herbal earthiness, the earthy spice that makes the sedation feel ancient rather than chemical, a thousand-year-old recipe for surrender written in botanical ink.\n\nYlang ylang is the revelation — four drops of the only oil in the palette that carries significant the exotic molecule, the rare terpene that amplifies the blissful quality until it becomes not just an effect but the primary experience. Portishead would recognize this moment: the bass drop that changes the room's center of gravity from the head to the chest to somewhere below the chest where language has not mapped.\n\nClove adds the final two drops, and the nutmeg note in the aroma emerges from the interaction between clove's deep spice and ylang ylang's exotic sweetness, two oils from opposite ends of the aromatic spectrum meeting in the middle to produce something neither could produce alone. The fennel seeds quality is pure collaborative chemistry, what happens when the exotic molecule meets warm spice in heavy concentration and decides to blur every remaining edge.\n\nPinnacle does not negotiate. It does not offer options or present a menu of possible evenings. It offers surrender and it means it. A man lies on a couch with a blanket he does not remember pulling over himself, and the sweet cream in the air has become the entire atmosphere, and the velvet quiet is not the absence of sound but the presence of something deeper than sound, and the six oils are the last things he notices before noticing itself becomes gentle, then optional, then unnecessary, then beautiful in its departure."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

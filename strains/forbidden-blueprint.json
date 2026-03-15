@@ -1,0 +1,512 @@
+{
+  "strain_name": "Forbidden Blueprint",
+  "slug": "forbidden-blueprint",
+  "layer_1_flower": {
+    "strain_name": "Forbidden Blueprint",
+    "slug": "forbidden-blueprint",
+    "farm": "Alpenglow Farms",
+    "region": "Benbow, Humboldt County",
+    "energy": "MID",
+    "intent": "Euphoric ease wrapped in dark fruit velvet",
+    "effects": [
+      "Relaxed",
+      "Euphoric",
+      "Comfortable"
+    ],
+    "aroma": [
+      "Candied Plum",
+      "Maple Syrup",
+      "Raspberry"
+    ],
+    "lineage": "(Forbidden Fruit X Watermelon Z) X Blueprint",
+    "dominant_terpene": "\u03b2-Caryophyllene",
+    "total_terpenes_pct": 2.5,
+    "terpene_profile": [
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.89,
+        "ratio": 0.47
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.47,
+        "ratio": 0.25
+      },
+      {
+        "name": "\u03b1-Humulene",
+        "pct": 0.39,
+        "ratio": 0.21
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.14,
+        "ratio": 0.07
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "cozy",
+      "uplifting"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 19,
+        "pct": 47.5
+      },
+      {
+        "oil": "Lemon",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 3,
+        "pct": 7.5
+      }
+    ],
+    "blend_rationale": "Black Pepper carries the dominant beta-caryophyllene. Lemon matches the candied plum aroma note. Sage provides \u03b1-Humulene support. Lavender rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      85,
+      110
+    ],
+    "energy": 0.55,
+    "valence": 0.6,
+    "genres": [
+      "indie rock",
+      "neo-soul",
+      "jazz",
+      "alternative",
+      "trip-hop"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Erykah Badu",
+      "Tame Impala",
+      "Nujabes"
+    ],
+    "spotify_prompt": "A mid-energy session. Euphoric ease wrapped in dark fruit velvet. Genres: indie rock, neo-soul, jazz, alternative. Tempo around 85-110 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 85,
+        "mood": "easy opening"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 90,
+        "mood": "warm plateau"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 105,
+        "mood": "gentle landing"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Forbidden Tea",
+    "description": "Candied Plum and maple syrup infused oolong blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "195\u00b0F",
+    "steep_time": "3-4 minutes",
+    "caffeine": "moderate (30-50 mg)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 oolong tea bag",
+      "1 tsp umeboshi syrup",
+      "1 tsp maple syrup",
+      "1 tsp raspberry leaf",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 195\u00b0F.",
+      "Add oolong tea bag and steep for 3-4 minutes.",
+      "Add umeboshi syrup and let infuse for 1 minute.",
+      "Add maple syrup and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Forbidden Fizz",
+      "description": "Candied Plum and maple syrup refresher",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz plum shrub",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz maple syrup",
+        "2 oz sparkling water",
+        "candied plum garnish"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Combine 2 oz plum shrub and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz maple syrup.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with candied plum."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Forbidden Spritz",
+      "description": "Gin-based candied plum and maple syrup cocktail",
+      "glass": "highball",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "built",
+      "spirit": "gin",
+      "abv": "14%",
+      "ingredients": [
+        "2 oz gin",
+        "1.5 oz plum shrub",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz maple syrup",
+        "2 oz sparkling water",
+        "candied plum garnish"
+      ],
+      "method": [
+        "Combine 2 oz gin, 1.5 oz plum shrub, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz maple syrup.",
+        "Add ice.",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled highball.",
+        "Garnish with candied plum."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Forbidden Juice",
+      "description": "Cold-pressed plum and apple blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh plum chunks",
+        "1 cup fresh apple chunks",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh plum through a cold press.",
+        "Press 1 cup apple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Forbidden Shot",
+      "description": "One-sip plum concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz gin",
+        "0.75 oz fresh plum juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of raspberry",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz gin with 0.75 oz fresh plum juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Spiced Cashews with Lime & Chili",
+      "desc": "Roasted cashews with lime zest, chili flakes, and smoked paprika.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Ahi Tuna Poke Bowl",
+      "desc": "Fresh ahi tuna with avocado, sesame, ponzu, and crispy shallots.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Salmon with Herb Butter",
+      "desc": "Wild-caught salmon with compound butter of dill, lemon, and capers over wilted greens.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Lemon Olive Oil Cake",
+      "desc": "Moist cake with Meyer lemon, local olive oil, and a dusting of powdered sugar.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Mozzarella & Heirloom Tomatoes",
+      "desc": "Hand-pulled mozzarella with heirloom tomatoes, basil oil, and aged balsamic.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Soft Current",
+    "scent_notes": {
+      "top": "black pepper, lemon",
+      "heart": "clove bud, sweet orange",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 6
+        },
+        {
+          "oil": "Lemon",
+          "drops": 3
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        },
+        {
+          "oil": "Lavender",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Sage"
+      ],
+      "color": "C8A97E",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Sage"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Forbidden Wisp",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Sage",
+        "part": "dried leaves",
+        "terpene_target": "\u03b1-Humulene"
+      },
+      {
+        "plant": "Lavender",
+        "part": "dried buds",
+        "terpene_target": "Linalool"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your euphoric space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 3200,
+    "brightness": "moderate (40-55%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "leather",
+      "cotton",
+      "ceramic",
+      "warm wood"
+    ],
+    "spatial_setup": "Mixed seating heights, conversation-friendly arrangement. Ambient background music visible.",
+    "room_temp_f": 70,
+    "scent_anchor": "Essential oil blend via diffuser, started 25 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Balance Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 6,
+      "cycles": 8
+    },
+    "nervous_system_target": "vagal balance",
+    "timing": "Begin with the first sip. Alternate breathing cycles with mindful tasting.",
+    "guidance_text": "Find your center. Breathe in through the nose for four counts. Hold for four, noticing the stillness. Exhale slowly through the mouth for six counts, letting the breath carry tension away."
+  },
+  "layer_13_narrative": {
+    "word_count": 247,
+    "text": "19 drops of black pepper carry the dominant \u03b2-Caryophyllene through the room steadily \u2014 the way Alpenglow Farms intended when they cultivated Forbidden Blueprint in Benbow, Humboldt County. The lineage reads (Forbidden Fruit X Watermelon Z) X Blueprint, but what arrives in the glass is something that transcends parentage: candied plum, maple syrup, and raspberry.\n\nThe second oil \u2014 Lemon \u2014 adds 10 drops of brightness that matches the maple syrup note in the flower itself. Relaxed is not a command here but an invitation, the way the best strains suggest rather than insist. The body balances into euphoric with the kind of molecular precision that only terpenes at 2.5% total can deliver.\n\nIn the warm gathering space, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of \u03b2-Caryophyllene, already primed for euphoric ease wrapped in dark fruit velvet. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Alpenglow Farms grows in Benbow, Humboldt County: not just cannabis, but context. The hybrid genetics express through terpenes that speak the same chemical language as bay laurel on a Humboldt hillside. The session balances into its final form \u2014 comfortable, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden \u2014 Fragrance Garden",
+        "shared_terpenes": [
+          "Linalool",
+          "Limonene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "golden-gate-park",
+        "location_name": "Golden Gate Park Botanical Garden",
+        "shared_terpenes": [
+          "Linalool",
+          "Limonene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "stinson-beach",
+        "location_name": "Stinson Beach",
+        "shared_terpenes": [
+          "Linalool",
+          "Limonene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.33
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden \u2014 Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "summer/fall"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares the spicy, peppery character of \u03b2-caryophyllene \u2014 same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Zinfandel",
+        "winery": "Ridge Vineyards",
+        "region": "Sonoma County",
+        "terpene_bridge": "Zinfandel's brambly spice and warm pepper notes echo caryophyllene's warming, anti-inflammatory character.",
+        "tasting_note": "Blackberry jam, warm spice, cedar",
+        "serving_temp_f": 64,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Dubbel",
+        "brewery": "The Rare Barrel",
+        "region": "Berkeley",
+        "hop_varietals": [
+          "Styrian Goldings"
+        ],
+        "terpene_bridge": "Belgian yeast esters produce spicy, peppery phenolics that echo caryophyllene's warming quality.",
+        "tasting_note": "Dark fruit, clove, warm bread",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Centennial",
+          "Cascade"
+        ],
+        "terpene_bridge": "Centennial hops carry significant caryophyllene \u2014 cannabis and hops are Cannabaceae cousins.",
+        "tasting_note": "Pine, grapefruit, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

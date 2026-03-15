@@ -1,0 +1,498 @@
+{
+  "strain_name": "Mike's Bomba",
+  "slug": "mikes-bomba",
+  "layer_1_flower": {
+    "strain_name": "Mike's Bomba",
+    "slug": "mikes-bomba",
+    "farm": "Glentucky Family Farm",
+    "region": "Sonoma",
+    "energy": "LOW",
+    "intent": "Grounded calm with clear mental edges",
+    "effects": [
+      "Relaxed",
+      "Calm",
+      "Alert"
+    ],
+    "aroma": [
+      "Fuel",
+      "Lemon Cream",
+      "Forest Floor"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.38,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.47,
+        "ratio": 0.34
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.32,
+        "ratio": 0.23
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.18,
+        "ratio": 0.13
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.07,
+        "ratio": 0.05
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "grounded"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 20,
+        "pct": 50.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Black pepper delivers the dominant caryophyllene (50% of blend). Lemon matches the lemon cream aroma. Sage provides humulene with herbal grounding. A whisper of lavender rounds out the linalool.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      82,
+      107
+    ],
+    "energy": 0.52,
+    "valence": 0.57,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Grounded calm with clear mental edges. Genres: deep house, reggae, jazz, funk. Tempo around 82-107 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 82,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 77,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 92,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Lemon & Sage Rest",
+    "description": "Gentle herbal infusion with bright citrus notes.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tsp Dried rosemary",
+      "0.5 tsp Dried sage",
+      "1 wheel Dried lemon wheel",
+      "1 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 185°F.",
+      "Add 1 tsp dried rosemary, 0.5 tsp dried sage, and 1 dried lemon wheel to infuser.",
+      "Steep for 5 minutes, stirring gently.",
+      "Remove infuser and add 0.5 oz fresh lemon juice and 1 tsp honey.",
+      "Stir and serve with a sage leaf."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Cream & Compass",
+      "description": "Lemon-kissed calm with earthy rosemary anchors the mind.",
+      "glass": "Coupe",
+      "volume": "~5 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "2 oz Fresh lemon juice",
+        "1 oz Heavy cream",
+        "0.5 oz Rosemary-infused simple syrup",
+        "3 dashes Angostura bitters",
+        "1 twist Lemon peel"
+      ],
+      "method": [
+        "Add 2 oz fresh lemon juice, 1 oz cream, 0.5 oz rosemary-infused simple syrup to shaker with ice.",
+        "Add 3 dashes of angostura bitters.",
+        "Shake for 10 seconds until frothy.",
+        "Fine-strain into chilled coupe.",
+        "Express lemon peel oil over surface and drop as garnish."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Grounded Manhattan",
+      "description": "Bourbon mellows the fuel, rosemary deepens the calm.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 45°F)",
+      "style": "Classic/stirred",
+      "spirit": "Bourbon (100 proof)",
+      "abv": "~35%",
+      "ingredients": [
+        "2 oz Bourbon",
+        "1 oz Lemon cream cordial",
+        "0.5 oz Dry vermouth",
+        "0.5 oz Rosemary simple syrup",
+        "1 each Rosemary sprig & candied lemon"
+      ],
+      "method": [
+        "Combine 2 oz bourbon with 1 oz lemon cream cordial in mixing glass.",
+        "Add 0.5 oz dry vermouth and 0.5 oz rosemary syrup.",
+        "Stir for 15 seconds with large ice cubes.",
+        "Strain into chilled coupe.",
+        "Garnish with a rosemary sprig and candied lemon wheel."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Forest Refresh",
+      "description": "Pressed brightness with earthy mineral finish.",
+      "glass": "Highball",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 2 hours of pressing",
+      "ingredients": [
+        "3 oz Fresh lemon juice",
+        "2 oz Rosemary-steeped water",
+        "2 oz Coconut cream",
+        "1 oz Filtered water",
+        "1 each Fresh rosemary & lemon wheel"
+      ],
+      "method": [
+        "Cold-press 3 oz fresh lemon juice with 2 oz fresh rosemary water (steeped 20 min).",
+        "Strain through fine mesh.",
+        "Add 2 oz cold coconut cream and 1 oz filtered water.",
+        "Shake and pour over crushed ice.",
+        "Garnish with fresh rosemary sprig and lemon wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Grounded Truth",
+      "description": "A spicy-bright hit of rosemary and lemon clarity.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature to slightly chilled",
+      "timing": "Consume immediately after",
+      "ingredients": [
+        "1.5 oz Bourbon",
+        "1 sprig Fresh rosemary (stir)",
+        "0.25 oz Fresh lemon juice",
+        "pinch Sea salt & rosemary leaf"
+      ],
+      "method": [
+        "Infuse 1.5 oz bourbon with a sprig of fresh rosemary for 30 seconds by stirring.",
+        "Strain out rosemary.",
+        "Add 0.25 oz fresh lemon juice to the shot glass.",
+        "Pour bourbon mixture over.",
+        "Top with a single pinch of sea salt and small rosemary leaf."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Aged Gouda",
+      "desc": "A NorCal cheese board featuring aged gouda, gruyère, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Grounded Truth",
+    "scent_notes": {
+      "top": "black pepper, bergamot",
+      "heart": "clove bud, neroli",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 6
+        },
+        {
+          "oil": "Lemon",
+          "drops": 3
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        },
+        {
+          "oil": "Lavender",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Sage"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Sage"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Forest Floor",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Black Pepper and Lemon essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 386,
+    "text": "The first thing you notice is the pepper. Not the sharp kind that catches your throat, but the warm, round variety that settles into your palms like a handshake from someone you trust. It rises from the ceramic dish on the windowsill of a Glentucky Family Farm outbuilding in Sonoma, where lemon oil pools in the afternoon light, mixing with sage leaves left to dry on a wooden rack beside a forgotten coffee mug.\n\nThe lavender is barely there — a ghost note at the edge of the room, the way Nils Frahm lets a single piano key ring into silence before the next phrase arrives. It does not demand attention. It simply rounds the corners of the sharper scents until the whole space feels cushioned, the walls softer, the afternoon longer.\n\nOutside, the fog has not quite lifted. A farmhand leans against the fence post, rolling a stem between her fingers, watching a red-tailed hawk circle above the coastal oaks that line the western ridge. She is not thinking about anything in particular. That is the point. The lemon cream character hangs in the still air, sweeter than the oil itself, a quality that emerges when citrus meets pepper meets sage in the warm humidity of a room where nobody is in a hurry.\n\nInside the farmhouse, someone has placed Mike's Bomba on the table next to a leather-bound field journal. The pages are open to a sketch of terpene ratios drawn in pencil, but the pencil has rolled to the floor and no one has picked it up. The work can wait. The forest floor quality of the room — that deep, loamy earthiness beneath the brighter notes — has turned the ordinary into something luminous, turned alertness into awareness, turned a Tuesday afternoon into exactly enough.\n\nThe sage adds something ancient to the blend. A dried herb quality that connects this moment to every kitchen, every apothecary, every healer who understood that sometimes the most powerful medicine is simply paying better attention to what is already here. The four oils — pepper, lemon, sage, lavender — have been working for thirty minutes now, and the room has become the kind of place where you can be completely still and completely awake at the same time, and neither state asks anything of the other."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

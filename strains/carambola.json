@@ -1,0 +1,504 @@
+{
+  "strain_name": "Carambola",
+  "slug": "carambola",
+  "layer_1_flower": {
+    "strain_name": "Carambola",
+    "slug": "carambola",
+    "farm": "Higher Heights",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Light and playful, effervescent energy",
+    "effects": [
+      "Energetic",
+      "Fun",
+      "Giggly"
+    ],
+    "aroma": [
+      "Orange",
+      "Diesel",
+      "Incense"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Limonene",
+    "total_terpenes_pct": 1.45,
+    "terpene_profile": [
+      {
+        "name": "Limonene",
+        "pct": 0.44,
+        "ratio": 0.3
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.18,
+        "ratio": 0.12
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.12,
+        "ratio": 0.08
+      },
+      {
+        "name": "α-Bisabolol",
+        "pct": 0.09,
+        "ratio": 0.06
+      }
+    ],
+    "accent_color": "#D4C85C",
+    "vibe_tags": [
+      "creative",
+      "social",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Sweet Orange",
+        "drops": 16,
+        "pct": 40.0
+      },
+      {
+        "oil": "Rosemary",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "German Chamomile",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Limonene-dominant and uplifting. Sweet orange (40%) captures the orange, diesel aroma profile. Rosemary provides caryophyllene with an energizing quality. Lavender for the linalool. German chamomile delivers the α-bisabolol and softens the blend.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      82,
+      109
+    ],
+    "energy": 0.53,
+    "valence": 0.64,
+    "genres": [
+      "funk",
+      "soul",
+      "pop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Anderson .Paak",
+      "Vulfpeck",
+      "Lizzo",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Light and playful, effervescent energy. Genres: funk, soul, pop, deep house. Tempo around 82-109 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 82,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 109,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 95,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Incense & Starlight",
+    "description": "Cardamom-forward herbal tea with delicate citrus whispers.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tsp Cardamom pods (toasted)",
+      "0.25 oz Dried orange peel",
+      "0.5 tsp Raw honey",
+      "1 pod Cardamom pod"
+    ],
+    "method": [
+      "Heat water to 200°F.",
+      "Toast 1 tsp cardamom pods for 20 seconds in a dry pot.",
+      "Crush pods lightly and add to infuser with 0.25 oz dried orange peel.",
+      "Steep in hot water for 5 minutes.",
+      "Remove infuser, add 0.5 tsp honey, stir and serve with a cardamom pod."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Stellar Sparkle",
+      "description": "Starfruit's playful tartness sparkles with cardamom warmth.",
+      "glass": "Coupe",
+      "volume": "~6 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "2.5 oz Fresh starfruit juice",
+        "1 oz Fresh orange juice",
+        "0.5 oz Cardamom-honey syrup",
+        "1 thin wheel Starfruit slice"
+      ],
+      "method": [
+        "Juice 2 fresh starfruit (about 2.5 oz).",
+        "Combine juice with 1 oz fresh orange juice in shaker.",
+        "Add 0.5 oz cardamom-honey syrup and ice.",
+        "Shake for 8 seconds.",
+        "Strain into chilled coupe and garnish with a thin starfruit slice."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Playful Botanica",
+      "description": "Gin's botanical clarity amplifies starfruit's effervescent joy.",
+      "glass": "Coup de Grace (wide coupe)",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 40°F)",
+      "style": "Botanical/stirred",
+      "spirit": "London Dry Gin (47% ABV)",
+      "abv": "~32%",
+      "ingredients": [
+        "1.5 oz London Dry gin",
+        "2 oz Fresh starfruit juice",
+        "0.5 oz Fresh orange juice",
+        "0.25 oz Cardamom-honey syrup",
+        "1 each Orange peel & starfruit slice"
+      ],
+      "method": [
+        "Combine 1.5 oz London Dry gin with 2 oz fresh starfruit juice in mixing glass.",
+        "Add 0.5 oz fresh orange juice and 0.25 oz cardamom-honey syrup.",
+        "Stir with large ice for 12 seconds.",
+        "Strain into chilled coupe over a large clear ice cube.",
+        "Express orange peel oils over surface and garnish with thin starfruit slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Star Energy",
+      "description": "Crisp cold-pressed starfruit with orange brightness.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 90 minutes of pressing",
+      "ingredients": [
+        "3 oz Fresh starfruit (pressed)",
+        "1 oz Fresh orange juice",
+        "0.25 oz Cardamom-steeped water",
+        "2 oz Coconut water",
+        "1 wheel Starfruit wheel"
+      ],
+      "method": [
+        "Cold-press 4 fresh starfruit halves (about 3 oz juice).",
+        "Strain through fine mesh.",
+        "Add 1 oz fresh orange juice and 0.25 oz cardamom water (steeped cardamom for 10 min).",
+        "Top with 2 oz coconut water.",
+        "Stir and serve over crushed ice with a starfruit wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Giggly Burst",
+      "description": "A playful punch of starfruit tartness and cardamom spice.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Ice cold (chilled shot glass)",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "1 oz London Dry gin",
+        "0.5 oz Fresh starfruit juice",
+        "0.25 oz Cardamom-honey syrup",
+        "1 piece Cardamom seed or starfruit slice"
+      ],
+      "method": [
+        "Pour 1 oz gin into shot glass.",
+        "Add 0.5 oz fresh starfruit juice (strained).",
+        "Top with 0.25 oz cardamom-honey syrup.",
+        "Stir once to combine.",
+        "Garnish with a thin cardamom seed or small starfruit slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Burrata",
+      "desc": "Light and bright cheese plate with chèvre, burrata, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Starfruit Spark",
+    "scent_notes": {
+      "top": "bergamot, black pepper",
+      "heart": "neroli, clove bud",
+      "base": "cedarwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Sweet Orange",
+          "drops": 5
+        },
+        {
+          "oil": "Rosemary",
+          "drops": 3
+        },
+        {
+          "oil": "Lavender",
+          "drops": 2
+        },
+        {
+          "oil": "German Chamomile",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Sweet Orange",
+        "Rosemary",
+        "Lavender"
+      ],
+      "color": "sunny yellow",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Sweet Orange",
+        "Rosemary",
+        "Lavender"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Starlight Smoke",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#D4C85C",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Sweet Orange and Rosemary essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 390,
+    "text": "Sweet orange at sixteen drops, and the room becomes a Mendocino morning in October when the fog burns off by nine and leaves the hillsides steaming. Higher Heights has always understood that the best energy arrives dressed as simplicity, and Carambola is their proof: an orange-diesel-incense combination that sounds impossible on paper but the oil translates into something unexpectedly sophisticated and irresistibly playful.\n\nRosemary provides the warm spice with eight drops of herbal sharpness that a less playful strain would deploy for focus and productivity. Here it becomes fuel for fun, the way Tom Misch turns a technically brilliant guitar line into something you want to dance to rather than analyze, something that makes your feet move before your brain finishes deciding whether dancing is appropriate.\n\nLavender at six drops brings the floral character — soft, floral, the incense note translated into something you might wear on a summer evening to a party where you know no one and somehow that fact makes you happier rather than nervous. German chamomile adds six drops of the soft calming molecule, the quiet sophisticate of the terpene world, smoothing every interaction between the brighter oils like a gracious host who ensures no conversation goes cold.\n\nBlack pepper closes with four drops of warmth that reminds the room this is still a body experience, still grounded even when the giggles arrive. And they will arrive. They always arrive with the blend — not as outbursts but as bubbles rising through warm water, effortless, inevitable, the physical expression of whatever happens when citrus meets chamomile meets the particular October light of the Mendocino hills.\n\nSomeone just told a joke that was not particularly funny but the flower turned it into the funniest thing anyone has heard all week. The sweet orange and the rosemary created the acoustic conditions for laughter, and the lavender softened the landing, and the chamomile ensured nobody felt self-conscious about laughing too loud.\n\nThe starfruit note — that strange, sweet-tart quality the strain is named for — emerges from the overlap of orange and chamomile like laughter emerging from a room where everyone has stopped trying to be serious and started trying to be present. The five oils are still working, and the morning is still young, and the energy is effervescent in the oldest sense of the word: it rises."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Citrus Collection, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

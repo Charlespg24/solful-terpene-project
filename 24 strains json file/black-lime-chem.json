@@ -1,0 +1,540 @@
+{
+  "strain_name": "Black Lime Chem",
+  "slug": "black-lime-chem",
+  "layer_1_flower": {
+    "strain_name": "Black Lime Chem",
+    "slug": "black-lime-chem",
+    "farm": "Moon Gazer Farms",
+    "region": "Mendocino",
+    "energy": "LOW",
+    "intent": "Weighted bliss melting toward rest",
+    "effects": [
+      "Heavy",
+      "Blissful",
+      "Sleepy"
+    ],
+    "aroma": [
+      "Sharp Lime",
+      "Rhubarb",
+      "Glue"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 3.08,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 1.69,
+        "ratio": 0.55
+      },
+      {
+        "name": "α-Pinene",
+        "pct": 0.39,
+        "ratio": 0.13
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.27,
+        "ratio": 0.09
+      },
+      {
+        "name": "β-Ocimene",
+        "pct": 0.19,
+        "ratio": 0.06
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "rest",
+      "body"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 16,
+        "pct": 40.0
+      },
+      {
+        "oil": "Pine",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Basil",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Heavy myrcene strain, sleepy and blissful. Pine delivers the pinene. Basil covers the ocimene. Lemon for the sharp lime aroma (no lime oil in palette, lemon is close). The glue character is that chem funk that emerges from the terpene combo itself.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      69,
+      91
+    ],
+    "energy": 0.31,
+    "valence": 0.4,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "acoustic folk",
+      "post-rock"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Bon Iver"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Weighted bliss melting toward rest. Genres: ambient, dub, lo-fi hip hop, acoustic folk. Tempo around 69-91 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 69,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 64,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 79,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Black Lime Chem Tea",
+    "description": "Sharp-sweet herbal with rhubarb depth",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "6-7 minutes",
+    "caffeine": "none (herbal",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried rhubarb pieces",
+      "1 tsp dried lime peel",
+      "2-3 dried rosemary sprigs",
+      "5-6 dried basil leaves",
+      "1 small bay leaf",
+      "pinch of ground cinnamon",
+      "0.25 oz agave syrup",
+      "thin lime wheel (garnish)",
+      "fresh rosemary sprig (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 190°F (88°C).",
+      "In a tea infuser, combine 1 tbsp dried rhubarb pieces, 1 tsp dried lime peel, 2-3 dried rosemary sprigs, 5-6 dried basil leaves, 1 small bay leaf, and a pinch of ground cinnamon.",
+      "Steep for 6-7 minutes to extract the tart-herbal character.",
+      "Strain into a warm teacup, discarding solids.",
+      "Stir in 0.25 oz agave syrup (to balance rhubarb tartness).",
+      "Garnish with a thin lime wheel and fresh rosemary sprig."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Black Lime Chem",
+      "description": "Weighted lime-rhubarb bliss",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz fresh lime juice",
+        "1.5 oz rhubarb syrup",
+        "1 small rosemary sprig",
+        "3-4 fresh basil leaves",
+        "1 small bay leaf",
+        "0.5 oz cinnamon-infused syrup",
+        "thin lime wheel (garnish)",
+        "rosemary sprig (garnish)"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "In a mixing glass, combine 2 oz fresh lime juice and 1.5 oz rhubarb syrup (or rhubarb puree + simple syrup).",
+        "Add 1 small rosemary sprig and 3-4 fresh basil leaves.",
+        "Muddle very gently for 2 seconds to release herb oils.",
+        "Add 1 small bay leaf and 0.5 oz cinnamon-infused syrup.",
+        "Stir with ice for 8 seconds.",
+        "Strain into the rocks glass, discarding herbs and bay leaf.",
+        "Garnish with a thin lime wheel and a rosemary sprig."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Black Lime Chem",
+      "description": "Mezcal smoke meets lime-rhubarb depth",
+      "glass": "rocks",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "smoky herbal",
+      "spirit": "mezcal",
+      "abv": "16%",
+      "ingredients": [
+        "1.75 oz mezcal",
+        "2 oz fresh lime juice",
+        "1.5 oz rhubarb syrup",
+        "1 small rosemary sprig",
+        "4-5 fresh basil leaves",
+        "1 small bay leaf",
+        "0.5 oz cinnamon-infused syrup",
+        "2-3 dashes peppercorn bitters",
+        "thin black lime wheel or lime wheel (garnish)",
+        "rosemary sprig (garnish)",
+        "large ice cubes"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Pour 1.75 oz mezcal into a mixing glass.",
+        "Add 2 oz fresh lime juice and 1.5 oz rhubarb syrup.",
+        "Add 1 small rosemary sprig, 4-5 fresh basil leaves, and 1 small bay leaf.",
+        "Muddle very gently for 2 seconds.",
+        "Add 0.5 oz cinnamon-infused syrup and 2-3 dashes of peppercorn bitters.",
+        "Stir with ice for 10 seconds.",
+        "Strain into the rocks glass, discarding solids.",
+        "Garnish with a thin black lime wheel (if available) or regular lime wheel, and a rosemary sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Black Lime Chem Juice",
+      "description": "Sharp lime with rhubarb tart-sweetness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "lime-rhubarb herbal blend",
+      "timing": "serve immediately after",
+      "ingredients": [
+        "4-5 fresh limes",
+        "1 cup fresh rhubarb stalks (chopped)",
+        "1 small rosemary sprig",
+        "5-6 fresh basil leaves",
+        "1.5 oz warm filtered water (herb infusion)",
+        "1 small bay leaf",
+        "0.5 oz rhubarb syrup",
+        "tiny pinch of ground cinnamon",
+        "1 oz cold filtered water",
+        "thin lime wheel (garnish)",
+        "fresh basil leaf (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Juice 4-5 fresh limes through a citrus juicer (yields ~2 oz juice).",
+        "Blend 1 cup fresh rhubarb stalks (chopped) until liquid (yields ~1.5 oz juice).",
+        "Strain rhubarb through fine mesh.",
+        "Infuse 1 small rosemary sprig and 5-6 fresh basil leaves in 1.5 oz warm filtered water for 2 minutes.",
+        "Strain the herb water and combine with lime juice and rhubarb juice.",
+        "Add 1 small bay leaf (infuse for 1 minute, then remove).",
+        "Stir in 0.5 oz rhubarb syrup and a tiny pinch of ground cinnamon.",
+        "Add 1 oz cold filtered water to reach desired consistency.",
+        "Pour over ice and garnish with thin lime wheel and basil leaf."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Black Lime Chem Shot",
+      "description": "One-sip weighted lime depth",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1.25 oz mezcal",
+        "0.75 oz fresh lime juice",
+        "0.25 oz rhubarb syrup",
+        "tiny pinch of ground cinnamon",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1.25 oz mezcal with 0.75 oz fresh lime juice.",
+        "Add 0.25 oz rhubarb syrup and a tiny pinch of ground cinnamon.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "Myrcene",
+        "α-Pinene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "Myrcene",
+        "α-Pinene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "Myrcene",
+        "α-Pinene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "Myrcene",
+        "α-Pinene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Brie",
+      "desc": "A NorCal cheese board featuring brie, camembert, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "Myrcene",
+        "α-Pinene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Velvet Descent",
+    "scent_notes": {
+      "top": "lemongrass, pine needle",
+      "heart": "bay laurel, fir balsam",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 5
+        },
+        {
+          "oil": "Pine",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        },
+        {
+          "oil": "Basil",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Heavy Rest",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Pine",
+        "part": "dried needles",
+        "terpene_target": "α-Pinene"
+      },
+      {
+        "plant": "Rosemary",
+        "part": "dried sprigs",
+        "terpene_target": "α-Pinene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Lemongrass and Pine essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 361,
+    "text": "The lemongrass hits like a wave. Not the crashing kind — the kind that lifts you off the sand and holds you weightless, face to the sky, while the shore disappears behind you. Sixteen drops in the diffuser, and Moon Gazer Farms' heaviest offering from the Mendocino hills has announced its intention with botanical authority: rest is not optional tonight.\n\nPine needles crack underfoot somewhere in the memory of the room, their sharp clarity threading through the heavy haze like a needle through velvet. Eight drops of pine oil holding the line between bliss and oblivion, insisting that even in the deepest descent, the forest remembers its architecture and will not let you dissolve entirely.\n\nBasil adds something unexpected — a green brightness, almost tropical, that echoes the sharp lime aroma before the deeper chemistry takes over and pulls everything toward horizontal. Black pepper murmurs beneath it all, six drops of warmth that Thievery Corporation would recognize as the dub bassline: always present, never leading, perfectly placed in the mix to give the low end its shape.\n\nThe glue character is not in any single oil. It emerges from the interaction itself, the way Beach House builds a wall of sound from instruments that seem too gentle to carry weight individually but together become architecture. Lemon provides the last four drops — a trace of citrus that catches the rhubarb note in the strain's aroma and softens it into something you could fall asleep holding.\n\nA woman lies on a daybed near the window, one arm trailing toward the floor like a vine that has forgotten which direction is up. The rhubarb-lime sharpness has dissolved into the lemongrass warmth, and the pine keeps sending its messages of clarity into a body that is no longer taking messages.\n\nBlack Lime Chem has done its quiet math: the highest sedating terpene load in the collection, a formula for weighted bliss that melts the border between body and blanket until the distinction becomes academic. The five oils have turned the room into a cradle, and the Mendocino night presses softly against the glass, patient as a river that knows exactly where it is going."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "α-Pinene"
+        ],
+        "match_score": 0.95
+      },
+      {
+        "location_id": "armstrong-redwoods",
+        "location_name": "Armstrong Redwoods State Natural Reserve",
+        "shared_terpenes": [
+          "α-Pinene"
+        ],
+        "match_score": 0.92
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Mourvèdre",
+        "winery": "Tablas Creek",
+        "region": "Paso Robles",
+        "terpene_bridge": "Garrigue wines carry pine-rosemary-thyme aromatics from Mediterranean scrubland — the same α-pinene-rich botanicals.",
+        "tasting_note": "Wild herbs, dark berries, garrigue",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Session IPA",
+        "brewery": "Fieldwork Brewing",
+        "region": "Berkeley",
+        "hop_varietals": [
+          "Centennial",
+          "Chinook"
+        ],
+        "terpene_bridge": "Centennial and Chinook hops deliver significant pinene alongside their citrus character.",
+        "tasting_note": "Pine, grapefruit, light body",
+        "abv": "4.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

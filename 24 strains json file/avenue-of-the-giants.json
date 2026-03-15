@@ -1,0 +1,543 @@
+{
+  "strain_name": "Avenue of the Giants",
+  "slug": "avenue-of-the-giants",
+  "layer_1_flower": {
+    "strain_name": "Avenue of the Giants",
+    "slug": "avenue-of-the-giants",
+    "farm": "Happy Day Farms",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Forward momentum with electric clarity",
+    "effects": [
+      "Energizing",
+      "Buzzy",
+      "Motivating"
+    ],
+    "aroma": [
+      "Pine Needles",
+      "Menthol",
+      "Jasmine"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 3.48,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 1.94,
+        "ratio": 0.56
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.43,
+        "ratio": 0.12
+      },
+      {
+        "name": "α-Pinene",
+        "pct": 0.26,
+        "ratio": 0.07
+      },
+      {
+        "name": "β-Ocimene",
+        "pct": 0.24,
+        "ratio": 0.07
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "creative",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 16,
+        "pct": 40.0
+      },
+      {
+        "oil": "Pine",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Basil",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Peppermint",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Very high myrcene (1.94%) with lemongrass at 40%. Pine needle oil captures the pine needles aroma note and pinene. Black pepper for caryophyllene. Basil for ocimene. Peppermint for the menthol. Geranium adds jasmine-like floral notes.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      69,
+      90
+    ],
+    "energy": 0.31,
+    "valence": 0.39,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Forward momentum with electric clarity. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 69-90 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 69,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 90,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 79,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Avenue of the Giants Tea",
+    "description": "Forest floor herbal infusion with forest clarity",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5-6 minutes",
+    "caffeine": "minimal (herbal blend)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried lemongrass pieces",
+      "2-3 dried rosemary sprigs",
+      "5-6 dried basil leaves",
+      "3-4 dried mint leaves",
+      "0.5 oz jasmine tea concentrate",
+      "squeeze of fresh lime juice",
+      "fresh rosemary sprig (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 195°F (90°C).",
+      "In a tea infuser, combine 1 tbsp dried lemongrass pieces, 2-3 dried rosemary sprigs, 5-6 dried basil leaves, and 3-4 dried mint leaves.",
+      "Steep for 5-6 minutes to extract the full forest character.",
+      "Strain into a warm teacup.",
+      "Stir in 0.5 oz jasmine tea concentrate or a splash of cooled jasmine tea.",
+      "Add a squeeze of fresh lime juice.",
+      "Garnish with a fresh rosemary sprig and serve hot."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Avenue of the Giants",
+      "description": "Redwood forest clarity in a glass",
+      "glass": "highball",
+      "volume": "7 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "ice",
+        "1 oz fresh lemongrass juice (or lemongrass syrup)",
+        "0.5 oz fresh lime juice",
+        "1 sprig fresh rosemary",
+        "3-4 fresh basil leaves",
+        "0.5 oz cooled jasmine tea",
+        "0.75 oz sparkling water",
+        "2 oz sparkling water (top)",
+        "0.25 oz fresh mint water (float)",
+        "rosemary sprig (garnish)",
+        "fresh mint sprig (garnish)",
+        "lime wheel (garnish)"
+      ],
+      "method": [
+        "Fill a highball glass halfway with ice.",
+        "In a mixing glass, combine 1 oz fresh lemongrass juice (or 0.75 oz lemongrass syrup +",
+        "5 oz water), 0.5 oz fresh lime juice, and 1 small sprig fresh rosemary.",
+        "Add 3-4 fresh basil leaves and gently muddle with the herbs.",
+        "Stir in 0.5 oz jasmine tea (cooled) and 0.75 oz sparkling water.",
+        "Strain into the highball glass.",
+        "Top with 2 oz sparkling water and a float of 0.25 oz fresh mint water.",
+        "Garnish with a sprig of rosemary, fresh mint, and a thin lime wheel."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Avenue of the Giants",
+      "description": "Gin-soaked redwood botanicals",
+      "glass": "highball",
+      "volume": "7.5 oz",
+      "temp": "chilled",
+      "style": "herbal forest",
+      "spirit": "gin",
+      "abv": "16%",
+      "ingredients": [
+        "2 oz botanical gin",
+        "1 oz fresh lemongrass juice",
+        "0.5 oz fresh lime juice",
+        "0.5 oz cooled jasmine tea",
+        "1 sprig fresh rosemary",
+        "4-5 fresh basil leaves",
+        "2 oz sparkling water (top)",
+        "rosemary sprig (garnish)",
+        "fresh basil leaves (garnish)",
+        "lime wheel (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Pour 2 oz botanical gin into a mixing glass with ice.",
+        "Add 1 oz fresh lemongrass juice, 0.5 oz fresh lime juice, and 0.5 oz jasmine tea.",
+        "Add 1 sprig fresh rosemary and 4-5 fresh basil leaves.",
+        "Muddle gently to release herb oils (do not bruise harshly).",
+        "Stir for 10 seconds with ice.",
+        "Strain into a highball glass filled with fresh ice.",
+        "Top with 2 oz sparkling water and garnish with rosemary, basil, and lime wheel."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Avenue of the Giants Juice",
+      "description": "Fresh forest green with minty clarity",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "herbal pressed blend",
+      "timing": "drink within 30 minutes of preparation",
+      "ingredients": [
+        "3-4 stalks fresh lemongrass",
+        "1 oz fresh lime juice",
+        "0.5 oz fresh mint juice",
+        "2 sprigs fresh rosemary",
+        "5-6 fresh basil leaves",
+        "2.5 oz cold mineral water",
+        "1.5 oz sparkling water",
+        "rosemary sprig (garnish)",
+        "basil leaf (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Juice 3-4 stalks of fresh lemongrass through a cold press (yields ~1.5 oz).",
+        "Add 1 oz fresh lime juice and 0.5 oz fresh mint juice (blended mint, strained).",
+        "Steep 2 sprigs fresh rosemary and 5-6 fresh basil leaves in 2.5 oz cool mineral water for 2 minutes.",
+        "Strain the herb water and combine with the juices.",
+        "Add 1.5 oz sparkling water to the blend.",
+        "Pour over ice in a tall glass.",
+        "Garnish with a rosemary sprig and basil leaf on the rim."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Avenue of the Giants Shot",
+      "description": "One-sip forest depth",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1.25 oz gin",
+        "0.75 oz fresh lemongrass juice",
+        "3-4 fresh basil leaves",
+        "1 small sprig rosemary",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1.25 oz gin with 0.75 oz fresh lemongrass juice.",
+        "Add 3-4 fresh basil leaves and 1 small sprig rosemary.",
+        "Muddle gently for 3 seconds.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Camembert",
+      "desc": "Light and bright cheese plate with brie, camembert, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Redwood Current",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 6
+        },
+        {
+          "oil": "Pine",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        },
+        {
+          "oil": "Basil",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Giant's Breath",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Lemongrass and Pine essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 376,
+    "text": "Sixteen drops of lemongrass, and the redwoods arrive. Not the tourist version with parking lots and interpretive plaques, but the real ones — the ancient columns of Happy Day Farms' Mendocino backyard, where sedating warmth hangs in the air at extraordinary concentration and the trees are too old to be impressed by anything except persistence and the willingness to grow toward light.\n\nPine needle oil follows with eight drops, and now the forest is complete: the vertical green, the sharp resinous clarity, the feeling of being small in the presence of something that has been growing for a thousand years and will continue growing long after every human concern has composted into the duff underfoot. This is not relaxation. This is forward momentum with a direction that the trees selected centuries ago.\n\nBlack pepper adds six drops of spiced warmth, the buzzy motivating edge that Fleet Foxes channel into harmonies so precise they sound wild, so rehearsed they sound spontaneous. Basil brings four drops of the bright herbal molecule — the bright tropical undertone in the jasmine aroma, a green spark that turns the forest from cathedral into laboratory, from reverence into curiosity.\n\nPeppermint at four drops creates the menthol corridor, and suddenly the signature clarity snaps into focus like a lens finding its subject. This is the electric part — the buzzy quality that makes ideas feel not just possible but urgent, not just interesting but necessary. Geranium whispers its two drops of jasmine-adjacent florality at the very edge of perception, where you smell it only when you stop trying.\n\nA trail runner pulls her hair back, standing at the base of an old-growth giant in the morning light that filters through the canopy in cathedral shafts. The air smells exactly like this six-oil blend: pine and lemongrass and something sharp-sweet that defies single naming. Avenue of the Giants is not a strain you sit with. It is a strain that moves through you and expects you to keep up.\n\nShe is not resting. She is choosing which direction carries the most momentum, and every direction looks like forward, and the morning is not asking for anything except motion, and the lemongrass-pine-pepper air fills her lungs like fuel, and the next step is already happening."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

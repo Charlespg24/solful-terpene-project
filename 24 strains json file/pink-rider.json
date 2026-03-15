@@ -1,0 +1,551 @@
+{
+  "strain_name": "Pink Rider",
+  "slug": "pink-rider",
+  "layer_1_flower": {
+    "strain_name": "Pink Rider",
+    "slug": "pink-rider",
+    "farm": "Higher Heights",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Vivid creative lift with social magnetism",
+    "effects": [
+      "Motivated",
+      "Creative",
+      "Social"
+    ],
+    "aroma": [
+      "Lemon Bar",
+      "Pink Grapefruit",
+      "Sugar Cookie"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Terpinolene",
+    "total_terpenes_pct": 1.44,
+    "terpene_profile": [
+      {
+        "name": "Terpinolene",
+        "pct": 0.38,
+        "ratio": 0.26
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.22,
+        "ratio": 0.15
+      },
+      {
+        "name": "β-Ocimene",
+        "pct": 0.2,
+        "ratio": 0.14
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.18,
+        "ratio": 0.12
+      }
+    ],
+    "accent_color": "#6BAE8E",
+    "vibe_tags": [
+      "creative",
+      "social"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Tea Tree",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Basil",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Tea tree delivers the rare terpinolene (30% of blend). Black pepper for caryophyllene. Basil captures ocimene's herbal brightness. Lemon echoes the lemon bar aroma. Lavender softens edges. Geranium adds floral sweetness.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      94,
+      121
+    ],
+    "energy": 0.63,
+    "valence": 0.67,
+    "genres": [
+      "psychedelic",
+      "indie electronic",
+      "synth pop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Tame Impala",
+      "MGMT",
+      "Washed Out",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Vivid creative lift with social magnetism. Genres: psychedelic, indie electronic, synth pop, deep house. Tempo around 94-121 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 94,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 121,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 107,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Pink Rider Tea",
+    "description": "",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "none (herbal",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tsp dried pink grapefruit peel",
+      "0.75 tsp dried lemon peel",
+      "3-4 dried green apple pieces",
+      "0.5 tsp dried basil",
+      "0.25 tsp dried rosemary",
+      "tiny pinch of vanilla powder",
+      "0.25 oz sugar syrup or honey",
+      "0.1 oz vanilla extract",
+      "thin pink grapefruit wheel (garnish)",
+      "lemon peel (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 185°F (85°C).",
+      "In a tea infuser, combine 1 tsp dried pink grapefruit peel, 0.75 tsp dried lemon peel, 3-4 dried green apple pieces, 0.5 tsp dried basil, 0.25 tsp dried rosemary, and a tiny pinch of vanilla powder.",
+      "Steep for 4 minutes to extract the bright citrus character.",
+      "Strain into a warm teacup.",
+      "Stir in 0.25 oz sugar syrup or honey and 0.1 oz vanilla extract.",
+      "Garnish with a thin pink grapefruit wheel and lemon peel."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Pink Rider",
+      "description": "Pink grapefruit with creative sugar sparkle",
+      "glass": "coupe",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "2.75 oz fresh pink grapefruit juice",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz lemon curd (or lemon curd syrup)",
+        "0.5 oz green apple juice",
+        "0.25 oz sugar syrup",
+        "2-3 dashes citrus bitters",
+        "powdered sugar and vanilla dust (rim)",
+        "thin pink grapefruit wheel (garnish)",
+        "lemon peel curl (garnish)",
+        "ice"
+      ],
+      "method": [
+        "In a mixing glass, combine 2.75 oz fresh pink grapefruit juice and 0.75 oz fresh lemon juice.",
+        "Add 0.5 oz lemon curd (or lemon curd syrup) for richness and vanilla sweetness.",
+        "Stir in 0.5 oz green apple juice (pressed from fresh green apple) and 0.25 oz sugar syrup.",
+        "Add 2-3 dashes of citrus bitters.",
+        "Fill with ice and stir gently for 8 seconds.",
+        "Strain into a coupe glass rimmed with powdered sugar and a light vanilla dust.",
+        "Garnish with a thin pink grapefruit wheel and a lemon peel curl."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Pink Rider",
+      "description": "Gin-spiked pink grapefruit with creative lift",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "citrus aperitif",
+      "spirit": "gin",
+      "abv": "15%",
+      "ingredients": [
+        "1.75 oz gin",
+        "2 oz fresh pink grapefruit juice",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz lemon curd syrup",
+        "0.5 oz green apple juice",
+        "0.25 oz sugar syrup",
+        "2-3 dashes citrus bitters",
+        "2-3 small fresh basil leaves",
+        "1 sprig fresh rosemary",
+        "powdered sugar (rim)",
+        "thin pink grapefruit wheel (garnish)",
+        "lemon peel curl (garnish)",
+        "fresh basil leaf (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Pour 1.75 oz gin into a mixing glass.",
+        "Add 2 oz fresh pink grapefruit juice and 0.75 oz fresh lemon juice.",
+        "Add 0.5 oz lemon curd syrup and 0.5 oz green apple juice.",
+        "Add 0.25 oz sugar syrup and 2-3 dashes citrus bitters.",
+        "Add 2-3 small fresh basil leaves and 1 sprig fresh rosemary.",
+        "Stir gently with ice for 10 seconds (do not muddle).",
+        "Strain into a coupe glass rimmed with powdered sugar.",
+        "Garnish with a thin pink grapefruit wheel, lemon peel curl, and fresh basil leaf."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Pink Rider Juice",
+      "description": "Pink grapefruit with lemon cookie sweetness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "citrus-apple blend",
+      "timing": "serve immediately after",
+      "ingredients": [
+        "2 fresh pink grapefruits",
+        "2 fresh lemons",
+        "2-3 fresh green apples",
+        "0.5 tbsp lemon curd",
+        "0.25 oz warm filtered water",
+        "0.25 oz vanilla extract",
+        "0.25 oz sugar syrup",
+        "1.5 oz cold filtered water",
+        "powdered sugar (rim)",
+        "pink grapefruit wheel (garnish)",
+        "lemon peel curl (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Juice 2 fresh pink grapefruits through a citrus juicer (yields ~2.75 oz juice).",
+        "Juice 2 fresh lemons through a citrus juicer (yields ~1 oz juice).",
+        "Juice 2-3 fresh green apples through a cold press (yields ~0.75 oz juice).",
+        "Strain all juices through fine mesh.",
+        "Blend 0.5 tbsp lemon curd with 0.25 oz warm filtered water until smooth.",
+        "Combine all juices with the lemon curd mixture.",
+        "Stir in 0.25 oz vanilla extract and 0.25 oz sugar syrup.",
+        "Add 1.5 oz cold filtered water to reach desired consistency.",
+        "Pour over ice into a coupe glass rimmed with powdered sugar.",
+        "Garnish with pink grapefruit wheel and lemon peel curl."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Pink Rider Shot",
+      "description": "One-sip citrus creative spark",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1 oz gin",
+        "0.75 oz fresh pink grapefruit juice",
+        "0.25 oz fresh lemon juice",
+        "0.1 oz lemon curd syrup",
+        "powdered sugar (rim garnish)",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz gin with 0.75 oz fresh pink grapefruit juice.",
+        "Add 0.25 oz fresh lemon juice and 0.1 oz lemon curd syrup.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass.",
+        "Garnish rim with powdered sugar and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Terpinolene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Terpinolene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Terpinolene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Terpinolene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Comté",
+      "desc": "Light and bright cheese plate with gruyère, comté, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Terpinolene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Grapefruit Canvas",
+    "scent_notes": {
+      "top": "tea tree, black pepper",
+      "heart": "marjoram, clove bud",
+      "base": "amber"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Tea Tree",
+          "drops": 4
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Basil",
+          "drops": 3
+        },
+        {
+          "oil": "Lemon",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Tea Tree",
+        "Black Pepper",
+        "Basil"
+      ],
+      "color": "teal",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Tea Tree",
+        "Black Pepper",
+        "Basil"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Grapefruit Sage",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Tea Tree",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      },
+      {
+        "plant": "Marjoram",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#6BAE8E",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Tea Tree and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 415,
+    "text": "Tea tree hits first — twelve drops of the rare sharp clarity, the rarest lead terpene in the entire collection. Higher Heights' Mendocino creative engine runs on an unusual fuel, and the oil blend respects that by opening with clarity rather than warmth, with sharp edges rather than soft ones, with the clean brightness of a morning that has no fog and no apology for the absence of fog.\n\nBlack pepper and basil arrive together at eight drops each, the warm spice and the bright herbal molecule building a foundation that MGMT would recognize: psychedelic enough to see colors that do not exist, grounded enough to paint with them on surfaces that do. Lemon adds six drops of the lemon bar aroma — not the bright citrus of a morning glass but the sweet-tart richness of a dessert that happens to be made of sunshine and butter and the kind of sugar that remembers being a cane in a warm field.\n\nLavender provides four drops of softness, the sugar cookie note that turns the creative lift from sharp and potentially overwhelming to inviting and sustainable — the difference between a spotlight and a lantern, between energy that burns and energy that glows. Geranium closes with two drops of pink grapefruit florality, and suddenly the name makes complete sense: pink is the color of this blend, the warm-cool hybrid that happens when citrus meets floral meets herbal in the proportions that only this specific strain demands.\n\nThe social magnetism is not a metaphor. Pink Rider does not make you creative in isolation — it makes you creative in company, the kind of person who says something unexpected and watches the room lean in rather than lean back, the kind of energy that treats other people's ideas as fuel rather than competition.\n\nA woman stands at a whiteboard covered in colored markers, and the six oils have turned the conference room into a studio. The clarity-driven clarity is the sharp line, the basil-the bright herbal molecule brightness is the color, the lemon-lavender sweetness is the reason everyone in the room wants to stay for another hour even though the meeting was scheduled to end twenty minutes ago.\n\nthe blend understands that the best ideas arrive when someone is vivid enough to catch them and generous enough to share them, and the pink grapefruit in the Mendocino air is the standing invitation to do both, and the whiteboard is filling up, and nobody is reaching for their phone."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mount-sutro",
+        "location_name": "Mount Sutro Open Space Reserve",
+        "shared_terpenes": [
+          "Terpinolene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "presidio",
+        "location_name": "Presidio of San Francisco",
+        "shared_terpenes": [
+          "Terpinolene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Mount Sutro Open Space Reserve, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Albariño",
+        "winery": "Bokisch Vineyards",
+        "region": "Lodi",
+        "terpene_bridge": "Albariño's crisp, aromatic profile with green apple and citrus notes mirrors terpinolene's bright, eclectic character.",
+        "tasting_note": "Green apple, white flowers, saline",
+        "serving_temp_f": 46,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Fresh Hop Pale Ale",
+        "brewery": "Bear Republic",
+        "region": "Cloverdale",
+        "hop_varietals": [
+          "Cascade",
+          "Crystal"
+        ],
+        "terpene_bridge": "Fresh (wet) hops retain terpinolene that is typically lost in kilning — bridging the fresh-plant character of cannabis flower.",
+        "tasting_note": "Grassy, floral, bright citrus",
+        "abv": "5.3%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

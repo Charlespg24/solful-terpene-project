@@ -1,0 +1,509 @@
+{
+  "strain_name": "Pink Jesus Reserve",
+  "slug": "pink-jesus-reserve",
+  "layer_1_flower": {
+    "strain_name": "Pink Jesus Reserve",
+    "slug": "pink-jesus-reserve",
+    "farm": "Sonoma Hills Farm",
+    "region": "Sonoma",
+    "energy": "HIGH",
+    "intent": "Buoyant and warm, ready to share",
+    "effects": [
+      "Social",
+      "Uplifting",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Raspberry",
+      "French Lavender",
+      "Pineapple"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.89,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.78,
+        "ratio": 0.41
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.38,
+        "ratio": 0.2
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.27,
+        "ratio": 0.14
+      },
+      {
+        "name": "α-Bisabolol",
+        "pct": 0.15,
+        "ratio": 0.08
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "social",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "German Chamomile",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Black pepper anchors the high caryophyllene content. Lemongrass delivers myrcene for euphoria. Lavender captures the French lavender aroma note. Sage for humulene depth. German chamomile for bisabolol. A whisper of geranium adds the fruity, floral top notes.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      72,
+      95
+    ],
+    "energy": 0.38,
+    "valence": 0.43,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "ambient",
+      "dub"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Bonobo"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Buoyant and warm, ready to share. Genres: deep house, reggae, jazz, ambient. Tempo around 72-95 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 72,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 95,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 83,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Lavender Dream",
+    "description": "Floral lavender with berry warmth for uplifting serenity.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "1 tbsp Dried lavender buds",
+      "0.5 oz Dried raspberry leaf",
+      "0.5 oz Fresh pineapple juice",
+      "0.75 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 190°F.",
+      "Add 1 tbsp dried lavender buds and 0.5 oz dried raspberry leaf to infuser.",
+      "Steep for 4 minutes, stirring gently.",
+      "Remove infuser and add 0.5 oz pineapple juice and 0.75 tsp honey.",
+      "Stir and serve with a lavender flower."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Lavender Euphoria",
+      "description": "Raspberry and lavender in perfect harmony with pineapple brightness.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "1.5 oz Fresh raspberry puree",
+        "1 oz Fresh pineapple juice",
+        "0.5 oz Culinary lavender syrup",
+        "1 ring Candied pineapple ring"
+      ],
+      "method": [
+        "Add 1.5 oz fresh raspberry puree to shaker.",
+        "Add 1 oz pineapple juice, 0.5 oz culinary lavender syrup, and ice.",
+        "Shake for 8 seconds until frothy.",
+        "Fine-strain into chilled coupe.",
+        "Garnish with a candied pineapple ring and culinary lavender flower."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Lavender Lift",
+      "description": "Gin's botanicals blend with raspberry and lavender into pure euphoria.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 40°F)",
+      "style": "Botanical/stirred",
+      "spirit": "London Dry Gin (47% ABV)",
+      "abv": "~32%",
+      "ingredients": [
+        "1.5 oz London Dry gin",
+        "1.25 oz Fresh raspberry puree",
+        "0.5 oz Fresh pineapple juice",
+        "0.5 oz Culinary lavender syrup",
+        "1 each Candied pineapple & lavender"
+      ],
+      "method": [
+        "Combine 1.5 oz London Dry gin with 1.25 oz fresh raspberry puree in mixing glass.",
+        "Add 0.5 oz pineapple juice and 0.5 oz culinary lavender syrup.",
+        "Stir with ice for 12 seconds.",
+        "Strain into chilled coupe over a large clear ice cube.",
+        "Garnish with candied pineapple ring and lavender flower."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Floral Euphoria",
+      "description": "Pressed raspberry and pineapple with delicate lavender notes.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 1 hour of pressing",
+      "ingredients": [
+        "4 oz Fresh raspberry (pressed)",
+        "2 oz Fresh pineapple (pressed)",
+        "0.5 oz Culinary lavender water",
+        "1 each Raspberry, pineapple & lavender"
+      ],
+      "method": [
+        "Cold-press 4 oz fresh raspberries.",
+        "Strain through fine mesh.",
+        "Cold-press 2 oz fresh pineapple and combine.",
+        "Add 0.5 oz culinary lavender water (steeped 10 min).",
+        "Pour over ice and garnish with raspberry, pineapple wheel, and lavender flower."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Social Spark",
+      "description": "Raspberry and lavender with pineapple brightness in one buoyant moment.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Ice cold (chilled shot glass)",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "1 oz Gin",
+        "0.4 oz Fresh raspberry puree",
+        "0.2 oz Fresh pineapple juice",
+        "0.1 oz Culinary lavender syrup"
+      ],
+      "method": [
+        "Combine 1 oz gin with 0.4 oz fresh raspberry puree in shot glass.",
+        "Add 0.2 oz fresh pineapple juice.",
+        "Top with 0.1 oz culinary lavender syrup.",
+        "Stir gently.",
+        "Garnish with a single fresh raspberry and lavender flower."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Gruyère",
+      "desc": "Light and bright cheese plate with aged gouda, gruyère, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Raspberry Cathedral",
+    "scent_notes": {
+      "top": "black pepper, lemongrass",
+      "heart": "clove bud, bay laurel",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 5
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 3
+        },
+        {
+          "oil": "Lavender",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "Lavender"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "Lavender"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Raspberry Altar",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Black Pepper and Lemongrass essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 377,
+    "text": "Black pepper at fourteen drops, and the room fills with spiced warmth so generous it feels architectural — as if someone built a fireplace out of spice and lit it for the sole purpose of giving the evening a center to orbit. Sonoma Hills Farm grew this strain on ridges where the Pacific sends salt air through the Petaluma Gap, and the pepper carries that same open quality: warm without walls.\n\nLemongrass follows with eight drops, carrying the sedating quality that gives the euphoria its body, its weight, the physical sensation that joy is not just an idea but a location somewhere between the chest and the throat. Lavender at six drops captures the French lavender aroma directly — not the medicinal lavender of pharmacy shelves but the living plant in its natural habitat, purple and warm and slightly wild, blooming against a stone wall that has been warm all day.\n\nSage adds six drops of herbal earthiness depth, the earthy backbone that keeps the buoyancy from becoming frivolous, that insists uplift and substance can share a glass. German chamomile contributes four drops of the soft calming molecule, smoothing every transition between emotions the way Anderson .Paak smooths every transition between beats — with practiced ease that looks effortless but contains years of listening.\n\nGeranium closes with two drops, and the raspberry note appears like a surprise guest who turns out to be exactly the person the evening needed to become complete. The pineapple quality in the aroma finds itself in the bright edge where lemongrass meets lavender, a tropical-floral crossing that defies geography and rewards the nose for paying attention.\n\nThe living room is warm and the conversation has reached that golden altitude where everyone is saying what they mean and meaning is arriving with unusual clarity. Pink Jesus Reserve is not subtle about its mission. The six oils are the invitation, and the raspberry-lavender sweetness in the air is the sound of a room where nobody is pretending to be anyone other than who they actually are, and the warmth is not coming from the fireplace alone, and the evening is proving that sharing a space with the right people and the right scent can feel, genuinely and without exaggeration, like a kind of church."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

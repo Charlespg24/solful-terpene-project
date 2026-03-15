@@ -1,0 +1,510 @@
+{
+  "strain_name": "XJ-13",
+  "slug": "xj-13",
+  "layer_1_flower": {
+    "strain_name": "XJ-13",
+    "slug": "xj-13",
+    "farm": "Briceland Forest Farm",
+    "region": "Briceland, Humboldt County",
+    "energy": "HIGH",
+    "intent": "Laser-focused creative energy with forest clarity",
+    "effects": [
+      "Energized",
+      "Creative",
+      "Focused"
+    ],
+    "aroma": [
+      "Pine Needles",
+      "Citrus",
+      "Bubblegum"
+    ],
+    "lineage": "Jack Herer X G13 Haze",
+    "dominant_terpene": "Terpinolene",
+    "total_terpenes_pct": 2.51,
+    "terpene_profile": [
+      {
+        "name": "Terpinolene",
+        "pct": 1.01,
+        "ratio": 0.58
+      },
+      {
+        "name": "\u03b2-Ocimene",
+        "pct": 0.28,
+        "ratio": 0.16
+      },
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.27,
+        "ratio": 0.16
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.18,
+        "ratio": 0.1
+      }
+    ],
+    "accent_color": "#6BAE8E",
+    "vibe_tags": [
+      "creative",
+      "focused"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Tea Tree",
+        "drops": 24,
+        "pct": 60.0
+      },
+      {
+        "oil": "Sweet Basil",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Tea Tree carries the dominant terpinolene. Sweet Basil matches the pine needles aroma note. Black Pepper provides \u03b2-Caryophyllene support. Lemongrass rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      100,
+      128
+    ],
+    "energy": 0.72,
+    "valence": 0.75,
+    "genres": [
+      "funk",
+      "afrobeat",
+      "disco",
+      "nu-jazz",
+      "electronic"
+    ],
+    "reference_artists": [
+      "Kaytranada",
+      "Tom Misch",
+      "Parcels",
+      "Jungle"
+    ],
+    "spotify_prompt": "A high-energy session. Laser-focused creative energy with forest clarity. Genres: funk, afrobeat, disco, nu-jazz. Tempo around 100-128 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 100,
+        "mood": "building warmth"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 110,
+        "mood": "peak groove"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 128,
+        "mood": "gentle landing"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "XJ-13 Tea",
+    "description": "Pine Needles and citrus infused green tea blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "175\u00b0F",
+    "steep_time": "3-4 minutes",
+    "caffeine": "moderate (25-50 mg)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 green tea tea bag",
+      "1 tsp Douglas fir needle tips",
+      "1 tsp yuzu zest",
+      "1 tsp vanilla extract",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 175\u00b0F.",
+      "Add green tea tea bag and steep for 3-4 minutes.",
+      "Add Douglas fir needle tips and let infuse for 1 minute.",
+      "Add yuzu zest and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "XJ-13 Fizz",
+      "description": "Pine Needles and citrus refresher",
+      "glass": "highball",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz pine needle syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh citrus juice blend",
+        "2 oz sparkling water",
+        "pine needles garnish"
+      ],
+      "method": [
+        "Fill a highball glass with large ice cubes.",
+        "Combine 2 oz pine needle syrup and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz fresh citrus juice blend.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with pine needles."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "XJ-13 Collins",
+      "description": "Blanco Tequila-based pine needles and citrus cocktail",
+      "glass": "highball",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "shaken",
+      "spirit": "blanco tequila",
+      "abv": "14%",
+      "ingredients": [
+        "2 oz blanco tequila",
+        "1.5 oz pine needle syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh citrus juice blend",
+        "2 oz sparkling water",
+        "pine needles garnish"
+      ],
+      "method": [
+        "Combine 2 oz blanco tequila, 1.5 oz pine needle syrup, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz fresh citrus juice blend.",
+        "Add ice.",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled highball.",
+        "Garnish with pine needles."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "XJ-13 Juice",
+      "description": "Cold-pressed apple and orange blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh apple chunks",
+        "1 cup fresh orange chunks",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh apple through a cold press.",
+        "Press 1 cup orange through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "XJ-13 Shot",
+      "description": "One-sip apple concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz tequila",
+        "0.75 oz fresh apple juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of bubblegum",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz tequila with 0.75 oz fresh apple juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Edamame with Chili Flakes & Sea Salt",
+      "desc": "Steamed edamame tossed with chili oil, flaky salt, and toasted sesame.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Ocimene"
+      ]
+    },
+    "appetizer": {
+      "name": "Spring Rolls with Peanut Sauce",
+      "desc": "Fresh rice paper rolls with herbs, vermicelli, and spicy peanut dipping sauce.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Ocimene"
+      ]
+    },
+    "main": {
+      "name": "Thai Green Curry with Fresh Vegetables",
+      "desc": "Coconut-based green curry with seasonal vegetables, Thai basil, and jasmine rice.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Ocimene"
+      ]
+    },
+    "dessert": {
+      "name": "Key Lime Pie Bars",
+      "desc": "Tangy key lime curd on graham cracker crust with whipped cream.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Ocimene"
+      ]
+    },
+    "cheese": {
+      "name": "Queso Fresco & Grilled Fruit",
+      "desc": "Crumbled queso fresco with grilled peaches, honey, and pepitas.",
+      "key_terpenes": [
+        "Terpinolene",
+        "\u03b2-Ocimene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Morning Bright",
+    "scent_notes": {
+      "top": "tea tree, sweet basil",
+      "heart": "marjoram, tarragon",
+      "base": "cedar"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Tea Tree",
+          "drops": 8
+        },
+        {
+          "oil": "Sweet Basil",
+          "drops": 2
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Tea Tree",
+        "Sweet Basil",
+        "Black Pepper"
+      ],
+      "color": "6BAE8E",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Tea Tree",
+        "Sweet Basil",
+        "Black Pepper"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "XJ-13 Spark",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Tea Tree",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      },
+      {
+        "plant": "Sweet Basil",
+        "part": "dried leaves",
+        "terpene_target": "\u03b2-Ocimene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your laser-focused space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4500,
+    "brightness": "bright (60-80%)",
+    "hue_color": "#6BAE8E",
+    "textures": [
+      "cotton",
+      "bamboo",
+      "light wood",
+      "glass"
+    ],
+    "spatial_setup": "Open space, natural light when possible. Standing or high-top surfaces. Plants visible.",
+    "room_temp_f": 72,
+    "scent_anchor": "Essential oil blend via diffuser, started 20 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic (mild activation)",
+    "timing": "Begin 5 minutes before the session. Maintain rhythm throughout opening track.",
+    "guidance_text": "Sit tall. Breathe in through the nose for four counts, feeling energy rise through the chest. Brief hold for two. Exhale through the mouth for four counts with gentle force, like stoking a flame."
+  },
+  "layer_13_narrative": {
+    "word_count": 243,
+    "text": "24 drops of tea tree carry the dominant Terpinolene through the room brightly \u2014 the way Briceland Forest Farm intended when they cultivated XJ-13 in Briceland, Humboldt County. The lineage reads Jack Herer X G13 Haze, but what arrives in the glass is something that transcends parentage: pine needles, citrus, and bubblegum.\n\nThe second oil \u2014 Sweet Basil \u2014 adds 6 drops of brightness that matches the citrus note in the flower itself. Energized is not a command here but an invitation, the way the best strains suggest rather than insist. The body awakens into creative with the kind of molecular precision that only terpenes at 2.51% total can deliver.\n\nIn the sun-filled space, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of Terpinolene, already primed for laser-focused creative energy with forest clarity. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Briceland Forest Farm grows in Briceland, Humboldt County: not just cannabis, but context. The sativa genetics express through terpenes that speak the same chemical language as bay laurel on a Humboldt hillside. The session awakens into its final form \u2014 focused, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "mendocino-headlands",
+        "location_name": "Mendocino Headlands State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene"
+        ],
+        "match_score": 0.33
+      }
+    ],
+    "terpene_walk": "Begin at Mount Tamalpais State Park, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "summer/fall"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Gew\u00fcrztraminer",
+        "winery": "Navarro Vineyards",
+        "region": "Anderson Valley",
+        "terpene_bridge": "Gew\u00fcrztraminer carries terpinolene-adjacent aromatics \u2014 lychee, rose, and allspice that mirror the fresh, herbal quality.",
+        "tasting_note": "Lychee, rose petal, exotic spice",
+        "serving_temp_f": 46,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Riesling",
+        "winery": "Smith-Madrone",
+        "region": "Spring Mountain",
+        "terpene_bridge": "Riesling's terpene-rich profile carries floral and citrus compounds that harmonize with terpinolene's bright complexity.",
+        "tasting_note": "White peach, lime blossom, slate minerality",
+        "serving_temp_f": 46,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Saison",
+        "brewery": "Sante Adairius",
+        "region": "Santa Cruz",
+        "hop_varietals": [
+          "Saaz"
+        ],
+        "terpene_bridge": "Saaz hops carry terpinolene, and saison yeast produces spicy, herbal phenolics that amplify the terpene's complexity.",
+        "tasting_note": "White pepper, lemon, fresh hay",
+        "abv": "6.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Pilsner",
+        "brewery": "Trumer Brauerei",
+        "region": "Berkeley",
+        "hop_varietals": [
+          "Saaz",
+          "Tettnang"
+        ],
+        "terpene_bridge": "Noble hops carry terpinolene in their essential oil profile \u2014 clean, herbal, slightly floral.",
+        "tasting_note": "Crackers, wildflowers, crisp mineral finish",
+        "abv": "4.9%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

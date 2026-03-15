@@ -1,0 +1,538 @@
+{
+  "strain_name": "Tropicanna Cherry",
+  "slug": "tropicanna-cherry",
+  "layer_1_flower": {
+    "strain_name": "Tropicanna Cherry",
+    "slug": "tropicanna-cherry",
+    "farm": "Sunrise Gardens",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Bright lift with clear, lively edges",
+    "effects": [
+      "Euphoric",
+      "Cerebral",
+      "Cheerful"
+    ],
+    "aroma": [
+      "Sour Cherry",
+      "Sweet Citrus",
+      "Nutmeg"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.18,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.37,
+        "ratio": 0.31
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.29,
+        "ratio": 0.25
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.15,
+        "ratio": 0.13
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.11,
+        "ratio": 0.09
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "creative",
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Sweet Orange",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Clove",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Black pepper for the caryophyllene backbone. Sweet orange captures the sweet citrus note. Lavender for linalool softness. Geranium adds cherry-like fruity notes. Sage for humulene depth. Clove echoes the nutmeg warmth.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      80,
+      105
+    ],
+    "energy": 0.5,
+    "valence": 0.57,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Bright lift with clear, lively edges. Genres: deep house, reggae, jazz, funk. Tempo around 80-105 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 80,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 105,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 92,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Tropicanna Cherry Tea",
+    "description": "Tart cherry with warm spice and floral notes",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "5 minutes",
+    "caffeine": "none (herbal",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried tart cherry pieces",
+      "1 tsp dried blood orange peel",
+      "4-5 dried lavender buds",
+      "2-3 whole coriander seeds",
+      "1 whole clove",
+      "tiny pinch of freshly grated nutmeg",
+      "fresh cherry (garnish)",
+      "thin blood orange wheel (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 195°F (90°C).",
+      "In a tea infuser, combine 1 tbsp dried tart cherry pieces, 1 tsp dried blood orange peel, 4-5 dried lavender buds, 2-3 whole coriander seeds, and 1 whole clove.",
+      "Steep for 5 minutes to extract the cherry-spice character.",
+      "Strain into a warm teacup.",
+      "Stir in a tiny pinch of freshly grated nutmeg.",
+      "Garnish with a fresh cherry and thin blood orange wheel."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Tropicanna Cherry",
+      "description": "Tart cherry with bright citrus lift",
+      "glass": "coupe",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "2.5 oz fresh tart cherry juice",
+        "1 oz fresh blood orange juice",
+        "0.5 oz fresh lemon juice",
+        "0.5 oz coriander-lavender syrup",
+        "tiny pinch of freshly grated nutmeg",
+        "2-3 dashes coriander bitters",
+        "fresh cherry (garnish)",
+        "blood orange wheel (garnish)",
+        "nutmeg dust (garnish)",
+        "ice"
+      ],
+      "method": [
+        "In a mixing glass, combine 2.5 oz fresh tart cherry juice (or cherry puree strained) and 1 oz fresh blood orange juice.",
+        "Add 0.5 oz fresh lemon juice and 0.5 oz coriander-lavender syrup.",
+        "Add a tiny pinch of freshly grated nutmeg and 2-3 dashes of coriander bitters.",
+        "Fill with ice and stir for 10 seconds until chilled.",
+        "Strain into a chilled coupe glass.",
+        "Garnish with a fresh cherry, blood orange wheel, and a thin nutmeg dusting."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Tropicanna Cherry",
+      "description": "Gin-spiked cherry with citrus cerebral brightness",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "fruit-forward botanical",
+      "spirit": "gin",
+      "abv": "16%",
+      "ingredients": [
+        "1.75 oz gin",
+        "2 oz fresh tart cherry juice",
+        "1 oz fresh blood orange juice",
+        "0.5 oz fresh lemon juice",
+        "0.5 oz coriander-lavender syrup",
+        "2-3 dashes coriander bitters",
+        "tiny pinch of freshly grated nutmeg",
+        "fresh cherry (garnish)",
+        "blood orange wheel (garnish)",
+        "nutmeg dust (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Pour 1.75 oz gin into a mixing glass.",
+        "Add 2 oz fresh tart cherry juice and 1 oz fresh blood orange juice.",
+        "Pour in 0.5 oz fresh lemon juice and 0.5 oz coriander-lavender syrup.",
+        "Add 2-3 dashes coriander bitters and a tiny pinch of freshly grated nutmeg.",
+        "Fill with ice and stir for 10 seconds.",
+        "Strain into a chilled coupe glass.",
+        "Garnish with a fresh cherry, blood orange wheel, and nutmeg dust."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Tropicanna Cherry Juice",
+      "description": "Tart cherry with blood orange brightness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "fresh cherry citrus blend",
+      "timing": "serve immediately to preserve cherry",
+      "ingredients": [
+        "1.5 cups fresh tart cherries",
+        "2 fresh blood oranges",
+        "1 fresh lemon",
+        "2-3 whole coriander seeds",
+        "2-3 dried lavender buds",
+        "1 oz warm filtered water (infusion)",
+        "0.5 oz coriander-lavender syrup",
+        "1.5 oz cold filtered water",
+        "fresh cherry (garnish)",
+        "blood orange wheel (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Press 1.5 cups fresh tart cherries through a cold press (yields ~3 oz juice).",
+        "Squeeze 2 fresh blood oranges for juice (yields ~1.5 oz).",
+        "Squeeze 1 fresh lemon for juice (yields ~0.5 oz).",
+        "Infuse 2-3 whole coriander seeds and 2-3 dried lavender buds in 1 oz warm filtered water for 2 minutes.",
+        "Strain the infusion and combine with all juices.",
+        "Add 0.5 oz coriander-lavender syrup.",
+        "Add 1.5 oz cold filtered water to reach desired consistency.",
+        "Pour over ice and garnish with fresh cherry and blood orange wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Tropicanna Cherry Shot",
+      "description": "One-sip cherry brightness",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1.25 oz gin",
+        "0.75 oz fresh tart cherry juice",
+        "0.25 oz fresh blood orange juice",
+        "tiny pinch of freshly grated nutmeg",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1.25 oz gin with 0.75 oz fresh tart cherry juice.",
+        "Add 0.25 oz fresh blood orange juice and a tiny pinch of freshly grated nutmeg.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Gruyère",
+      "desc": "Light and bright cheese plate with aged gouda, gruyère, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Cherry Sunrise",
+    "scent_notes": {
+      "top": "black pepper, bergamot",
+      "heart": "clove bud, neroli",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Sweet Orange",
+          "drops": 4
+        },
+        {
+          "oil": "Lavender",
+          "drops": 2
+        },
+        {
+          "oil": "Geranium",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Sweet Orange",
+        "Lavender"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Sweet Orange",
+        "Lavender"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Cherry Incense",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Black Pepper and Sweet Orange essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 403,
+    "text": "Black pepper leads with twelve drops of warm spice, and the cheerful quality of Sunrise Gardens' Mendocino creation is immediately apparent: this is not solemn pepper, not medicinal pepper, not the pepper of a strain that takes itself seriously. This is the pepper that shows up at a dinner party with good wine and better stories and a way of laughing that makes everyone within earshot feel included.\n\nSweet orange follows with ten drops, carrying the sweet citrus aroma into the room with the unforced brightness of a Lizzo track — confident, generous, exactly as big as it needs to be and not a decibel more. Lavender at six drops brings floral softness, and geranium at six drops adds the cherry note — not literal cherry, but the rose-adjacent fruitiness that the brain files under sour cherry without argument, the way the brain files any warm-red-fruity scent and moves on to the next sensation.\n\nSage provides four drops of herbal earthiness depth, the earthy ballast that keeps the euphoria from becoming manic, that insists brightness include weight. Clove closes with two drops of nutmeg warmth, a spice note so precisely placed it feels like the strain designed the blend rather than the other way around — as if Tropicanna Cherry grew itself with this exact combination of oils in mind.\n\nThe cerebral quality is the clarity within the brightness — not the focus of a workday but the focus of a conversation where everyone is slightly more honest, slightly more articulate, slightly more themselves than they were an hour ago when the diffuser was just warming up and the evening was still wearing its polite face.\n\nSomeone laughs, and the blend turns the laugh into something architectural — it bounces off the bright citrus and the warm pepper and the soft lavender and returns to the room as evidence that the lively edges are not edges at all but openings, and the sour cherry-sweet citrus-nutmeg air is the doorway through to whatever the evening becomes next.\n\nThe six oils have done their work in the Mendocino air, and the room has shifted from gathering to genuine exchange, and the cheerful quality that seemed superficial thirty minutes ago has revealed itself as something more substantial — not just bright but clear, not just lifted but elevated, and every voice in the room has found the register where truth and warmth are the same thing."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

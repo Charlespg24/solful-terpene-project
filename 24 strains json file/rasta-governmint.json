@@ -1,0 +1,540 @@
+{
+  "strain_name": "Rasta Governmint",
+  "slug": "rasta-governmint",
+  "layer_1_flower": {
+    "strain_name": "Rasta Governmint",
+    "slug": "rasta-governmint",
+    "farm": "Higher Heights",
+    "region": "Mendocino",
+    "energy": "LOW",
+    "intent": "Profound ease with cushioned edges",
+    "effects": [
+      "Euphoric",
+      "Supremely Relaxed",
+      "Comforted"
+    ],
+    "aroma": [
+      "Sour Cherry",
+      "Frankincense",
+      "Oak"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.92,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.6,
+        "ratio": 0.31
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.39,
+        "ratio": 0.2
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.17,
+        "ratio": 0.09
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.16,
+        "ratio": 0.08
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "grounded",
+      "rest",
+      "body"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Rosemary",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Caryophyllene-forward with black pepper and rosemary. Lemon for the limonene citrus. Sage for humulene and oak-like earthiness. Geranium adds fruity cherry notes. Note: If you add Frankincense Serrata, swap Rosemary for Frankincense (6 drops) to match the aroma directly.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      81,
+      107
+    ],
+    "energy": 0.51,
+    "valence": 0.55,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "funk",
+      "soul"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Anderson .Paak"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Profound ease with cushioned edges. Genres: deep house, reggae, jazz, funk. Tempo around 81-107 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 81,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 76,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 91,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Rasta Governmint Tea",
+    "description": "Spiced cherry and vanilla rest",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "6 minutes",
+    "caffeine": "none (herbal",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tbsp dried tart cherry pieces",
+      "4-5 whole cloves",
+      "3-4 whole allspice berries",
+      "1 cardamom pod (cracked)",
+      "0.5 oz vanilla extract",
+      "pinch of ground cardamom",
+      "0.5 oz warm cream or milk",
+      "cinnamon stick (garnish)",
+      "whole clove (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 200°F (93°C).",
+      "In a tea infuser, combine 1 tbsp dried tart cherry pieces, 4-5 whole cloves, 3-4 whole allspice berries, and 1 cardamom pod (cracked).",
+      "Steep for 6 minutes to extract the full spiced character.",
+      "Strain into a warm teacup.",
+      "Stir in 0.5 oz vanilla extract and a pinch of ground cardamom.",
+      "Add 0.5 oz warm cream or milk.",
+      "Garnish with a cinnamon stick and a whole clove on top."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Rasta Governmint",
+      "description": "Caribbean ease with profound spice",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "ice cubes (large)",
+        "3 oz fresh tart cherry juice",
+        "0.5 oz fresh lime juice",
+        "0.5 oz cardamom-infused syrup",
+        "0.25 oz vanilla extract",
+        "2-3 dashes oak-aged bitters",
+        "pinch of ground cloves",
+        "pinch of ground allspice",
+        "fresh cherry (garnish)",
+        "cinnamon stick (garnish)"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "In a mixing glass, combine 3 oz fresh tart cherry juice and 0.5 oz fresh lime juice.",
+        "Add 0.5 oz cardamom-infused syrup (warm, resinous) and 0.25 oz vanilla extract.",
+        "Stir in 2-3 dashes of oak-aged bitters.",
+        "Add a pinch each of ground cloves and allspice.",
+        "Stir gently with ice for 8 seconds.",
+        "Strain into the rocks glass and garnish with a fresh cherry and a cinnamon stick."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Rasta Governmint",
+      "description": "Aged rum with Caribbean comfort spices",
+      "glass": "rocks",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "Caribbean",
+      "spirit": "aged rum",
+      "abv": "17%",
+      "ingredients": [
+        "2 oz aged rum (7-10 year)",
+        "2.5 oz fresh tart cherry juice",
+        "0.5 oz fresh lime juice",
+        "0.5 oz cardamom-infused syrup",
+        "0.25 oz vanilla extract",
+        "2-3 dashes oak-aged bitters",
+        "pinch of ground cloves",
+        "pinch of ground allspice",
+        "brandied cherry (garnish)",
+        "cinnamon stick (garnish)",
+        "large ice cubes"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Pour 2 oz aged rum (7-10 year) into a mixing glass.",
+        "Add 2.5 oz fresh tart cherry juice and 0.5 oz fresh lime juice.",
+        "Add 0.5 oz cardamom-infused syrup and 0.25 oz vanilla extract.",
+        "Stir in 2-3 dashes of oak-aged bitters, a pinch of cloves, and a pinch of allspice.",
+        "Stir with ice for 10 seconds.",
+        "Strain into the rocks glass.",
+        "Garnish with a brandied cherry and a cinnamon stick."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Rasta Governmint Juice",
+      "description": "Deep cherry with spiced warmth",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "tart cherry blend",
+      "timing": "serve immediately after",
+      "ingredients": [
+        "1.5 cups fresh tart cherries",
+        "3-4 whole cloves",
+        "2 whole allspice berries",
+        "1 oz warm filtered water",
+        "0.5 oz fresh lime juice",
+        "0.5 oz vanilla extract",
+        "0.25 oz cardamom-infused syrup",
+        "1.5 oz cold filtered water",
+        "fresh cherry (garnish)",
+        "cardamom pod (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Press 1.5 cups fresh tart cherries through a cold press (yields ~3.5 oz juice).",
+        "Steep 3-4 whole cloves and 2 whole allspice berries in 1 oz warm filtered water for 3 minutes.",
+        "Strain the spice water and combine with the cherry juice.",
+        "Add 0.5 oz fresh lime juice and 0.5 oz vanilla extract.",
+        "Stir in 0.25 oz cardamom-infused syrup.",
+        "Add 1.5 oz cold filtered water to reach desired consistency.",
+        "Pour over ice in a tall glass and garnish with a cherry and a cardamom pod."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Rasta Governmint Shot",
+      "description": "One-sip Caribbean profound ease",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1.25 oz aged rum",
+        "0.75 oz fresh tart cherry juice",
+        "0.25 oz cardamom-infused syrup",
+        "1 dash oak-aged bitters",
+        "tiny pinch of ground cloves",
+        "tiny pinch of ground allspice",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1.25 oz aged rum with 0.75 oz fresh tart cherry juice.",
+        "Add 0.25 oz cardamom-infused syrup and 1 dash of oak-aged bitters.",
+        "Add a tiny pinch each of cloves and allspice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Aged Gouda",
+      "desc": "A NorCal cheese board featuring aged gouda, gruyère, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Limonene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Cushioned Ease",
+    "scent_notes": {
+      "top": "black pepper, bergamot",
+      "heart": "clove bud, neroli",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 5
+        },
+        {
+          "oil": "Lemon",
+          "drops": 3
+        },
+        {
+          "oil": "Rosemary",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Rosemary"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemon",
+        "Rosemary"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Sacred Resin",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Black Pepper and Lemon essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 364,
+    "text": "The frankincense arrives before anything else — not from a church censer but from the rosemary sprigs left smoldering in a clay dish by the window. In Mendocino, Higher Heights sits above the fog line where the redwoods thin into manzanita, and tonight the resin quality is unmistakable, an ancient sweetness that turns the small living room into something between a chapel and a den.\n\nBlack pepper grounds the room in warmth, its drops working like a hearth fire that nobody needs to tend. Lemon lifts the sour cherry note into something translucent, a citrus brightness that catches the light from a single beeswax candle set in a brass holder older than anyone in the house. Sage dries the edges of the air, adding an oak-barrel quality that makes the whole space feel aged and earned, like a leather chair that has held a thousand conversations.\n\nGeranium does the quiet work of the blend. Its floral fruitiness does not announce itself — it simply shows up in the exhale, the way Kamasi Washington's saxophone enters a groove so naturally you wonder if it was always there, if the music was simply waiting for the right instrument to notice its own shape.\n\nA man sits in a wingback chair, his hands resting on the armrests like a king who has nothing left to prove and no kingdom left to defend. The ease is not lazy. It is the kind that comes after years of effort have finally earned someone the right to be still without apology. Rasta Governmint understands this — the cushioned edges, the surrender that is not defeat but arrival at a destination so comfortable the journey dissolves behind you.\n\nThe five oils have been working for twenty minutes now, and the room has changed its personality. The walls are softer. The silence is fuller, more textured, holding more information than it did before the diffuser started. Even the sour cherry in the air has deepened into something resembling gratitude — not the performative kind, but the kind that sits in the chest and asks for nothing in return. The fire does not need another log. The rosemary does not need another match."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

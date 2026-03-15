@@ -1,0 +1,535 @@
+{
+  "strain_name": "Peach Flambé",
+  "slug": "peach-flambe",
+  "layer_1_flower": {
+    "strain_name": "Peach Flambé",
+    "slug": "peach-flambe",
+    "farm": "Terrapin Farms",
+    "region": "Humboldt",
+    "energy": "HIGH",
+    "intent": "Sunny drive with bright momentum",
+    "effects": [
+      "Happy",
+      "Energized",
+      "Motivated"
+    ],
+    "aroma": [
+      "White Peach",
+      "Cashew Butter",
+      "Brown Sugar"
+    ],
+    "lineage": null,
+    "dominant_terpene": "β-Caryophyllene",
+    "total_terpenes_pct": 1.05,
+    "terpene_profile": [
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.25,
+        "ratio": 0.24
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.21,
+        "ratio": 0.2
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.2,
+        "ratio": 0.19
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.12,
+        "ratio": 0.11
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "euphoric"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Bergamot",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Clove",
+        "drops": 2,
+        "pct": 5.0
+      }
+    ],
+    "blend_rationale": "Balanced, lower-terpene profile. Bergamot brings sophisticated citrus matching the peach. Black pepper for caryophyllene. Lemongrass for myrcene. Geranium adds fruity, peachy notes. Sage for humulene. Clove echoes the brown sugar warmth.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      78,
+      102
+    ],
+    "energy": 0.46,
+    "valence": 0.51,
+    "genres": [
+      "deep house",
+      "reggae",
+      "jazz",
+      "ambient",
+      "dub"
+    ],
+    "reference_artists": [
+      "Khruangbin",
+      "Bob Marley",
+      "Kamasi Washington",
+      "Bonobo"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Sunny drive with bright momentum. Genres: deep house, reggae, jazz, ambient. Tempo around 78-102 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 78,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 102,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 90,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Peach Flambé Tea",
+    "description": "Bergamot and peach comfort in a cup",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "3 minutes",
+    "caffeine": "moderate (black tea",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 black tea bag",
+      "1 bergamot tea bag",
+      "0.5 oz dried peach pieces (or 0.75 oz fresh peach puree)",
+      "0.25 oz demerara syrup",
+      "pinch of ground cinnamon",
+      "0.5 oz cashew milk",
+      "cinnamon stick (garnish)",
+      "thin peach slice (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 200°F (93°C).",
+      "Steep 1 black tea bag and 1 bergamot tea bag together for 3 minutes.",
+      "Remove the tea bags and stir in 0.5 oz dried peach pieces (or 0.75 oz fresh peach puree).",
+      "Add 0.25 oz demerara syrup and a pinch of ground cinnamon.",
+      "Stir in 0.5 oz cashew milk or cream.",
+      "Pour into a warm teacup and garnish with a cinnamon stick and thin peach slice."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Peach Flambé",
+      "description": "Sunny white peach with warm spice",
+      "glass": "coupe",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "2.5 oz fresh white peach puree",
+        "0.5 oz fresh lemon juice",
+        "0.5 oz bergamot-infused syrup",
+        "0.75 oz cashew milk",
+        "0.25 oz demerara syrup",
+        "cinnamon stick (garnish)",
+        "thin peach slice (garnish)",
+        "ice"
+      ],
+      "method": [
+        "In a mixing glass, combine 2.5 oz fresh white peach puree (blended fresh peaches, strained).",
+        "Add 0.5 oz fresh lemon juice and 0.5 oz bergamot-infused syrup.",
+        "Pour in 0.75 oz cashew milk and stir until smooth.",
+        "Add 0.25 oz demerara syrup for depth.",
+        "Fill with ice and stir gently for 8 seconds.",
+        "Strain into a coupe glass.",
+        "Garnish with a cinnamon stick and a thin peach slice."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Peach Flambé",
+      "description": "Bourbon-backed peach warmth",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "fruit-forward spiced",
+      "spirit": "bourbon",
+      "abv": "18%",
+      "ingredients": [
+        "1.75 oz bourbon",
+        "2 oz fresh white peach puree",
+        "0.5 oz fresh lemon juice",
+        "0.5 oz bergamot-infused syrup",
+        "0.25 oz demerara syrup",
+        "0.5 oz cashew milk",
+        "cinnamon stick (garnish, optionally flamed)",
+        "grilled peach slice (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Pour 1.75 oz bourbon into a mixing glass.",
+        "Add 2 oz fresh white peach puree and 0.5 oz fresh lemon juice.",
+        "Stir in 0.5 oz bergamot-infused syrup and 0.25 oz demerara syrup.",
+        "Add 0.5 oz cashew milk to round out the texture.",
+        "Fill with ice and stir for 10 seconds until chilled.",
+        "Strain into a coupe glass.",
+        "Ignite a cinnamon stick over the surface for 3 seconds (optional flambé), then garnish with the cinnamon stick and a grilled peach slice."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Peach Flambé Juice",
+      "description": "White peach and cashew smoothness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "fresh-pressed nut blend",
+      "timing": "serve immediately to preserve peach",
+      "ingredients": [
+        "2 ripe white peaches (peeled, pitted)",
+        "0.75 oz raw cashew butter",
+        "1 oz warm filtered water (for cashew milk)",
+        "0.5 oz fresh lemon juice",
+        "0.25 oz demerara syrup",
+        "1 oz cold filtered water",
+        "peach slice (garnish)",
+        "cinnamon dust (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Blend 2 ripe white peaches (peeled, pitted) until smooth (yields ~3 oz puree).",
+        "Strain through a fine mesh to remove any pulp.",
+        "Blend 0.75 oz raw cashew butter with 1 oz warm filtered water until milk-like.",
+        "Strain the cashew milk through cheesecloth.",
+        "Combine peach puree with cashew milk, 0.5 oz fresh lemon juice, and 0.25 oz demerara syrup.",
+        "Stir in 1 oz cold filtered water to reach desired consistency.",
+        "Pour over ice in a tall glass and garnish with a peach slice and cinnamon dust."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Peach Flambé Shot",
+      "description": "One-sip peachy warmth",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1.25 oz bourbon",
+        "0.75 oz fresh white peach puree",
+        "0.25 oz demerara syrup",
+        "pinch of ground cinnamon",
+        "cinnamon stick (side)",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1.25 oz bourbon with 0.75 oz fresh white peach puree.",
+        "Add 0.25 oz demerara syrup and a pinch of ground cinnamon.",
+        "Stir with ice for 6 seconds.",
+        "Strain into the chilled shot glass.",
+        "Serve immediately with a cinnamon stick on the side."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Gruyère",
+      "desc": "Light and bright cheese plate with aged gouda, gruyère, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "β-Caryophyllene",
+        "Myrcene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Golden Drive",
+    "scent_notes": {
+      "top": "black pepper, lemongrass",
+      "heart": "clove bud, bay laurel",
+      "base": "sandalwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Bergamot",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 3
+        },
+        {
+          "oil": "Geranium",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Bergamot",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "color": "warm amber",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Bergamot",
+        "Black Pepper",
+        "Lemongrass"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Peach Ember",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Bergamot and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 382,
+    "text": "Bergamot and black pepper arrive together — ten drops each — like the opening bars of a Vulfpeck track that has no intention of being slow, no interest in building gradually, no patience for the kind of morning that takes two cups of coffee to begin. Terrapin Farms built this Humboldt strain for the days that need momentum from the first breath, and the oil blend matches that energy with citrus-spice precision.\n\nLemongrass adds eight drops of grassy warmth that keeps the brightness from becoming brittle, a muscular sweetness that turns the initial drive into sustainable force rather than a sprint that burns out by noon. Geranium follows with six drops, and the white peach aroma materializes in the overlap between bergamot's sophistication and geranium's rosy fruitiness — not quite citrus, not quite floral, but that exact space between where stone fruit lives its aromatic life.\n\nSage provides four drops of herbal earthiness grounding, the herbal seriousness that keeps the sunny quality from becoming merely cheerful, that insists motivation include direction rather than just velocity. Clove closes the blend with two drops of brown sugar warmth that rounds every edge without dulling a single one, the way a good drummer softens the attack of a snare without losing any of its crack.\n\nThis is the lowest-terpene strain in the collection at 1.05 percent, which means the blend does proportionally more of the work than usual. The six oils are not translating a heavy terpene load from flower to diffuser — they are building the environment from the ground up, creating what the flower whispers and the essential oils speak at full, confident volume.\n\nA cyclist clips in and pushes through the first pedal stroke on a road that climbs from the Humboldt flats toward the ridgeline. The cashew butter quality lives in the smooth way bergamot and geranium merge on the exhale, a creaminess that has no dairy origin but the brain accepts as richness. Peach Flambé is not complicated. It does not require interpretation or context or explanation. It is bright, it is moving, and the brown sugar warmth trailing at the edges of the clove is the promise that the effort will taste sweet — not at some distant finish line, but right now, in the middle of the climb."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "primary"
+      },
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

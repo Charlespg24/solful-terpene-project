@@ -1,0 +1,514 @@
+{
+  "strain_name": "Doctor Greenshock",
+  "slug": "doctor-greenshock",
+  "layer_1_flower": {
+    "strain_name": "Doctor Greenshock",
+    "slug": "doctor-greenshock",
+    "farm": "Greenshock Farms",
+    "region": "Willits, Mendocino County",
+    "energy": "LOW",
+    "intent": "Calm euphoria melting tension like warm sandalwood oil",
+    "effects": [
+      "Calming",
+      "Euphoric",
+      "Tension Relieving"
+    ],
+    "aroma": [
+      "Sandalwood",
+      "Mint",
+      "Aged Hash"
+    ],
+    "lineage": "Lavender X (Bubba Kush X Recon)",
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 1.66,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.66,
+        "ratio": 0.48
+      },
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.3,
+        "ratio": 0.22
+      },
+      {
+        "name": "\u03b1-Pinene",
+        "pct": 0.29,
+        "ratio": 0.21
+      },
+      {
+        "name": "\u03b2-Ocimene",
+        "pct": 0.12,
+        "ratio": 0.09
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "grounded",
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 19,
+        "pct": 47.5
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 9,
+        "pct": 22.5
+      },
+      {
+        "oil": "Pine",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Sweet Basil",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Lemongrass carries the dominant myrcene. Black Pepper matches the sandalwood aroma note. Pine provides \u03b1-Pinene support. Sweet Basil rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      65,
+      90
+    ],
+    "energy": 0.3,
+    "valence": 0.4,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "downtempo"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Tycho",
+      "Thievery Corporation",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A low-energy session. Calm euphoria melting tension like warm sandalwood oil. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 65-90 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 65,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 60,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 80,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Doctor Tea",
+    "description": "Sandalwood and mint infused chamomile blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "185\u00b0F",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 chamomile tea bag",
+      "1 tsp sandalwood-infused honey",
+      "1 tsp fresh mint leaves",
+      "1 tsp toasted sesame seeds",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 185\u00b0F.",
+      "Add chamomile tea bag and steep for 5 minutes.",
+      "Add sandalwood-infused honey and let infuse for 1 minute.",
+      "Add fresh mint leaves and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Doctor Fizz",
+      "description": "Sandalwood and mint refresher",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz sandalwood-infused honey syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh mint leaves",
+        "2 oz sparkling water",
+        "sandalwood garnish"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Combine 2 oz sandalwood-infused honey syrup and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz fresh mint leaves.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with sandalwood."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Doctor Sour",
+      "description": "Bourbon-based sandalwood and mint cocktail",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "shaken",
+      "spirit": "bourbon",
+      "abv": "18%",
+      "ingredients": [
+        "2 oz bourbon",
+        "1.5 oz sandalwood-infused honey syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh mint leaves",
+        "1 egg white (optional)",
+        "sandalwood garnish"
+      ],
+      "method": [
+        "Combine 2 oz bourbon, 1.5 oz sandalwood-infused honey syrup, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz fresh mint leaves.",
+        "Dry shake for 5 seconds (if using egg white).",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled coupe.",
+        "Garnish with sandalwood."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Doctor Juice",
+      "description": "Cold-pressed apple and lemon blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh apple chunks",
+        "0.5 oz fresh lemon juice",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh apple through a cold press.",
+        "Press 1 green apple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Doctor Shot",
+      "description": "One-sip apple concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz bourbon",
+        "0.75 oz fresh apple juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of aged hash",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz bourbon with 0.75 oz fresh apple juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Truffle Popcorn with Cracked Pepper",
+      "desc": "Fresh-popped corn drizzled with truffle oil and fresh-cracked black pepper.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Blistered Shishito Peppers with Miso Aioli",
+      "desc": "Flash-charred peppers served with white miso and yuzu aioli.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Duck Confit with Fig Glaze",
+      "desc": "Slow-cooked duck leg with fig reduction, served over creamy polenta.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Fig & Honey Panna Cotta",
+      "desc": "Vanilla bean panna cotta with roasted figs and a wildflower honey drizzle.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Brie & Fig Preserves",
+      "desc": "Triple-cream Brie with fig preserves, honeycomb, and toasted hazelnuts.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b2-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Velvet Quiet",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 6
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Pine",
+          "drops": 2
+        },
+        {
+          "oil": "Sweet Basil",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Pine"
+      ],
+      "color": "8EAE68",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Pine"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Doctor Ember",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Pine",
+        "part": "dried needles",
+        "terpene_target": "\u03b1-Pinene"
+      },
+      {
+        "plant": "Sweet Basil",
+        "part": "dried leaves",
+        "terpene_target": "\u03b2-Ocimene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your calm space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Essential oil blend via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 245,
+    "text": "19 drops of lemongrass carry the dominant Myrcene through the room slowly \u2014 the way Greenshock Farms intended when they cultivated Doctor Greenshock in Willits, Mendocino County. The lineage reads Lavender X (Bubba Kush X Recon), but what arrives in the glass is something that transcends parentage: sandalwood, mint, and aged hash.\n\nThe second oil \u2014 Black Pepper \u2014 adds 9 drops of brightness that matches the mint note in the flower itself. Calming is not a command here but an invitation, the way the best strains suggest rather than insist. The body settles into euphoric with the kind of molecular precision that only terpenes at 1.66% total can deliver.\n\nIn the dimly lit room, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of Myrcene, already primed for calm euphoria melting tension like warm sandalwood oil. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Greenshock Farms grows in Willits, Mendocino County: not just cannabis, but context. The indica genetics express through terpenes that speak the same chemical language as rosemary in a Mendocino garden. The session settles into its final form \u2014 tension relieving, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "mendocino-headlands",
+        "location_name": "Mendocino Headlands State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene"
+        ],
+        "match_score": 0.55
+      }
+    ],
+    "terpene_walk": "Begin at Mount Tamalpais State Park, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/spring"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality \u2014 both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Grenache",
+        "winery": "Tablas Creek",
+        "region": "Paso Robles",
+        "terpene_bridge": "Grenache's lush fruit and herbaceous undertones complement myrcene's tropical warmth.",
+        "tasting_note": "Strawberry, garrigue herbs, warm spice",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant \u2014 cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant myrcene, connecting malt-forward English ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

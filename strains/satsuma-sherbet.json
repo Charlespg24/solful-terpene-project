@@ -1,0 +1,526 @@
+{
+  "strain_name": "Satsuma Sherbet",
+  "slug": "satsuma-sherbet",
+  "layer_1_flower": {
+    "strain_name": "Satsuma Sherbet",
+    "slug": "satsuma-sherbet",
+    "farm": "Alpenglow Farms",
+    "region": "Humboldt",
+    "energy": "MEDIUM",
+    "intent": "Quiet ease with thoughtful undertones",
+    "effects": [
+      "Happy",
+      "Contemplative",
+      "Comfortable"
+    ],
+    "aroma": [
+      "Mandarin Orange",
+      "Mochi",
+      "Mint"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Limonene",
+    "total_terpenes_pct": 1.85,
+    "terpene_profile": [
+      {
+        "name": "Limonene",
+        "pct": 0.55,
+        "ratio": 0.3
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.45,
+        "ratio": 0.24
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.13,
+        "ratio": 0.07
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.11,
+        "ratio": 0.06
+      }
+    ],
+    "accent_color": "#D4C85C",
+    "vibe_tags": [
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Sweet Orange",
+        "drops": 16,
+        "pct": 40.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Peppermint",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Sweet orange (40%) captures the mandarin citrus. Black pepper delivers caryophyllene backbone. Sage for humulene. Lemongrass for myrcene. Peppermint matches the mint aroma note and adds refreshing brightness.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      84,
+      111
+    ],
+    "energy": 0.55,
+    "valence": 0.6,
+    "genres": [
+      "funk",
+      "soul",
+      "pop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Anderson .Paak",
+      "Vulfpeck",
+      "Lizzo",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A balanced, social, warm session. Quiet ease with thoughtful undertones. Genres: funk, soul, pop, deep house. Tempo around 84-111 BPM.",
+    "iso_principle": [
+      {
+        "phase": "open",
+        "minutes": 8,
+        "bpm_target": 84,
+        "mood": "easing in"
+      },
+      {
+        "phase": "groove",
+        "minutes": 12,
+        "bpm_target": 97,
+        "mood": "comfortable flow"
+      },
+      {
+        "phase": "reflect",
+        "minutes": 10,
+        "bpm_target": 89,
+        "mood": "gentle unwinding"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Satsuma Sherbet Tea",
+    "description": "Herbal mandarin blend for quiet contemplation",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "minimal (chamomile-based)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 tsp dried chamomile",
+      "3-4 dried mint leaves",
+      "2-3 strips fresh satsuma peel (dried)",
+      "0.5 oz rice milk",
+      "pinch of ground cinnamon",
+      "candied mandarin wheel (garnish)"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 160°F (70°C).",
+      "In a tea infuser, combine 1 tsp dried chamomile, 3-4 dried mint leaves, and 2-3 satsuma peel strips.",
+      "Steep for 4 minutes, allowing the delicate herbs to release their essences gently.",
+      "Strain into a warm teacup.",
+      "Stir in 0.5 oz rice milk and a pinch of ground cinnamon.",
+      "Float a thin candied mandarin wheel on top.",
+      "Serve warm, sipping slowly for maximum comfort."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Satsuma Sherbet",
+      "description": "Japanese mandarin comfort in a glass",
+      "glass": "coupe",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "3 fresh satsuma mandarins",
+        "0.5 oz fresh lemon juice",
+        "0.75 oz rice milk",
+        "0.5 oz coconut cream",
+        "3-4 fresh mint leaves",
+        "pinch of ground cinnamon",
+        "candied mandarin wheel (garnish)",
+        "fresh mint sprig (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Juice 3 fresh satsuma mandarins (about 3 oz) into a cocktail shaker.",
+        "Add 0.5 oz fresh lemon juice and 0.75 oz rice milk to the shaker.",
+        "Add 0.5 oz coconut cream and 2-3 fresh mint leaves, gently bruised.",
+        "Fill shaker with ice and shake vigorously for 10 seconds until creamy.",
+        "Strain into a chilled coupe glass.",
+        "Dust lightly with ground cinnamon and garnish with a candied mandarin wheel and mint sprig."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Satsuma Sherbet",
+      "description": "Sake-spiked mandarin softness",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "creamy citrus",
+      "spirit": "sake",
+      "abv": "12%",
+      "ingredients": [
+        "1.5 oz sake",
+        "2.5 oz fresh satsuma juice",
+        "0.5 oz fresh lemon juice",
+        "0.75 oz coconut cream",
+        "0.5 oz rice milk",
+        "2 fresh mint leaves",
+        "pinch of ground cinnamon",
+        "candied mandarin wheel (garnish)",
+        "cinnamon stick (garnish)",
+        "ice"
+      ],
+      "method": [
+        "Pour 1.5 oz premium sake into a cocktail shaker.",
+        "Add 2.5 oz fresh satsuma juice and 0.5 oz fresh lemon juice.",
+        "Pour in 0.75 oz coconut cream and 0.5 oz rice milk.",
+        "Add 2 fresh mint leaves and fill with ice.",
+        "Shake for 12 seconds until silky and chilled.",
+        "Strain into a coupe glass over fresh ice.",
+        "Garnish with a candied mandarin wheel and a cinnamon stick."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Satsuma Sherbet Juice",
+      "description": "Mandarin-mint cleanse with coconut sweetness",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "drink immediately after preparation",
+      "ingredients": [
+        "5 fresh satsuma mandarins",
+        "1 oz coconut milk",
+        "0.5 oz rice milk",
+        "4-5 fresh mint leaves",
+        "1-2 oz cold mineral water",
+        "mint sprig (garnish)",
+        "mandarin wheel (garnish)"
+      ],
+      "method": [
+        "Press 5 fresh satsuma mandarins through a cold-press juicer (yields ~4 oz).",
+        "Blend 1 oz coconut milk with 0.5 oz rice milk until smooth.",
+        "Muddle 4-5 fresh mint leaves gently in a tall glass.",
+        "Pour pressed mandarin juice over the mint.",
+        "Stir in the coconut-rice milk blend.",
+        "Top with 1-2 oz cold mineral water.",
+        "Garnish with a mint sprig and thin mandarin wheel on the rim."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Satsuma Sherbet Shot",
+      "description": "One-sip mandarin comfort rush",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one",
+      "ingredients": [
+        "1 oz sake",
+        "0.75 oz fresh satsuma juice",
+        "0.25 oz coconut cream",
+        "pinch of ground cinnamon",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "Pour 1 oz sake into a mixing glass with ice.",
+        "Add 0.75 oz fresh satsuma juice and 0.25 oz coconut cream.",
+        "Stir for 8 seconds until silky.",
+        "Strain into the chilled shot glass.",
+        "Top with a tiny pinch of cinnamon and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Spiced Mixed Nuts with Sage & Brown Butter",
+      "desc": "Local walnuts and pecans toasted in brown butter with crispy sage leaves and a whisper of cayenne.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Wild Mushroom Bruschetta",
+      "desc": "Foraged chanterelles and maitake on grilled levain with shaved Bellwether Farms pecorino and truffle oil.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Heritage Pork Chop with Apple Mostarda",
+      "desc": "Thick-cut Sonoma County pork with house-made apple mostarda, roasted brassicas, and pan jus.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Brown Butter Financier with Stone Fruit",
+      "desc": "Warm almond cake with brown butter, topped with roasted seasonal stone fruit and vanilla bean ice cream.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Mixed Selection: Chèvre, Burrata",
+      "desc": "Balanced board with chèvre, burrata, quince paste, roasted grapes, and artisan crackers.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Mandarin Twilight",
+    "scent_notes": {
+      "top": "bergamot, black pepper",
+      "heart": "neroli, clove bud",
+      "base": "cedarwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Sweet Orange",
+          "drops": 6
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 4
+        },
+        {
+          "oil": "Sage",
+          "drops": 1
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Sweet Orange",
+        "Black Pepper",
+        "Sage"
+      ],
+      "color": "sunny yellow",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Sweet Orange",
+        "Black Pepper",
+        "Sage"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Citrus Temple",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light as you transition between activities. The scent bridges one moment to the next with ease."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 3200,
+    "brightness": "moderate (45-60%)",
+    "hue_color": "#D4C85C",
+    "textures": [
+      "leather",
+      "canvas",
+      "ceramic",
+      "mixed wood"
+    ],
+    "spatial_setup": "Flexible seating, a mix of ambient and task lighting. Conversation-friendly arrangement.",
+    "room_temp_f": 70,
+    "scent_anchor": "Sweet Orange and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Balance Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 4,
+      "hold_sec_2": 4,
+      "cycles": 6
+    },
+    "nervous_system_target": "balanced",
+    "timing": "Begin 10 minutes into the diffuser session. Box breathing for equilibrium.",
+    "guidance_text": "Find a comfortable seat. Inhale through the nose for four counts. Hold for four. Exhale through the mouth for four. Hold empty for four. Each cycle is a complete square. Let the scent anchor each corner."
+  },
+  "layer_13_narrative": {
+    "word_count": 377,
+    "text": "Sweet orange fills the room like afternoon light through a mandarin-colored curtain — sixteen drops painting the air in citrus warmth that has weight to it, substance, the particular sweetness of a fruit that ripened slowly on a Humboldt branch while Alpenglow Farms waited with the patience of people who understand that the best things arrive on their own schedule.\n\nBlack pepper grounds the sweetness with twelve drops of quiet authority. This is not the sharp pepper of urgency but the round warmth of contemplation, the way Chet Baker played trumpet — economical, unhurried, every note exactly where it belongs because he tried it everywhere else first and this is where it landed.\n\nSage adds its dry herbal whisper, four drops that pull the mind toward something deeper without forcing the descent. Not meditation exactly, but the neighborhood where meditation lives — the block where thoughts walk more slowly and notice the architecture. Lemongrass matches it with another four drops of grassy green that keeps the sedating quality subtle, a background hum beneath the citrus curtain.\n\nPeppermint is the surprise in the blend — four drops of cool clarity that mirrors the mint aroma note and turns the whole experience from a warm bath into something more awake, more present. Not alert in the way that coffee is alert. Contemplative in the way that a window is contemplative when you sit beside it long enough to notice what the light is doing.\n\nA woman sits by the window with a mochi dessert going soft on a ceramic plate beside a cup of tea she forgot to drink. Satsuma Sherbet asked her one question without using words: what if comfort did not require unconsciousness? What if happiness and thoughtfulness could share a room without one asking the other to leave?\n\nThe mandarin orange in the air keeps answering, keeps saying yes, the sherbet can be both sweet and sharp, the afternoon can be both easy and interesting. The five oils — orange, pepper, sage, lemongrass, peppermint — are doing the quiet chemistry of balance, and the mochi is getting softer, and the woman has not moved in twenty minutes, and she is neither asleep nor bored, and that is the entire point of everything happening in this room."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Citrus Collection, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "year-round"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

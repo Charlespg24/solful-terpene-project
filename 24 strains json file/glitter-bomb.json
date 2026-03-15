@@ -1,0 +1,505 @@
+{
+  "strain_name": "Glitter Bomb",
+  "slug": "glitter-bomb",
+  "layer_1_flower": {
+    "strain_name": "Glitter Bomb",
+    "slug": "glitter-bomb",
+    "farm": "Sol Spirit Farm",
+    "region": "Trinity",
+    "energy": "HIGH",
+    "intent": "Body at ease, mind sparkling",
+    "effects": [
+      "Physically Relaxing",
+      "Cerebral",
+      "Euphoric"
+    ],
+    "aroma": [
+      "Kiwi",
+      "Pine",
+      "Musk"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 2.39,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 1.23,
+        "ratio": 0.51
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.42,
+        "ratio": 0.18
+      },
+      {
+        "name": "β-Ocimene",
+        "pct": 0.17,
+        "ratio": 0.07
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.15,
+        "ratio": 0.06
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "euphoric",
+      "body"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 18,
+        "pct": 45.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Basil",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Pine",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "High myrcene (1.23%) calls for lemongrass dominance (45%). Black pepper for the caryophyllene. Basil captures the ocimene. Lavender for linalool. Pine needle oil matches the pine aroma note and adds forest character.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      67,
+      88
+    ],
+    "energy": 0.3,
+    "valence": 0.38,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Body at ease, mind sparkling. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 67-88 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 67,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 88,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 77,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Kiwi Serenity",
+    "description": "Green kiwi tea with rosemary and basil for cerebral ease.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "3 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "0.5 oz Dried kiwi pieces (or fresh pulp)",
+      "0.5 tsp Dried rosemary",
+      "5-6 leaves Fresh basil leaves (bruised)",
+      "0.5 oz Fresh kiwi juice"
+    ],
+    "method": [
+      "Heat water to 185°F.",
+      "Add 0.5 oz dried kiwi pieces (or 1 tsp fresh kiwi pulp) to infuser.",
+      "Add 0.5 tsp dried rosemary and 5-6 fresh basil leaves (lightly bruised).",
+      "Steep for 3 minutes.",
+      "Remove infuser, add 0.5 oz fresh kiwi juice and 0.5 tsp honey, stir and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Kiwi Sparkle",
+      "description": "Kiwi brightness with rosemary-pine clarity and euphoric lift.",
+      "glass": "Highball",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "2 fruit Fresh kiwi (muddled)",
+        "1.5 oz Fresh kiwi juice",
+        "0.5 oz Rosemary-simple syrup",
+        "0.25 oz Fresh basil juice",
+        "2 oz Sparkling water"
+      ],
+      "method": [
+        "Muddle 2 fresh kiwis (peeled) gently in shaker.",
+        "Add 1.5 oz fresh kiwi juice, 0.5 oz rosemary-infused simple syrup, and 0.25 oz fresh basil juice (from 5-6 leaves).",
+        "Add ice and shake for 8 seconds.",
+        "Strain into highball glass filled with crushed ice.",
+        "Top with 2 oz sparkling water and garnish with kiwi wheel and basil leaf."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Kiwi Botanica",
+      "description": "Gin sharpens kiwi's tropical sparkle with pine and basil clarity.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 40°F)",
+      "style": "Botanical/stirred",
+      "spirit": "London Dry Gin (47% ABV)",
+      "abv": "~32%",
+      "ingredients": [
+        "1.5 oz London Dry gin",
+        "3 fruit Fresh kiwi (muddled)",
+        "1 oz Fresh kiwi juice",
+        "0.5 oz Rosemary syrup",
+        "0.25 oz Fresh basil juice"
+      ],
+      "method": [
+        "Muddle 3 fresh kiwis (peeled) in mixing glass.",
+        "Add 1.5 oz London Dry gin, 1 oz fresh kiwi juice, 0.5 oz rosemary syrup, and 0.25 oz fresh basil juice.",
+        "Stir with ice for 12 seconds.",
+        "Fine-strain into chilled coupe over large clear ice.",
+        "Garnish with kiwi wheel, basil leaf, and thin rosemary sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Sparkling Kiwi",
+      "description": "Cold-pressed kiwi with rosemary clarity and basil freshness.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 1.5 hours of pressing",
+      "ingredients": [
+        "5 oz Fresh kiwi (pressed)",
+        "1 oz Fresh basil (pressed)",
+        "1 oz Rosemary-infused coconut water",
+        "1 each Kiwi wheel & basil leaf"
+      ],
+      "method": [
+        "Cold-press 5 oz fresh kiwi (with skin).",
+        "Strain through fine mesh.",
+        "Add 1 oz fresh basil juice (from 10-12 leaves pressed).",
+        "Whisk in 1 oz rosemary-infused coconut water (steeped 10 min).",
+        "Pour over crushed ice and garnish with kiwi wheel and basil leaf."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Euphoric Flash",
+      "description": "A bright kiwi spark with pine clarity and basil lift.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Ice cold (chilled shot glass)",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "2 fruit Fresh kiwi (muddled)",
+        "0.75 oz Pisco",
+        "0.5 oz Fresh kiwi juice",
+        "0.25 oz Rosemary-allspice syrup"
+      ],
+      "method": [
+        "Muddle 2 fresh kiwis (peeled) in shot glass.",
+        "Add 0.75 oz pisco.",
+        "Top with 0.5 oz fresh kiwi juice and 0.25 oz rosemary-allspice syrup.",
+        "Stir once.",
+        "Garnish with a kiwi wheel and tiny basil leaf."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Camembert",
+      "desc": "Light and bright cheese plate with brie, camembert, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Myrcene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Forest Sparkle",
+    "scent_notes": {
+      "top": "lemongrass, black pepper",
+      "heart": "bay laurel, clove bud",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 7
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Basil",
+          "drops": 1
+        },
+        {
+          "oil": "Lavender",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Basil"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Black Pepper",
+        "Basil"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Kiwi Pine",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Lemongrass and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 396,
+    "text": "Eighteen drops of lemongrass, and Sol Spirit Farm's Trinity County creation announces what high this concentration can do when it is not trying to sedate: it can hold the body perfectly still while the mind begins to sparkle, to throw off light in unexpected directions, to discover that relaxation and euphoria are not opposites but dance partners who have been waiting all evening for someone to change the music.\n\nBlack pepper follows with ten drops of spiced warmth — the bass frequency, the gravitational field that Massive Attack would build an entire track around, the low-end anchor that keeps the sparkling from scattering into incoherence. This is physical ease with cerebral fireworks, and the pepper provides the physics that makes the fireworks visible against a dark, still sky rather than a bright, busy one.\n\nBasil adds four drops of the bright herbal molecule, the kiwi brightness that gives the strain its unexpected tropical note — not the sweetness of tropical fruit but its sharpness, its green acidic edge, the flavor of something so fresh it still remembers the vine. Lavender matches it with four drops of floral softness, a floral cushion that catches the sparkle when it falls and sends it back up gently.\n\nPine completes the blend with four drops that capture the pine aroma directly — not as interpretation but as citation, the essential oil and the flower speaking the same resinous language across botanical kingdoms. The forest character adds a vertical line through the horizontal drift of the sedating quality, a reminder that even in the deepest physical ease, something in the room is still standing tall.\n\nThe musk note is ghost chemistry. No single oil carries it, but when lemongrass and pepper and basil and lavender and pine meet in the warm output of a diffuser, something musky and primal emerges from the interaction, the olfactory equivalent of glitter catching light — each particle too small to matter alone, but together they transform a surface from plain to spectacular.\n\nA man lies in a hammock between two redwoods, his eyes open and aimed at a canopy that filters the afternoon into green coins on his shirt. Glitter Bomb is an oxymoron that the body accepts: the muscles have dissolved and the mind is celebrating, and the five oils are proof that the longest distance between two states of being is sometimes zero."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

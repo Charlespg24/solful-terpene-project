@@ -1,0 +1,514 @@
+{
+  "strain_name": "Blue Dream",
+  "slug": "blue-dream",
+  "layer_1_flower": {
+    "strain_name": "Blue Dream",
+    "slug": "blue-dream",
+    "farm": "Alpenglow Farms",
+    "region": "Humboldt County",
+    "energy": "HIGH",
+    "intent": "Bright social energy wrapped in blueberry calm",
+    "effects": [
+      "Social",
+      "Invigorating",
+      "Relaxing"
+    ],
+    "aroma": [
+      "Blueberry",
+      "Menthol",
+      "Powdered Sugar"
+    ],
+    "lineage": "Blueberry X Haze",
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 2.79,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 1.21,
+        "ratio": 0.54
+      },
+      {
+        "name": "\u03b1-Pinene",
+        "pct": 0.5,
+        "ratio": 0.22
+      },
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.3,
+        "ratio": 0.13
+      },
+      {
+        "name": "\u03b2-Pinene",
+        "pct": 0.24,
+        "ratio": 0.11
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "social",
+      "creative"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 22,
+        "pct": 55.0
+      },
+      {
+        "oil": "Pine",
+        "drops": 9,
+        "pct": 22.5
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 5,
+        "pct": 12.5
+      },
+      {
+        "oil": "Rosemary",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Lemongrass carries the dominant myrcene. Pine matches the blueberry aroma note. Black Pepper provides \u03b2-Caryophyllene support. Rosemary rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      100,
+      128
+    ],
+    "energy": 0.72,
+    "valence": 0.75,
+    "genres": [
+      "funk",
+      "afrobeat",
+      "disco",
+      "nu-jazz",
+      "electronic"
+    ],
+    "reference_artists": [
+      "Kaytranada",
+      "Tom Misch",
+      "Parcels",
+      "Jungle"
+    ],
+    "spotify_prompt": "A high-energy session. Bright social energy wrapped in blueberry calm. Genres: funk, afrobeat, disco, nu-jazz. Tempo around 100-128 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 100,
+        "mood": "building warmth"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 110,
+        "mood": "peak groove"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 128,
+        "mood": "gentle landing"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Blue Tea",
+    "description": "Blueberry and menthol infused green tea blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "175\u00b0F",
+    "steep_time": "3-4 minutes",
+    "caffeine": "moderate (25-50 mg)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 green tea tea bag",
+      "1 tsp dried blueberries",
+      "1 tsp peppermint leaf",
+      "1 tsp vanilla bean paste",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 175\u00b0F.",
+      "Add green tea tea bag and steep for 3-4 minutes.",
+      "Add dried blueberries and let infuse for 1 minute.",
+      "Add peppermint leaf and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Blue Fizz",
+      "description": "Blueberry and menthol refresher",
+      "glass": "highball",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz fresh blueberry pur\u00e9e",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh mint leaves",
+        "2 oz sparkling water",
+        "blueberry garnish"
+      ],
+      "method": [
+        "Fill a highball glass with large ice cubes.",
+        "Combine 2 oz fresh blueberry pur\u00e9e and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz fresh mint leaves.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with blueberry."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Blue Collins",
+      "description": "Blanco Tequila-based blueberry and menthol cocktail",
+      "glass": "highball",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "shaken",
+      "spirit": "blanco tequila",
+      "abv": "14%",
+      "ingredients": [
+        "2 oz blanco tequila",
+        "1.5 oz fresh blueberry pur\u00e9e",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz fresh mint leaves",
+        "2 oz sparkling water",
+        "blueberry garnish"
+      ],
+      "method": [
+        "Combine 2 oz blanco tequila, 1.5 oz fresh blueberry pur\u00e9e, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz fresh mint leaves.",
+        "Add ice.",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled highball.",
+        "Garnish with blueberry."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Blue Juice",
+      "description": "Cold-pressed blueberry and lemon blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh blueberry chunks",
+        "0.5 oz fresh lemon juice",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh blueberry through a cold press.",
+        "Press 1 green apple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Blue Shot",
+      "description": "One-sip blueberry concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz tequila",
+        "0.75 oz fresh blueberry juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of powdered sugar",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz tequila with 0.75 oz fresh blueberry juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Edamame with Chili Flakes & Sea Salt",
+      "desc": "Steamed edamame tossed with chili oil, flaky salt, and toasted sesame.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b1-Pinene"
+      ]
+    },
+    "appetizer": {
+      "name": "Spring Rolls with Peanut Sauce",
+      "desc": "Fresh rice paper rolls with herbs, vermicelli, and spicy peanut dipping sauce.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b1-Pinene"
+      ]
+    },
+    "main": {
+      "name": "Thai Green Curry with Fresh Vegetables",
+      "desc": "Coconut-based green curry with seasonal vegetables, Thai basil, and jasmine rice.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b1-Pinene"
+      ]
+    },
+    "dessert": {
+      "name": "Key Lime Pie Bars",
+      "desc": "Tangy key lime curd on graham cracker crust with whipped cream.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b1-Pinene"
+      ]
+    },
+    "cheese": {
+      "name": "Queso Fresco & Grilled Fruit",
+      "desc": "Crumbled queso fresco with grilled peaches, honey, and pepitas.",
+      "key_terpenes": [
+        "Myrcene",
+        "\u03b1-Pinene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Morning Bright",
+    "scent_notes": {
+      "top": "lemongrass, pine",
+      "heart": "bay laurel, rosemary",
+      "base": "cedar"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 7
+        },
+        {
+          "oil": "Pine",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        },
+        {
+          "oil": "Rosemary",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "color": "8EAE68",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Pine",
+        "Black Pepper"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Blue Spark",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Pine",
+        "part": "dried needles",
+        "terpene_target": "\u03b1-Pinene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Dill",
+        "part": "dried seeds",
+        "terpene_target": "\u03b2-Pinene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your bright space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4500,
+    "brightness": "bright (60-80%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "cotton",
+      "bamboo",
+      "light wood",
+      "glass"
+    ],
+    "spatial_setup": "Open space, natural light when possible. Standing or high-top surfaces. Plants visible.",
+    "room_temp_f": 72,
+    "scent_anchor": "Essential oil blend via diffuser, started 20 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 8,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic (mild activation)",
+    "timing": "Begin 5 minutes before the session. Maintain rhythm throughout opening track.",
+    "guidance_text": "Sit tall. Breathe in through the nose for four counts, feeling energy rise through the chest. Brief hold for two. Exhale through the mouth for four counts with gentle force, like stoking a flame."
+  },
+  "layer_13_narrative": {
+    "word_count": 237,
+    "text": "22 drops of lemongrass carry the dominant Myrcene through the room brightly \u2014 the way Alpenglow Farms intended when they cultivated Blue Dream in Humboldt County. The lineage reads Blueberry X Haze, but what arrives in the glass is something that transcends parentage: blueberry, menthol, and powdered sugar.\n\nThe second oil \u2014 Pine \u2014 adds 9 drops of brightness that matches the menthol note in the flower itself. Social is not a command here but an invitation, the way the best strains suggest rather than insist. The body awakens into invigorating with the kind of molecular precision that only terpenes at 2.79% total can deliver.\n\nIn the sun-filled space, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of Myrcene, already primed for bright social energy wrapped in blueberry calm. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Alpenglow Farms grows in Humboldt County: not just cannabis, but context. The sativa genetics express through terpenes that speak the same chemical language as bay laurel on a Humboldt hillside. The session awakens into its final form \u2014 relaxing, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "mendocino-headlands",
+        "location_name": "Mendocino Headlands State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b1-Pinene"
+        ],
+        "match_score": 0.55
+      }
+    ],
+    "terpene_walk": "Begin at Mount Tamalpais State Park, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "summer/fall"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality \u2014 both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Grenache",
+        "winery": "Tablas Creek",
+        "region": "Paso Robles",
+        "terpene_bridge": "Grenache's lush fruit and herbaceous undertones complement myrcene's tropical warmth.",
+        "tasting_note": "Strawberry, garrigue herbs, warm spice",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant \u2014 cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant myrcene, connecting malt-forward English ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

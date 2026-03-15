@@ -1,0 +1,503 @@
+{
+  "strain_name": "Mandarin Cherry Tree",
+  "slug": "mandarin-cherry-tree",
+  "layer_1_flower": {
+    "strain_name": "Mandarin Cherry Tree",
+    "slug": "mandarin-cherry-tree",
+    "farm": "Sticky Fields",
+    "region": "Mendocino",
+    "energy": "LOW",
+    "intent": "Settled body, gently wandering mind",
+    "effects": [
+      "Full Body Relaxation",
+      "Serenity",
+      "Creativity"
+    ],
+    "aroma": [
+      "Mandarin Orange",
+      "Sandalwood",
+      "Lavender"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Limonene",
+    "total_terpenes_pct": 1.75,
+    "terpene_profile": [
+      {
+        "name": "Limonene",
+        "pct": 0.52,
+        "ratio": 0.3
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.36,
+        "ratio": 0.21
+      },
+      {
+        "name": "α-Humulene",
+        "pct": 0.13,
+        "ratio": 0.07
+      },
+      {
+        "name": "Linalool",
+        "pct": 0.11,
+        "ratio": 0.06
+      }
+    ],
+    "accent_color": "#D4C85C",
+    "vibe_tags": [
+      "cozy"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Sweet Orange",
+        "drops": 16,
+        "pct": 40.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 10,
+        "pct": 25.0
+      },
+      {
+        "oil": "Lavender",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 4,
+        "pct": 10.0
+      },
+      {
+        "oil": "Ylang Ylang",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "Sweet orange dominates (40%) to match the mandarin aroma. Black pepper delivers caryophyllene. Lavender captures the floral note and linalool content. Sage for humulene grounding. Ylang ylang adds exotic floral depth reminiscent of sandalwood.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      84,
+      110
+    ],
+    "energy": 0.55,
+    "valence": 0.62,
+    "genres": [
+      "funk",
+      "soul",
+      "pop",
+      "deep house",
+      "reggae"
+    ],
+    "reference_artists": [
+      "Anderson .Paak",
+      "Vulfpeck",
+      "Lizzo",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A calm, grounding, slow session. Settled body, gently wandering mind. Genres: funk, soul, pop, deep house. Tempo around 84-110 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 84,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 79,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 94,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Mandarin Dusk",
+    "description": "",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "4 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "0.5 oz Dried mandarin peel",
+      "1 tbsp Dried lavender buds",
+      "0.25 oz Dried cherry pieces",
+      "0.5 tsp Raw honey"
+    ],
+    "method": [
+      "Heat water to 190°F.",
+      "Add 0.5 oz dried mandarin peel pieces to infuser.",
+      "Add 1 tbsp dried lavender buds and 0.25 oz dried cherry pieces.",
+      "Steep for 4 minutes, stirring gently.",
+      "Remove infuser, add 0.5 tsp honey and 2 drops vanilla extract, stir and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Elegant Mandarin",
+      "description": "Mandarin and lavender drift into serene sophistication.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "2.5 oz Fresh mandarin juice",
+        "1 oz Fresh cherry juice",
+        "0.5 oz Culinary lavender syrup",
+        "0.25 oz Coconut cream",
+        "1 each Mandarin wheel, cherry & lavender"
+      ],
+      "method": [
+        "Combine 2.5 oz fresh mandarin juice with 1 oz fresh cherry juice in shaker.",
+        "Add 0.5 oz culinary lavender syrup and 0.25 oz coconut cream.",
+        "Add ice and shake for 8 seconds.",
+        "Strain into chilled coupe.",
+        "Garnish with mandarin wheel, cherry, and lavender flower."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Cognac Elegance",
+      "description": "Cognac deepens mandarin and lavender into settled sophistication.",
+      "glass": "Snifter",
+      "volume": "~4.5 oz",
+      "temp": "Warm (around 85°F)",
+      "style": "Warm/stirred",
+      "spirit": "VS Cognac (40% ABV)",
+      "abv": "~28%",
+      "ingredients": [
+        "1.5 oz VS Cognac",
+        "1.5 oz Fresh mandarin juice",
+        "0.5 oz Culinary lavender syrup",
+        "0.25 oz Coconut cream",
+        "1 each Mandarin peel & lavender"
+      ],
+      "method": [
+        "Warm 1.5 oz VS cognac gently (do not boil).",
+        "Combine with 1.5 oz fresh mandarin juice in snifter.",
+        "Add 0.5 oz culinary lavender syrup and 0.25 oz coconut cream.",
+        "Stir gently with large ice cubes.",
+        "Garnish with mandarin peel and one lavender flower."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Citrus Serenity",
+      "description": "Cold-pressed mandarin and cherry with lavender's gentle touch.",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 1.5 hours of pressing",
+      "ingredients": [
+        "4 oz Fresh mandarin (pressed)",
+        "1.5 oz Fresh cherry (pressed)",
+        "1.5 oz Coconut water",
+        "0.5 oz Culinary lavender water",
+        "1 each Cherry & mandarin wheel"
+      ],
+      "method": [
+        "Cold-press 4 oz fresh mandarin (with pith).",
+        "Strain through fine mesh.",
+        "Cold-press 1.5 oz fresh cherry and combine.",
+        "Add 1.5 oz coconut water and 0.5 oz culinary lavender water (steeped 8 min).",
+        "Pour over ice and garnish with cherry and mandarin wheel."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Serene Glow",
+      "description": "A sophisticated mandarin, cherry, and lavender moment.",
+      "glass": "Cordial glass",
+      "volume": "~1.5 oz",
+      "temp": "Room temperature to slightly chilled",
+      "timing": "Consume at leisure (sip slowly)",
+      "ingredients": [
+        "0.75 oz VS Cognac",
+        "0.5 oz Fresh mandarin juice",
+        "0.25 oz Fresh cherry juice",
+        "0.1 oz Culinary lavender syrup"
+      ],
+      "method": [
+        "Combine 0.75 oz VS cognac with 0.5 oz fresh mandarin juice in cordial glass.",
+        "Add 0.25 oz fresh cherry juice.",
+        "Top with 0.1 oz culinary lavender syrup.",
+        "Stir gently.",
+        "Garnish with mandarin peel and one lavender flower."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Warm Marcona Almonds with Rosemary & Sea Salt",
+      "desc": "Toasted almonds tossed in local olive oil with fresh rosemary and flaky Maldon salt. The warmth releases aromatic oils.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "appetizer": {
+      "name": "Burrata with Roasted Stone Fruit & Honey",
+      "desc": "Creamy burrata from Petaluma split open over roasted seasonal fruit, drizzled with local wildflower honey and cracked pepper.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "main": {
+      "name": "Braised Short Ribs with Root Vegetables",
+      "desc": "Grass-fed short ribs slow-braised in Sonoma red wine with turnips, carrots, and fresh thyme from the garden.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "dessert": {
+      "name": "Dark Chocolate Pot de Crème",
+      "desc": "Bittersweet Guittard chocolate custard with fleur de sel and a dollop of crème fraîche.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    },
+    "cheese": {
+      "name": "Aged Selection: Chèvre",
+      "desc": "A NorCal cheese board featuring chèvre, burrata, paired with honeycomb, dried figs, and walnut bread.",
+      "key_terpenes": [
+        "Limonene",
+        "β-Caryophyllene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Sandalwood Dream",
+    "scent_notes": {
+      "top": "bergamot, black pepper",
+      "heart": "neroli, clove bud",
+      "base": "cedarwood"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Sweet Orange",
+          "drops": 6
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 3
+        },
+        {
+          "oil": "Lavender",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 1
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Sweet Orange",
+        "Black Pepper",
+        "Lavender"
+      ],
+      "color": "sunny yellow",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Sweet Orange",
+        "Black Pepper",
+        "Lavender"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Mandarin Altar",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Orange Peel",
+        "part": "dried zest",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "β-Caryophyllene"
+      },
+      {
+        "plant": "Clove",
+        "part": "dried buds",
+        "terpene_target": "β-Caryophyllene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before settling into stillness. Let the smoke trace the room's edges as you breathe deeply and release the day."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#D4C85C",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Sweet Orange and Black Pepper essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 387,
+    "text": "Sweet orange dominates at sixteen drops, and the mandarin note fills the room the way sunset fills a Mendocino valley — gradually, warmly, with the patient confidence of something that has happened ten thousand times at Sticky Fields and still carries meaning each time. This is not the bright citrus of morning. This is the amber citrus of late afternoon, when the light gets thick and the shadows get long and the world starts to look like a painting of itself.\n\nBlack pepper adds ten drops of warm spice, the grounding warmth that turns relaxation from a passive collapse into something with structure, something you can inhabit like a room rather than fall into like a hole. Lavender follows with six drops, and the lavender aroma note is not a translation or an approximation — it is a direct quotation, the essential oil and the strain speaking the same floral language with the same accent, the same cadence, the same unhurried softness.\n\nSage provides four drops of herbal earthiness, dry and ancient as the first herb garden, and ylang ylang completes the blend with four drops of exotic sweetness that stands in for the sandalwood note — not identical but adjacent, the way Beach House stands adjacent to dream pop without ever quite being it or needing to be, occupying its own specific coordinate in the landscape.\n\nThe creativity that arrives is not the productive kind. It is the wandering kind, the kind that has no destination and therefore can arrive anywhere. Mandarin Cherry Tree does not produce ideas — it produces the conditions where ideas arrive uninvited, settle into the spare chair, and begin talking as if they have always been part of the conversation.\n\nA painter stares at a canvas that has been blank for an hour. The settled body has freed the mind, and the mandarin orange in the air keeps suggesting colors — warm amber, deep violet, the particular blue that appears when sandalwood and citrus share an evening. She picks up a brush not because she has decided what to paint but because the five oils have decided for her, and the wandering mind has arrived somewhere beautiful, and the brush is simply the first honest response to a room that smells like sunset and lavender and the oldest form of permission."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-citrus",
+        "location_name": "SF Botanical Garden — Citrus Collection",
+        "shared_terpenes": [
+          "Limonene"
+        ],
+        "match_score": 0.9
+      },
+      {
+        "location_id": "bodega-bay",
+        "location_name": "Bodega Bay Coastal Trail",
+        "shared_terpenes": [
+          "Limonene",
+          "α-Pinene"
+        ],
+        "match_score": 0.78
+      },
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden — Fragrance Garden",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "Linalool"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "β-Caryophyllene",
+          "α-Pinene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden — Citrus Collection, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/winter"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Sauvignon Blanc",
+        "winery": "Merry Edwards",
+        "region": "Russian River Valley",
+        "terpene_bridge": "Citrus thiols in Sauvignon Blanc mirror limonene's bright, zesty character — the grape and the terpene speak the same citrus language.",
+        "tasting_note": "Grapefruit, fresh-cut grass, mineral finish",
+        "serving_temp_f": 48,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares spicy, peppery character with β-caryophyllene — same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, and coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Wit",
+        "brewery": "Anderson Valley Brewing",
+        "region": "Boonville",
+        "hop_varietals": [
+          "Cascade"
+        ],
+        "terpene_bridge": "Cascade hops and orange peel additions both deliver limonene — the citrus terpene unites cannabis, hops, and culinary botanicals.",
+        "tasting_note": "Orange peel, coriander, wheat softness",
+        "abv": "5.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "English-Style Ale",
+        "brewery": "North Coast Brewing",
+        "region": "Fort Bragg",
+        "hop_varietals": [
+          "East Kent Goldings"
+        ],
+        "terpene_bridge": "EKG hops carry significant caryophyllene, connecting the spicy warmth of British ales to cannabis terpene profiles.",
+        "tasting_note": "Toffee, marmalade, gentle hop spice",
+        "abv": "5.5%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

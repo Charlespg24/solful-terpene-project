@@ -1,0 +1,512 @@
+{
+  "strain_name": "Doc's OG",
+  "slug": "docs-og",
+  "layer_1_flower": {
+    "strain_name": "Doc's OG",
+    "slug": "docs-og",
+    "farm": "Happy Day Farms",
+    "region": "Laytonville, Mendocino County",
+    "energy": "LOW",
+    "intent": "Contemplative stillness with chamomile warmth",
+    "effects": [
+      "Contemplative",
+      "Physically Relaxing",
+      "Stress Relieving"
+    ],
+    "aroma": [
+      "Chamomile",
+      "Pepper",
+      "Cedar",
+      "Hint of Fuel"
+    ],
+    "lineage": "Faceoff OG X Rare Dankness #1",
+    "dominant_terpene": "\u03b2-Caryophyllene",
+    "total_terpenes_pct": 2.62,
+    "terpene_profile": [
+      {
+        "name": "\u03b2-Caryophyllene",
+        "pct": 0.79,
+        "ratio": 0.42
+      },
+      {
+        "name": "Myrcene",
+        "pct": 0.56,
+        "ratio": 0.3
+      },
+      {
+        "name": "Limonene",
+        "pct": 0.29,
+        "ratio": 0.15
+      },
+      {
+        "name": "\u03b1-Humulene",
+        "pct": 0.25,
+        "ratio": 0.13
+      }
+    ],
+    "accent_color": "#C8A97E",
+    "vibe_tags": [
+      "grounded",
+      "contemplative"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Black Pepper",
+        "drops": 17,
+        "pct": 42.5
+      },
+      {
+        "oil": "Lemongrass",
+        "drops": 12,
+        "pct": 30.0
+      },
+      {
+        "oil": "Lemon",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Sage",
+        "drops": 5,
+        "pct": 12.5
+      }
+    ],
+    "blend_rationale": "Black Pepper carries the dominant beta-caryophyllene. Lemongrass matches the chamomile aroma note. Lemon provides Limonene support. Sage rounds the blend with a soft finish.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      65,
+      90
+    ],
+    "energy": 0.3,
+    "valence": 0.4,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "deep house",
+      "downtempo"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Tycho",
+      "Thievery Corporation",
+      "Khruangbin"
+    ],
+    "spotify_prompt": "A low-energy session. Contemplative stillness with chamomile warmth. Genres: ambient, dub, lo-fi hip hop, deep house. Tempo around 65-90 BPM.",
+    "iso_principle": [
+      {
+        "phase": "settle",
+        "minutes": 10,
+        "bpm_target": 65,
+        "mood": "gentle descent"
+      },
+      {
+        "phase": "immerse",
+        "minutes": 15,
+        "bpm_target": 60,
+        "mood": "deep stillness"
+      },
+      {
+        "phase": "emerge",
+        "minutes": 5,
+        "bpm_target": 80,
+        "mood": "soft return"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Doc's Tea",
+    "description": "Chamomile and pepper infused chamomile blend",
+    "glass": "teacup",
+    "volume": "8 oz",
+    "temp": "hot",
+    "steep_temp": "185\u00b0F",
+    "steep_time": "5 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "8 oz filtered water",
+      "1 chamomile tea bag",
+      "1 tsp dried chamomile flowers",
+      "1 tsp cracked black peppercorn",
+      "1 tsp cedar tip",
+      "1 tsp raw honey"
+    ],
+    "method": [
+      "Heat 8 oz filtered water to 185\u00b0F.",
+      "Add chamomile tea bag and steep for 5 minutes.",
+      "Add dried chamomile flowers and let infuse for 1 minute.",
+      "Add cracked black peppercorn and let infuse for 1 minute.",
+      "Strain into a warm teacup.",
+      "Stir in honey and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Doc's Fizz",
+      "description": "Chamomile and pepper refresher",
+      "glass": "rocks",
+      "volume": "6 oz",
+      "temp": "chilled",
+      "ingredients": [
+        "large ice cubes",
+        "2 oz chamomile-honey syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz black pepper tincture",
+        "2 oz sparkling water",
+        "chamomile garnish"
+      ],
+      "method": [
+        "Fill a rocks glass with large ice cubes.",
+        "Combine 2 oz chamomile-honey syrup and 0.75 oz fresh lemon juice in a shaker with ice.",
+        "Add 0.5 oz black pepper tincture.",
+        "Shake for 8 seconds.",
+        "Strain into glass over fresh ice.",
+        "Top with 2 oz sparkling water and stir gently.",
+        "Garnish with chamomile."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Doc's Sour",
+      "description": "Bourbon-based chamomile and pepper cocktail",
+      "glass": "coupe",
+      "volume": "6.5 oz",
+      "temp": "chilled",
+      "style": "shaken",
+      "spirit": "bourbon",
+      "abv": "18%",
+      "ingredients": [
+        "2 oz bourbon",
+        "1.5 oz chamomile-honey syrup",
+        "0.75 oz fresh lemon juice",
+        "0.5 oz black pepper tincture",
+        "1 egg white (optional)",
+        "chamomile garnish"
+      ],
+      "method": [
+        "Combine 2 oz bourbon, 1.5 oz chamomile-honey syrup, and 0.75 oz fresh lemon juice in a shaker.",
+        "Add 0.5 oz black pepper tincture.",
+        "Dry shake for 5 seconds (if using egg white).",
+        "Add ice and shake for 10 seconds.",
+        "Strain into a chilled coupe.",
+        "Garnish with chamomile."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Doc's Juice",
+      "description": "Cold-pressed apple and lemon blend",
+      "glass": "highball",
+      "volume": "8 oz",
+      "temp": "chilled",
+      "format": "cold-pressed blend",
+      "timing": "serve immediately after pressing",
+      "ingredients": [
+        "2 cups fresh apple chunks",
+        "0.5 oz fresh lemon juice",
+        "1 green apple, cored",
+        "0.5 inch fresh ginger root",
+        "0.5 oz raw honey",
+        "ice"
+      ],
+      "method": [
+        "Press 2 cups fresh apple through a cold press.",
+        "Press 1 green apple through the press.",
+        "Add 0.5 inch fresh ginger root to the press.",
+        "Combine all juices in a glass.",
+        "Add 0.5 oz raw honey and stir until dissolved.",
+        "Pour over ice and serve immediately."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Doc's Shot",
+      "description": "One-sip apple concentrate",
+      "glass": "shot glass",
+      "volume": "2 oz",
+      "temp": "frozen",
+      "timing": "serve ice-cold, one sip",
+      "ingredients": [
+        "1 oz bourbon",
+        "0.75 oz fresh apple juice",
+        "0.25 oz fresh lemon juice",
+        "tiny pinch of cedar",
+        "ice"
+      ],
+      "method": [
+        "Chill a shot glass in the freezer for 2 minutes.",
+        "In a mixing glass, combine 1 oz bourbon with 0.75 oz fresh apple juice.",
+        "Add 0.25 oz fresh lemon juice.",
+        "Stir with ice for 5 seconds.",
+        "Strain into the chilled shot glass and serve immediately."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Medjool Dates Stuffed with Goat Cheese",
+      "desc": "Plump dates filled with herbed ch\u00e8vre and topped with a walnut half and honey drizzle.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "appetizer": {
+      "name": "Wild Mushroom Toast with Thyme",
+      "desc": "Saut\u00e9ed mixed mushrooms on sourdough with fresh thyme and shaved Parmesan.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "main": {
+      "name": "Lamb Tagine with Preserved Lemon",
+      "desc": "Slow-braised lamb with apricots, olives, preserved lemon, and warming spices.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "dessert": {
+      "name": "Cardamom Rice Pudding",
+      "desc": "Creamy arborio rice pudding with cardamom, rosewater, and crushed pistachios.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Myrcene"
+      ]
+    },
+    "cheese": {
+      "name": "Manchego & Membrillo",
+      "desc": "Aged Manchego with quince paste, Marcona almonds, and crusty bread.",
+      "key_terpenes": [
+        "\u03b2-Caryophyllene",
+        "Myrcene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Still Water",
+    "scent_notes": {
+      "top": "black pepper, lemongrass",
+      "heart": "clove bud, bay laurel",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Black Pepper",
+          "drops": 5
+        },
+        {
+          "oil": "Lemongrass",
+          "drops": 4
+        },
+        {
+          "oil": "Lemon",
+          "drops": 2
+        },
+        {
+          "oil": "Sage",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "Lemon"
+      ],
+      "color": "C8A97E",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Black Pepper",
+        "Lemongrass",
+        "Lemon"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Doc's Ember",
+    "format": "cone",
+    "botanicals": [
+      {
+        "plant": "Black Pepper",
+        "part": "dried corns",
+        "terpene_target": "\u03b2-Caryophyllene"
+      },
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemon Verbena",
+        "part": "dried leaves",
+        "terpene_target": "Limonene"
+      },
+      {
+        "plant": "Sage",
+        "part": "dried leaves",
+        "terpene_target": "\u03b1-Humulene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light before the session begins. Let the smoke settle the room while you prepare your contemplative space."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 2400,
+    "brightness": "dim (20-30%)",
+    "hue_color": "#C8A97E",
+    "textures": [
+      "linen",
+      "wool",
+      "velvet",
+      "warm wood"
+    ],
+    "spatial_setup": "Low seating, soft throws, candles at eye level. Minimize overhead lighting.",
+    "room_temp_f": 68,
+    "scent_anchor": "Essential oil blend via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Descent Breath",
+    "duration_min": 10,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 4,
+      "exhale_sec": 8,
+      "cycles": 8
+    },
+    "nervous_system_target": "parasympathetic",
+    "timing": "Begin with the diffuser. Complete all cycles before consumption.",
+    "guidance_text": "Close your eyes. Breathe in through the nose for four counts, letting the scent fill your lungs. Hold gently for four. Release slowly through the mouth for eight counts, feeling gravity pull you deeper into your seat with each exhale."
+  },
+  "layer_13_narrative": {
+    "word_count": 244,
+    "text": "17 drops of black pepper carry the dominant \u03b2-Caryophyllene through the room slowly \u2014 the way Happy Day Farms intended when they cultivated Doc's OG in Laytonville, Mendocino County. The lineage reads Faceoff OG X Rare Dankness #1, but what arrives in the glass is something that transcends parentage: chamomile, pepper, and cedar.\n\nThe second oil \u2014 Lemongrass \u2014 adds 12 drops of brightness that matches the pepper note in the flower itself. Contemplative is not a command here but an invitation, the way the best strains suggest rather than insist. The body settles into physically relaxing with the kind of molecular precision that only terpenes at 2.62% total can deliver.\n\nIn the dimly lit room, the essential oil blend has been working for thirty minutes before the flower arrives. The pre-load creates a terpene environment that the cannabis completes rather than initiates \u2014 your olfactory system already tuned to the frequency of \u03b2-Caryophyllene, already primed for contemplative stillness with chamomile warmth. The third oil adds depth. The fourth oil rounds everything into a finish that feels inevitable rather than constructed.\n\nThis is what Happy Day Farms grows in Laytonville, Mendocino County: not just cannabis, but context. The indica genetics express through terpenes that speak the same chemical language as rosemary in a Mendocino garden. The session settles into its final form \u2014 stress relieving, unhurried, complete \u2014 and the 4 oils that started it are now indistinguishable from the flower that finished it."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "sf-botanical-garden",
+        "location_name": "SF Botanical Garden \u2014 Fragrance Garden",
+        "shared_terpenes": [
+          "Limonene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "mt-tamalpais",
+        "location_name": "Mount Tamalpais State Park",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "muir-woods",
+        "location_name": "Muir Woods National Monument",
+        "shared_terpenes": [
+          "Myrcene",
+          "\u03b2-Caryophyllene"
+        ],
+        "match_score": 0.55
+      },
+      {
+        "location_id": "point-reyes",
+        "location_name": "Point Reyes National Seashore",
+        "shared_terpenes": [
+          "Myrcene",
+          "Limonene"
+        ],
+        "match_score": 0.55
+      }
+    ],
+    "terpene_walk": "Begin at SF Botanical Garden \u2014 Fragrance Garden, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "fall/spring"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Syrah",
+        "winery": "Pax Wines",
+        "region": "Sonoma Coast",
+        "terpene_bridge": "Rotundone in Syrah shares the spicy, peppery character of \u03b2-caryophyllene \u2014 same aromatic family, different kingdoms.",
+        "tasting_note": "Dark fruit, cracked pepper, coastal minerality",
+        "serving_temp_f": 62,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Zinfandel",
+        "winery": "Ridge Vineyards",
+        "region": "Sonoma County",
+        "terpene_bridge": "Zinfandel's brambly spice and warm pepper notes echo caryophyllene's warming, anti-inflammatory character.",
+        "tasting_note": "Blackberry jam, warm spice, cedar",
+        "serving_temp_f": 64,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "Belgian Dubbel",
+        "brewery": "The Rare Barrel",
+        "region": "Berkeley",
+        "hop_varietals": [
+          "Styrian Goldings"
+        ],
+        "terpene_bridge": "Belgian yeast esters produce spicy, peppery phenolics that echo caryophyllene's warming quality.",
+        "tasting_note": "Dark fruit, clove, warm bread",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Centennial",
+          "Cascade"
+        ],
+        "terpene_bridge": "Centennial hops carry significant caryophyllene \u2014 cannabis and hops are Cannabaceae cousins.",
+        "tasting_note": "Pine, grapefruit, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}

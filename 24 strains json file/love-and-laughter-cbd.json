@@ -1,0 +1,505 @@
+{
+  "strain_name": "Love and Laughter CBD",
+  "slug": "love-and-laughter-cbd",
+  "layer_1_flower": {
+    "strain_name": "Love and Laughter CBD",
+    "slug": "love-and-laughter-cbd",
+    "farm": "Heartrock Mountain Farm",
+    "region": "Mendocino",
+    "energy": "HIGH",
+    "intent": "Clear and steady, nothing clouded",
+    "effects": [
+      "Energizing",
+      "Focusing",
+      "Non-Intoxicating"
+    ],
+    "aroma": [
+      "Flowers",
+      "Eucalyptus",
+      "Berries"
+    ],
+    "lineage": null,
+    "dominant_terpene": "Myrcene",
+    "total_terpenes_pct": 1.72,
+    "terpene_profile": [
+      {
+        "name": "Myrcene",
+        "pct": 0.56,
+        "ratio": 0.33
+      },
+      {
+        "name": "Terpinolene",
+        "pct": 0.28,
+        "ratio": 0.16
+      },
+      {
+        "name": "β-Caryophyllene",
+        "pct": 0.2,
+        "ratio": 0.12
+      },
+      {
+        "name": "α-Pinene",
+        "pct": 0.13,
+        "ratio": 0.08
+      }
+    ],
+    "accent_color": "#8EAE68",
+    "vibe_tags": [
+      "focus"
+    ]
+  },
+  "layer_2_essential_oil": {
+    "total_drops": 40,
+    "total_ml": 2,
+    "recipe": [
+      {
+        "oil": "Lemongrass",
+        "drops": 14,
+        "pct": 35.0
+      },
+      {
+        "oil": "Tea Tree",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Eucalyptus",
+        "drops": 8,
+        "pct": 20.0
+      },
+      {
+        "oil": "Black Pepper",
+        "drops": 6,
+        "pct": 15.0
+      },
+      {
+        "oil": "Geranium",
+        "drops": 4,
+        "pct": 10.0
+      }
+    ],
+    "blend_rationale": "The only CBD strain in the collection. Lemongrass for the dominant myrcene. Tea tree is one of the few oils high in terpinolene, capturing this strain's unique character. Eucalyptus matches the aroma and adds clarity. Black pepper for caryophyllene. Geranium brings floral berry notes.",
+    "primary_delivery": "diffuser",
+    "pre_load_minutes": 30
+  },
+  "layer_3_music": {
+    "bpm_range": [
+      76,
+      100
+    ],
+    "energy": 0.4,
+    "valence": 0.46,
+    "genres": [
+      "ambient",
+      "dub",
+      "lo-fi hip hop",
+      "psychedelic",
+      "indie electronic"
+    ],
+    "reference_artists": [
+      "Bonobo",
+      "Thievery Corporation",
+      "Nujabes",
+      "Tame Impala"
+    ],
+    "spotify_prompt": "A bright, uplifting, energetic session. Clear and steady, nothing clouded. Genres: ambient, dub, lo-fi hip hop, psychedelic. Tempo around 76-100 BPM.",
+    "iso_principle": [
+      {
+        "phase": "ignite",
+        "minutes": 5,
+        "bpm_target": 76,
+        "mood": "building energy"
+      },
+      {
+        "phase": "peak",
+        "minutes": 15,
+        "bpm_target": 100,
+        "mood": "full momentum"
+      },
+      {
+        "phase": "coast",
+        "minutes": 10,
+        "bpm_target": 88,
+        "mood": "sustained glow"
+      }
+    ]
+  },
+  "layer_4_tea": {
+    "name": "Eucalyptus Clarity",
+    "description": "Cool eucalyptus and berry tea for steady focus and calm.",
+    "glass": "Teacup",
+    "volume": "~6 oz",
+    "temp": "",
+    "steep_temp": "",
+    "steep_time": "3 minutes",
+    "caffeine": "0 mg (herbal blend)",
+    "ingredients": [
+      "6 oz Filtered water",
+      "0.5 tsp Dried eucalyptus leaves",
+      "1 tbsp Dried mixed berries",
+      "0.5 tsp Fresh rosemary (minced)",
+      "0.5 oz Fresh green apple juice"
+    ],
+    "method": [
+      "Heat water to 185°F.",
+      "Add 0.5 tsp dried eucalyptus leaves and 1 tbsp dried mixed berries to infuser.",
+      "Add 0.5 tsp fresh rosemary (minced).",
+      "Steep for 3 minutes.",
+      "Remove infuser, add 0.5 oz fresh green apple juice and 0.5 tsp eucalyptus honey, stir and serve."
+    ],
+    "terpene_map": {}
+  },
+  "layer_5_cocktail": {
+    "mocktail": {
+      "name": "Green Apple Focus",
+      "description": "Green apple clarity with eucalyptus and berry brightness for clear focus.",
+      "glass": "Rocks",
+      "volume": "~5 oz",
+      "temp": "Ice cold",
+      "ingredients": [
+        "2 oz Fresh green apple juice",
+        "1 oz Mixed berry juice",
+        "0.5 oz Eucalyptus honey water",
+        "0.25 oz Rosemary-simple syrup",
+        "1 each Apple slice & rosemary sprig"
+      ],
+      "method": [
+        "Combine 2 oz fresh green apple juice with 1 oz mixed berry juice (blueberry + strawberry) in shaker.",
+        "Add 0.5 oz eucalyptus honey water (steeped 5 min).",
+        "Add 0.25 oz fresh rosemary-infused simple syrup and ice.",
+        "Shake for 8 seconds.",
+        "Strain into rocks glass over large ice cube and garnish with apple slice and rosemary sprig."
+      ],
+      "terpene_map": {}
+    },
+    "cocktail": {
+      "name": "Focused Gin",
+      "description": "Gin's clarity sharpened by green apple, eucalyptus, and rosemary.",
+      "glass": "Coupe",
+      "volume": "~5.5 oz",
+      "temp": "Cold (around 40°F)",
+      "style": "Botanical/stirred",
+      "spirit": "London Dry Gin (47% ABV)",
+      "abv": "~32%",
+      "ingredients": [
+        "1.5 oz London Dry gin",
+        "1.5 oz Fresh green apple juice",
+        "0.75 oz Mixed berry juice",
+        "0.5 oz Eucalyptus honey water",
+        "0.25 oz Rosemary syrup"
+      ],
+      "method": [
+        "Combine 1.5 oz London Dry gin with 1.5 oz fresh green apple juice in mixing glass.",
+        "Add 0.75 oz mixed berry juice, 0.5 oz eucalyptus honey water, and 0.25 oz rosemary syrup.",
+        "Stir with ice for 12 seconds.",
+        "Strain into chilled coupe over large ice cube.",
+        "Garnish with apple peel and rosemary sprig."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_6_juice": {
+    "juice": {
+      "name": "Clear Mind",
+      "description": "",
+      "glass": "Juice glass",
+      "volume": "~8 oz",
+      "temp": "Ice cold",
+      "format": "Cold-pressed blend",
+      "timing": "Best within 1.5 hours of pressing",
+      "ingredients": [
+        "3 oz Fresh green apple (pressed)",
+        "1.5 oz Mixed berries (pressed)",
+        "1 oz Eucalyptus honey water",
+        "0.5 oz Fresh rosemary water",
+        "1 each Apple slice & edible flowers"
+      ],
+      "method": [
+        "Cold-press 3 oz fresh green apple (with skin).",
+        "Strain through fine mesh.",
+        "Cold-press 1.5 oz mixed berries (blueberry + strawberry).",
+        "Combine with 1 oz eucalyptus honey water and 0.5 oz fresh rosemary water (steeped).",
+        "Pour over ice and garnish with apple slice and fresh flowers."
+      ],
+      "terpene_map": {}
+    },
+    "wellness_shot": {
+      "name": "Focused Burst",
+      "description": "A bright, clear-minded spark of green apple and floral focus.",
+      "glass": "Shot glass",
+      "volume": "~1.5 oz",
+      "temp": "Ice cold (chilled shot glass)",
+      "timing": "Consume immediately",
+      "ingredients": [
+        "0.75 oz Pisco",
+        "0.5 oz Fresh green apple juice",
+        "0.25 oz Mixed berry juice",
+        "1-2 drops Eucalyptus honey"
+      ],
+      "method": [
+        "Combine 0.75 oz pisco with 0.5 oz fresh green apple juice in shot glass.",
+        "Add 0.25 oz mixed berry juice.",
+        "Top with 1-2 drops of eucalyptus honey.",
+        "Stir once.",
+        "Garnish with a tiny apple slice and fresh rosemary leaf."
+      ],
+      "terpene_map": {}
+    }
+  },
+  "layer_7_food": {
+    "snack": {
+      "name": "Citrus-Herb Marinated Olives",
+      "desc": "Castelvetrano olives marinated with orange zest, fresh herbs, and cracked black pepper from a Sonoma olive grove.",
+      "key_terpenes": [
+        "Myrcene",
+        "Terpinolene"
+      ]
+    },
+    "appetizer": {
+      "name": "Dungeness Crab Crostini with Meyer Lemon Aioli",
+      "desc": "Fresh Bodega Bay crab on grilled sourdough with house-made Meyer lemon aioli and micro herbs.",
+      "key_terpenes": [
+        "Myrcene",
+        "Terpinolene"
+      ]
+    },
+    "main": {
+      "name": "Pan-Seared Halibut with Citrus Beurre Blanc",
+      "desc": "Line-caught Pacific halibut with a Meyer lemon beurre blanc, served over spring vegetable ragout.",
+      "key_terpenes": [
+        "Myrcene",
+        "Terpinolene"
+      ]
+    },
+    "dessert": {
+      "name": "Meyer Lemon Pavlova with Seasonal Berries",
+      "desc": "Crisp meringue shell with tangy Meyer lemon curd and fresh berries from a Sebastopol farm.",
+      "key_terpenes": [
+        "Myrcene",
+        "Terpinolene"
+      ]
+    },
+    "cheese": {
+      "name": "Fresh Selection: Camembert",
+      "desc": "Light and bright cheese plate with brie, camembert, accompanied by seasonal fruit, marcona almonds, and lavash.",
+      "key_terpenes": [
+        "Myrcene",
+        "Terpinolene"
+      ]
+    }
+  },
+  "layer_8_candle": {
+    "name": "Clear Morning",
+    "scent_notes": {
+      "top": "lemongrass, tea tree",
+      "heart": "bay laurel, marjoram",
+      "base": "vetiver"
+    },
+    "wax_type": "coconut-soy blend",
+    "burn_time_hrs": 45
+  },
+  "layer_9_bath_body": {
+    "rollerball": {
+      "carrier_oil": "jojoba oil",
+      "dilution_pct": 2,
+      "total_volume_ml": 10,
+      "eo_recipe": [
+        {
+          "oil": "Lemongrass",
+          "drops": 4
+        },
+        {
+          "oil": "Tea Tree",
+          "drops": 3
+        },
+        {
+          "oil": "Eucalyptus",
+          "drops": 3
+        },
+        {
+          "oil": "Black Pepper",
+          "drops": 2
+        }
+      ],
+      "application_points": [
+        "wrists",
+        "temples",
+        "behind ears",
+        "base of throat"
+      ]
+    },
+    "bath_bomb": {
+      "base": "baking soda, citric acid, cornstarch, Epsom salt",
+      "eo_drops": 15,
+      "eo_blend": [
+        "Lemongrass",
+        "Tea Tree",
+        "Eucalyptus"
+      ],
+      "color": "forest green",
+      "extras": "dried flower petals, oat milk powder"
+    },
+    "shower_steamer": {
+      "base": "baking soda, citric acid, cornstarch",
+      "eo_drops": 20,
+      "eo_blend": [
+        "Lemongrass",
+        "Tea Tree",
+        "Eucalyptus"
+      ],
+      "activation": "Place on shower floor away from direct stream. Steam activates essential oils for 5-10 minutes of aromatherapy."
+    }
+  },
+  "layer_10_incense": {
+    "blend_name": "Clear Smoke",
+    "format": "stick",
+    "botanicals": [
+      {
+        "plant": "Bay Laurel",
+        "part": "dried leaves",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Lemongrass",
+        "part": "dried stalks",
+        "terpene_target": "Myrcene"
+      },
+      {
+        "plant": "Tea Tree",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      },
+      {
+        "plant": "Marjoram",
+        "part": "dried leaves",
+        "terpene_target": "Terpinolene"
+      }
+    ],
+    "burn_method": "Place on heat-resistant surface in a ventilated room. Allow 30 seconds for the flame to establish before extinguishing to a smolder.",
+    "ritual_suggestion": "Light at the start of a creative session. The rising smoke signals the beginning of focused, energized work."
+  },
+  "layer_11_environment": {
+    "color_temp_k": 4200,
+    "brightness": "bright (70-85%)",
+    "hue_color": "#8EAE68",
+    "textures": [
+      "glass",
+      "metal",
+      "crisp cotton",
+      "light wood"
+    ],
+    "spatial_setup": "Open space, clean surfaces, natural daylight or bright accent lighting. Standing desk or movement-friendly layout.",
+    "room_temp_f": 72,
+    "scent_anchor": "Lemongrass and Tea Tree essential oils via diffuser, started 30 minutes before session"
+  },
+  "layer_12_breathwork": {
+    "protocol_name": "Ignition Breath",
+    "duration_min": 5,
+    "pattern": {
+      "inhale_sec": 4,
+      "hold_sec": 2,
+      "exhale_sec": 4,
+      "cycles": 10
+    },
+    "nervous_system_target": "sympathetic",
+    "timing": "Begin 5 minutes into the diffuser session. Quick-start protocol.",
+    "guidance_text": "Sit tall. Inhale sharply through the nose for four counts, filling from belly to chest. Brief hold for two. Exhale firmly through the mouth for four counts. Feel the energy build with each round."
+  },
+  "layer_13_narrative": {
+    "word_count": 392,
+    "text": "Lemongrass at fourteen drops, and the focus is immediate — not the jittery focus of stimulants but the clean, structural kind, the focus of a room where every surface is clear and the light comes from windows rather than screens. This is Heartrock Mountain Farm's only CBD entry in the Mendocino collection: the non-intoxicating baseline, the clear-headed control, the proof that the plant has modes nobody talks about at parties.\n\nTea tree arrives with eight drops of a rare aromatic, the unusual molecule that most people have never isolated by name but everyone has felt: that clean, almost medicinal clarity that makes a morning feel sharp-edged and manageable, the olfactory equivalent of a freshly wiped whiteboard. Eucalyptus matches it with eight drops of its own, a distinctive camphoraceous note that hits the flowers-and-eucalyptus aroma with documentary-level accuracy, no embellishment, no artistic license.\n\nBlack pepper adds six drops of warm spice, just enough body to keep the clarity from becoming clinical, just enough warmth to remind the body it is still a participant rather than merely a vehicle for the brain. Geranium rounds the blend with four drops of floral berry sweetness — the berries in the aroma, translated through rose-adjacent petals into something that softens without sedating.\n\nTame Impala plays from a small speaker on the bookshelf, their psychedelic shimmer reduced to its clear-headed skeleton, because Love and Laughter CBD is the version of the plant that removes the haze and leaves only the architecture: the scaffolding, the blueprint, the clean lines of a nervous system operating at its designed specifications.\n\nA woman opens her laptop at a desk near a window where morning light falls on a row of small succulents she waters every third day with the precision of someone who respects routine without being imprisoned by it. The five oils have already done their work. The lemongrass-eucalyptus combination turns every breath into a small reset, a micro-recalibration, and the tea tree keeps the edge sharp without making it aggressive.\n\nThe steady quality is not dramatic. There is no story here about transformation or transcendence. There is only the morning, and the window, and the work, and the five oils holding the room at exactly the temperature where productivity feels less like effort and more like the natural state of a mind that has been given permission to function cleanly."
+  },
+  "layer_14_location": {
+    "matched_locations": [
+      {
+        "location_id": "pomo-canyon",
+        "location_name": "Pomo Canyon Trail",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "grove-old-trees",
+        "location_name": "Grove of Old Trees",
+        "shared_terpenes": [
+          "Myrcene",
+          "α-Pinene"
+        ],
+        "match_score": 0.88
+      },
+      {
+        "location_id": "mount-sutro",
+        "location_name": "Mount Sutro Open Space Reserve",
+        "shared_terpenes": [
+          "Terpinolene",
+          "α-Pinene"
+        ],
+        "match_score": 0.85
+      },
+      {
+        "location_id": "presidio",
+        "location_name": "Presidio of San Francisco",
+        "shared_terpenes": [
+          "Terpinolene"
+        ],
+        "match_score": 0.82
+      }
+    ],
+    "terpene_walk": "Begin at Pomo Canyon Trail, diffuse essential oil blend 30 minutes before arrival. Walk slowly, breathing deeply through the nose to layer forest phytoncides over the pre-loaded terpene profile.",
+    "best_season": "spring/summer"
+  },
+  "layer_15_wine_beer": {
+    "wine": [
+      {
+        "varietal": "Petite Sirah",
+        "winery": "Stags' Leap Winery",
+        "region": "Napa Valley",
+        "terpene_bridge": "Petite Sirah's dense, jammy character mirrors myrcene's heavy, sedating quality — both deliver weight and body.",
+        "tasting_note": "Blackberry, dark chocolate, dense tannins",
+        "serving_temp_f": 64,
+        "match_type": "primary"
+      },
+      {
+        "varietal": "Albariño",
+        "winery": "Bokisch Vineyards",
+        "region": "Lodi",
+        "terpene_bridge": "Albariño's crisp, aromatic profile with green apple and citrus notes mirrors terpinolene's bright, eclectic character.",
+        "tasting_note": "Green apple, white flowers, saline",
+        "serving_temp_f": 46,
+        "match_type": "secondary"
+      }
+    ],
+    "beer": [
+      {
+        "style": "West Coast IPA",
+        "brewery": "Russian River Brewing",
+        "region": "Santa Rosa",
+        "hop_varietals": [
+          "Citra",
+          "Simcoe"
+        ],
+        "terpene_bridge": "Citra and Simcoe hops are myrcene-dominant — cannabis and hops are Cannabaceae cousins sharing the same terpene synthesis pathways.",
+        "tasting_note": "Tropical citrus, pine resin, clean bitter finish",
+        "abv": "7.0%",
+        "match_type": "primary"
+      },
+      {
+        "style": "Fresh Hop Pale Ale",
+        "brewery": "Bear Republic",
+        "region": "Cloverdale",
+        "hop_varietals": [
+          "Cascade",
+          "Crystal"
+        ],
+        "terpene_bridge": "Fresh (wet) hops retain terpinolene that is typically lost in kilning — bridging the fresh-plant character of cannabis flower.",
+        "tasting_note": "Grassy, floral, bright citrus",
+        "abv": "5.3%",
+        "match_type": "secondary"
+      }
+    ],
+    "cannabaceae_note": "Cannabis and hops (Humulus lupulus) are botanical cousins in the family Cannabaceae, sharing terpene synthesis pathways that produce identical aromatic molecules.",
+    "local_sourcing": true
+  }
+}
