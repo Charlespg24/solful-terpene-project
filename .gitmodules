@@ -1,0 +1,4 @@
+[submodule "terpquery"]
+	path = terpquery
+	url = https://github.com/TheAwesomeTheory/terpenes.git
+	branch = master
