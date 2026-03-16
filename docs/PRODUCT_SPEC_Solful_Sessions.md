@@ -881,6 +881,137 @@ A completed session = user went through the full flow (strain + intent + music +
 
 ---
 
+## NEW: Receptor Rounding Blends (March 2026)
+
+### Overview
+
+Receptor Rounding Blends are purpose-built mini-blends that activate neuroreceptor pathways universally absent from cannabis terpene profiles. They work as **standalone aromatherapy products** OR as **Step 1 in the pre-loading protocol** before a strain blend.
+
+Strain blends are NEVER modified. Rounding blends are a separate layer.
+
+### The Three Blends
+
+| Blend | Recipe | Drops | Receptors Opened | Standalone Use | Pre-Loading Use |
+|-------|--------|-------|-----------------|----------------|-----------------|
+| **Clarity Round** | Rosemary ct. cineole (3) + Eucalyptus (2) | 5 | AChE, BDNF-TrkB, TRPV3 | Morning focus, study, creativity | Before Focus/Creative sessions |
+| **Calm Round** | Peppermint (2) + Clove (1) | 3 | TRPM8, TRPA1, COX-2 | Post-workout, headache, body ache | Before Pain/Recovery sessions |
+| **Ease Round** | Lavender (3) | 3 | GABA-A (convergent) | Pre-sleep, anxiety, meditation | Before Rest/Anxiety sessions |
+
+### Product Formats
+
+- **Personal Inhaler** — Cotton-wick nasal inhaler (ideal for Ease Round's olfactory requirement)
+- **Diffuser Blend** — 5ml/10ml dropper bottle
+- **Roller Bottle** — 3% in carrier oil (ideal for Calm Round topical use)
+- **Shower Steamer** — Effervescent tablet
+- **Bath Soak** — Epsom salt base
+
+### UX Integration
+
+The session flow adds an optional Step 0 before the strain blend:
+
+```
+[Select Intent] → [Select Strain] → [Rounding Blend Suggestion] → [Pre-Session Countdown] → [Session]
+```
+
+The app suggests 1-2 rounding blends based on the selected intent:
+- Focus intent → Clarity Round
+- Pain intent → Calm Round
+- Anxiety/Sleep intent → Ease Round
+- Full Spectrum → Clarity + Calm
+- Deep Relaxation → Ease + Calm
+
+---
+
+## NEW: Session Archetypes (March 2026)
+
+Six pharmacologically-designed session types built on documented terpene synergies:
+
+### 1. Deep Rest Session
+- **Rounding:** Ease Round (15 min before)
+- **Best Strains:** Mule Fuel, Black Lime Chem, Pinnacle
+- **Active Synergies:** GABA-A Stack (supra-additive), Endorphin Cascade, BBB Opener
+- **Music:** Deep Rest (55-80 BPM, descending)
+- **Environment:** 2400K, dim, 68°F, parasympathetic breathwork
+
+### 2. Pain Management Session
+- **Rounding:** Calm Round (10 min before)
+- **Best Strains:** Avenue of the Giants, Blueberry Muffin, Moonlight
+- **Active Synergies:** Pain Gate (sequential cross-desensitization), Endorphin Cascade, Spice Bridge
+- **Music:** Warm Relaxation (75-95 BPM, steady)
+- **Environment:** 3200K, moderate, 70°F, balanced breathwork
+
+### 3. Focus & Creative Session
+- **Rounding:** Clarity Round (20 min before)
+- **Best Strains:** Mule Fuel, Love and Laughter (CBD), Purple Candy Cane
+- **Active Synergies:** Memory Shield (dual AChE), Clarity Pair, Mood Lift
+- **Music:** Active Energy (100-130 BPM, elevated)
+- **Environment:** 4200K, bright, 72°F, sympathetic breathwork
+
+### 4. Social Session
+- **Rounding:** Optional Ease Round (half-dose for anxiety-prone)
+- **Best Strains:** Guava Gift, Pink Jesus Reserve, Pineapple Mojito
+- **Active Synergies:** Mood Lift (human RCT evidence), Sesquiterpene Pair
+- **Music:** Social Euphoria (95-115 BPM, steady/rising)
+
+### 5. Recovery Session
+- **Rounding:** Calm + Ease Rounds (combined)
+- **Best Strains:** Blueberry Muffin, Moonlight
+- **Active Synergies:** Anti-Inflammatory Triad (triple NF-kB), Pain Gate, GABA-A Stack
+- **Music:** Warm Relaxation (75-95 BPM)
+- **Environment:** Post-bath, 2400K, dim, weighted blanket
+
+### 6. Contemplative Session
+- **Rounding:** Ease Round
+- **Best Strains:** Mandarin Cherry Tree, Satsuma Sherbet, Lemon Papaya Banana
+- **Active Synergies:** Mood Lift, GABA-A Stack
+- **Music:** Contemplative Drift (80-100 BPM, steady)
+
+---
+
+## NEW: Receptor Twins — "Same Effects, New Flavor" (March 2026)
+
+### Feature: Strain Swap Recommendations
+
+When a user rates a strain highly, suggest its receptor twin — a strain with near-identical pharmacological effects but different aroma and origin.
+
+**Top Swap Pairs (>0.99 receptor similarity):**
+- Mike's Bomba ↔ Pinnacle (0.998)
+- Mandarin Cherry Tree ↔ Satsuma Sherbet (0.996)
+- Rasta Governmint ↔ Natty Bumppo (0.996)
+- Avenue of the Giants ↔ Black Lime Chem (0.995)
+
+**UX:** After a 4-5 star session rating: *"Loved this session? Try [twin strain] — same receptor activation, completely different flavor."*
+
+### Feature: Variety Pairing
+
+For maximum pharmacological range in a multi-session day, suggest **receptor opposites:**
+- Most different pair: Carambola ↔ Black Lime Chem (0.296 similarity)
+- Morning citrus → Evening body: zero receptor overlap
+
+---
+
+## NEW: Scientific Validation (March 2026)
+
+### Terpene-Sonic Correlation
+The music parameters assigned to each strain correlate with receptor pharmacology at **r = 0.77-0.84**:
+- GABA-A → lower BPM, lower energy (validates sedative strains get calmer music)
+- 5-HT → higher valence (validates mood strains get brighter music)
+- Myrcene % → negatively correlates with all music params (r = -0.79 to -0.83)
+- Limonene % → positively correlates with all music params (r = +0.80 to +0.84)
+
+**Implication:** The music layer is pharmacologically correct. New strains can get first-pass BPM/energy/valence assignments directly from terpene percentages.
+
+### Cross-Layer Validation
+All experience layers (music, environment, breathwork) encode the same pharmacological signal:
+- Music: continuous resolution (r=0.8)
+- Environment + Breathwork: 3 discrete tiers (Rest/Balance/Active) that perfectly match the myrcene-limonene receptor axis
+- Zero misassignments across 43 strain files
+
+### 12 Documented Terpene Synergies
+Mapped across all 23 strains. Pineapple Mojito leads at 8/12 natural synergies. Three synergies (Memory Shield, Pain Gate, Spice Bridge) are only activatable via Receptor Rounding Blends.
+
+---
+
 ## Appendix A: Intent-Terpene-Music Matrix
 
 | Intent | Primary Terpenes | Tempo | Energy | Valence | Key Genres |
@@ -907,4 +1038,19 @@ See `data/strains.json` for complete strain data including:
 
 ---
 
-*Document Version 1.0 — February 2026*
+## Appendix C: Analysis Reports & Data Sources
+
+| Report | Description |
+|--------|-------------|
+| `receptor_convergence_report.md` | 23 strains × 15 receptors, rounding blend design |
+| `receptor_twins_terroir_report.md` | 5 receptor families, twin pairs, terroir signatures |
+| `terpene_synergy_report.md` | 12 synergies mapped to 23 strains |
+| `terpene_sonic_correlation_report.md` | Music-pharmacology correlation (r=0.8) |
+| `cross_layer_validation_report.md` | All layers vs receptor profiles |
+| `Session_Design_By_Synergy.md` | 6 session archetypes with full timing arcs |
+| `data/rounding-blends.json` | Complete rounding blend specifications |
+
+---
+
+*Document Version 2.0 — March 2026*
+*Updated with receptor pharmacology, rounding blends, session archetypes, receptor twins, terpene-sonic validation, and cross-layer analysis.*
