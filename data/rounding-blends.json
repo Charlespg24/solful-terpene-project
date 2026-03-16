@@ -1,0 +1,393 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-03-15",
+    "description": "Receptor Rounding Blends — purpose-built mini-blends that activate receptor pathways universally missing from cannabis terpene profiles. Usable standalone for targeted aromatherapy OR as Step 1 in the pre-loading protocol before a strain-matched blend.",
+    "designPrinciple": "Strain blends stay 100% pure. Rounding blends are a separate layer — like a pharmacological warm-up. Minimum drops, maximum receptor coverage.",
+    "standardFormat": "5-drop diffuser charge OR diluted in carrier oil for topical/inhaler",
+    "dataSource": "Receptor convergence analysis of 23 Solful strains against 15 neuroreceptor targets"
+  },
+  "blends": {
+    "Clarity Round": {
+      "id": "clarity",
+      "tagline": "Sharp mind, clear recall",
+      "intent": "Cognitive sharpness, memory support, neuroprotection",
+      "color": "#4A90D9",
+      "icon": "brain",
+
+      "pharmacology": {
+        "targetReceptors": [
+          {
+            "receptor": "AChE",
+            "fullName": "Acetylcholinesterase",
+            "category": "enzyme",
+            "action": "inhibitor",
+            "significance": "Preserves acetylcholine → memory and attention. Counters THC-induced short-term memory impairment (Russo 2011 entourage hypothesis).",
+            "strainGap": "17/23 strains (74%) missing this pathway"
+          },
+          {
+            "receptor": "BDNF-TrkB",
+            "fullName": "Brain-Derived Neurotrophic Factor / TrkB",
+            "category": "growth_factor",
+            "action": "upregulator",
+            "significance": "Neuroprotective signaling. Restores CREB phosphorylation in hippocampus.",
+            "strainGap": "17/23 strains (74%) missing this pathway"
+          },
+          {
+            "receptor": "TRPV3",
+            "fullName": "Transient Receptor Potential Vanilloid 3",
+            "category": "TRP",
+            "action": "modulator",
+            "significance": "Warm-temperature sensing and skin signaling.",
+            "strainGap": "23/23 strains (100%) missing this pathway"
+          }
+        ],
+        "convergenceNote": "Rosemary delivers DUAL AChE inhibition (eucalyptol + pinene). This is the only rounding blend with two terpenes targeting the same enzyme — true pharmacological stacking.",
+        "evidenceTier": "clinical",
+        "keyStudies": [
+          "Moss & Oliver 2012 — rosemary aroma improved cognitive performance; plasma 1,8-cineole >75 ng/mL correlated with objective improvement",
+          "Li Q et al. — forest bathing (alpha-pinene inhalation) increased NK cell activity for 30 days",
+          "Perry et al. 2000 — alpha-pinene AChE inhibition IC₅₀ = 0.44 mM"
+        ]
+      },
+
+      "recipe": {
+        "totalDrops": 5,
+        "oils": [
+          {
+            "name": "Rosemary ct. cineole",
+            "botanicalName": "Rosmarinus officinalis ct. 1,8-cineole",
+            "drops": 3,
+            "delivers": ["Eucalyptol (1,8-Cineole)", "alpha-Pinene"],
+            "receptorsActivated": ["AChE", "BDNF-TrkB", "TRPV3"],
+            "note": "Choose the cineole chemotype specifically — it has 35-55% eucalyptol vs. other chemotypes"
+          },
+          {
+            "name": "Eucalyptus",
+            "botanicalName": "Eucalyptus globulus",
+            "drops": 2,
+            "delivers": ["Eucalyptol (1,8-Cineole)"],
+            "receptorsActivated": ["AChE", "TRPV3"],
+            "note": "Reinforces eucalyptol delivery for AChE saturation"
+          }
+        ]
+      },
+
+      "aromaProfile": {
+        "primary": ["Fresh", "Herbal", "Camphoraceous"],
+        "character": "Clean and invigorating — like walking through a Mediterranean herb garden",
+        "clashRisk": "Very low. Herbal freshness complements virtually all strain blends.",
+        "pairsBestWith": "Citrus-forward strains (Carambola, Satsuma Sherbet) and pine strains (Avenue of the Giants, Black Lime Chem)"
+      },
+
+      "standalone": {
+        "use": true,
+        "occasions": [
+          "Morning focus sessions before work",
+          "Study or deep reading",
+          "Creative problem-solving",
+          "Counteracting brain fog (any cause)",
+          "Pre-meeting mental sharpness"
+        ],
+        "duration": "20-40 minutes diffusion",
+        "timing": "Morning or early afternoon preferred"
+      },
+
+      "preLoadingProtocol": {
+        "use": true,
+        "bestFor": ["Focus sessions", "Creative work", "Microdosing", "Sativa-leaning strains"],
+        "timing": "Start diffusing 10 min before strain blend; overlap is fine",
+        "strainPairings": [
+          {"strain": "Carambola", "why": "Limonene-forward + Clarity Round adds missing AChE for citrus-cerebral clarity"},
+          {"strain": "Love and Laughter", "why": "CBD strain already has focus intent; Clarity adds cognitive receptor coverage"},
+          {"strain": "Purple Candy Cane", "why": "Has pinene but Clarity Round adds eucalyptol for dual AChE stacking"},
+          {"strain": "Tropical Sleigh Ride", "why": "Alert/joyful intent benefits from neuroprotective layer"}
+        ]
+      },
+
+      "safetyNotes": [
+        "Rosemary: avoid during pregnancy and with epilepsy",
+        "Eucalyptus: not for use around children under 6",
+        "Both oils are food-grade at these concentrations"
+      ]
+    },
+
+    "Calm Round": {
+      "id": "calm",
+      "tagline": "Cool body, quiet pain",
+      "intent": "Cold-receptor analgesia, pain desensitization, physical comfort",
+      "color": "#5FBCD3",
+      "icon": "snowflake",
+
+      "pharmacology": {
+        "targetReceptors": [
+          {
+            "receptor": "TRPM8",
+            "fullName": "Transient Receptor Potential Melastatin 8",
+            "category": "TRP",
+            "action": "agonist",
+            "affinity": "EC50 ~4 μM",
+            "significance": "Cold receptor activation → analgesic cooling sensation. Cross-desensitizes TRPV1 (heat/pain receptor), reducing pain sensitivity.",
+            "strainGap": "23/23 strains (100%) missing this pathway"
+          },
+          {
+            "receptor": "TRPA1",
+            "fullName": "Transient Receptor Potential Ankyrin 1",
+            "category": "TRP",
+            "action": "agonist",
+            "significance": "Irritant/pain receptor. Initial activation followed by desensitization → net analgesic effect. TRPA1 antagonism associated with anxiolytic effects.",
+            "strainGap": "23/23 strains (100%) missing this pathway"
+          },
+          {
+            "receptor": "COX-2",
+            "fullName": "Cyclooxygenase-2",
+            "category": "enzyme",
+            "action": "inhibitor",
+            "significance": "Anti-inflammatory enzyme inhibition (same target as ibuprofen). Eugenol provides this as a bonus pathway.",
+            "strainGap": "8/23 strains (35%) missing — bonus coverage"
+          }
+        ],
+        "convergenceNote": "Menthol's TRPM8 activation cross-desensitizes TRPV1, which means if the strain already has myrcene (a TRPV1 modulator), the Calm Round creates a complementary pain-modulation stack: menthol cools → TRPV1 desensitizes → myrcene modulates the desensitized receptor.",
+        "evidenceTier": "clinical",
+        "keyStudies": [
+          "Alammar et al. 2019 — peppermint oil meta-analysis for IBS symptom reduction",
+          "Eccles et al. 2003 — menthol nasal decongestion via cold receptor activation",
+          "Eugenol — FDA-approved dental analgesic; gold standard for tooth pain"
+        ]
+      },
+
+      "recipe": {
+        "totalDrops": 3,
+        "oils": [
+          {
+            "name": "Peppermint",
+            "botanicalName": "Mentha piperita",
+            "drops": 2,
+            "delivers": ["Menthol", "1,8-Cineole (trace)"],
+            "receptorsActivated": ["TRPM8", "TRPV1 (cross-desensitization)"],
+            "note": "Use sparingly — menthol is potent and can dominate"
+          },
+          {
+            "name": "Clove",
+            "botanicalName": "Syzygium aromaticum",
+            "drops": 1,
+            "delivers": ["Eugenol", "beta-Caryophyllene (secondary)"],
+            "receptorsActivated": ["TRPA1", "COX-2", "CB2 (bonus from BCP)"],
+            "note": "Single drop is sufficient; clove is intense. The secondary BCP reinforces any strain's caryophyllene."
+          }
+        ]
+      },
+
+      "aromaProfile": {
+        "primary": ["Cool mint", "Warm spice", "Medicinal-clean"],
+        "character": "The sensation of stepping from a warm spice kitchen into crisp mountain air",
+        "clashRisk": "Moderate. Mint and clove are assertive. Best used in a separate diffuser or inhaler, not mixed into the strain blend.",
+        "pairsBestWith": "Heavy/sedative strains (Pinnacle, Black Lime Chem, Mule Fuel) where body comfort is the goal"
+      },
+
+      "standalone": {
+        "use": true,
+        "occasions": [
+          "Post-workout muscle recovery",
+          "Headache or tension relief",
+          "Menstrual cramp comfort",
+          "General body ache soothing",
+          "Cold/flu season nasal relief",
+          "Pre-massage muscle preparation"
+        ],
+        "duration": "15-30 minutes diffusion, or topical in carrier oil",
+        "timing": "As needed; evening preferred for pain/recovery"
+      },
+
+      "preLoadingProtocol": {
+        "use": true,
+        "bestFor": ["Pain management sessions", "Body-heavy indica experiences", "Recovery/rest", "Physical labor wind-down"],
+        "timing": "Start 5-10 min before strain blend; menthol onset is rapid",
+        "strainPairings": [
+          {"strain": "Pinnacle", "why": "Deepest sedation strain; Calm Round adds pain pathway for full body surrender"},
+          {"strain": "Mule Fuel", "why": "Highest myrcene (2.22%); menthol cross-desensitizes TRPV1 that myrcene modulates"},
+          {"strain": "Black Lime Chem", "why": "Heavy sleepy strain; pain rounding completes the body experience"},
+          {"strain": "Blueberry Muffin", "why": "Quiet peace intent; Calm Round adds physical comfort layer"}
+        ]
+      },
+
+      "safetyNotes": [
+        "Peppermint: can be overwhelming — never exceed 2 drops in a 5-drop blend",
+        "Clove: can cause irritation at high doses — 1 drop max",
+        "Both oils are food-grade at these concentrations",
+        "Avoid Calm Round if using topical capsaicin products (TRPV1 interaction)"
+      ]
+    },
+
+    "Ease Round": {
+      "id": "ease",
+      "tagline": "Soft landing, quiet mind",
+      "intent": "GABA-A convergence for anxiolysis, sedation, and emotional softening",
+      "color": "#9B7DD4",
+      "icon": "moon",
+
+      "pharmacology": {
+        "targetReceptors": [
+          {
+            "receptor": "GABA-A",
+            "fullName": "Gamma-Aminobutyric Acid Receptor Type A",
+            "category": "ion_channel",
+            "action": "positive_allosteric_modulator",
+            "significance": "The primary inhibitory neurotransmitter receptor. Linalool binds the benzodiazepine site (allosteric), enhancing GABA's own effect without replacing it. When combined with myrcene (direct GABA-A modulator, present in 91% of strains), this creates SUPRA-ADDITIVE anxiolysis.",
+            "strainGap": "Only 2/23 strains missing GABA-A entirely, BUT 14/23 have Myrcene without Linalool — convergence opportunity"
+          }
+        ],
+        "convergenceNote": "This is the strongest pharmacological case for cross-terpene pre-loading. Allosteric + direct modulation on the same receptor = 1.3x supra-additive bonus. Linalool primes the benzodiazepine site; when myrcene arrives (via strain blend), GABA transmission is amplified beyond what either terpene achieves alone.",
+        "evidenceTier": "preclinical (strong)",
+        "keyStudies": [
+          "Harada et al. 2018 — BREAKTHROUGH: linalool anxiolytic effects are EXCLUSIVELY olfactory. Anosmic mice show zero response. Non-olfactory routes fail.",
+          "Flumazenil completely blocks linalool anxiolytic effect — confirms benzodiazepine site mechanism",
+          "R-linalool (lavender) has 9x lower odor threshold than S-linalool (coriander) — lavender is pharmacologically superior",
+          "Silexan (standardized lavender oil) — multiple RCTs showing anxiolytic effects comparable to paroxetine"
+        ],
+        "criticalConstraint": "OLFACTORY-ONLY PATHWAY. Linalool MUST be inhaled to reach the olfactory epithelium → piriform cortex → amygdala. Oral, topical, or any non-nasal route is ineffective for GABA-A activation. This is the ONLY rounding blend with a strict delivery requirement."
+      },
+
+      "recipe": {
+        "totalDrops": 3,
+        "oils": [
+          {
+            "name": "Lavender",
+            "botanicalName": "Lavandula angustifolia",
+            "drops": 3,
+            "delivers": ["R-Linalool", "Linalyl acetate (synergist)"],
+            "receptorsActivated": ["GABA-A (benzodiazepine site)"],
+            "note": "R-linalool from lavender is 9x more potent than S-linalool from coriander. The linalyl acetate in lavender oil may provide supra-additive anxiolytic effects with linalool (Silexan evidence)."
+          }
+        ]
+      },
+
+      "aromaProfile": {
+        "primary": ["Floral", "Sweet", "Herbaceous", "Calming"],
+        "character": "The scent of a lavender field at dusk — immediately recognizable, universally soothing",
+        "clashRisk": "Very low. Lavender is the most universally compatible essential oil. It softens and rounds any blend without dominating.",
+        "pairsBestWith": "Myrcene-dominant strains (Mule Fuel, Glitter Bomb, Avenue of the Giants) where GABA-A convergence is maximized"
+      },
+
+      "standalone": {
+        "use": true,
+        "occasions": [
+          "Pre-sleep wind-down routine",
+          "Anxiety or panic moment relief",
+          "Meditation or breathwork sessions",
+          "Stressful day decompression",
+          "Travel anxiety (airplane, hotel room)",
+          "Partner/couple relaxation ritual"
+        ],
+        "duration": "15-30 minutes diffusion minimum for olfactory saturation",
+        "timing": "Evening preferred; avoid within 2 hours of needing peak alertness",
+        "dosing": "Aroma at detection threshold is sufficient (~1-2 mg equivalent). More is not necessarily better — olfactory habituation begins at 30+ minutes."
+      },
+
+      "preLoadingProtocol": {
+        "use": true,
+        "bestFor": ["Anxiety reduction", "Sleep preparation", "Deep relaxation", "First-time cannabis users (anxiety buffer)"],
+        "timing": "Start diffusing 15 min before strain blend. The 15-min window allows peak GABA-A occupancy in amygdala/hippocampus before THC arrives.",
+        "strainPairings": [
+          {"strain": "Mule Fuel", "why": "Highest myrcene (2.22%) + Ease Round = maximum GABA-A convergence. Allosteric (linalool) + direct (myrcene) = supra-additive sedation."},
+          {"strain": "Glitter Bomb", "why": "High myrcene (1.23%) with body/mind split intent — Ease Round deepens the body ease"},
+          {"strain": "Moonlight", "why": "Already has bisabolol (GABA-A modulator) — adding linalool creates TRIPLE GABA-A convergence"},
+          {"strain": "Avenue of the Giants", "why": "Very high myrcene (1.94%) — Ease Round buffers the high-energy intent with anxiety safety net"},
+          {"strain": "Pink Jesus Reserve", "why": "Warm social strain with myrcene; Ease Round prevents social anxiety without dimming euphoria"}
+        ]
+      },
+
+      "safetyNotes": [
+        "Lavender is among the safest essential oils — well tolerated by virtually everyone",
+        "MUST be diffused or inhaled, NOT ingested for this purpose",
+        "Olfactory habituation begins at ~30 minutes — don't exceed 30 min pre-load",
+        "If using Silexan capsules (oral), note this activates a DIFFERENT pathway than olfactory — both can be used but they work through separate mechanisms"
+      ]
+    }
+  },
+
+  "protocol": {
+    "twoStepPreLoading": {
+      "description": "The full pre-loading protocol preserves strain blend integrity while maximizing receptor coverage.",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Receptor Rounding",
+          "timing": "10-15 minutes before Step 2",
+          "method": "Separate diffuser, personal inhaler, or steam bowl",
+          "instruction": "Choose 1-2 rounding blends based on session intent. Add drops to diffuser and begin inhaling. This opens receptor pathways that the strain blend doesn't cover.",
+          "selection": {
+            "focus": "Clarity Round",
+            "pain": "Calm Round",
+            "anxiety": "Ease Round",
+            "full_spectrum": "Clarity + Calm (8 drops total)",
+            "deep_relaxation": "Ease + Calm (6 drops total)"
+          }
+        },
+        {
+          "step": 2,
+          "name": "Strain Blend",
+          "timing": "5-10 minutes after starting Step 1 (overlap is fine)",
+          "method": "Personal inhaler, second diffuser, or topical application",
+          "instruction": "Apply your existing 40-drop strain-matched blend exactly as designed. Do not modify the recipe. The rounding blend and strain blend work on SEPARATE receptor pathways — they don't compete."
+        },
+        {
+          "step": 3,
+          "name": "Cannabis",
+          "timing": "15-30 minutes after starting Step 1",
+          "method": "Consume the matched strain",
+          "instruction": "By this point, rounding receptors are primed (AChE inhibited, TRPM8 activated, GABA-A upregulated) and strain-matched terpene receptors are occupied. THC/CBD arrive to a pharmacologically prepared system."
+        }
+      ]
+    },
+    "standaloneUse": {
+      "description": "Each rounding blend works as an independent aromatherapy product without cannabis or strain blends. The receptor targeting provides real therapeutic benefit on its own.",
+      "method": "Add drops to diffuser, personal inhaler, or dilute in carrier oil (jojoba, fractionated coconut) at 2-3% for topical use.",
+      "duration": "15-40 minutes diffusion for olfactory effects; topical effects last 1-2 hours"
+    }
+  },
+
+  "productFormats": {
+    "diffuserBlend": {
+      "description": "Pre-mixed oil for ultrasonic or nebulizing diffusers",
+      "format": "5ml or 10ml bottle with dropper",
+      "dilution": "Neat (undiluted) — user adds drops to diffuser water"
+    },
+    "personalInhaler": {
+      "description": "Cotton-wick nasal inhaler tube for portable, on-demand use",
+      "format": "Aluminum or plastic inhaler tube",
+      "drops": "10-15 drops on cotton wick (lasts ~2 weeks)",
+      "advantage": "Discreet, portable, no diffuser needed. Ideal for Ease Round (olfactory requirement)."
+    },
+    "rollerBottle": {
+      "description": "Diluted in carrier oil for topical pulse-point application",
+      "format": "10ml roller bottle",
+      "dilution": "3% in fractionated coconut oil",
+      "advantage": "Best for Calm Round (topical menthol/eugenol for localized pain relief)"
+    },
+    "showerSteamer": {
+      "description": "Effervescent tablet that releases blend in shower steam",
+      "format": "Bath bomb form factor, shower floor placement",
+      "advantage": "Combines olfactory delivery with warm steam. Excellent for morning Clarity Round or evening Ease Round."
+    },
+    "bathSoak": {
+      "description": "Epsom salt base infused with rounding blend",
+      "format": "Single-use packet or jar",
+      "advantage": "Full immersion delivery — olfactory + topical. Best for Calm Round (pain) + Ease Round (anxiety)."
+    }
+  },
+
+  "coverageAnalysis": {
+    "withoutRounding": {
+      "averageReceptorsCovered": "7-10 of 15",
+      "universalGaps": ["TRPV3 (100%)", "TRPM8 (100%)", "TRPA1 (100%)"],
+      "majorGaps": ["AChE (74%)", "BDNF-TrkB (74%)"]
+    },
+    "withAllThreeRounds": {
+      "averageReceptorsCovered": "13-15 of 15",
+      "remainingGaps": "Strain-dependent; typically only CB1 (weak modulator only) and strain-specific singles",
+      "totalSupplementDrops": "11 drops maximum (vs. 40-drop strain blend)",
+      "strainBlendIntegrity": "100% preserved"
+    }
+  }
+}
