@@ -1,0 +1,142 @@
+{
+  "Caryophyllene": {
+    "cid": 5281515,
+    "name": "Caryophyllene",
+    "iupac": "(1R,4E,9S)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene",
+    "inchi": "InChI=1S/C15H24/c1-11-6-5-7-12(2)13-10-15(3,4)14(13)9-8-11/h6,13-14H,2,5,7-10H2,1,3-4H3/b11-6+/t13-,14-/m1/s1",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "atoms": 39,
+    "bonds": 40
+  },
+  "Myrcene": {
+    "cid": 31253,
+    "name": "Myrcene",
+    "iupac": "7-methyl-3-methylideneocta-1,6-diene",
+    "inchi": "InChI=1S/C10H16/c1-5-10(4)8-6-7-9(2)3/h5,7H,1,4,6,8H2,2-3H3",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "atoms": 26,
+    "bonds": 25
+  },
+  "Limonene": {
+    "cid": 22311,
+    "name": "Limonene",
+    "iupac": "1-methyl-4-prop-1-en-2-ylcyclohexene",
+    "inchi": "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4,10H,1,5-7H2,2-3H3",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "atoms": 26,
+    "bonds": 26
+  },
+  "Humulene": {
+    "cid": 5281520,
+    "name": "Humulene",
+    "iupac": "(1E,4E,8E)-2,6,6,9-tetramethylcycloundeca-1,4,8-triene",
+    "inchi": "InChI=1S/C15H24/c1-13-7-5-8-14(2)10-12-15(3,4)11-6-9-13/h6-7,10-11H,5,8-9,12H2,1-4H3/b11-6+,13-7+,14-10+",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "atoms": 39,
+    "bonds": 39
+  },
+  "Linalool": {
+    "cid": 6549,
+    "name": "Linalool",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-ol",
+    "inchi": "InChI=1S/C10H18O/c1-5-10(4,11)8-6-7-9(2)3/h5,7,11H,1,6,8H2,2-4H3",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "atoms": 29,
+    "bonds": 28
+  },
+  "alpha-Pinene": {
+    "cid": 6654,
+    "name": "alpha-Pinene",
+    "iupac": "2,6,6-trimethylbicyclo[3.1.1]hept-2-ene",
+    "inchi": "InChI=1S/C10H16/c1-7-4-5-8-6-9(7)10(8,2)3/h4,8-9H,5-6H2,1-3H3",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "atoms": 26,
+    "bonds": 27
+  },
+  "Terpinolene": {
+    "cid": 11463,
+    "name": "Terpinolene",
+    "iupac": "1-methyl-4-propan-2-ylidenecyclohexene",
+    "inchi": "InChI=1S/C10H16/c1-8(2)10-6-4-9(3)5-7-10/h4H,5-7H2,1-3H3",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "atoms": 26,
+    "bonds": 26
+  },
+  "Ocimene": {
+    "cid": 6434062,
+    "name": "Ocimene",
+    "iupac": "(3E,5E)-3,7-dimethylocta-1,3,5-triene",
+    "inchi": "InChI=1S/C10H16/c1-5-10(4)8-6-7-9(2)3/h5-9H,1H2,2-4H3/b7-6+,10-8+",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "atoms": 26,
+    "bonds": 25
+  },
+  "alpha-Bisabolol": {
+    "cid": 442343,
+    "name": "alpha-Bisabolol",
+    "iupac": "(2S)-6-methyl-2-[(1S)-4-methylcyclohex-3-en-1-yl]hept-5-en-2-ol",
+    "inchi": "InChI=1S/C15H26O/c1-12(2)6-5-11-15(4,16)14-9-7-13(3)8-10-14/h6-7,14,16H,5,8-11H2,1-4H3/t14-,15+/m1/s1",
+    "formula": "C15H26O",
+    "weight": "222.37",
+    "atoms": 42,
+    "bonds": 42
+  },
+  "alpha-Farnesene": {
+    "cid": 5281516,
+    "name": "alpha-Farnesene",
+    "iupac": "(3E,6E)-3,7,11-trimethyldodeca-1,3,6,10-tetraene",
+    "inchi": "InChI=1S/C15H24/c1-6-14(4)10-8-12-15(5)11-7-9-13(2)3/h6,9-10,12H,1,7-8,11H2,2-5H3/b14-10+,15-12+",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "atoms": 39,
+    "bonds": 38
+  },
+  "Eucalyptol": {
+    "cid": 2758,
+    "name": "Eucalyptol",
+    "iupac": "1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane",
+    "inchi": "InChI=1S/C10H18O/c1-9(2)8-4-6-10(3,11-9)7-5-8/h8H,4-7H2,1-3H3",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "atoms": 29,
+    "bonds": 30
+  },
+  "Eugenol": {
+    "cid": 3314,
+    "name": "Eugenol",
+    "iupac": "2-methoxy-4-prop-2-enylphenol",
+    "inchi": "InChI=1S/C10H12O2/c1-3-4-8-5-6-9(11)10(7-8)12-2/h3,5-7,11H,1,4H2,2H3",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "atoms": 24,
+    "bonds": 24
+  },
+  "Menthol": {
+    "cid": 16666,
+    "name": "Menthol",
+    "iupac": "(1R,2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-ol",
+    "inchi": "InChI=1S/C10H20O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-11H,4-6H2,1-3H3/t8-,9+,10-/m1/s1",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "atoms": 31,
+    "bonds": 31
+  },
+  "Citronellol": {
+    "cid": 8842,
+    "name": "Citronellol",
+    "iupac": "3,7-dimethyloct-6-en-1-ol",
+    "inchi": "InChI=1S/C10H20O/c1-9(2)5-4-6-10(3)7-8-11/h5,10-11H,4,6-8H2,1-3H3",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "atoms": 31,
+    "bonds": 30
+  }
+}

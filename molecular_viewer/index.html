@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solful Terpene Molecular Viewer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0f; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: hidden; }
+
+  #app { display: flex; height: 100vh; }
+
+  /* Sidebar */
+  #sidebar { width: 280px; background: #111118; border-right: 1px solid #222; overflow-y: auto; flex-shrink: 0; }
+  #sidebar h1 { font-size: 14px; padding: 16px; color: #888; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #222; }
+  .terpene-btn { display: block; width: 100%; padding: 12px 16px; background: none; border: none; border-bottom: 1px solid #1a1a22; color: #ccc; text-align: left; cursor: pointer; transition: all 0.15s; }
+  .terpene-btn:hover { background: #1a1a2a; color: #fff; }
+  .terpene-btn.active { background: #1a2a3a; color: #6af; border-left: 3px solid #6af; }
+  .terpene-btn .name { font-size: 14px; font-weight: 600; }
+  .terpene-btn .formula { font-size: 11px; color: #666; margin-top: 2px; }
+  .terpene-btn .atoms { font-size: 10px; color: #555; }
+
+  /* Viewer */
+  #viewer-area { flex: 1; position: relative; }
+  #canvas-3d { width: 100%; height: 100%; display: block; }
+
+  /* Info panel */
+  #info { position: absolute; top: 20px; right: 20px; background: rgba(15,15,25,0.9); border: 1px solid #333; border-radius: 8px; padding: 20px; max-width: 320px; backdrop-filter: blur(10px); }
+  #info h2 { font-size: 20px; color: #fff; margin-bottom: 4px; }
+  #info .subtitle { font-size: 12px; color: #888; margin-bottom: 12px; }
+  #info table { width: 100%; font-size: 12px; }
+  #info td { padding: 3px 0; }
+  #info td:first-child { color: #888; width: 100px; }
+  #info td:last-child { color: #ccc; }
+  #info .iupac { font-size: 10px; color: #555; margin-top: 8px; word-break: break-all; }
+
+  /* Controls hint */
+  #controls-hint { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); font-size: 11px; color: #444; }
+
+  /* Legend */
+  #legend { position: absolute; bottom: 20px; right: 20px; font-size: 11px; color: #666; }
+  #legend span { display: inline-flex; align-items: center; margin-left: 12px; }
+  #legend .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <h1>Solful Terpenes</h1>
+    <div id="terpene-list"></div>
+  </div>
+  <div id="viewer-area">
+    <canvas id="canvas-3d"></canvas>
+    <div id="info" style="display:none">
+      <h2 id="mol-name"></h2>
+      <div class="subtitle" id="mol-formula"></div>
+      <table>
+        <tr><td>Weight</td><td id="mol-weight"></td></tr>
+        <tr><td>Atoms</td><td id="mol-atoms"></td></tr>
+        <tr><td>Bonds</td><td id="mol-bonds"></td></tr>
+        <tr><td>SMILES</td><td id="mol-smiles" style="font-family:monospace;font-size:10px;word-break:break-all"></td></tr>
+      </table>
+      <div class="iupac" id="mol-iupac"></div>
+    </div>
+    <div id="controls-hint">Drag to rotate / Scroll to zoom / Right-drag to pan</div>
+    <div id="legend">
+      <span><span class="dot" style="background:#444"></span>Carbon</span>
+      <span><span class="dot" style="background:#fff"></span>Hydrogen</span>
+      <span><span class="dot" style="background:#f22"></span>Oxygen</span>
+    </div>
+  </div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+// Atom visual properties
+const ATOM_COLORS = { C: 0x444444, H: 0xcccccc, O: 0xff2222, N: 0x3050f8, S: 0xffff30 };
+const ATOM_RADII = { C: 0.30, H: 0.15, O: 0.28, N: 0.28, S: 0.35 };
+const BOND_COLOR = 0x666666;
+
+let scene, camera, renderer, controls;
+let moleculeGroup = null;
+let animating = true;
+let terpeneIndex = {};
+
+// Init Three.js
+function initThree() {
+  const canvas = document.getElementById('canvas-3d');
+  renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x0a0a0f);
+
+  camera = new THREE.PerspectiveCamera(50, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
+  camera.position.set(0, 0, 10);
+
+  controls = new OrbitControls(camera, canvas);
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.05;
+  controls.autoRotate = true;
+  controls.autoRotateSpeed = 1.5;
+
+  // Lighting
+  scene.add(new THREE.AmbientLight(0x404040, 2));
+  const dir1 = new THREE.DirectionalLight(0xffffff, 1.5);
+  dir1.position.set(5, 5, 5);
+  scene.add(dir1);
+  const dir2 = new THREE.DirectionalLight(0x4488ff, 0.8);
+  dir2.position.set(-5, -3, -5);
+  scene.add(dir2);
+
+  window.addEventListener('resize', () => {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+  });
+
+  animate();
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+  controls.update();
+  if (moleculeGroup && animating) {
+    moleculeGroup.rotation.y += 0.002;
+  }
+  renderer.render(scene, camera);
+}
+
+function clearMolecule() {
+  if (moleculeGroup) {
+    scene.remove(moleculeGroup);
+    moleculeGroup.traverse(child => {
+      if (child.geometry) child.geometry.dispose();
+      if (child.material) child.material.dispose();
+    });
+    moleculeGroup = null;
+  }
+}
+
+function buildMolecule(data) {
+  clearMolecule();
+  moleculeGroup = new THREE.Group();
+
+  // Center the molecule
+  let cx = 0, cy = 0, cz = 0;
+  data.atoms.forEach(a => { cx += a.x; cy += a.y; cz += a.z; });
+  cx /= data.atoms.length; cy /= data.atoms.length; cz /= data.atoms.length;
+
+  // Atoms as spheres
+  data.atoms.forEach(atom => {
+    const elem = atom.element;
+    const color = ATOM_COLORS[elem] || 0x888888;
+    const radius = (ATOM_RADII[elem] || 0.25) * (elem === 'H' ? 0.8 : 1.2);
+
+    const geo = new THREE.SphereGeometry(radius, 16, 16);
+    const mat = new THREE.MeshPhongMaterial({
+      color,
+      shininess: elem === 'H' ? 20 : 60,
+      specular: 0x333333,
+    });
+    const mesh = new THREE.Mesh(geo, mat);
+    mesh.position.set(atom.x - cx, atom.y - cy, atom.z - cz);
+    moleculeGroup.add(mesh);
+  });
+
+  // Bonds as cylinders
+  data.bonds.forEach(bond => {
+    const a1 = data.atoms[bond.atom1];
+    const a2 = data.atoms[bond.atom2];
+    if (!a1 || !a2) return;
+
+    const start = new THREE.Vector3(a1.x - cx, a1.y - cy, a1.z - cz);
+    const end = new THREE.Vector3(a2.x - cx, a2.y - cy, a2.z - cz);
+    const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5);
+    const len = start.distanceTo(end);
+    const dir = new THREE.Vector3().subVectors(end, start).normalize();
+
+    const thickness = bond.order === 2 ? 0.06 : 0.04;
+    const geo = new THREE.CylinderGeometry(thickness, thickness, len, 6);
+    const mat = new THREE.MeshPhongMaterial({ color: BOND_COLOR, shininess: 10 });
+    const mesh = new THREE.Mesh(geo, mat);
+
+    mesh.position.copy(mid);
+    const axis = new THREE.Vector3(0, 1, 0);
+    const quat = new THREE.Quaternion().setFromUnitVectors(axis, dir);
+    mesh.setRotationFromQuaternion(quat);
+
+    moleculeGroup.add(mesh);
+
+    // Double bond: offset second cylinder
+    if (bond.order === 2) {
+      const offset = new THREE.Vector3().crossVectors(dir, new THREE.Vector3(0, 0, 1)).normalize().multiplyScalar(0.1);
+      const mesh2 = mesh.clone();
+      mesh2.position.add(offset);
+      moleculeGroup.add(mesh2);
+    }
+  });
+
+  scene.add(moleculeGroup);
+
+  // Fit camera
+  const box = new THREE.Box3().setFromObject(moleculeGroup);
+  const size = box.getSize(new THREE.Vector3());
+  const maxDim = Math.max(size.x, size.y, size.z);
+  camera.position.set(0, 0, maxDim * 2.5);
+  controls.target.set(0, 0, 0);
+  controls.update();
+}
+
+// Load index and populate sidebar
+async function init() {
+  initThree();
+
+  const resp = await fetch('data/index.json');
+  terpeneIndex = await resp.json();
+
+  const list = document.getElementById('terpene-list');
+
+  // Sort by molecular weight (sesquiterpenes after monoterpenes)
+  const sorted = Object.entries(terpeneIndex).sort((a, b) => {
+    const wa = parseFloat(a[1].weight) || 0;
+    const wb = parseFloat(b[1].weight) || 0;
+    return wa - wb;
+  });
+
+  for (const [name, info] of sorted) {
+    const btn = document.createElement('button');
+    btn.className = 'terpene-btn';
+    btn.innerHTML = `
+      <div class="name">${name}</div>
+      <div class="formula">${info.formula || ''} &middot; ${info.weight || ''} g/mol</div>
+      <div class="atoms">${info.atoms || '?'} atoms, ${info.bonds || '?'} bonds</div>
+    `;
+    btn.addEventListener('click', () => loadTerpene(name, btn));
+    list.appendChild(btn);
+  }
+
+  // Load first terpene
+  if (sorted.length > 0) {
+    loadTerpene(sorted[0][0], list.querySelector('.terpene-btn'));
+  }
+}
+
+async function loadTerpene(name, btn) {
+  // Update active state
+  document.querySelectorAll('.terpene-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  const fname = name.toLowerCase().replace(/ /g, '-').replace(/α/g, 'alpha').replace(/β/g, 'beta');
+  try {
+    const resp = await fetch(`data/${fname}.json`);
+    const data = await resp.json();
+    buildMolecule(data);
+
+    // Update info panel
+    document.getElementById('info').style.display = 'block';
+    document.getElementById('mol-name').textContent = data.name;
+    document.getElementById('mol-formula').textContent = data.formula;
+    document.getElementById('mol-weight').textContent = (data.weight || '?') + ' g/mol';
+    document.getElementById('mol-atoms').textContent = data.atom_count;
+    document.getElementById('mol-bonds').textContent = data.bond_count;
+    document.getElementById('mol-smiles').textContent = data.smiles || '';
+    document.getElementById('mol-iupac').textContent = data.iupac || '';
+  } catch (e) {
+    console.error('Failed to load', name, e);
+  }
+}
+
+init();
+</script>
+</body>
+</html>
