@@ -8,6 +8,8 @@ import StrainPage from './pages/StrainPage';
 import SessionPage from './pages/SessionPage';
 import HumidorPage from './pages/HumidorPage';
 import LearnPage from './pages/LearnPage';
+import JuicePage from './pages/JuicePage';
+import SolfulFull from './pages/SolfulFull';
 
 // Components
 import Navigation from './components/Navigation';
@@ -83,6 +85,8 @@ function App() {
             <Route path="/session" element={<SessionPage />} />
             <Route path="/humidor" element={<HumidorPage />} />
             <Route path="/learn" element={<LearnPage />} />
+            <Route path="/juice" element={<JuicePage />} />
+            <Route path="/full" element={<SolfulFull />} />
           </Routes>
         </AnimatePresence>
 

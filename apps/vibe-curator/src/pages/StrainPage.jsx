@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, Suspense } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { AppContext } from '../App';
 import { strains, vibeCategories } from '../data/strains';
+import { getStrainVibeComponent } from './strainVibeRegistry';
 
 function StrainPage() {
   const { id } = useParams();
@@ -24,8 +25,9 @@ function StrainPage() {
   const [copied, setCopied] = useState(false);
   const [showFullPrompt, setShowFullPrompt] = useState(false);
 
-  const strain = strains.find(s => s.id === id);
-  const vibe = strain ? vibeCategories[strain.vibeCategory] : null;
+  const VibeComponent = getStrainVibeComponent(id);
+  const strain = strains?.find ? strains.find(s => s.id === id) : null;
+  const vibe = strain && vibeCategories ? vibeCategories[strain.vibeCategory] : null;
   const isInHumidor = strain ? humidor.some(h => h.id === strain.id) : false;
 
   useEffect(() => {
@@ -33,6 +35,28 @@ function StrainPage() {
       setSelectedStrain(strain);
     }
   }, [strain, setSelectedStrain]);
+
+  // Render the full immersive vibe experience when one exists for this strain.
+  if (VibeComponent) {
+    return (
+      <div className="relative">
+        <button
+          onClick={() => navigate(-1)}
+          aria-label="Back"
+          className="fixed top-4 left-4 z-50 w-10 h-10 rounded-full bg-black/50 backdrop-blur-md border border-white/10 text-white flex items-center justify-center hover:bg-black/70 transition-colors"
+        >
+          <ArrowLeft size={20} />
+        </button>
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center bg-black">
+            <div className="text-white/60 font-mono text-xs tracking-widest uppercase">Loading vibe…</div>
+          </div>
+        }>
+          <VibeComponent />
+        </Suspense>
+      </div>
+    );
+  }
 
   if (!strain) {
     return (

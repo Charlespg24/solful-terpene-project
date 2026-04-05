@@ -1,0 +1,1183 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated": "2026-04-04",
+    "totalIngredients": 40,
+    "description": "Juice-specific ingredient library with terpene mappings, sourced from 24 Solful strain recipes",
+    "sources": [
+      "solful_juice_recipe_library.md",
+      "data/terpenes.json",
+      "data/essential-oils.json",
+      "Terpene_Ingredients_Library.xlsx",
+      "terpquery_enriched.db botanical_sources table"
+    ]
+  },
+  "categories": {
+    "citrus": {
+      "label": "Citrus",
+      "icon": "🍋"
+    },
+    "tropical-fruit": {
+      "label": "Tropical Fruit",
+      "icon": "🥭"
+    },
+    "berry": {
+      "label": "Berries",
+      "icon": "🫐"
+    },
+    "other-fruit": {
+      "label": "Other Fruit",
+      "icon": "🍉"
+    },
+    "fresh-herb": {
+      "label": "Fresh Herbs",
+      "icon": "🌿"
+    },
+    "spice": {
+      "label": "Spices",
+      "icon": "🫚"
+    },
+    "flavor-extract": {
+      "label": "Flavor Extracts",
+      "icon": "💧"
+    },
+    "tea": {
+      "label": "Teas",
+      "icon": "🍵"
+    },
+    "sweetener": {
+      "label": "Sweetener",
+      "icon": "🍯"
+    },
+    "batch-syrup": {
+      "label": "Batch Syrups",
+      "icon": "🧪"
+    },
+    "liquid": {
+      "label": "Liquids",
+      "icon": "💦"
+    }
+  },
+  "starterKits": [
+    {
+      "id": "pantry-staples",
+      "name": "Pantry Staples",
+      "description": "Common kitchen items that cover 19+ recipes",
+      "items": [
+        "black-pepper",
+        "honey",
+        "lemon-juice",
+        "ground-cinnamon",
+        "sparkling-water",
+        "mineral-water"
+      ]
+    },
+    {
+      "id": "herb-garden",
+      "name": "Herb Garden",
+      "description": "Fresh herbs that are the terpene backbone of 15+ recipes",
+      "items": [
+        "fresh-rosemary",
+        "fresh-basil",
+        "fresh-spearmint",
+        "fresh-sage",
+        "fresh-ginger"
+      ]
+    },
+    {
+      "id": "flavor-drops",
+      "name": "Flavor Drops",
+      "description": "Extracts that complete 8+ recipes",
+      "items": [
+        "lavender-extract",
+        "orange-extract",
+        "vanilla-extract"
+      ]
+    },
+    {
+      "id": "tea-cabinet",
+      "name": "Tea Cabinet",
+      "description": "Teas that deliver rare terpenes (bisabolol, terpinolene)",
+      "items": [
+        "chamomile-tea",
+        "mint-tea",
+        "earl-grey-tea"
+      ]
+    },
+    {
+      "id": "lemongrass-pack",
+      "name": "Lemongrass Pack",
+      "description": "Unlocks 3 high-myrcene recipes (Mule Fuel, Avenue of the Giants, Glitter Bomb enhancement)",
+      "items": [
+        "lemongrass"
+      ]
+    },
+    {
+      "id": "tropical-pack",
+      "name": "Tropical Pack",
+      "description": "Specialty fruits for 4 tropical recipes",
+      "items": [
+        "guava",
+        "mango",
+        "papaya",
+        "pineapple-juice"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "black-pepper",
+      "name": "Ground Black Pepper",
+      "category": "spice",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "α-Pinene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Freshly ground, pinch",
+      "shelfLife": "6 months ground, years whole",
+      "searchTerms": [
+        "black pepper",
+        "pepper",
+        "ground black pepper"
+      ],
+      "flavorNotes": "Sharp, pungent, warm",
+      "terpeneNotes": "Primary β-caryophyllene vehicle (7-35%). The first terpene proven to activate CB2 cannabinoid receptor. Used in 21/24 recipes.",
+      "cost": "low",
+      "recipeCount": 19
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "sweetener",
+      "terpenes": [
+        {
+          "terpene": "α-Bisabolol",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Raw, stirred in",
+      "shelfLife": "Indefinite",
+      "searchTerms": [
+        "honey"
+      ],
+      "flavorNotes": "Floral, warm, golden",
+      "terpeneNotes": "Trace bisabolol. Primary sweetener — used in 20/24 recipes.",
+      "cost": "low",
+      "recipeCount": 18
+    },
+    {
+      "id": "lemon-juice",
+      "name": "Lemon Juice",
+      "category": "citrus",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Terpinolene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh squeezed",
+      "shelfLife": "5 days refrigerated",
+      "searchTerms": [
+        "lemon",
+        "lemon juice"
+      ],
+      "flavorNotes": "Tart, bright, clean",
+      "terpeneNotes": "65-75% limonene content. Universal citrus base.",
+      "cost": "low",
+      "recipeCount": 17
+    },
+    {
+      "id": "fresh-rosemary",
+      "name": "Fresh Rosemary",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "α-Pinene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Fresh sprigs, steeped in water 2-3 min",
+      "shelfLife": "1 week refrigerated",
+      "searchTerms": [
+        "rosemary",
+        "rosemary sprig",
+        "rosemary water"
+      ],
+      "flavorNotes": "Piney, woody, aromatic, energizing",
+      "terpeneNotes": "Primary α-pinene vehicle. Also delivers 1,8-cineole. Used in 19/24 juice recipes — the most common herb.",
+      "safetyNotes": "Avoid during pregnancy and with epilepsy.",
+      "cost": "low",
+      "recipeCount": 12
+    },
+    {
+      "id": "mineral-water",
+      "name": "Cold Mineral Water",
+      "category": "liquid",
+      "terpenes": [],
+      "difficulty": "easy",
+      "form": "Cold, still",
+      "shelfLife": "Shelf-stable sealed",
+      "searchTerms": [
+        "mineral water",
+        "cold mineral water",
+        "still water"
+      ],
+      "flavorNotes": "Clean, mineral",
+      "terpeneNotes": "No terpenes. Dilution vehicle for LOW energy recipes.",
+      "cost": "low",
+      "recipeCount": 12
+    },
+    {
+      "id": "pink-grapefruit-juice",
+      "name": "Pink Grapefruit Juice",
+      "category": "citrus",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh squeezed",
+      "shelfLife": "3 days refrigerated",
+      "searchTerms": [
+        "grapefruit",
+        "pink grapefruit",
+        "grapefruit juice"
+      ],
+      "flavorNotes": "Bitter-sweet, tangy, bright",
+      "terpeneNotes": "Primary limonene vehicle. Tropical citrus bridge.",
+      "cost": "low",
+      "recipeCount": 10
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling Water",
+      "category": "liquid",
+      "terpenes": [],
+      "difficulty": "easy",
+      "form": "Chilled, added last (down the side)",
+      "shelfLife": "Shelf-stable sealed",
+      "searchTerms": [
+        "sparkling water",
+        "soda water",
+        "carbonated water"
+      ],
+      "flavorNotes": "Neutral, effervescent",
+      "terpeneNotes": "No terpenes. Adds texture and lifts aromas. Used in HIGH energy recipes.",
+      "cost": "low",
+      "recipeCount": 10
+    },
+    {
+      "id": "fresh-basil",
+      "name": "Fresh Basil (Prospera)",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "β-Ocimene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Linalool",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "α-Pinene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Fresh leaves, gently muddled",
+      "shelfLife": "5 days refrigerated (stem in water)",
+      "searchTerms": [
+        "basil",
+        "basil leaves",
+        "prospera basil"
+      ],
+      "flavorNotes": "Sweet, peppery, fresh, herbaceous",
+      "terpeneNotes": "Primary β-ocimene source. One of few culinary herbs high in this rare terpene. Prospera variety preferred.",
+      "cost": "low",
+      "recipeCount": 9
+    },
+    {
+      "id": "ground-cinnamon",
+      "name": "Ground Cinnamon",
+      "category": "spice",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Linalool",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Ground or stick",
+      "shelfLife": "6 months ground, 1 year stick",
+      "searchTerms": [
+        "cinnamon",
+        "ground cinnamon",
+        "cinnamon stick"
+      ],
+      "flavorNotes": "Warm, sweet, woody",
+      "terpeneNotes": "Secondary caryophyllene source with warming quality.",
+      "cost": "low",
+      "recipeCount": 9
+    },
+    {
+      "id": "lavender-extract",
+      "name": "Lavender Flavor Extract",
+      "category": "flavor-extract",
+      "terpenes": [
+        {
+          "terpene": "Linalool",
+          "intensity": "high"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Drops (food-grade flavor extract)",
+      "shelfLife": "1 year+",
+      "searchTerms": [
+        "lavender flavor",
+        "lavender extract",
+        "lavender drops"
+      ],
+      "flavorNotes": "Floral, sweet, calming",
+      "terpeneNotes": "Primary linalool delivery. Essential for strains with lavender in aroma DNA. Used in 8/24 recipes.",
+      "safetyNotes": "Must be food-grade flavor extract, not essential oil.",
+      "cost": "medium",
+      "recipeCount": 8
+    },
+    {
+      "id": "fresh-ginger",
+      "name": "Fresh Ginger Root",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "α-Humulene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh root, pressed through juicer or fine grater",
+      "shelfLife": "3 weeks refrigerated",
+      "searchTerms": [
+        "ginger",
+        "ginger juice",
+        "ginger root",
+        "fresh ginger"
+      ],
+      "flavorNotes": "Spicy, warming, bright",
+      "terpeneNotes": "Multi-terpene delivery: humulene + caryophyllene + bisabolol. Warming character.",
+      "cost": "low",
+      "recipeCount": 7
+    },
+    {
+      "id": "lime-juice",
+      "name": "Lime Juice",
+      "category": "citrus",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh squeezed",
+      "shelfLife": "5 days refrigerated",
+      "searchTerms": [
+        "lime",
+        "lime juice"
+      ],
+      "flavorNotes": "Sharp, tropical, clean",
+      "terpeneNotes": "Limonene-forward with myrcene undertone.",
+      "cost": "low",
+      "recipeCount": 6
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla Extract",
+      "category": "flavor-extract",
+      "terpenes": [],
+      "difficulty": "easy",
+      "form": "Pure vanilla extract",
+      "shelfLife": "Years (improves with age)",
+      "searchTerms": [
+        "vanilla",
+        "vanilla extract"
+      ],
+      "flavorNotes": "Sweet, warm, rich, creamy",
+      "terpeneNotes": "No direct terpene delivery, but creates 'sugar cookie' and 'sweet cream' notes. Bridges farnesene character.",
+      "cost": "medium",
+      "recipeCount": 6
+    },
+    {
+      "id": "chamomile-tea",
+      "name": "Chamomile Tea",
+      "category": "tea",
+      "terpenes": [
+        {
+          "terpene": "α-Bisabolol",
+          "intensity": "high"
+        },
+        {
+          "terpene": "trans-β-Farnesene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Brewed strong, cooled completely",
+      "shelfLife": "2 days refrigerated",
+      "searchTerms": [
+        "chamomile",
+        "chamomile tea"
+      ],
+      "flavorNotes": "Honey-apple, soothing, warm",
+      "terpeneNotes": "Primary α-bisabolol vehicle. German chamomile is the richest natural bisabolol source.",
+      "cost": "low",
+      "recipeCount": 6
+    },
+    {
+      "id": "mandarin-juice",
+      "name": "Mandarin / Tangerine Juice",
+      "category": "citrus",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh squeezed",
+      "shelfLife": "3 days refrigerated",
+      "searchTerms": [
+        "mandarin",
+        "tangerine",
+        "mandarin juice"
+      ],
+      "flavorNotes": "Sweet, delicate, honeyed",
+      "terpeneNotes": "Softer limonene delivery than lemon or grapefruit.",
+      "cost": "low",
+      "recipeCount": 5
+    },
+    {
+      "id": "tart-cherry-juice",
+      "name": "Tart Cherry Juice",
+      "category": "berry",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Bottled (100% tart cherry)",
+      "shelfLife": "10 days opened, shelf-stable sealed",
+      "searchTerms": [
+        "tart cherry",
+        "cherry juice",
+        "sour cherry"
+      ],
+      "flavorNotes": "Sour, rich, deep berry",
+      "terpeneNotes": "Limonene vehicle with depth. Subs for sour plum.",
+      "cost": "medium",
+      "recipeCount": 5
+    },
+    {
+      "id": "fresh-spearmint",
+      "name": "Fresh Spearmint",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "β-Ocimene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Fresh leaves, gently muddled",
+      "shelfLife": "5 days refrigerated",
+      "searchTerms": [
+        "spearmint",
+        "spearmint leaves",
+        "mint leaves"
+      ],
+      "flavorNotes": "Cool, sweet, clean",
+      "terpeneNotes": "Limonene delivery with cooling menthol character.",
+      "cost": "low",
+      "recipeCount": 5
+    },
+    {
+      "id": "fresh-sage",
+      "name": "Fresh Sage",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "α-Humulene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "α-Pinene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Fresh leaf, gently bruised",
+      "shelfLife": "5 days refrigerated",
+      "searchTerms": [
+        "sage",
+        "sage leaf"
+      ],
+      "flavorNotes": "Earthy, savory, warm, medicinal",
+      "terpeneNotes": "Primary α-humulene source. Adds grounding, earthy depth.",
+      "safetyNotes": "Use sparingly. Not for prolonged use or during pregnancy.",
+      "cost": "low",
+      "recipeCount": 5
+    },
+    {
+      "id": "mint-tea",
+      "name": "Mint Tea (Peppermint)",
+      "category": "tea",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "α-Pinene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Brewed strong (double bag), cooled",
+      "shelfLife": "2 days refrigerated",
+      "searchTerms": [
+        "mint tea",
+        "peppermint tea"
+      ],
+      "flavorNotes": "Cool, clean, invigorating",
+      "terpeneNotes": "Menthol delivery with supporting pinene/limonene.",
+      "cost": "low",
+      "recipeCount": 4
+    },
+    {
+      "id": "green-apple",
+      "name": "Green Apple",
+      "category": "other-fruit",
+      "terpenes": [
+        {
+          "terpene": "Terpinolene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "trans-β-Farnesene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh pressed or blended and strained",
+      "shelfLife": "1 day juiced, 2 weeks whole",
+      "searchTerms": [
+        "green apple",
+        "apple juice",
+        "apple"
+      ],
+      "flavorNotes": "Tart, crisp, fresh",
+      "terpeneNotes": "Primary terpinolene + farnesene source. Subs for rhubarb/honeydew.",
+      "cost": "low",
+      "recipeCount": 3
+    },
+    {
+      "id": "cinnamon-honey-syrup",
+      "name": "Cinnamon-Honey Syrup",
+      "category": "batch-syrup",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Batch-made: simmer stick + water + honey, 5 min",
+      "shelfLife": "2 weeks refrigerated",
+      "searchTerms": [
+        "cinnamon-honey",
+        "cinnamon honey syrup"
+      ],
+      "flavorNotes": "Warm, sweet, woody cinnamon",
+      "terpeneNotes": "Cinnamon caryophyllene in syrup form.",
+      "subIngredients": [
+        "1 cinnamon stick",
+        "2 oz water",
+        "1 oz honey"
+      ],
+      "cost": "low",
+      "recipeCount": 3
+    },
+    {
+      "id": "pineapple-juice",
+      "name": "Pineapple Juice",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Bottled or fresh pressed",
+      "shelfLife": "7 days opened, shelf-stable sealed",
+      "searchTerms": [
+        "pineapple",
+        "pineapple juice"
+      ],
+      "flavorNotes": "Sweet, tart, tropical",
+      "terpeneNotes": "Broad but low-intensity terpene delivery.",
+      "cost": "low",
+      "recipeCount": 2
+    },
+    {
+      "id": "frozen-berry-blend",
+      "name": "Frozen Berry Blend",
+      "category": "berry",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Linalool",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Frozen, blended and strained",
+      "shelfLife": "Months frozen",
+      "searchTerms": [
+        "berry blend",
+        "frozen berry",
+        "berry mix",
+        "strawberry/blueberry/blackberry"
+      ],
+      "flavorNotes": "Sweet-tart, bright, mixed berry",
+      "terpeneNotes": "Broad but gentle terpene mix.",
+      "cost": "low",
+      "recipeCount": 2
+    },
+    {
+      "id": "lemon-verbena",
+      "name": "Lemon Verbena",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "high"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Fresh leaves, gently bruised",
+      "shelfLife": "3 days refrigerated",
+      "searchTerms": [
+        "lemon verbena",
+        "verbena"
+      ],
+      "flavorNotes": "Intensely lemony, herbal, delicate",
+      "terpeneNotes": "Concentrated citral/limonene. Fragrant citrus herb.",
+      "cost": "medium",
+      "recipeCount": 2
+    },
+    {
+      "id": "lemongrass",
+      "name": "Fresh Lemongrass",
+      "category": "fresh-herb",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Fresh stalks, peeled, smashed, cold-pressed or blended",
+      "shelfLife": "2 weeks refrigerated",
+      "searchTerms": [
+        "lemongrass",
+        "lemongrass stalks"
+      ],
+      "flavorNotes": "Citrus-herbal, bright, clean, earthy",
+      "terpeneNotes": "Primary myrcene source (12-25% concentration). Backbone of high-myrcene strains. Unlocks 3 recipes.",
+      "cost": "low",
+      "recipeCount": 2
+    },
+    {
+      "id": "ground-nutmeg",
+      "name": "Ground Nutmeg",
+      "category": "spice",
+      "terpenes": [
+        {
+          "terpene": "Terpinolene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "α-Humulene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Freshly grated",
+      "shelfLife": "6 months ground, years whole",
+      "searchTerms": [
+        "nutmeg",
+        "ground nutmeg"
+      ],
+      "flavorNotes": "Warm, sweet, complex, woody",
+      "terpeneNotes": "One of few spice sources of terpinolene.",
+      "cost": "low",
+      "recipeCount": 2
+    },
+    {
+      "id": "orange-extract",
+      "name": "Orange Flavor Extract",
+      "category": "flavor-extract",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "high"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Drops (food-grade flavor extract)",
+      "shelfLife": "1 year+",
+      "searchTerms": [
+        "orange flavor",
+        "orange extract",
+        "orange drops"
+      ],
+      "flavorNotes": "Sweet citrus, warm, concentrated",
+      "terpeneNotes": "Concentrated limonene hit. Used in Carambola and Purple Candy Cane.",
+      "cost": "medium",
+      "recipeCount": 2
+    },
+    {
+      "id": "cardamom-honey-syrup",
+      "name": "Cardamom-Honey Syrup",
+      "category": "batch-syrup",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Batch-made: crack pods + warm water + honey, steep 5 min",
+      "shelfLife": "2 weeks refrigerated",
+      "searchTerms": [
+        "cardamom-honey",
+        "cardamom honey syrup"
+      ],
+      "flavorNotes": "Warm, floral, complex, aromatic",
+      "terpeneNotes": "Cardamom delivers caryophyllene in a sweet matrix.",
+      "subIngredients": [
+        "3-4 cardamom pods",
+        "2 oz warm water",
+        "1 tbsp honey"
+      ],
+      "cost": "medium",
+      "recipeCount": 2
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Fresh puree or canned (Goya)",
+      "shelfLife": "3 days fresh, shelf-stable canned",
+      "searchTerms": [
+        "guava",
+        "guava puree"
+      ],
+      "flavorNotes": "Tropical, musky, sweet-tart",
+      "terpeneNotes": "Dual limonene-myrcene source. Musky tropical bridge.",
+      "cost": "medium",
+      "recipeCount": 1
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "high"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh or frozen chunks, blended",
+      "shelfLife": "Frozen: months. Fresh: 3 days",
+      "searchTerms": [
+        "mango",
+        "mango chunks"
+      ],
+      "flavorNotes": "Tropical, lush, sweet, creamy",
+      "terpeneNotes": "High myrcene — the terpene behind the 'mango myth' for THC enhancement.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "papaya",
+      "name": "Papaya",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "specialty",
+      "form": "Fresh, chopped and blended",
+      "shelfLife": "3 days refrigerated",
+      "searchTerms": [
+        "papaya"
+      ],
+      "flavorNotes": "Creamy, tropical, mild",
+      "terpeneNotes": "Myrcene-forward tropical. Hero fruit for Lemon Papaya Banana.",
+      "cost": "medium",
+      "recipeCount": 1
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Fresh, peeled and blended",
+      "shelfLife": "1 week refrigerated whole",
+      "searchTerms": [
+        "kiwi",
+        "kiwis"
+      ],
+      "flavorNotes": "Tart, bright, tropical-green",
+      "terpeneNotes": "Myrcene vehicle with unique green character.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "tropical-fruit",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Frozen slices, blended",
+      "shelfLife": "Frozen: months",
+      "searchTerms": [
+        "banana",
+        "banana slices",
+        "frozen banana"
+      ],
+      "flavorNotes": "Creamy, sweet, mild",
+      "terpeneNotes": "Low-intensity terpene delivery. Adds body and creaminess.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "frozen-blueberries",
+      "name": "Frozen Blueberries",
+      "category": "berry",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Frozen, blended and strained",
+      "shelfLife": "Months frozen",
+      "searchTerms": [
+        "blueberry",
+        "blueberries",
+        "frozen blueberries"
+      ],
+      "flavorNotes": "Sweet, earthy-berry, deep purple",
+      "terpeneNotes": "Myrcene delivery with antioxidant depth.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "frozen-raspberries",
+      "name": "Frozen Raspberries",
+      "category": "berry",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Frozen, blended and fine-strained",
+      "shelfLife": "Months frozen",
+      "searchTerms": [
+        "raspberry",
+        "raspberries",
+        "frozen raspberries"
+      ],
+      "flavorNotes": "Tart, bright, seedy when unfiltered",
+      "terpeneNotes": "Light terpene delivery. Fine-strain to remove seeds.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "category": "other-fruit",
+      "terpenes": [
+        {
+          "terpene": "Myrcene",
+          "intensity": "medium"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Fresh cubed, blended and strained",
+      "shelfLife": "2 days juiced, 1 week whole",
+      "searchTerms": [
+        "watermelon",
+        "watermelon juice"
+      ],
+      "flavorNotes": "Sweet, light, refreshing",
+      "terpeneNotes": "Myrcene vehicle. Seasonal (March-Sept in CA).",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "frozen-peach",
+      "name": "Frozen Peach Slices",
+      "category": "other-fruit",
+      "terpenes": [
+        {
+          "terpene": "Linalool",
+          "intensity": "low"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Frozen, blended and strained",
+      "shelfLife": "Months frozen",
+      "searchTerms": [
+        "peach",
+        "peach slices",
+        "frozen peach"
+      ],
+      "flavorNotes": "Soft, sweet, velvety",
+      "terpeneNotes": "Gentle linalool vehicle with peachy sweetness.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "sage-powder",
+      "name": "Sage Powder",
+      "category": "spice",
+      "terpenes": [
+        {
+          "terpene": "α-Humulene",
+          "intensity": "high"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Ground dried sage",
+      "shelfLife": "6 months",
+      "searchTerms": [
+        "sage powder"
+      ],
+      "flavorNotes": "Earthy, savory, concentrated",
+      "terpeneNotes": "Concentrated humulene delivery. Used in Mike's Bomba only.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "earl-grey-tea",
+      "name": "Earl Grey Tea",
+      "category": "tea",
+      "terpenes": [
+        {
+          "terpene": "Terpinolene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Limonene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Linalool",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "easy",
+      "form": "Brewed double-strength, cooled",
+      "shelfLife": "2 days refrigerated",
+      "searchTerms": [
+        "earl grey",
+        "earl grey tea"
+      ],
+      "flavorNotes": "Complex citrus, floral, tea-like, sophisticated",
+      "terpeneNotes": "Bergamot delivers terpinolene + limonene. Used only in Moonlight — critical for its 'Earl Grey' aroma note.",
+      "cost": "low",
+      "recipeCount": 1
+    },
+    {
+      "id": "cardamom-vanilla-syrup",
+      "name": "Cardamom-Vanilla Syrup",
+      "category": "batch-syrup",
+      "terpenes": [
+        {
+          "terpene": "β-Caryophyllene",
+          "intensity": "medium"
+        },
+        {
+          "terpene": "Myrcene",
+          "intensity": "low"
+        }
+      ],
+      "difficulty": "moderate",
+      "form": "Batch-made: crack pods + water + honey + vanilla, simmer 5 min",
+      "shelfLife": "2 weeks refrigerated",
+      "searchTerms": [
+        "cardamom-vanilla",
+        "cardamom vanilla syrup"
+      ],
+      "flavorNotes": "Warm, sweet, exotic, vanilla-spice",
+      "terpeneNotes": "Cardamom caryophyllene + vanilla richness.",
+      "subIngredients": [
+        "5 cardamom pods",
+        "4 oz water",
+        "2 oz honey",
+        "0.5 tsp vanilla extract"
+      ],
+      "cost": "medium",
+      "recipeCount": 1
+    }
+  ]
+}

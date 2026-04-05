@@ -1,0 +1,3963 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated": "2026-04-04",
+    "source": "solful_juice_recipe_library.md",
+    "totalRecipes": 24,
+    "description": "24 terpene-matched juice recipes for Solful Dispensary strains",
+    "creator": "Charles Pelletier-Gagné"
+  },
+  "terpeneColors": {
+    "β-Caryophyllene": "#C8A97E",
+    "Limonene": "#D4C85C",
+    "Myrcene": "#8EAE68",
+    "α-Humulene": "#7C9082",
+    "Linalool": "#9B7BA8",
+    "α-Bisabolol": "#8EAEC8",
+    "α-Pinene": "#5C8E6B",
+    "β-Ocimene": "#B8785C",
+    "Terpinolene": "#6BAE8E",
+    "trans-β-Farnesene": "#D4B88E"
+  },
+  "vibeCategories": {
+    "groundedPresent": {
+      "label": "Grounded & Present",
+      "icon": "🌿"
+    },
+    "creativeFlow": {
+      "label": "Creative Flow",
+      "icon": "🎨"
+    },
+    "deepRest": {
+      "label": "Deep Rest",
+      "icon": "🌙"
+    },
+    "socialBright": {
+      "label": "Social & Bright",
+      "icon": "✨"
+    },
+    "bodyMelt": {
+      "label": "Body Melt",
+      "icon": "🫠"
+    },
+    "euphoricLift": {
+      "label": "Euphoric Lift",
+      "icon": "☀️"
+    },
+    "calmFocus": {
+      "label": "Calm Focus",
+      "icon": "🎯"
+    },
+    "cozyComfort": {
+      "label": "Cozy Comfort",
+      "icon": "🛋️"
+    }
+  },
+  "batchSyrups": [
+    {
+      "id": "cardamom-honey-syrup",
+      "name": "Cardamom-Honey Syrup",
+      "ingredients": [
+        "3-4 cardamom pods",
+        "2 oz warm water",
+        "1 tbsp honey"
+      ],
+      "method": "Crack pods in warm water + honey. Steep 5 min, strain.",
+      "shelfLife": "2 weeks refrigerated",
+      "usedIn": [
+        "carambola",
+        "rasta-governmint"
+      ]
+    },
+    {
+      "id": "cardamom-vanilla-syrup",
+      "name": "Cardamom-Vanilla Syrup",
+      "ingredients": [
+        "5 cardamom pods",
+        "4 oz water",
+        "2 oz honey",
+        "0.5 tsp vanilla extract"
+      ],
+      "method": "Crack pods in water + honey + vanilla. Simmer 5 min, strain.",
+      "shelfLife": "2 weeks refrigerated",
+      "usedIn": [
+        "natty-bumppo"
+      ]
+    },
+    {
+      "id": "cinnamon-honey-syrup",
+      "name": "Cinnamon-Honey Syrup",
+      "ingredients": [
+        "1 cinnamon stick",
+        "2 oz water",
+        "1 oz honey"
+      ],
+      "method": "Simmer cinnamon in water + honey for 5 min. Strain and cool.",
+      "shelfLife": "2 weeks refrigerated",
+      "usedIn": [
+        "black-lime-chem",
+        "blueberry-muffin",
+        "strawberry-biscotti"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mike-s-bomba",
+      "strainNumber": 1,
+      "name": "Mike's Bomba",
+      "recipeName": "Grounded Forest Calm",
+      "farm": "Glentucky Family Farm",
+      "region": "Sonoma",
+      "energy": "LOW",
+      "effects": [
+        "Relaxed",
+        "Calm",
+        "Alert"
+      ],
+      "intent": "Grounded calm with clear mental edges",
+      "aroma": [
+        "Fuel",
+        "Lemon Cream",
+        "Forest Floor"
+      ],
+      "cannabinoids": {
+        "thc": 28.76,
+        "cbd": 0.09
+      },
+      "totalTerpenes": 1.38,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.47,
+          "ratio": 45
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.32,
+          "ratio": 31
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.18,
+          "ratio": 17
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.07,
+          "ratio": 7
+        }
+      ],
+      "vibeCategories": [
+        "groundedPresent"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.5 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 2.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.75 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch sage powder",
+          "itemId": "sage-powder",
+          "name": "Sage Powder",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "2 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 2.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "2 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Press 1 oz fresh ginger root through a fine grater or juicer",
+        "Steep rosemary sprig in 1 oz warm water for 3 min, strain and cool",
+        "Combine grapefruit juice, lemon juice, and ginger juice",
+        "Add rosemary water, honey, sage powder, black pepper, and lavender flavor drops",
+        "Pour over ice in a rocks glass, top with sparkling water down the side",
+        "Garnish with rosemary sprig"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "ginger",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage",
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (20), Lemon (10), Sage (8), Lavender (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "natty-bumppo",
+      "strainNumber": 2,
+      "name": "Natty Bumppo",
+      "recipeName": "Frontier Ease",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Happy",
+        "Carefree",
+        "Physically Relaxed"
+      ],
+      "intent": "Loose and easy, happily untethered",
+      "aroma": [
+        "Kerosene",
+        "Musk",
+        "Sour Plum"
+      ],
+      "cannabinoids": {
+        "thc": 32.0
+      },
+      "totalTerpenes": 1.86,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.63,
+          "ratio": 44
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.35,
+          "ratio": 25
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.25,
+          "ratio": 18
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.19,
+          "ratio": 13
+        }
+      ],
+      "vibeCategories": [
+        "groundedPresent",
+        "socialBright"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.5 oz tart cherry juice",
+          "itemId": "tart-cherry-juice",
+          "name": "Tart Cherry Juice",
+          "qty": 2.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz cardamom-vanilla syrup",
+          "itemId": "cardamom-vanilla-syrup",
+          "name": "Cardamom-Vanilla Syrup",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "2 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Make cardamom-vanilla syrup: crack 5 pods in 4 oz water + 2 oz honey + 0.5 tsp vanilla extract, simmer 5 min, strain",
+        "Press fresh ginger to yield 0.5 oz",
+        "Steep rosemary sprig in 1 oz warm water for 2 min, strain",
+        "Combine tart cherry juice, lemon juice, ginger juice, rosemary water, and cardamom-vanilla syrup",
+        "Add black pepper, stir gently with ice for 8 seconds",
+        "Strain into a rocks glass with large ice, add mineral water, garnish with rosemary sprig"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cardamom",
+            "black pepper",
+            "ginger",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lemon",
+            "tart cherry"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "rosemary"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (14), Lemon (10), Sage (6), Lemongrass (6), Geranium (4)",
+      "substitutionNotes": "Tart cherry replaces sour plum from original recipe. If sour plums are available, use 2.5 oz fresh sour plum juice instead.",
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "black-lime-chem",
+      "strainNumber": 3,
+      "name": "Black Lime Chem",
+      "recipeName": "Weighted Lime Bliss",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Heavy",
+        "Blissful",
+        "Sleepy"
+      ],
+      "intent": "Weighted bliss melting toward rest",
+      "aroma": [
+        "Sharp Lime",
+        "Rhubarb",
+        "Glue"
+      ],
+      "cannabinoids": {
+        "thc": 19.0
+      },
+      "totalTerpenes": 3.08,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 1.69,
+          "ratio": 67
+        },
+        {
+          "name": "α-Pinene",
+          "pct": 0.39,
+          "ratio": 15
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.27,
+          "ratio": 11
+        },
+        {
+          "name": "β-Ocimene",
+          "pct": 0.19,
+          "ratio": 7
+        }
+      ],
+      "vibeCategories": [
+        "deepRest"
+      ],
+      "ingredients": [
+        {
+          "raw": "2 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 2.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "1.5 oz green apple juice (fresh pressed)",
+          "itemId": "green-apple",
+          "name": "Green Apple",
+          "qty": 1.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "4 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.25 oz cinnamon-honey syrup",
+          "itemId": "cinnamon-honey-syrup",
+          "name": "Cinnamon-Honey Syrup",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Make cinnamon-honey syrup: simmer 1 cinnamon stick in 2 oz water + 1 oz honey for 5 min, strain and cool",
+        "Press 1 green apple, blend and strain to yield 1.5 oz",
+        "Steep rosemary sprig in 1 oz warm water for 2 min, strain",
+        "Gently muddle basil leaves for 2 seconds",
+        "Combine lime juice, green apple juice, rosemary water, cinnamon-honey syrup, and cinnamon, stir with ice 8 seconds",
+        "Strain into rocks glass over large ice, add mineral water, garnish with lime wheel and rosemary"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "lime",
+            "rosemary",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "α-Pinene",
+          "sources": [
+            "rosemary",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (16), Pine (8), Black Pepper (6), Basil (6), Lemon (4)",
+      "substitutionNotes": "Green apple replaces rhubarb for tartness. If rhubarb available, juice 1 cup chopped rhubarb and use 1.5 oz in place of apple.",
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "guava-gift",
+      "strainNumber": 4,
+      "name": "Guava Gift",
+      "recipeName": "Expansive Social Lift",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "energy": "HIGH",
+      "effects": [
+        "Social",
+        "Inspiring",
+        "Euphoric"
+      ],
+      "intent": "Open and expansive, easy social lift",
+      "aroma": [
+        "Fresh Guava",
+        "Lemon Rind",
+        "Tamarind"
+      ],
+      "cannabinoids": {
+        "thc": 29.0,
+        "cbd": 0.08
+      },
+      "totalTerpenes": 2.34,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.73,
+          "ratio": 38
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.5,
+          "ratio": 26
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.33,
+          "ratio": 17
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.25,
+          "ratio": 13
+        }
+      ],
+      "vibeCategories": [
+        "socialBright"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.5 oz fresh guava puree",
+          "itemId": "guava",
+          "name": "Guava",
+          "qty": 2.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "4 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1.5 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "If using fresh guava: halve 3-4 guavas, scoop flesh, blend and strain",
+        "Steep rosemary in 1 oz cool water for 2 min, strain. Muddle basil",
+        "Combine guava puree, grapefruit juice, lime juice, ginger juice, rosemary water, basil, black pepper, and honey",
+        "Stir with ice, strain into highball over fresh ice, top with sparkling water",
+        "Garnish with basil leaf and lime wheel"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "ginger",
+            "rosemary",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lime",
+            "guava"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "basil",
+            "rosemary",
+            "guava"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "ginger",
+            "basil"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (14), Grapefruit (10), Lemongrass (8), Basil (6), Rosemary (2)",
+      "substitutionNotes": null,
+      "buyNotes": "Guava puree (Goya canned works) or 3-4 fresh guavas. Tamarind paste optional.",
+      "notes": null
+    },
+    {
+      "id": "mule-fuel",
+      "strainNumber": 5,
+      "name": "Mule Fuel",
+      "recipeName": "Diesel Rest",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "energy": "LOW",
+      "effects": [
+        "Happy",
+        "Hungry",
+        "Sleepy"
+      ],
+      "intent": "Gentle contentment settling toward rest",
+      "aroma": [
+        "Skunk",
+        "Diesel",
+        "Lemon",
+        "Leather"
+      ],
+      "cannabinoids": {
+        "thc": 28.69,
+        "cbd": 0.07
+      },
+      "totalTerpenes": 3.97,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 2.22,
+          "ratio": 66
+        },
+        {
+          "name": "α-Pinene",
+          "pct": 0.54,
+          "ratio": 16
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.34,
+          "ratio": 10
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.28,
+          "ratio": 8
+        }
+      ],
+      "vibeCategories": [
+        "deepRest",
+        "bodyMelt"
+      ],
+      "ingredients": [
+        {
+          "raw": "4 fresh lemongrass stalks",
+          "itemId": "lemongrass",
+          "name": "Fresh Lemongrass",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 fresh rosemary sprigs",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 2.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "4 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1.5 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Peel and smash lemongrass stalks, cold press or blend with 1 oz water, fine-strain (yields ~1.5 oz)",
+        "Steep rosemary in 1.5 oz cool water for 3 min, strain",
+        "Muddle basil, combine lemongrass juice, lemon juice, rosemary water, basil, black pepper, cinnamon, and honey",
+        "Stir with ice for 10 seconds, strain into rocks glass over large ice, add mineral water",
+        "Garnish with rosemary sprig"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "lemongrass",
+            "basil",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "α-Pinene",
+          "sources": [
+            "rosemary",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "cinnamon",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lemon"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (20), Pine (8), Black Pepper (6), Lemon (6)",
+      "substitutionNotes": null,
+      "buyNotes": "Lemongrass sticks — essential, no substitute for this myrcene load.",
+      "notes": null
+    },
+    {
+      "id": "satsuma-sherbet",
+      "strainNumber": 6,
+      "name": "Satsuma Sherbet",
+      "recipeName": "Mandarin Comfort",
+      "farm": "Alpenglow Farms",
+      "region": "Humboldt",
+      "energy": "LOW",
+      "effects": [
+        "Happy",
+        "Contemplative",
+        "Comfortable"
+      ],
+      "intent": "Quiet ease with thoughtful undertones",
+      "aroma": [
+        "Mandarin Orange",
+        "Mochi",
+        "Mint"
+      ],
+      "cannabinoids": {
+        "thc": 26.0
+      },
+      "totalTerpenes": 1.85,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": 0.55,
+          "ratio": 44
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.45,
+          "ratio": 36
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.13,
+          "ratio": 10
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.11,
+          "ratio": 9
+        }
+      ],
+      "vibeCategories": [
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "4 oz mandarin juice",
+          "itemId": "mandarin-juice",
+          "name": "Mandarin Juice",
+          "qty": 4.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "4 fresh spearmint leaves",
+          "itemId": "fresh-spearmint",
+          "name": "Fresh Spearmint",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1.5 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Gently muddle spearmint leaves in a tall glass for 2 seconds",
+        "Add mandarin juice and lemon juice",
+        "Stir in honey, cinnamon, and black pepper",
+        "Add ice, pour mineral water down the side, garnish with spearmint sprig and cinnamon dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "mandarin",
+            "lemon",
+            "spearmint"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "black pepper"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "black pepper"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "spearmint",
+            "lemon"
+          ]
+        }
+      ],
+      "oilBlend": "Sweet Orange (16), Black Pepper (12), Sage (4), Lemongrass (4), Peppermint (4)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "tropical-sleigh-ride",
+      "strainNumber": 7,
+      "name": "Tropical Sleigh Ride",
+      "recipeName": "Vivid Mint Clarity",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Joyful",
+        "Alert",
+        "Euphoric"
+      ],
+      "intent": "Vivid lift with present clarity",
+      "aroma": [
+        "Peppermint",
+        "Honeysuckle",
+        "Hint of Ginger"
+      ],
+      "cannabinoids": {
+        "thc": 17.0
+      },
+      "totalTerpenes": 2.35,
+      "terpeneProfile": [
+        {
+          "name": "β-Ocimene",
+          "pct": 0.71,
+          "ratio": 37
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.7,
+          "ratio": 37
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.28,
+          "ratio": 15
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.22,
+          "ratio": 12
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "2 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 2.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "8 fresh spearmint leaves",
+          "itemId": "fresh-spearmint",
+          "name": "Fresh Spearmint",
+          "qty": 8.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "5 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 5.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.5 oz mint tea (strong, cooled)",
+          "itemId": "mint-tea",
+          "name": "Mint Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "2 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Gently muddle spearmint and basil leaves for 3 seconds",
+        "Add grapefruit juice, ginger juice, mint tea, honey, and black pepper",
+        "Fill with ice, shake 8 seconds, strain into highball over crushed ice",
+        "Top with sparkling water down the side, garnish with mint sprig and grapefruit wheel"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil",
+            "spearmint"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "ginger",
+            "black pepper",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit"
+          ]
+        }
+      ],
+      "oilBlend": "Basil (14), Black Pepper (12), Peppermint (6), Grapefruit (4), Geranium (4)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "If elderflower cordial available, use 0.25 oz in place of honey for authentic honeysuckle note."
+    },
+    {
+      "id": "purple-candy-cane",
+      "strainNumber": 8,
+      "name": "Purple Candy Cane",
+      "recipeName": "Tropical Candy Vibrancy",
+      "farm": "Greenshock Farms",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Energized",
+        "Invigorated",
+        "Talkative"
+      ],
+      "intent": "Vibrant and vocal, fully awake",
+      "aroma": [
+        "Mango",
+        "Peppermint Candy",
+        "Orange Blossom"
+      ],
+      "cannabinoids": {
+        "thc": 22.0
+      },
+      "totalTerpenes": 1.55,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 0.54,
+          "ratio": 46
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.31,
+          "ratio": 26
+        },
+        {
+          "name": "α-Pinene",
+          "pct": 0.2,
+          "ratio": 17
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.13,
+          "ratio": 11
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "socialBright"
+      ],
+      "ingredients": [
+        {
+          "raw": "1.5 cups fresh mango chunks",
+          "itemId": "mango",
+          "name": "Mango",
+          "qty": 1.5,
+          "unit": "cups"
+        },
+        {
+          "raw": "1 oz mandarin juice",
+          "itemId": "mandarin-juice",
+          "name": "Mandarin Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "6 fresh spearmint leaves",
+          "itemId": "fresh-spearmint",
+          "name": "Fresh Spearmint",
+          "qty": 6.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.5 oz mint tea (strong, cooled)",
+          "itemId": "mint-tea",
+          "name": "Mint Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 drops orange flavor extract",
+          "itemId": "orange-extract",
+          "name": "Orange Flavor Extract",
+          "qty": 3.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Blend mango chunks until smooth, strain through fine mesh (yields ~2.5 oz)",
+        "Steep rosemary in 1 oz cool water for 2 min, strain",
+        "Gently muddle spearmint, combine mango puree, mandarin juice, rosemary water, mint tea, orange flavor, cinnamon, and honey",
+        "Pour over crushed ice, add mineral water, garnish with mint sprig and cinnamon dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "mango",
+            "spearmint",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "α-Pinene",
+          "sources": [
+            "rosemary",
+            "mint"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "cinnamon"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (12), Black Pepper (8), Sweet Orange (8), Pine (6), Peppermint (4), Sage (2)",
+      "substitutionNotes": null,
+      "buyNotes": "Fresh mango or frozen mango chunks.",
+      "notes": null
+    },
+    {
+      "id": "carambola",
+      "strainNumber": 9,
+      "name": "Carambola",
+      "recipeName": "Playful Citrus Lift",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Energetic",
+        "Fun",
+        "Giggly"
+      ],
+      "intent": "Light and playful, effervescent energy",
+      "aroma": [
+        "Orange",
+        "Diesel",
+        "Incense"
+      ],
+      "cannabinoids": {
+        "thc": 20.0
+      },
+      "totalTerpenes": 1.45,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": 0.44,
+          "ratio": 53
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.18,
+          "ratio": 22
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.12,
+          "ratio": 14
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.09,
+          "ratio": 11
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "socialBright",
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "3 oz mandarin juice",
+          "itemId": "mandarin-juice",
+          "name": "Mandarin Juice",
+          "qty": 3.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz cardamom-honey syrup",
+          "itemId": "cardamom-honey-syrup",
+          "name": "Cardamom-Honey Syrup",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz chamomile tea (cooled, strong brew)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 drops orange flavor extract",
+          "itemId": "orange-extract",
+          "name": "Orange Flavor Extract",
+          "qty": 3.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "2 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 2.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "3 fresh lemon verbena leaves",
+          "itemId": "lemon-verbena",
+          "name": "Lemon Verbena",
+          "qty": 3.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "2 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Make cardamom-honey syrup: crack 3-4 pods in 2 oz warm water + 1 tbsp honey, steep 5 min, strain",
+        "Steep chamomile tea strong in 4 oz hot water for 5 min, cool completely",
+        "Combine mandarin juice, grapefruit juice, and lemon juice",
+        "Add cardamom-honey syrup, chamomile tea, orange flavor drops, lavender flavor drops. Gently bruise lemon verbena and add",
+        "Add ice, shake 8 seconds, strain into glass over fresh ice",
+        "Top with sparkling water down the side, garnish with lemon verbena leaf and grapefruit wedge"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "mandarin",
+            "grapefruit",
+            "lemon",
+            "orange flavor",
+            "lemon verbena"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cardamom"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile"
+          ]
+        }
+      ],
+      "oilBlend": "Sweet Orange (16), Rosemary (8), Lavender (6), German Chamomile (6), Black Pepper (4)",
+      "substitutionNotes": "Mandarin + grapefruit replaces starfruit from original recipe. If starfruit available, replace 2 oz mandarin with starfruit juice.",
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "pineapple-mojito",
+      "strainNumber": 10,
+      "name": "Pineapple Mojito",
+      "recipeName": "Grounded Tropical Glow",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "energy": "MEDIUM",
+      "effects": [
+        "Relaxed",
+        "Grounded",
+        "Euphoric"
+      ],
+      "intent": "Rooted ease with a quiet glow",
+      "aroma": [
+        "Pineapple",
+        "Ginger",
+        "Mint",
+        "Gas"
+      ],
+      "cannabinoids": {
+        "thc": 24.0,
+        "cbg": 1.0,
+        "thcv": 1.0,
+        "cbc": 1.0
+      },
+      "totalTerpenes": 2.55,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.63,
+          "ratio": 31
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.56,
+          "ratio": 28
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.24,
+          "ratio": 12
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.19,
+          "ratio": 9
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.16,
+          "ratio": 8
+        },
+        {
+          "name": "α-Pinene",
+          "pct": 0.14,
+          "ratio": 7
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.11,
+          "ratio": 5
+        }
+      ],
+      "vibeCategories": [
+        "groundedPresent",
+        "socialBright",
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.5 oz pineapple juice",
+          "itemId": "pineapple-juice",
+          "name": "Pineapple Juice",
+          "qty": 2.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.75 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "8 fresh spearmint leaves",
+          "itemId": "fresh-spearmint",
+          "name": "Fresh Spearmint",
+          "qty": 8.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.5 oz chamomile tea (strong, cooled)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 2.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "2 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "In a highball glass, gently muddle spearmint leaves for 2 seconds",
+        "Add lime juice, lemon juice, pineapple juice, and ginger juice",
+        "Stir in chamomile tea, honey, and lavender flavor drops",
+        "Fill with crushed ice, top with sparkling water, stir gently",
+        "Garnish with mint sprig and lime wheel"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "ginger",
+            "mint",
+            "pineapple"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lime",
+            "lemon",
+            "pineapple",
+            "mint"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile",
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor",
+            "mint"
+          ]
+        },
+        {
+          "terpene": "α-Pinene",
+          "sources": [
+            "mint"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "mint",
+            "ginger",
+            "pineapple"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (12), Sweet Orange (10), German Chamomile (6), Sage (4), Lavender (4), Pine (2), Lemongrass (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Broadest terpene diversity in the library (7 terpenes). Buy: pineapple juice."
+    },
+    {
+      "id": "rasta-governmint",
+      "strainNumber": 11,
+      "name": "Rasta Governmint",
+      "recipeName": "Caribbean Profound Ease",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Euphoric",
+        "Supremely Relaxed",
+        "Comforted"
+      ],
+      "intent": "Profound ease with cushioned edges",
+      "aroma": [
+        "Sour Cherry",
+        "Frankincense",
+        "Oak"
+      ],
+      "cannabinoids": {
+        "thc": 19.0
+      },
+      "totalTerpenes": 1.92,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.6,
+          "ratio": 45
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.39,
+          "ratio": 30
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.17,
+          "ratio": 13
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.16,
+          "ratio": 12
+        }
+      ],
+      "vibeCategories": [
+        "groundedPresent",
+        "deepRest",
+        "bodyMelt"
+      ],
+      "ingredients": [
+        {
+          "raw": "3 oz tart cherry juice",
+          "itemId": "tart-cherry-juice",
+          "name": "Tart Cherry Juice",
+          "qty": 3.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz cardamom-honey syrup",
+          "itemId": "cardamom-honey-syrup",
+          "name": "Cardamom-Honey Syrup",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 fresh sage leaf",
+          "itemId": "fresh-sage",
+          "name": "Fresh Sage",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Steep rosemary and sage leaf in 1 oz warm water for 2 min, strain",
+        "Combine tart cherry juice, lime juice, cardamom-honey syrup, and vanilla extract",
+        "Add herb water, cinnamon, and black pepper. Stir with ice 8 seconds",
+        "Strain into rocks glass over large ice, add mineral water, garnish with cinnamon stick"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "cardamom",
+            "black pepper",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lime",
+            "cherry"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage",
+            "cinnamon"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "rosemary",
+            "lime"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (14), Lemon (10), Rosemary (6), Sage (6), Geranium (4)",
+      "substitutionNotes": "Cinnamon + black pepper sub for cloves + allspice. Buy cloves for authentic Caribbean depth.",
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "pink-rider",
+      "strainNumber": 12,
+      "name": "Pink Rider",
+      "recipeName": "Creative Citrus Spark",
+      "farm": "Higher Heights",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Motivated",
+        "Creative",
+        "Social"
+      ],
+      "intent": "Vivid creative lift with social magnetism",
+      "aroma": [
+        "Lemon Bar",
+        "Pink Grapefruit",
+        "Sugar Cookie"
+      ],
+      "cannabinoids": {
+        "thc": 26.0
+      },
+      "totalTerpenes": 1.44,
+      "terpeneProfile": [
+        {
+          "name": "Terpinolene",
+          "pct": 0.38,
+          "ratio": 39
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.22,
+          "ratio": 22
+        },
+        {
+          "name": "β-Ocimene",
+          "pct": 0.2,
+          "ratio": 20
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.18,
+          "ratio": 18
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "socialBright"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.75 oz pink grapefruit juice (fresh squeezed)",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 2.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.75 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.75 oz green apple juice (fresh pressed)",
+          "itemId": "green-apple",
+          "name": "Green Apple",
+          "qty": 0.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 3.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1.5 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Press 2-3 green apples through juicer or blend and fine-strain",
+        "Squeeze fresh pink grapefruit, combine with lemon juice and green apple juice",
+        "In a mixing glass, gently muddle basil and rosemary for 2 seconds",
+        "Add citrus-apple blend, vanilla extract, honey, and black pepper. Stir with ice 8 seconds",
+        "Strain into coupe or tall glass over fresh ice, add mineral water",
+        "Garnish with pink grapefruit wheel and basil leaf"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Terpinolene",
+          "sources": [
+            "green apple",
+            "lemon",
+            "pink grapefruit"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "basil",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon"
+          ]
+        }
+      ],
+      "oilBlend": "Tea Tree (12), Black Pepper (8), Basil (8), Lemon (6), Lavender (4), Geranium (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "The 'sugar cookie' comes from the vanilla-honey combination. Rim glass with honey + powdered sugar for full effect."
+    },
+    {
+      "id": "strawberry-biscotti",
+      "strainNumber": 13,
+      "name": "Strawberry Biscotti",
+      "recipeName": "Cozy Berry Curiosity",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "energy": "MEDIUM",
+      "effects": [
+        "Comforting",
+        "Mentally Engaging",
+        "Appetite Inducing"
+      ],
+      "intent": "Cozy anchor with a curious mind",
+      "aroma": [
+        "Kettle Corn",
+        "Fuel",
+        "Sour Strawberry Candy"
+      ],
+      "cannabinoids": {
+        "thc": 32.0,
+        "cbg": 2.0
+      },
+      "totalTerpenes": 1.48,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": 0.38,
+          "ratio": 36
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.29,
+          "ratio": 28
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.25,
+          "ratio": 24
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.13,
+          "ratio": 12
+        }
+      ],
+      "vibeCategories": [
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup frozen berry blend (strawberry/blueberry/blackberry)",
+          "itemId": "frozen-berry-blend",
+          "name": "Frozen Berry Blend",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz chamomile tea (strong, cooled)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz cinnamon-honey syrup",
+          "itemId": "cinnamon-honey-syrup",
+          "name": "Cinnamon-Honey Syrup",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "method": [
+        "Thaw berry blend slightly, blend until smooth, strain through fine mesh (yields ~2.5 oz)",
+        "Combine berry juice with grapefruit juice, lemon juice, and chamomile tea",
+        "Stir in cinnamon-honey syrup, vanilla extract, black pepper, and cinnamon",
+        "Pour over ice in rocks glass, garnish with strawberry and cinnamon dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon",
+            "strawberry"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "black pepper"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "strawberry",
+            "blueberry"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile"
+          ]
+        }
+      ],
+      "oilBlend": "Bergamot (14), Black Pepper (10), Lemongrass (8), German Chamomile (6), Clove (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "avenue-of-the-giants",
+      "strainNumber": 14,
+      "name": "Avenue of the Giants",
+      "recipeName": "Redwood Herb Clarity (no lemongrass)",
+      "farm": "Happy Day Farms",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Energizing",
+        "Buzzy",
+        "Motivating"
+      ],
+      "intent": "Forward momentum with electric clarity",
+      "aroma": [
+        "Pine Needles",
+        "Menthol",
+        "Jasmine"
+      ],
+      "cannabinoids": {
+        "thc": 22.0,
+        "cbg": 2.0
+      },
+      "totalTerpenes": 3.48,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 1.94,
+          "ratio": 68
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.43,
+          "ratio": 15
+        },
+        {
+          "name": "α-Pinene",
+          "pct": 0.26,
+          "ratio": 9
+        },
+        {
+          "name": "β-Ocimene",
+          "pct": 0.24,
+          "ratio": 8
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 fresh rosemary sprigs",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 2.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "6 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 6.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "4 fresh spearmint leaves",
+          "itemId": "fresh-spearmint",
+          "name": "Fresh Spearmint",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1.5 oz mint tea (brewed strong, cooled)",
+          "itemId": "mint-tea",
+          "name": "Mint Tea",
+          "qty": 1.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 lemon verbena leaves",
+          "itemId": "lemon-verbena",
+          "name": "Lemon Verbena",
+          "qty": null,
+          "unit": null
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "2.5 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Brew mint tea double-strength: 2 bags in 4 oz hot water 5 min, cool completely",
+        "Steep rosemary and lemon verbena in 2 oz cool mineral water for 3 min, strain",
+        "Muddle basil and spearmint leaves gently for 3 seconds",
+        "Add lime juice, mint tea, herb water, honey, and black pepper. Stir with ice",
+        "Strain into highball over fresh ice, top with sparkling water down the side",
+        "Garnish with rosemary sprig, basil leaf, and lime wheel"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "lemongrass/basil",
+            "spearmint",
+            "rosemary",
+            "lime"
+          ]
+        },
+        {
+          "terpene": "α-Pinene",
+          "sources": [
+            "rosemary",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil",
+            "spearmint"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Menthol",
+          "sources": [
+            "mint tea peppermint"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lime",
+            "lemongrass"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (16), Pine (8), Black Pepper (6), Basil (4), Peppermint (4), Geranium (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Lemongrass is the backbone of this strain's juice. Buy lemongrass sticks to unlock Recipe B.",
+      "variants": [
+        {
+          "variantLabel": "A",
+          "recipeName": "Redwood Herb Clarity (no lemongrass)",
+          "ingredients": [
+            {
+              "raw": "1 oz lime juice",
+              "itemId": "lime-juice",
+              "name": "Lime Juice",
+              "qty": 1.0,
+              "unit": "oz"
+            },
+            {
+              "raw": "2 fresh rosemary sprigs",
+              "itemId": "fresh-rosemary",
+              "name": "Fresh Rosemary",
+              "qty": 2.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "6 fresh Prospera basil leaves",
+              "itemId": "fresh-basil",
+              "name": "Fresh Basil (Prospera)",
+              "qty": 6.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "4 fresh spearmint leaves",
+              "itemId": "fresh-spearmint",
+              "name": "Fresh Spearmint",
+              "qty": 4.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "1.5 oz mint tea (brewed strong, cooled)",
+              "itemId": "mint-tea",
+              "name": "Mint Tea",
+              "qty": 1.5,
+              "unit": "oz"
+            },
+            {
+              "raw": "2 lemon verbena leaves",
+              "itemId": "lemon-verbena",
+              "name": "Lemon Verbena",
+              "qty": null,
+              "unit": null
+            },
+            {
+              "raw": "0.25 oz honey",
+              "itemId": "honey",
+              "name": "Honey",
+              "qty": 0.25,
+              "unit": "oz"
+            },
+            {
+              "raw": "pinch ground black pepper",
+              "itemId": "black-pepper",
+              "name": "Ground Black Pepper",
+              "qty": 1,
+              "unit": "pinch"
+            },
+            {
+              "raw": "2.5 oz sparkling water",
+              "itemId": "sparkling-water",
+              "name": "Sparkling Water",
+              "qty": 2.5,
+              "unit": "oz"
+            }
+          ],
+          "method": [
+            "Brew mint tea double-strength: 2 bags in 4 oz hot water 5 min, cool completely",
+            "Steep rosemary and lemon verbena in 2 oz cool mineral water for 3 min, strain",
+            "Muddle basil and spearmint leaves gently for 3 seconds",
+            "Add lime juice, mint tea, herb water, honey, and black pepper. Stir with ice",
+            "Strain into highball over fresh ice, top with sparkling water down the side",
+            "Garnish with rosemary sprig, basil leaf, and lime wheel"
+          ]
+        },
+        {
+          "variantLabel": "B",
+          "recipeName": "Redwood Forest Clarity (full version with lemongrass)",
+          "ingredients": [
+            {
+              "raw": "4 fresh lemongrass stalks",
+              "itemId": "lemongrass",
+              "name": "Fresh Lemongrass",
+              "qty": 4.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "1 oz lime juice",
+              "itemId": "lime-juice",
+              "name": "Lime Juice",
+              "qty": 1.0,
+              "unit": "oz"
+            },
+            {
+              "raw": "0.5 oz mint tea (brewed strong, cooled)",
+              "itemId": "mint-tea",
+              "name": "Mint Tea",
+              "qty": 0.5,
+              "unit": "oz"
+            },
+            {
+              "raw": "2 fresh rosemary sprigs",
+              "itemId": "fresh-rosemary",
+              "name": "Fresh Rosemary",
+              "qty": 2.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "5 fresh Prospera basil leaves",
+              "itemId": "fresh-basil",
+              "name": "Fresh Basil (Prospera)",
+              "qty": 5.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "3 fresh spearmint leaves",
+              "itemId": "fresh-spearmint",
+              "name": "Fresh Spearmint",
+              "qty": 3.0,
+              "unit": "fresh"
+            },
+            {
+              "raw": "pinch ground black pepper",
+              "itemId": "black-pepper",
+              "name": "Ground Black Pepper",
+              "qty": 1,
+              "unit": "pinch"
+            },
+            {
+              "raw": "0.25 oz honey",
+              "itemId": "honey",
+              "name": "Honey",
+              "qty": 0.25,
+              "unit": "oz"
+            },
+            {
+              "raw": "2 oz sparkling water",
+              "itemId": "sparkling-water",
+              "name": "Sparkling Water",
+              "qty": 2.0,
+              "unit": "oz"
+            }
+          ],
+          "method": [
+            "Peel outer layers from lemongrass stalks, use pale inner core, smash with knife back, cold press or blend with 1 oz water, fine-strain (yields ~1.5 oz)",
+            "Steep rosemary in 1 oz cool mineral water for 2 min, strain",
+            "Muddle basil and spearmint leaves gently for 3 seconds",
+            "Add 1.5 oz lemongrass juice, lime juice, mint tea, rosemary water, black pepper, and honey. Stir with ice 8 seconds",
+            "Strain into highball over fresh ice, top with sparkling water down the side",
+            "Garnish with rosemary sprig, basil leaf, and lime wheel. Drink within 30 min"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peach-flamb",
+      "strainNumber": 15,
+      "name": "Peach Flambé",
+      "recipeName": "Warm Euphoric Glow",
+      "farm": "TBD",
+      "region": "TBD",
+      "energy": "HIGH",
+      "effects": [
+        "Euphoric",
+        "Bright",
+        "Joyful"
+      ],
+      "intent": "Warm euphoric glow",
+      "aroma": [
+        "Peach",
+        "Bergamot",
+        "Warm Spice"
+      ],
+      "cannabinoids": {
+        "thc": 19.0
+      },
+      "totalTerpenes": 1.05,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": "dominant",
+          "ratio": null
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": "secondary",
+          "ratio": null
+        },
+        {
+          "name": "β-Ocimene",
+          "pct": "tertiary",
+          "ratio": null
+        },
+        {
+          "name": "α-Humulene",
+          "pct": "trace",
+          "ratio": null
+        }
+      ],
+      "vibeCategories": [
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup frozen peach slices",
+          "itemId": "frozen-peach",
+          "name": "Frozen Peach Slices",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "1.5 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 3.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1.5 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Blend frozen peach slices until smooth, strain through fine mesh (yields ~2.5 oz)",
+        "Press ginger to yield 0.5 oz. Gently muddle basil leaves",
+        "Combine peach puree, grapefruit juice, lemon juice, ginger juice, basil, cinnamon, black pepper, and honey",
+        "Stir with ice, strain into glass over fresh ice, top with sparkling water down the side",
+        "Garnish with basil leaf"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon",
+            "peach"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "ginger",
+            "black pepper",
+            "basil"
+          ]
+        },
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "ginger"
+          ]
+        }
+      ],
+      "oilBlend": "TBD — exact percentages not in project knowledge",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "tropicanna-cherry",
+      "strainNumber": 16,
+      "name": "Tropicanna Cherry",
+      "recipeName": "Bright Cherry Lift",
+      "farm": "Sunrise Gardens",
+      "region": "Mendocino",
+      "energy": "HIGH",
+      "effects": [
+        "Euphoric",
+        "Cerebral",
+        "Cheerful"
+      ],
+      "intent": "Bright lift with clear, lively edges",
+      "aroma": [
+        "Sour Cherry",
+        "Sweet Citrus",
+        "Nutmeg"
+      ],
+      "cannabinoids": {
+        "thc": 27.0
+      },
+      "totalTerpenes": 1.18,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.37,
+          "ratio": 40
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.29,
+          "ratio": 32
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.15,
+          "ratio": 16
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.11,
+          "ratio": 12
+        }
+      ],
+      "vibeCategories": [
+        "creativeFlow",
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "2.5 oz tart cherry juice",
+          "itemId": "tart-cherry-juice",
+          "name": "Tart Cherry Juice",
+          "qty": 2.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 3.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "pinch ground nutmeg",
+          "itemId": "ground-nutmeg",
+          "name": "Ground Nutmeg",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 fresh sage leaf",
+          "itemId": "fresh-sage",
+          "name": "Fresh Sage",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1.5 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Combine tart cherry juice, grapefruit juice, and lemon juice",
+        "Add lavender flavor drops, nutmeg, black pepper, and honey. Gently bruise sage leaf and add",
+        "Stir with ice for 10 seconds, strain into coupe over fresh ice",
+        "Top with sparkling water, garnish with nutmeg dust and lemon twist"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "nutmeg",
+            "sage"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon",
+            "cherry"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (12), Sweet Orange (10), Lavender (6), Geranium (6), Sage (4), Clove (2)",
+      "substitutionNotes": "Grapefruit subs for blood orange. If blood oranges available, use 1 oz blood orange juice instead.",
+      "buyNotes": null,
+      "notes": null
+    },
+    {
+      "id": "pink-jesus-reserve",
+      "strainNumber": 17,
+      "name": "Pink Jesus Reserve",
+      "recipeName": "Lavender Raspberry Euphoria",
+      "farm": "Sonoma Hills Farm",
+      "region": "Sonoma",
+      "energy": "HIGH",
+      "effects": [
+        "Social",
+        "Uplifting",
+        "Euphoric"
+      ],
+      "intent": "Buoyant and warm, ready to share",
+      "aroma": [
+        "Raspberry",
+        "French Lavender",
+        "Pineapple"
+      ],
+      "cannabinoids": {
+        "thc": 23.0
+      },
+      "totalTerpenes": 1.89,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.78,
+          "ratio": 49
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.38,
+          "ratio": 24
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.27,
+          "ratio": 17
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.15,
+          "ratio": 9
+        }
+      ],
+      "vibeCategories": [
+        "socialBright",
+        "euphoricLift"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup frozen raspberries",
+          "itemId": "frozen-raspberries",
+          "name": "Frozen Raspberries",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "1.5 oz pineapple juice",
+          "itemId": "pineapple-juice",
+          "name": "Pineapple Juice",
+          "qty": 1.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "4 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 4.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "0.5 oz fresh ginger juice",
+          "itemId": "fresh-ginger",
+          "name": "Fresh Ginger Root",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 fresh sage leaf",
+          "itemId": "fresh-sage",
+          "name": "Fresh Sage",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.5 oz chamomile tea (strong, cooled)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ],
+      "method": [
+        "Blend frozen raspberries until smooth, fine-strain through mesh to remove seeds (yields ~2 oz puree)",
+        "Press ginger to yield 0.5 oz. Gently bruise sage leaf",
+        "Combine raspberry puree, pineapple juice, lemon juice, ginger juice, chamomile tea, lavender flavor drops, black pepper, sage leaf, and honey",
+        "Shake with ice for 8 seconds until frothy, fine-strain into coupe or tall glass over ice",
+        "Garnish with raspberries"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "ginger",
+            "lavender",
+            "sage"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "raspberry",
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage",
+            "ginger"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper (14), Lemongrass (8), Lavender (6), Sage (6), German Chamomile (4), Geranium (2)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Highest caryophyllene in the library (49%). Lavender flavor is essential — 'French lavender' is in the strain's aroma DNA. Buy: pineapple juice."
+    },
+    {
+      "id": "love-and-laughter-cbd",
+      "strainNumber": 18,
+      "name": "Love and Laughter (CBD)",
+      "recipeName": "Clear Steady Focus",
+      "farm": "Heartrock Mountain Farm",
+      "region": "Mendocino",
+      "energy": "MEDIUM",
+      "effects": [
+        "Energizing",
+        "Focusing",
+        "Non-Intoxicating"
+      ],
+      "intent": "Clear and steady, nothing clouded",
+      "aroma": [
+        "Flowers",
+        "Eucalyptus",
+        "Berries"
+      ],
+      "cannabinoids": {
+        "thc": 1.0,
+        "cbd": 19.0
+      },
+      "totalTerpenes": 1.72,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 0.56,
+          "ratio": 43
+        },
+        {
+          "name": "Terpinolene",
+          "pct": 0.28,
+          "ratio": 22
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.2,
+          "ratio": 15
+        }
+      ],
+      "vibeCategories": [
+        "calmFocus"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup frozen berry blend",
+          "itemId": "frozen-berry-blend",
+          "name": "Frozen Berry Blend",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "3 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 3.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.5 oz mint tea (strong, cooled)",
+          "itemId": "mint-tea",
+          "name": "Mint Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 2.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1.5 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 1.5,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Blend berry blend until smooth, strain through fine mesh (yields ~2 oz)",
+        "Steep rosemary in 1 oz cool water for 2 min, strain. Muddle basil",
+        "Combine berry juice, grapefruit juice, lemon juice, rosemary water, mint tea, basil, lavender flavor drops, black pepper, and honey",
+        "Stir with ice, strain into highball over fresh ice, top with sparkling water",
+        "Garnish with basil leaf and berries"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "berries",
+            "basil",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "Terpinolene",
+          "sources": [
+            "grapefruit",
+            "lemon"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "rosemary",
+            "basil"
+          ]
+        }
+      ],
+      "oilBlend": "TBD — exact recipe not in project knowledge",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Only CBD strain in the library. Only Calm Focus strain."
+    },
+    {
+      "id": "glitter-bomb",
+      "strainNumber": 19,
+      "name": "Glitter Bomb",
+      "recipeName": "Sparkling Kiwi Euphoria",
+      "farm": "Sol Spirit Farm",
+      "region": "Trinity",
+      "energy": "HIGH",
+      "effects": [
+        "Physically Relaxing",
+        "Cerebral",
+        "Euphoric"
+      ],
+      "intent": "Body at ease, mind sparkling",
+      "aroma": [
+        "Kiwi",
+        "Pine",
+        "Musk"
+      ],
+      "cannabinoids": {
+        "thc": 26.0
+      },
+      "totalTerpenes": 2.39,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 1.23,
+          "ratio": 62
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.42,
+          "ratio": 21
+        },
+        {
+          "name": "β-Ocimene",
+          "pct": 0.17,
+          "ratio": 9
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.15,
+          "ratio": 8
+        }
+      ],
+      "vibeCategories": [
+        "euphoricLift",
+        "bodyMelt"
+      ],
+      "ingredients": [
+        {
+          "raw": "3 fresh kiwis (peeled)",
+          "itemId": "kiwi",
+          "name": "Kiwi",
+          "qty": 3.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "4 fresh Prospera basil leaves",
+          "itemId": "fresh-basil",
+          "name": "Fresh Basil (Prospera)",
+          "qty": 4.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "2 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 2.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lime juice",
+          "itemId": "lime-juice",
+          "name": "Lime Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "2 oz sparkling water",
+          "itemId": "sparkling-water",
+          "name": "Sparkling Water",
+          "qty": 2.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Peel and blend kiwis until smooth, strain through fine mesh (yields ~2.5 oz)",
+        "Steep rosemary in 1 oz cool water for 2 min, strain",
+        "Gently muddle basil. Add kiwi juice, rosemary water, lime juice, lavender flavor drops, black pepper, and honey",
+        "Stir with ice, strain into highball over crushed ice, top with sparkling water",
+        "Garnish with kiwi wheel and basil leaf"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "kiwi",
+            "basil",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "rosemary"
+          ]
+        },
+        {
+          "terpene": "β-Ocimene",
+          "sources": [
+            "basil"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (18), Black Pepper (10), Basil (4), Lavender (4), Pine (4)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "With lemongrass available, add 1 oz lemongrass juice to amplify the myrcene backbone (1.23% — very high)."
+    },
+    {
+      "id": "moonlight",
+      "strainNumber": 20,
+      "name": "Moonlight",
+      "recipeName": "Watermelon Gratitude",
+      "farm": "Moon Gazer Farms",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Physically Relaxed",
+        "Calm",
+        "Grateful"
+      ],
+      "intent": "Soft gratitude in a settled body",
+      "aroma": [
+        "Watermelon Candy",
+        "Citrus Zest",
+        "Earl Grey"
+      ],
+      "cannabinoids": {
+        "thc": 26.0
+      },
+      "totalTerpenes": 2.67,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 0.74,
+          "ratio": 40
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.51,
+          "ratio": 27
+        },
+        {
+          "name": "Terpinolene",
+          "pct": 0.38,
+          "ratio": 20
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.24,
+          "ratio": 13
+        }
+      ],
+      "vibeCategories": [
+        "groundedPresent",
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "3 oz fresh watermelon juice",
+          "itemId": "watermelon",
+          "name": "Watermelon",
+          "qty": 3.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz Earl Grey tea (strong, cooled)",
+          "itemId": "earl-grey-tea",
+          "name": "Earl Grey Tea",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz chamomile tea (strong, cooled)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Blend 2 cups cubed watermelon, strain through fine mesh. Brew Earl Grey double-strength: 2 bags in 3 oz hot water, 4 min, cool",
+        "Combine watermelon juice, Earl Grey, lemon juice, and chamomile tea",
+        "Stir in cinnamon, black pepper, and honey",
+        "Pour over ice, add mineral water, garnish with watermelon wedge and lemon zest"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "watermelon",
+            "chamomile"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "black pepper"
+          ]
+        },
+        {
+          "terpene": "Terpinolene",
+          "sources": [
+            "Earl Grey",
+            "lemon"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (12), Black Pepper (10), Tea Tree (8), German Chamomile (6), Bergamot (4)",
+      "substitutionNotes": null,
+      "buyNotes": "Watermelon (or bottled watermelon juice) + Earl Grey tea bags.",
+      "notes": null
+    },
+    {
+      "id": "mandarin-cherry-tree",
+      "strainNumber": 21,
+      "name": "Mandarin Cherry Tree",
+      "recipeName": "Serene Lavender Drift",
+      "farm": "Sticky Fields",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Full Body Relaxation",
+        "Serenity",
+        "Creativity"
+      ],
+      "intent": "Settled body, gently wandering mind",
+      "aroma": [
+        "Mandarin Orange",
+        "Sandalwood",
+        "Lavender"
+      ],
+      "cannabinoids": {
+        "thc": 28.0
+      },
+      "totalTerpenes": 1.75,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": 0.52,
+          "ratio": 46
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.36,
+          "ratio": 32
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.13,
+          "ratio": 12
+        },
+        {
+          "name": "Linalool",
+          "pct": 0.11,
+          "ratio": 10
+        }
+      ],
+      "vibeCategories": [
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "3 oz mandarin juice",
+          "itemId": "mandarin-juice",
+          "name": "Mandarin Juice",
+          "qty": 3.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz tart cherry juice",
+          "itemId": "tart-cherry-juice",
+          "name": "Tart Cherry Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "3 drops lavender flavor extract",
+          "itemId": "lavender-extract",
+          "name": "Lavender Flavor Extract",
+          "qty": 3.0,
+          "unit": "drops"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 fresh sage leaf",
+          "itemId": "fresh-sage",
+          "name": "Fresh Sage",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Combine mandarin juice, tart cherry juice, and lemon juice",
+        "Gently bruise sage leaf. Add to juice with lavender flavor drops, black pepper, and honey. Stir",
+        "Pour over ice in coupe or rocks glass, add mineral water, garnish with sage leaf"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "mandarin",
+            "lemon",
+            "cherry"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "lavender"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage"
+          ]
+        },
+        {
+          "terpene": "Linalool",
+          "sources": [
+            "lavender flavor"
+          ]
+        }
+      ],
+      "oilBlend": "Sweet Orange (16), Black Pepper (10), Lavender (6), Sage (4), Ylang Ylang (4)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Lavender flavor is essential — 'lavender' is in the strain's aroma. One of the most calming juices in the set."
+    },
+    {
+      "id": "pinnacle",
+      "strainNumber": 22,
+      "name": "Pinnacle",
+      "recipeName": "Velvet Surrender",
+      "farm": "Dos Rios Farms",
+      "region": "Mendocino",
+      "energy": "LOW",
+      "effects": [
+        "Blissful",
+        "Sedated",
+        "Content"
+      ],
+      "intent": "Total surrender, velvet quiet",
+      "aroma": [
+        "Sweet Cream",
+        "Nutmeg",
+        "Earth"
+      ],
+      "cannabinoids": {
+        "thc": 20.0
+      },
+      "totalTerpenes": null,
+      "terpeneProfile": [
+        {
+          "name": "β-Caryophyllene",
+          "pct": "dominant",
+          "ratio": null
+        },
+        {
+          "name": "Limonene",
+          "pct": "secondary",
+          "ratio": null
+        },
+        {
+          "name": "α-Humulene",
+          "pct": "tertiary",
+          "ratio": null
+        },
+        {
+          "name": "trans-β-Farnesene",
+          "pct": "trace",
+          "ratio": null
+        }
+      ],
+      "vibeCategories": [
+        "deepRest"
+      ],
+      "ingredients": [
+        {
+          "raw": "2 oz mandarin juice",
+          "itemId": "mandarin-juice",
+          "name": "Mandarin Juice",
+          "qty": 2.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz tart cherry juice",
+          "itemId": "tart-cherry-juice",
+          "name": "Tart Cherry Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 fresh rosemary sprig",
+          "itemId": "fresh-rosemary",
+          "name": "Fresh Rosemary",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "1 fresh sage leaf",
+          "itemId": "fresh-sage",
+          "name": "Fresh Sage",
+          "qty": 1.0,
+          "unit": "fresh"
+        },
+        {
+          "raw": "pinch ground nutmeg",
+          "itemId": "ground-nutmeg",
+          "name": "Ground Nutmeg",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Steep rosemary and sage leaf in 1 oz warm water for 3 min, strain",
+        "Combine mandarin juice, tart cherry juice, and lemon juice",
+        "Add herb water, nutmeg, black pepper, vanilla extract, and honey. Stir gently",
+        "Pour over large ice in rocks glass, add mineral water, garnish with nutmeg dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "black pepper",
+            "rosemary",
+            "nutmeg"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "mandarin",
+            "lemon",
+            "cherry"
+          ]
+        },
+        {
+          "terpene": "α-Humulene",
+          "sources": [
+            "sage",
+            "nutmeg"
+          ]
+        },
+        {
+          "terpene": "trans-β-Farnesene",
+          "sources": [
+            "vanilla + nutmeg approximate 'sweet cream' character"
+          ]
+        }
+      ],
+      "oilBlend": "Black Pepper, Rosemary, Sweet Orange, Sage, Ylang Ylang (exact drops TBD)",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Deepest rest juice in the set. Heaviest sedative strain. Sip slowly in evening."
+    },
+    {
+      "id": "blueberry-muffin",
+      "strainNumber": 23,
+      "name": "Blueberry Muffin",
+      "recipeName": "Cozy Kettle Corn Comfort",
+      "farm": "TBD",
+      "region": "TBD",
+      "energy": "LOW",
+      "effects": [
+        "Comforting",
+        "Cozy",
+        "Warm"
+      ],
+      "intent": "Cozy comfort with warm blanket energy",
+      "aroma": [
+        "Blueberry",
+        "Vanilla",
+        "Cinnamon"
+      ],
+      "cannabinoids": null,
+      "totalTerpenes": null,
+      "terpeneProfile": [
+        {
+          "name": "Limonene",
+          "pct": 0.38,
+          "ratio": 36
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.29,
+          "ratio": 28
+        },
+        {
+          "name": "Myrcene",
+          "pct": 0.25,
+          "ratio": 24
+        },
+        {
+          "name": "α-Bisabolol",
+          "pct": 0.13,
+          "ratio": 12
+        }
+      ],
+      "vibeCategories": [
+        "cozyComfort"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup frozen blueberries",
+          "itemId": "frozen-blueberries",
+          "name": "Frozen Blueberries",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "1 oz pink grapefruit juice",
+          "itemId": "pink-grapefruit-juice",
+          "name": "Pink Grapefruit Juice",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz chamomile tea (strong, cooled)",
+          "itemId": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "qty": 1.0,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz cinnamon-honey syrup",
+          "itemId": "cinnamon-honey-syrup",
+          "name": "Cinnamon-Honey Syrup",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground black pepper",
+          "itemId": "black-pepper",
+          "name": "Ground Black Pepper",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Thaw frozen blueberries slightly (5 min), blend until smooth, strain through fine mesh (yields ~2.5 oz)",
+        "Combine blueberry juice with grapefruit juice, lemon juice, and chamomile tea",
+        "Stir in cinnamon-honey syrup, vanilla extract, and black pepper",
+        "Pour over ice, add mineral water, garnish with blueberries and cinnamon dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "grapefruit",
+            "lemon",
+            "blueberry"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon",
+            "black pepper"
+          ]
+        },
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "blueberry"
+          ]
+        },
+        {
+          "terpene": "α-Bisabolol",
+          "sources": [
+            "chamomile"
+          ]
+        }
+      ],
+      "oilBlend": "TBD",
+      "substitutionNotes": null,
+      "buyNotes": null,
+      "notes": "Vanilla-cinnamon combo creates the 'kettle corn' note. Blender required."
+    },
+    {
+      "id": "lemon-papaya-banana",
+      "strainNumber": 24,
+      "name": "Lemon Papaya Banana",
+      "recipeName": "Tropical Drift",
+      "farm": "TBD",
+      "region": "TBD",
+      "energy": "LOW",
+      "effects": [
+        "Physically Relaxed",
+        "Spacey",
+        "Euphoric"
+      ],
+      "intent": "Soft tropical body, expansive mind",
+      "aroma": [
+        "Papaya",
+        "Honeydew Melon",
+        "Lemon Zest"
+      ],
+      "cannabinoids": {
+        "thc": 27.0
+      },
+      "totalTerpenes": 1.38,
+      "terpeneProfile": [
+        {
+          "name": "Myrcene",
+          "pct": 0.57,
+          "ratio": 53
+        },
+        {
+          "name": "Limonene",
+          "pct": 0.29,
+          "ratio": 27
+        },
+        {
+          "name": "β-Caryophyllene",
+          "pct": 0.16,
+          "ratio": 15
+        },
+        {
+          "name": "α-Humulene",
+          "pct": 0.05,
+          "ratio": 5
+        }
+      ],
+      "vibeCategories": [
+        "deepRest",
+        "bodyMelt"
+      ],
+      "ingredients": [
+        {
+          "raw": "1 cup fresh papaya (chopped)",
+          "itemId": "papaya",
+          "name": "Papaya",
+          "qty": 1.0,
+          "unit": "cup"
+        },
+        {
+          "raw": "0.75 cup frozen banana slices",
+          "itemId": "banana",
+          "name": "Banana",
+          "qty": 0.75,
+          "unit": "cup"
+        },
+        {
+          "raw": "0.75 oz lemon juice",
+          "itemId": "lemon-juice",
+          "name": "Lemon Juice",
+          "qty": 0.75,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.5 oz green apple juice",
+          "itemId": "green-apple",
+          "name": "Green Apple",
+          "qty": 0.5,
+          "unit": "oz"
+        },
+        {
+          "raw": "0.25 oz vanilla extract",
+          "itemId": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "pinch ground cinnamon",
+          "itemId": "ground-cinnamon",
+          "name": "Ground Cinnamon",
+          "qty": 1,
+          "unit": "pinch"
+        },
+        {
+          "raw": "0.25 oz honey",
+          "itemId": "honey",
+          "name": "Honey",
+          "qty": 0.25,
+          "unit": "oz"
+        },
+        {
+          "raw": "1 oz cold mineral water",
+          "itemId": "mineral-water",
+          "name": "Cold Mineral Water",
+          "qty": 1.0,
+          "unit": "oz"
+        }
+      ],
+      "method": [
+        "Blend papaya and frozen banana until completely smooth (yields ~3 oz puree)",
+        "Press green apple to yield 0.5 oz",
+        "Combine puree with lemon juice, green apple juice, vanilla, cinnamon, and honey",
+        "Add mineral water and stir gently",
+        "Pour into highball over crushed ice, garnish with banana wheel and cinnamon dust"
+      ],
+      "terpeneMap": [
+        {
+          "terpene": "Myrcene",
+          "sources": [
+            "papaya",
+            "banana"
+          ]
+        },
+        {
+          "terpene": "Limonene",
+          "sources": [
+            "lemon",
+            "papaya",
+            "banana",
+            "green apple"
+          ]
+        },
+        {
+          "terpene": "β-Caryophyllene",
+          "sources": [
+            "cinnamon"
+          ]
+        }
+      ],
+      "oilBlend": "Lemongrass (14), Lemon (10), Black Pepper (6), Geranium (6), Ylang Ylang (4)",
+      "substitutionNotes": null,
+      "buyNotes": "Fresh papaya — hero fruit. Green apple subs for honeydew melon. Blender required.",
+      "notes": null
+    }
+  ]
+}
