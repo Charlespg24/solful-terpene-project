@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Women Who Knew the Plants</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=IM+Fell+English:ital@0;1&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --parchment: #f5edd8;
+    --gold: #c9a84c;
+    --gold-light: #e8c97a;
+    --sage: #4a6741;
+    --sage-light: #7a9b70;
+    --sage-dark: #2d4228;
+    --rust: #8b3a2a;
+    --cream: #fdf6e8;
+    --shadow-gold: rgba(201,168,76,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ink);
+    color: var(--parchment);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    overflow-x: hidden;
+  }
+
+  /* ─── NOISE TEXTURE OVERLAY ─── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.4;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 80px 40px 60px;
+    background: radial-gradient(ellipse 80% 60% at 50% 40%, #1e2d1a 0%, var(--ink) 100%);
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 20% 80%, rgba(74,103,65,0.12) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(201,168,76,0.08) 0%, transparent 50%);
+  }
+
+  .botanical-ring {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgba(201,168,76,0.08);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: slowSpin 80s linear infinite;
+  }
+  .botanical-ring::before {
+    content: '';
+    position: absolute;
+    inset: 30px;
+    border: 1px solid rgba(74,103,65,0.1);
+    border-radius: 50%;
+  }
+
+  @keyframes slowSpin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+  .hero-label {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 1;
+    animation: fadeUp 1s 0.2s both;
+  }
+
+  .hero-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(36px, 6vw, 72px);
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--parchment);
+    position: relative;
+    z-index: 1;
+    animation: fadeUp 1s 0.4s both;
+    max-width: 700px;
+  }
+
+  .hero-title em {
+    color: var(--gold);
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+  }
+
+  .hero-divider {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 32px auto;
+    position: relative;
+    z-index: 1;
+    animation: fadeUp 1s 0.6s both;
+  }
+
+  .hero-sub {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--sage-light);
+    text-align: center;
+    max-width: 520px;
+    position: relative;
+    z-index: 1;
+    animation: fadeUp 1s 0.8s both;
+    line-height: 1.6;
+  }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    opacity: 0.4;
+    z-index: 1;
+    animation: fadeUp 1s 1.2s both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .scroll-hint::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--gold), transparent);
+    animation: scrollLine 2s ease-in-out infinite;
+  }
+
+  @keyframes scrollLine {
+    0%, 100% { opacity: 0.4; transform: scaleY(0.5); transform-origin: top; }
+    50% { opacity: 1; transform: scaleY(1); }
+  }
+
+  /* ─── MAIN CONTENT ─── */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  /* ─── CHAPTER ─── */
+  .chapter {
+    padding: 100px 0;
+    border-top: 1px solid rgba(201,168,76,0.1);
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .chapter.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .chapter-number {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .chapter-number::after {
+    content: '';
+    flex: 1;
+    max-width: 60px;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+
+  .chapter-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 400;
+    color: var(--parchment);
+    margin-bottom: 40px;
+    line-height: 1.3;
+  }
+
+  p {
+    margin-bottom: 24px;
+    color: rgba(245,237,216,0.88);
+    font-weight: 300;
+  }
+
+  p:first-of-type::first-letter {
+    float: left;
+    font-family: 'Cinzel', serif;
+    font-size: 72px;
+    line-height: 0.75;
+    margin: 8px 12px 0 0;
+    color: var(--gold);
+  }
+
+  /* ─── PULL QUOTE ─── */
+  .pull-quote {
+    margin: 60px -40px;
+    padding: 48px 60px;
+    background: linear-gradient(135deg, rgba(74,103,65,0.12) 0%, rgba(45,66,40,0.08) 100%);
+    border-left: 3px solid var(--gold);
+    position: relative;
+  }
+  .pull-quote::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    left: 36px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120px;
+    color: var(--gold);
+    opacity: 0.15;
+    line-height: 1;
+  }
+
+  .pull-quote blockquote {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: clamp(20px, 2.5vw, 26px);
+    color: var(--parchment);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .pull-quote blockquote::before,
+  .pull-quote blockquote::after { content: ''; }
+
+  .pull-quote cite {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    opacity: 0.6;
+    font-style: normal;
+  }
+
+  /* ─── FACTS CARD ─── */
+  .fact-card {
+    background: linear-gradient(135deg, rgba(201,168,76,0.07) 0%, rgba(74,103,65,0.05) 100%);
+    border: 1px solid rgba(201,168,76,0.15);
+    padding: 40px;
+    margin: 48px 0;
+    position: relative;
+  }
+
+  .fact-card::before {
+    content: attr(data-label);
+    position: absolute;
+    top: -10px;
+    left: 24px;
+    background: var(--ink);
+    padding: 0 12px;
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+
+  .fact-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gold-light);
+    margin-bottom: 12px;
+  }
+
+  .fact-card p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .fact-card p::first-letter { all: unset; }
+
+  /* ─── PLANT GRID ─── */
+  .plant-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 48px 0;
+  }
+
+  .plant-entry {
+    padding: 28px;
+    border: 1px solid rgba(74,103,65,0.3);
+    background: rgba(74,103,65,0.06);
+    transition: border-color 0.3s, background 0.3s;
+  }
+  .plant-entry:hover {
+    border-color: rgba(201,168,76,0.3);
+    background: rgba(201,168,76,0.04);
+  }
+
+  .plant-name {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: var(--sage-light);
+    margin-bottom: 8px;
+  }
+
+  .plant-latin {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--gold);
+    opacity: 0.7;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .plant-entry p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .plant-entry p::first-letter { all: unset; }
+
+  /* ─── TIMELINE ─── */
+  .timeline {
+    margin: 48px 0;
+    position: relative;
+    padding-left: 32px;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--gold) 10%, var(--gold) 90%, transparent);
+    opacity: 0.3;
+  }
+
+  .timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--gold);
+    opacity: 0.6;
+  }
+
+  .timeline-year {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    opacity: 0.7;
+    margin-bottom: 6px;
+  }
+
+  .timeline-item p { margin: 0; font-size: 16px; line-height: 1.7; }
+  .timeline-item p::first-letter { all: unset; }
+
+  /* ─── STAT CALLOUT ─── */
+  .stat-row {
+    display: flex;
+    gap: 32px;
+    margin: 48px 0;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    flex: 1;
+    min-width: 160px;
+    text-align: center;
+    padding: 32px 24px;
+    border: 1px solid rgba(201,168,76,0.12);
+    background: rgba(201,168,76,0.03);
+  }
+
+  .stat-number {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(32px, 4vw, 48px);
+    color: var(--gold);
+    display: block;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+
+  .stat-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--sage-light);
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+
+  /* ─── EVIDENCE CHIP ─── */
+  .evidence {
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: 2px;
+    padding: 3px 10px;
+    border: 1px solid var(--sage);
+    color: var(--sage-light);
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+  }
+  .evidence.rct { border-color: var(--gold); color: var(--gold-light); }
+
+  /* ─── STRONG / EM ─── */
+  strong { color: var(--parchment); font-weight: 600; }
+  em { color: var(--gold-light); font-style: italic; }
+
+  /* ─── CLOSING ─── */
+  .closing {
+    padding: 100px 0 80px;
+    text-align: center;
+    border-top: 1px solid rgba(201,168,76,0.1);
+  }
+
+  .closing-glyph {
+    font-size: 48px;
+    margin-bottom: 32px;
+    display: block;
+    opacity: 0.4;
+  }
+
+  .closing p {
+    max-width: 600px;
+    margin: 0 auto 24px;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.7;
+  }
+  .closing p::first-letter { all: unset; }
+
+  .final-line {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    margin-top: 48px;
+    display: block;
+  }
+
+  /* ─── FOOTER ─── */
+  footer {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: rgba(201,168,76,0.3);
+    border-top: 1px solid rgba(201,168,76,0.08);
+  }
+
+  /* ─── ORNAMENT ─── */
+  .ornament {
+    text-align: center;
+    font-size: 24px;
+    color: var(--gold);
+    opacity: 0.25;
+    margin: 40px 0;
+    letter-spacing: 12px;
+  }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 640px) {
+    main { padding: 0 24px; }
+    .pull-quote { margin: 40px -24px; padding: 36px 32px; }
+    .plant-grid { grid-template-columns: 1fr; }
+    .stat-row { gap: 16px; }
+    .hero { padding: 60px 24px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="botanical-ring"></div>
+  <div class="hero-label">A suppressed pharmacology &amp; its recovery</div>
+  <h1 class="hero-title">The Women Who Knew <em>the Plants</em></h1>
+  <div class="hero-divider"></div>
+  <p class="hero-sub">How the world's first pharmacologists were erased — and how the molecules are proving them right</p>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- ─── MAIN ─── -->
+<main>
+
+  <!-- CHAPTER 1 -->
+  <section class="chapter">
+    <div class="chapter-number">I</div>
+    <h2 class="chapter-title">The Original Pharmacologists</h2>
+
+    <p>Before universities, before guilds, before pharmaceutical patents — before anyone had the word for what they were doing — <strong>women were the pharmacologists</strong>. Every culture, every continent, every era. The pattern is global because the logic is simple: women attended birth, illness, and death. Birth, illness, and death are where the body is most pharmacologically demanding. The women closest to those moments accumulated the most precise knowledge of how plants interacted with the body.</p>
+
+    <p>The earliest named female physician in recorded history is <strong>Peseshet</strong>, inscribed at Giza around 2400 BCE as "Lady Overseer of the Female Physicians" — a title implying she supervised an entire corps of women practitioners in ancient Egypt's Fourth Dynasty. In Rome, midwifery was a stratified, respected profession with named practitioners like Aspasia, who developed techniques for turning breech fetuses. In 12th-century China, the physician <strong>Tan Yunxian</strong> compiled 31 case reports on menstrual disorders and habitual abortion — the only surviving physician's book by a woman in the Ming Dynasty. In her preface, she wrote: <em>"I beg readers' indulgence and ask that they do not laugh at me."</em></p>
+
+    <p>The knowledge lived primarily in oral transmission — passed mother to daughter, healer to apprentice, in kitchens and gardens and birthing rooms. It did not live in texts because women did not have access to the institutions that produced texts. That asymmetry — men's knowledge written down, women's knowledge memorized — would prove catastrophic.</p>
+
+    <div class="pull-quote">
+      <blockquote>The phrase "old wives' tale" is a cultural category designed to delegitimize female empirical knowledge. But the molecules do not care about the gender of the person who first identified their effects.</blockquote>
+      <cite>The pharmacological record</cite>
+    </div>
+
+    <p>Here is the pharmacological irony that runs through all of this: <strong>the women were right</strong>. A landmark 2001 study by Fabricant and Farnsworth examined 122 plant-derived drugs currently in global clinical use and found that <strong>80% of them</strong> have an ethnomedical use identical or closely related to what they're prescribed for today. Eighty percent. Those are not coincidences. That is the accuracy rate of an empirical science conducted across millennia by people who had no receptors, no double-blind trials, and no institutional funding — just careful, multigenerational observation of what happened when you gave a plant to a body.</p>
+  </section>
+
+  <!-- CHAPTER 2 -->
+  <section class="chapter">
+    <div class="chapter-number">II</div>
+    <h2 class="chapter-title">What the Plants Actually Did</h2>
+
+    <p>Let's be precise about what knowledge these women held. Not superstition. Not folk belief. Pharmacology — conducted empirically, without the vocabulary, but with the results.</p>
+
+    <div class="plant-grid">
+      <div class="plant-entry">
+        <div class="plant-name">Lavender</div>
+        <span class="plant-latin">Lavandula angustifolia</span>
+        <p>The folk remedy for sleep and anxiety. In 2018, Harada et al. confirmed its primary molecule, linalool, activates <strong>GABA-A receptors</strong> via the olfactory system — the same pathway as Valium, blocked by the same antidote. <span class="evidence rct">Human RCT</span> In Germany today, standardized lavender oil (Silexan) is an approved pharmaceutical that <strong>matched lorazepam</strong> in head-to-head randomized trials.</p>
+      </div>
+      <div class="plant-entry">
+        <div class="plant-name">Yarrow</div>
+        <span class="plant-latin">Achillea millefolium</span>
+        <p>Named for the legend that Achilles used it on battlefield wounds. Modern pharmacology confirmed it: yarrow reduces bleeding time by <strong>36%</strong> through sesquiterpene lactones (achillicin) and flavonoids that inhibit enzymes driving inflammation. Every medieval healer who packed a wound with yarrow was deploying a verified hemostatic agent. <span class="evidence">Animal + in vitro</span></p>
+      </div>
+      <div class="plant-entry">
+        <div class="plant-name">Cannabis</div>
+        <span class="plant-latin">Cannabis sativa / indica</span>
+        <p>Documented in women's medicine for over <strong>5,000 years</strong>: labor pain, dysmenorrhea, postpartum recovery. Assyrian tablets cite it for colic and childbirth. The British Medical Journal declared in 1883 that "no medicine gives such good results" for menorrhagia. It remained in the U.S. Pharmacopeia until <strong>1942</strong> — prescribed by mainstream physicians for women's pain.</p>
+      </div>
+      <div class="plant-entry">
+        <div class="plant-name">Sweet Wormwood</div>
+        <span class="plant-latin">Artemisia annua</span>
+        <p>Used in Chinese folk medicine for fever for 2,000 years. In 1971, pharmacologist <strong>Tu Youyou</strong> read a 4th-century woman's medical text, recognized a cold-water extraction instruction, and isolated artemisinin — saving over <strong>200 million lives</strong> from malaria. She received the 2015 Nobel Prize. The folk knowledge was right. It took 1,600 years for the institution to notice. <span class="evidence rct">Nobel Prize</span></p>
+      </div>
+    </div>
+
+    <div class="fact-card" data-label="The Tu Youyou Paradox">
+      <h3>The Woman Who Proved It All</h3>
+      <p>Tu Youyou is known in China as the "Three-Without Scientist": no postgraduate degree, no overseas training, not a member of either national academy — having been <strong>rejected from the Chinese Academy of Sciences three times</strong>. She held no administrative rank. When she found the answer to malaria in a 4th-century text attributed to a woman physician's influence, she volunteered as the <em>first human test subject</em> for the extract she'd prepared. The Lasker Foundation called artemisinin "arguably the most important pharmaceutical intervention of the last half century." Her Nobel Prize is not just for a molecule. It is a vindication of an entire epistemological tradition.</p>
+    </div>
+  </section>
+
+  <!-- CHAPTER 3 -->
+  <section class="chapter">
+    <div class="chapter-number">III</div>
+    <h2 class="chapter-title">The Machinery of Erasure</h2>
+
+    <p>The suppression of women's botanical knowledge was not a single event. It was a cascading system built across centuries by interlocking institutions, each one reinforcing the others.</p>
+
+    <p>It began with <strong>universities</strong>. The founding of European medical schools — Bologna (1088), Paris (1274), Montpellier — transformed medicine from a distributed craft into a credentialed profession. These institutions grew from cathedral schools; students took holy orders; only men could be ordained. No explicit prohibition against women was always needed. The requirement itself served as an absolute barrier. Latin literacy — the language of learned medicine — became male by structural default.</p>
+
+    <p>The clearest window into how this worked is the trial of <strong>Jacoba Félicié</strong>, Paris, 1322. The University of Paris Medical Faculty prosecuted her for practicing medicine without a license. She presented eight witnesses who testified she had cured patients that licensed physicians had given up for dead. The court's verdict was astonishing in its naked logic:</p>
+
+    <div class="pull-quote">
+      <blockquote>Her plea that she cured many sick persons whom the aforesaid master could not cure ought not to stand and is frivolous, since it is certain that a man approved in the aforesaid art could cure better than any woman.</blockquote>
+      <cite>Paris Medical Faculty, 1322</cite>
+    </div>
+
+    <p>She was fined sixty Parisian livres and threatened with excommunication. Not for incompetence. Not for harm. For healing too well while being the wrong gender.</p>
+
+    <p>Then came <strong>Hildegard von Bingen</strong> (1098–1179), the extraordinary counterexample. Her <em>Physica</em> documented 293 plants and over 2,000 remedies; her <em>Causae et Curae</em> addressed female anatomy, menstruation, and herbal emmenagogues with remarkable sympathy. She is celebrated. But understand why she survived: she was a Benedictine abbess, correspondent of popes and emperors, protected by the institutional walls of the cloister. Her knowledge had walls around it. The same knowledge in the hands of a village healer had no such protection — and that difference, over the following centuries, would become lethal.</p>
+
+    <div class="stat-row">
+      <div class="stat-item">
+        <span class="stat-number">80%</span>
+        <div class="stat-label">of folk plant remedies validated by modern pharmacology</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">91</span>
+        <div class="stat-label">years cannabis was in the U.S. Pharmacopeia before prohibition</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">1937</span>
+        <div class="stat-label">when Congress erased centuries of women's medicine with a vote</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER 4 -->
+  <section class="chapter">
+    <div class="chapter-number">IV</div>
+    <h2 class="chapter-title">The Witch Trials &amp; the Baptism Window</h2>
+
+    <p>In 1486, Dominican friar Heinrich Kramer published the <em>Malleus Maleficarum</em> — "The Hammer of Witches." It went through <strong>28 editions</strong> before 1600. Among its most explicit targets: midwives. <em>"No one does more harm to the Catholic Faith than midwives,"</em> the text states flatly, devoting an entire chapter to "How Witch Midwives commit most Horrid Crimes."</p>
+
+    <p>The theological logic was specific. Catholic doctrine held that unbaptized babies who died were consigned to Limbo, unsaveable. Midwives controlled the critical window between birth and baptism. They were also the women most likely to provide herbal preparations for labor pain — which the Church's reading of Genesis 3:16 ("in pain thou shalt bring forth children") made theologically transgressive. Pain relief in childbirth was, within this framework, an interference with divine judgment.</p>
+
+    <div class="fact-card" data-label="The Historical Record">
+      <h3>What the Numbers Actually Show</h3>
+      <p>Historian Brian Levack (University of Texas) estimated approximately <strong>110,000 witch trials</strong> and <strong>40,000–60,000 executions</strong> across 1450–1750. Approximately <strong>75–80% of the accused were women</strong>. The worst persecutions occurred not in Spain or Italy — where centralized Inquisitions demanded evidence — but in the <strong>Holy Roman Empire's fragmented small territories</strong>, where local courts operated without appeal. The county of Bamberg alone executed approximately 1,000 people in five years. The Spanish Inquisition, by contrast, executed fewer than two dozen alleged witches in its entire history. Institutional standards mattered. Their absence was fatal.</p>
+    </div>
+
+    <p>And the botanical dimension was real. The "flying ointments" described in trial records — containing henbane, belladonna, mandrake, monkshood — were pharmacologically plausible. These plants contain <strong>tropane alkaloids</strong> (atropine, scopolamine) that are documented deliriants absorbed through the skin, producing vivid hallucinations including the sensation of flight. The Spanish royal physician Andrés de Laguna tested a preparation in 1545 and confirmed it produced deep trance and vivid dreamlike states. The women who used psychoactive plant preparations in folk ritual were not practicing magic. They were practicing ethnopharmacology. The institution that burned them did not make that distinction.</p>
+
+    <p>Careful historians have noted, rightly, that <em>licensed</em> midwives were generally protected by their community standing — it was the informal healer, the woman who provided reproductive services outside any sanctioned structure, who was most vulnerable. The horror of the witch trials was not a targeted campaign against pharmacologists. It was something broader and in some ways worse: a mass terror directed at women who held social power outside institutional channels, which botanical knowledge reliably conferred.</p>
+  </section>
+
+  <!-- CHAPTER 5 -->
+  <section class="chapter">
+    <div class="chapter-number">V</div>
+    <h2 class="chapter-title">Cannabis: The Women's Medicine That Was Erased</h2>
+
+    <p>Of all the plants in women's pharmacopoeia, the story of cannabis is the most precisely documented erasure — and the one with the most clearly identified perpetrator.</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">~3000 BCE — Assyria</div>
+        <p>Tablets mention cannabis over 30 times, "mainly against colic and labor pain." The Ebers Papyrus (1550 BCE) records cannabis-honey preparations for vaginal application.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1883 — British Medical Journal</div>
+        <p><em>"Indian hemp has such specific use in menorrhagia — there is no medicine which has given such good results."</em> Cannabis was the third most common ingredient in compounded medicines, manufactured by Parke-Davis, Eli Lilly, and Squibb specifically for women's conditions.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">1890 — The Lancet</div>
+        <p>Sir J. Russell Reynolds (Physician to the Royal Household) publishes: <em>"When pure and administered carefully, [cannabis] is one of the most valuable medicines we possess"</em> — recommending it for dysmenorrhea, migraine, and depression. Cannabis had been in the U.S. Pharmacopeia since 1850.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">May 4, 1937 — Washington D.C.</div>
+        <p>Dr. William Woodward, AMA legislative counsel, testifies before Congress: <strong>"The American Medical Association knows of no evidence that marijuana is a dangerous drug."</strong> He warns that future investigation may show substantial medical uses. The committee attacks him for obstruction.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">Days later — House Floor</div>
+        <p>Representative Fred Vinson states that the AMA gave the bill "full support and approval" — the <strong>exact opposite of what Woodward testified</strong>. The House debates for 90 seconds. The Marihuana Tax Act passes. Cannabis is gone from pharmacopoeias by 1942. A women's medicine used continuously for 5,000 years is criminalized in an afternoon.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">The Method</div>
+        <p>Harry Anslinger, architect of prohibition, deliberately used the Mexican-associated term "marihuana" rather than "cannabis" to sever the public's recognition of the dangerous new drug from the familiar medicine. Renaming was erasure. <em>Cannabis</em> was the remedy in every grandmother's house. <em>Marihuana</em> was a foreign menace.</p>
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      <blockquote>They renamed it so you wouldn't recognize what they were taking away.</blockquote>
+      <cite>On Anslinger's deliberate use of "marihuana" over the medical term "cannabis"</cite>
+    </div>
+  </section>
+
+  <!-- CHAPTER 6 -->
+  <section class="chapter">
+    <div class="chapter-number">VI</div>
+    <h2 class="chapter-title">The Recovery: What Returning Looks Like</h2>
+
+    <p>The suppression was not total. The knowledge survived the way it always survived: in women's networks, in practice, in the oral tradition that institutional erasure could wound but never fully destroy.</p>
+
+    <p>In 1978, <strong>Rosemary Gladstar</strong> founded the California School of Herbal Studies — now the oldest continuously operating herb school in the United States. The daughter of Armenian genocide survivors, she had learned botanical medicine from her grandmother. She would go on to found United Plant Savers, the New England Women's Herbal Conference, the International Herb Symposium, and co-found Traditional Medicinals. She is called the Godmother of American Herbalism. She frames every bit of it as reclamation: <em>"These plants were women's medicine. They were stolen. We are taking them back."</em></p>
+
+    <p><strong>Robin Wall Kimmerer</strong> — SUNY botanist, enrolled member of the Citizen Potawatomi Nation, 2022 MacArthur Fellow — published <em>Braiding Sweetgrass</em> in 2013, weaving Indigenous women's plant knowledge with Western botanical science. Named "Best Essay Collection of the Decade," it became one of the most borrowed titles in American public libraries, reaching millions of people who had never thought of plants as teachers.</p>
+
+    <p>And then there is the molecular validation that reframes everything. The GABA-A mechanism for lavender's anxiolytic effect was formally demonstrated in <strong>2018</strong>. Yarrow's hemostatic compounds were quantified in peer-reviewed pharmacology journals in the <strong>2020s</strong>. The 80% validation rate documented by Fabricant and Farnsworth is not the discovery of new knowledge. It is the belated institutional recognition of very old knowledge — knowledge accumulated through generations of women's empirical observation, dismissed as superstition for five centuries, and now proven right by the very science that replaced it.</p>
+
+    <div class="ornament">✦ · ✦ · ✦</div>
+
+    <p>The modern cannabis legalization movement — whatever its politics — created something unprecedented: a mandatory public analytical infrastructure for plant chemistry. Certificates of Analysis. Standardized terpene testing at accredited labs. QR codes on dispensary packaging showing exact molecular profiles. No herb in human history has ever been as analytically transparent as legal cannabis in a regulated state. Women are founding companies within that infrastructure at extraordinary rates, building businesses explicitly connected to the tradition of botanical healing that the 1937 Act tried to erase. The conversation, interrupted for 87 years, has resumed.</p>
+  </section>
+
+</main>
+
+<!-- ─── CLOSING ─── -->
+<section class="closing">
+  <span class="closing-glyph">☽</span>
+  <p>The wise women were not practicing magic. They were practicing pharmacy. The institution that spent five hundred years dismissing them as superstitious has spent the last few decades proving them right — receptor by receptor, molecule by molecule, clinical trial by clinical trial.</p>
+  <p>Linalool modulates GABA-A whether a pharmacologist or a grandmother describes the observation. Artemisinin kills malaria whether the extraction instructions come from a 4th-century text or a 21st-century lab. What changes is who gets credit, and whose knowledge is allowed to survive.</p>
+  <p>The molecules were always telling the truth.</p>
+  <span class="final-line">The same plant. Every woman. One body. One long memory.</span>
+</section>
+
+<footer>
+  Solful Sessions — The Terpene Files &nbsp;·&nbsp; Research Synthesis &nbsp;·&nbsp; 2026
+</footer>
+
+<script>
+  // Intersection Observer for chapter reveals
+  const chapters = document.querySelectorAll('.chapter');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  chapters.forEach(ch => observer.observe(ch));
+
+  // Also observe closing section
+  const closing = document.querySelector('.closing');
+  if (closing) {
+    closing.style.opacity = '0';
+    closing.style.transform = 'translateY(30px)';
+    closing.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+    observer.observe(closing);
+    closing.classList.add = closing.classList.add.bind(closing);
+    // reuse same observer which adds 'visible' — but closing doesn't have that class handler
+    const closingObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+    closingObserver.observe(closing);
+  }
+</script>
+</body>
+</html>
