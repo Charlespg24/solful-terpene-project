@@ -1,0 +1,991 @@
+{
+  "meta": {
+    "name": "Strain-to-Location Matching Database",
+    "version": "1.0",
+    "created": "2026-03-08",
+    "description": "Maps all 23 Solful strains to their optimal terpene pre-loading locations based on shared dominant terpene compounds. Each strain gets a primary location match (strongest terpene overlap), secondary matches, and a botanical garden micro-route.",
+    "matching_logic": "Locations are matched by identifying which forest/garden zones emit the same terpene molecules that dominate each strain's lab-analyzed profile. A redwood forest emitting α-pinene pre-loads the same receptor systems that a pinene-containing strain will activate. The forest becomes the first stage of the entourage effect.",
+    "source": "Strain terpene data from SC Labs analysis via Solful dispensary menu. Location terpene data from peer-reviewed forest VOC research and botanical species composition."
+  },
+
+  "strains": [
+    {
+      "id": 1,
+      "name": "Mike's Bomba",
+      "farm": "Glentucky Family Farm",
+      "county": "Sonoma",
+      "total_terpenes_pct": 1.38,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.47,
+        "Limonene": 0.32,
+        "α-Humulene": 0.18,
+        "Linalool": 0.07
+      },
+      "effects": "Relaxed, Calm, Alert",
+      "intent": "Grounded calm with clear mental edges",
+      "aroma": "Fuel, Lemon Cream, Forest Floor",
+      "vibe_category": "Grounded & Present",
+      "essential_oil_recipe": "Black Pepper 20, Lemon 10, Sage 8, Lavender 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.85,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool (lavender)"],
+          "rationale": "Patchouli in the Fragrance Garden is one of few botanical sources of β-caryophyllene available for inhalation. Lavender adds the linalool. Touch patchouli leaves then lavender blooms before consuming."
+        },
+        "secondary": [
+          {
+            "location_id": "menzies_native_garden",
+            "match_score": 0.60,
+            "terpene_overlap": ["Linalool (sage)", "1,8-cineole (sage)"],
+            "rationale": "California sages produce linalool as secondary terpene. Herbal sage aromatics complement the 'forest floor' aroma note."
+          },
+          {
+            "location_id": "mediterranean_garden",
+            "match_score": 0.55,
+            "terpene_overlap": ["Linalool (lavender)", "1,8-cineole (rosemary)"],
+            "rationale": "Mediterranean herbs provide supporting terpene pre-loading."
+          }
+        ],
+        "forest_match": {
+          "location_id": "samuel_p_taylor",
+          "rationale": "Bay laurel understory produces complex terpene blend. The 'forest floor' aroma note in Mike's Bomba mirrors the actual forest floor scent at Samuel P. Taylor."
+        },
+        "botanical_garden_route": "Garden of Fragrance (patchouli → lavender → sage beds) → Mediterranean Garden (rosemary wall)",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 2,
+      "name": "Raspberry Punch",
+      "farm": "Glentucky Family Farm",
+      "county": "Sonoma",
+      "total_terpenes_pct": 1.28,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.44,
+        "Limonene": 0.26,
+        "α-Humulene": 0.16,
+        "Linalool": 0.10
+      },
+      "effects": "Relaxed, Calm, Alert",
+      "intent": "Grounded calm with clear mental edges",
+      "vibe_category": "Grounded & Present",
+      "essential_oil_recipe": "Black Pepper 18, Sweet Orange 10, Sage 6, Lavender 4, Geranium 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.82,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool (lavender)"],
+          "rationale": "Same caryophyllene-forward profile as Mike's Bomba. Fragrance Garden patchouli and lavender pre-load primary and tertiary terpenes."
+        },
+        "secondary": [
+          {
+            "location_id": "menzies_native_garden",
+            "match_score": 0.58,
+            "terpene_overlap": ["Linalool (sage)"],
+            "rationale": "Sage-derived linalool matches the strain's linalool component."
+          }
+        ],
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "Sonoma farm, Sonoma forest. Keep the terroir local. Bay laurel in understory provides secondary terpene support."
+        },
+        "botanical_garden_route": "Garden of Fragrance (patchouli → lavender)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "Natty Bumppo",
+      "farm": "Moon Gazer Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.86,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.63,
+        "Limonene": 0.35,
+        "α-Humulene": 0.25,
+        "Myrcene": 0.19
+      },
+      "effects": "Happy, Carefree, Physically Relaxed",
+      "intent": "Loose and easy, happily untethered",
+      "aroma": "Kerosene, Musk, Sour Plum",
+      "vibe_category": "Grounded & Present",
+      "essential_oil_recipe": "Black Pepper 14, Lemon 10, Sage 6, Lemongrass 6, Geranium 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.80,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool trace"],
+          "rationale": "Highest caryophyllene of the caryophyllene-dominant strains (0.63%). Patchouli pre-loads the CB2 receptor pathway."
+        },
+        "secondary": [
+          {
+            "location_id": "menzies_native_garden",
+            "match_score": 0.55,
+            "terpene_overlap": ["α-Humulene (sage)"],
+            "rationale": "Humulene (0.25%) is meaningfully present. California sage in Menzies Garden provides humulene through inhalation."
+          }
+        ],
+        "forest_match": {
+          "location_id": "grove_of_old_trees",
+          "rationale": "Low-key, easy, 'happily untethered' vibe matches the hidden, uncrowded character of Grove of Old Trees."
+        },
+        "botanical_garden_route": "Garden of Fragrance (patchouli) → Menzies Native Plants (sage)",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 4,
+      "name": "Black Lime Chem",
+      "farm": "Moon Gazer Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 3.08,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 1.69,
+        "α-Pinene": 0.39,
+        "β-Caryophyllene": 0.27,
+        "β-Ocimene": 0.19
+      },
+      "effects": "Heavy, Blissful, Sleepy",
+      "intent": "Weighted bliss melting toward rest",
+      "aroma": "Sharp Lime, Rhubarb, Glue",
+      "vibe_category": "Deep Rest",
+      "essential_oil_recipe": "Lemongrass 16, Pine 8, Black Pepper 6, Basil 6, Lemon 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "muir_woods",
+          "match_score": 0.78,
+          "terpene_overlap": ["α-Pinene (redwood)"],
+          "rationale": "While myrcene dominates the strain, the significant α-pinene (0.39%) creates strong overlap with redwood forests. The 'heavy, blissful' effect is enhanced by the cathedral-like silence of old-growth. Pine terpene pre-loading activates the secondary pathway."
+        },
+        "secondary": [
+          {
+            "location_id": "redwood_grove_botanical",
+            "match_score": 0.72,
+            "terpene_overlap": ["α-Pinene (redwood)"],
+            "rationale": "Urban redwood pre-loading, 4 min from Solful SF."
+          },
+          {
+            "location_id": "conifer_lawn",
+            "match_score": 0.68,
+            "terpene_overlap": ["α-Pinene (multiple conifers)"],
+            "rationale": "30+ conifer species provide pinene diversity."
+          }
+        ],
+        "forest_match": {
+          "location_id": "muir_woods",
+          "rationale": "Cathedral Grove's dense canopy creates the 'weighted' atmosphere matching the strain's heavy intent. Fog-trapped pinene amplifies the secondary terpene pathway."
+        },
+        "botanical_garden_route": "Redwood Grove → Conifer Lawn",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 5,
+      "name": "Guava Gift",
+      "farm": "Alpenglow Farms",
+      "county": "Humboldt",
+      "total_terpenes_pct": 2.34,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.73,
+        "Limonene": 0.50,
+        "Myrcene": 0.33,
+        "α-Humulene": 0.25
+      },
+      "effects": "Social, Inspiring, Euphoric",
+      "intent": "Open and expansive, easy social lift",
+      "aroma": "Fresh Guava, Lemon Rind, Tamarind",
+      "vibe_category": "Social & Bright",
+      "essential_oil_recipe": "Black Pepper 14, Grapefruit 10, Lemongrass 8, Basil 6, Rosemary 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.82,
+          "terpene_overlap": ["β-Caryophyllene (patchouli, rosemary)"],
+          "rationale": "Highest caryophyllene strain (0.73%). Patchouli + rosemary in Fragrance Garden pre-loads CB2 pathway."
+        },
+        "secondary": [
+          {
+            "location_id": "mediterranean_garden",
+            "match_score": 0.65,
+            "terpene_overlap": ["1,8-cineole (rosemary)", "thymol (thyme)"],
+            "rationale": "Mediterranean herbs provide secondary terpene activation. Social atmosphere of open garden matches 'social, inspiring' effects."
+          }
+        ],
+        "forest_match": {
+          "location_id": "angel_island",
+          "rationale": "The social, expansive nature of the ferry ride + island exploration matches the strain's 'open and expansive' intent. Bay laurel and eucalyptus provide complex terpene backdrop."
+        },
+        "botanical_garden_route": "Garden of Fragrance (rosemary → patchouli) → Mediterranean Garden (herb beds)",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 6,
+      "name": "Mule Fuel",
+      "farm": "Alpenglow Farms",
+      "county": "Humboldt",
+      "total_terpenes_pct": 3.97,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 2.22,
+        "α-Pinene": 0.54,
+        "β-Caryophyllene": 0.34,
+        "Limonene": 0.28
+      },
+      "effects": "Happy, Hungry, Sleepy",
+      "intent": "Gentle contentment settling toward rest",
+      "aroma": "Skunk, Diesel, Lemon, Leather",
+      "vibe_category": "Deep Rest",
+      "essential_oil_recipe": "Lemongrass 20, Pine 8, Black Pepper 6, Lemon 6",
+      "location_matches": {
+        "primary": {
+          "location_id": "armstrong_redwoods",
+          "match_score": 0.85,
+          "terpene_overlap": ["α-Pinene (redwood)", "β-Pinene (redwood)"],
+          "rationale": "HIGHEST TOTAL TERPENES (3.97%) with significant α-pinene (0.54%). Armstrong's temperate rainforest = peak pinene saturation. The 'gentle contentment settling toward rest' mirrors the feeling of being deep inside 1,400-year-old redwoods. 30 min from Solful Sebastopol."
+        },
+        "secondary": [
+          {
+            "location_id": "redwood_grove_botanical",
+            "match_score": 0.75,
+            "terpene_overlap": ["α-Pinene (redwood)"],
+            "rationale": "Urban pinene pre-loading, 4 min from Solful SF."
+          },
+          {
+            "location_id": "conifer_lawn",
+            "match_score": 0.70,
+            "terpene_overlap": ["α-Pinene (multiple species)"],
+            "rationale": "Broad pinene diversity from 30+ species."
+          }
+        ],
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "The most sedating strain + the most immersive forest. Evening walk at Armstrong → consume Mule Fuel at home = maximum synergistic pre-loading."
+        },
+        "botanical_garden_route": "Redwood Grove → Conifer Lawn → Great Meadow (ambient cypress canopy)",
+        "route_duration_min": 20
+      }
+    },
+
+    {
+      "id": 7,
+      "name": "Satsuma Sherbet",
+      "farm": "Alpenglow Farms",
+      "county": "Humboldt",
+      "total_terpenes_pct": 1.85,
+      "dominant_terpene": "Limonene",
+      "terpene_profile": {
+        "Limonene": 0.55,
+        "β-Caryophyllene": 0.45,
+        "α-Humulene": 0.13,
+        "Myrcene": 0.11
+      },
+      "effects": "Happy, Contemplative, Comfortable",
+      "intent": "Quiet ease with thoughtful undertones",
+      "aroma": "Mandarin Orange, Mochi, Mint",
+      "vibe_category": "Cozy Comfort",
+      "essential_oil_recipe": "Sweet Orange 16, Black Pepper 12, Sage 4, Lemongrass 4, Peppermint 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.75,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Menthol (mint beds)"],
+          "rationale": "Near-equal caryophyllene and limonene. Patchouli pre-loads the CB2 pathway. Mint beds in Fragrance Garden match the 'Mint' aroma note directly."
+        },
+        "secondary": [
+          {
+            "location_id": "mount_sutro",
+            "match_score": 0.55,
+            "terpene_overlap": ["1,8-cineole (eucalyptus)", "α-pinene"],
+            "rationale": "Eucalyptol's cooling quality matches the 'mochi, mint' character. The contemplative cloud forest atmosphere aligns with 'quiet ease with thoughtful undertones.'"
+          }
+        ],
+        "forest_match": {
+          "location_id": "mount_sutro",
+          "rationale": "Contemplative cloud forest atmosphere = quiet ease. Eucalyptus cooling matches mint aroma note."
+        },
+        "botanical_garden_route": "Garden of Fragrance (mint beds → patchouli)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 8,
+      "name": "Tropical Sleigh Ride",
+      "farm": "Greenshock Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 2.35,
+      "dominant_terpene": "β-Ocimene",
+      "terpene_profile": {
+        "β-Ocimene": 0.71,
+        "β-Caryophyllene": 0.70,
+        "α-Humulene": 0.28,
+        "Limonene": 0.22
+      },
+      "effects": "Joyful, Alert, Euphoric",
+      "intent": "Vivid lift with present clarity",
+      "aroma": "Peppermint, Honeysuckle, Hint of Ginger",
+      "vibe_category": "Creative Flow",
+      "essential_oil_recipe": "Basil 14, Black Pepper 12, Peppermint 6, Grapefruit 4, Geranium 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.78,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Menthol (mint)", "Honeysuckle (direct plant match)"],
+          "rationale": "β-Ocimene is rare in natural environments, but the near-equal β-caryophyllene (0.70%) gives strong Fragrance Garden overlap. Mint beds match the peppermint aroma. Honeysuckle is literally growing in the Fragrance Garden."
+        },
+        "secondary": [
+          {
+            "location_id": "presidio_ecology_trail",
+            "match_score": 0.60,
+            "terpene_overlap": ["α-Pinene (mixed conifers)", "1,8-cineole (eucalyptus)"],
+            "rationale": "The 'vivid lift with present clarity' matches the multi-biome stimulation of the Ecology Trail. Shifting terpene zones create alertness."
+          }
+        ],
+        "forest_match": {
+          "location_id": "presidio_ecology_trail",
+          "rationale": "Joyful, alert, and euphoric = the multi-sensory stimulation of walking through 4 biomes in 1.4 miles. Each zone shift creates a new aromatic moment."
+        },
+        "botanical_garden_route": "Garden of Fragrance (honeysuckle → mint → patchouli)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 9,
+      "name": "Purple Candy Cane",
+      "farm": "Greenshock Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.55,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 0.54,
+        "β-Caryophyllene": 0.31,
+        "α-Pinene": 0.20,
+        "α-Humulene": 0.13
+      },
+      "effects": "Energized, Invigorated, Talkative",
+      "intent": "Vibrant and vocal, fully awake",
+      "aroma": "Mango, Peppermint Candy, Orange Blossom",
+      "vibe_category": "Creative Flow",
+      "essential_oil_recipe": "Lemongrass 12, Black Pepper 8, Sweet Orange 8, Pine 6, Peppermint 4, Sage 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "roys_redwoods",
+          "match_score": 0.72,
+          "terpene_overlap": ["α-Pinene (redwood)"],
+          "rationale": "Significant pinene (0.20%) plus the invigorating, talkative energy matches Roy's Redwoods' intimate, social-scale grove. New boardwalk trails invite movement and conversation."
+        },
+        "secondary": [
+          {
+            "location_id": "garden_of_fragrance",
+            "match_score": 0.68,
+            "terpene_overlap": ["Menthol (mint)", "β-Caryophyllene (patchouli)"],
+            "rationale": "Peppermint Candy aroma → mint beds. Orange Blossom → citrus plantings nearby."
+          }
+        ],
+        "forest_match": {
+          "location_id": "roys_redwoods",
+          "rationale": "Vibrant, vocal energy matches the easy accessibility and social feel of Roy's new trail system."
+        },
+        "botanical_garden_route": "Garden of Fragrance (mint beds) → Redwood Grove",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 10,
+      "name": "Carambola",
+      "farm": "Higher Heights",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.45,
+      "dominant_terpene": "Limonene",
+      "terpene_profile": {
+        "Limonene": 0.44,
+        "β-Caryophyllene": 0.18,
+        "Linalool": 0.12,
+        "α-Bisabolol": 0.09
+      },
+      "effects": "Energetic, Fun, Giggly",
+      "intent": "Light and playful, effervescent energy",
+      "aroma": "Orange, Diesel, Incense",
+      "vibe_category": "Social & Bright",
+      "essential_oil_recipe": "Sweet Orange 16, Rosemary 8, Lavender 6, German Chamomile 6, Black Pepper 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.80,
+          "terpene_overlap": ["Linalool (lavender, jasmine)", "β-Caryophyllene (patchouli, rosemary)"],
+          "rationale": "Limonene-dominant but linalool (0.12%) and bisabolol (0.09%) create floral secondary profile. Lavender + jasmine + chamomile in Fragrance Garden match this perfectly. Rosemary provides caryophyllene."
+        },
+        "secondary": [
+          {
+            "location_id": "mediterranean_garden",
+            "match_score": 0.65,
+            "terpene_overlap": ["Linalool (lavender)", "1,8-cineole (rosemary)"],
+            "rationale": "Incense note matches Mediterranean aromatic atmosphere."
+          }
+        ],
+        "forest_match": {
+          "location_id": "angel_island",
+          "rationale": "Light, playful energy matches the adventure of a ferry ride to an island. Fun, giggly matches the exploratory spirit of island hiking."
+        },
+        "botanical_garden_route": "Garden of Fragrance (lavender → jasmine → rosemary) → Mediterranean Garden",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 11,
+      "name": "Rasta Governmint",
+      "farm": "Higher Heights",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.92,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.60,
+        "Limonene": 0.39,
+        "α-Humulene": 0.17,
+        "Myrcene": 0.16
+      },
+      "effects": "Euphoric, Supremely Relaxed, Comforted",
+      "intent": "Profound ease with cushioned edges",
+      "aroma": "Sour Cherry, Frankincense, Oak",
+      "vibe_category": "Deep Rest",
+      "essential_oil_recipe": "Black Pepper 14, Lemon 10, Rosemary 6, Sage 6, Geranium 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.82,
+          "terpene_overlap": ["β-Caryophyllene (patchouli, rosemary)"],
+          "rationale": "Heavy caryophyllene (0.60%) + profound ease. Patchouli's deep, resinous scent matches the 'Frankincense, Oak' aroma notes."
+        },
+        "secondary": [
+          {
+            "location_id": "redwood_grove_botanical",
+            "match_score": 0.50,
+            "terpene_overlap": ["α-Pinene (redwood)"],
+            "rationale": "Oak aroma note echoes the tannin-rich redwood atmosphere."
+          }
+        ],
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "Profound ease + 1,400-year-old trees. The 'cushioned edges' mirror the soft duff forest floor at Armstrong."
+        },
+        "botanical_garden_route": "Garden of Fragrance (patchouli → rosemary) → Redwood Grove",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 12,
+      "name": "Pineapple Mojito",
+      "farm": "Higher Heights",
+      "county": "Mendocino",
+      "total_terpenes_pct": 2.55,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.63,
+        "Limonene": 0.56,
+        "α-Bisabolol": 0.24,
+        "α-Humulene": 0.19,
+        "Linalool": 0.16,
+        "α-Pinene": 0.14,
+        "Myrcene": 0.11
+      },
+      "effects": "Relaxed, Grounded, Euphoric",
+      "intent": "Rooted ease with a quiet glow",
+      "aroma": "Pineapple, Ginger, Mint, Gas",
+      "vibe_category": "Grounded & Present",
+      "essential_oil_recipe": "Black Pepper 12, Sweet Orange 10, German Chamomile 6, Sage 4, Lavender 4, Pine 2, Lemongrass 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "sf_botanical_garden",
+          "match_score": 0.92,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool (lavender)", "α-Pinene (redwood/conifer)", "1,8-cineole (rosemary/eucalyptus)", "Menthol (mint)"],
+          "rationale": "BROADEST TERPENE DIVERSITY of any strain (7 terpenes in profile, 7-oil essential oil blend). The FULL botanical garden circuit is the only location that can pre-load this many pathways. This is THE strain for the Full Spectrum Walk route."
+        },
+        "secondary": [
+          {
+            "location_id": "samuel_p_taylor",
+            "match_score": 0.75,
+            "terpene_overlap": ["α-Pinene (redwood)", "1,8-cineole (bay laurel)", "Myrcene (Douglas fir)"],
+            "rationale": "Most complex forest terpene profile matches most complex strain terpene profile."
+          }
+        ],
+        "forest_match": {
+          "location_id": "samuel_p_taylor",
+          "rationale": "7-terpene strain needs a multi-species forest. Samuel P. Taylor's redwood + bay laurel + Douglas fir + madrone delivers the broadest forest terpene cocktail."
+        },
+        "botanical_garden_route": "FULL SPECTRUM: Garden of Fragrance → Mediterranean → Menzies → Redwood Grove → Conifer Lawn → Australian Collection",
+        "route_duration_min": 60
+      }
+    },
+
+    {
+      "id": 13,
+      "name": "Strawberry Biscotti",
+      "farm": "Happy Day Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.48,
+      "dominant_terpene": "Limonene",
+      "terpene_profile": {
+        "Limonene": 0.38,
+        "β-Caryophyllene": 0.29,
+        "Myrcene": 0.25,
+        "α-Bisabolol": 0.13
+      },
+      "effects": "Comforting, Mentally Engaging, Appetite Inducing",
+      "intent": "Cozy anchor with a curious mind",
+      "aroma": "Kettle Corn, Fuel, Sour Strawberry Candy",
+      "vibe_category": "Cozy Comfort",
+      "essential_oil_recipe": "Bergamot 14, Black Pepper 10, Lemongrass 8, German Chamomile 6, Clove 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.72,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool trace (lavender)"],
+          "rationale": "Balanced profile with comfort as intent. The intimate, cozy scale of the Fragrance Garden matches the strain's anchoring quality."
+        },
+        "secondary": [
+          {
+            "location_id": "redwood_grove_botanical",
+            "match_score": 0.55,
+            "terpene_overlap": ["α-Pinene (redwood)"],
+            "rationale": "Cozy anchor quality matches the sheltered feeling inside the redwood grove."
+          }
+        ],
+        "forest_match": {
+          "location_id": "grove_of_old_trees",
+          "rationale": "Cozy, intimate old-growth. 15°F temperature drop creates a 'cozy anchor' feeling. Free, uncrowded, hidden."
+        },
+        "botanical_garden_route": "Garden of Fragrance → Redwood Grove",
+        "route_duration_min": 12
+      }
+    },
+
+    {
+      "id": 14,
+      "name": "Avenue of the Giants",
+      "farm": "Happy Day Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 3.48,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 1.94,
+        "β-Caryophyllene": 0.43,
+        "α-Pinene": 0.26,
+        "β-Ocimene": 0.24
+      },
+      "effects": "Energizing, Buzzy, Motivating",
+      "intent": "Forward momentum with electric clarity",
+      "aroma": "Pine Needles, Menthol, Jasmine",
+      "vibe_category": "Creative Flow",
+      "essential_oil_recipe": "Lemongrass 16, Pine 8, Black Pepper 6, Basil 4, Peppermint 4, Geranium 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "armstrong_redwoods",
+          "match_score": 0.88,
+          "terpene_overlap": ["α-Pinene (redwood)", "β-Pinene (redwood)"],
+          "rationale": "THE STRAIN IS LITERALLY NAMED AFTER A REDWOOD DRIVE. 'Pine Needles' is the first aroma note. Significant α-pinene (0.26%). Armstrong Redwoods IS Avenue of the Giants energy — towering ancient trees creating forward momentum."
+        },
+        "secondary": [
+          {
+            "location_id": "muir_woods",
+            "match_score": 0.82,
+            "terpene_overlap": ["α-Pinene (redwood)", "β-Pinene (redwood)"],
+            "rationale": "Any old-growth redwood forest matches the 'pine needles' aroma and the awe-inspiring scale implied by the strain name."
+          },
+          {
+            "location_id": "redwood_grove_botanical",
+            "match_score": 0.72,
+            "terpene_overlap": ["α-Pinene (redwood)"],
+            "rationale": "Urban redwood pre-loading, 4 min from Solful SF."
+          }
+        ],
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "This is the flagship strain-to-location match. The strain name, the aroma (Pine Needles, Menthol, Jasmine), the 'forward momentum with electric clarity' intent — all point to walking among giant redwoods. The Parson Jones Tree at 310 ft IS an Avenue of the Giants."
+        },
+        "botanical_garden_route": "Redwood Grove → Conifer Lawn → Garden of Fragrance (jasmine + mint beds)",
+        "route_duration_min": 20
+      }
+    },
+
+    {
+      "id": 15,
+      "name": "Blueberry Muffin",
+      "farm": "Emerald Spirit Botanicals",
+      "county": "Mendocino",
+      "total_terpenes_pct": null,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": "dominant",
+        "Myrcene": "secondary",
+        "α-Bisabolol": "present",
+        "α-Humulene": "present"
+      },
+      "effects": "Comforting, Cozy, Grounding",
+      "vibe_category": "Cozy Comfort",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.75,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)"],
+          "rationale": "Cozy comfort profile → intimate Fragrance Garden."
+        },
+        "forest_match": {
+          "location_id": "grove_of_old_trees",
+          "rationale": "Cozy, intimate, hidden. Temperature drop creates comfort."
+        },
+        "botanical_garden_route": "Garden of Fragrance",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 16,
+      "name": "Lemon Papaya Banana",
+      "farm": "Emerald Spirit Botanicals",
+      "county": "Mendocino",
+      "total_terpenes_pct": null,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": "dominant",
+        "Limonene": 0.29,
+        "β-Caryophyllene": 0.16,
+        "α-Humulene": 0.05
+      },
+      "effects": "Relaxed, Sleepy, Body Melt",
+      "vibe_category": "Deep Rest",
+      "location_matches": {
+        "primary": {
+          "location_id": "mount_sutro",
+          "match_score": 0.65,
+          "terpene_overlap": ["1,8-cineole (eucalyptus)", "α-Pinene (eucalyptus secondary)"],
+          "rationale": "Deep rest + cloud forest = total sensory surrender. Fog-wrapped eucalyptus trees create dreamlike pre-loading atmosphere."
+        },
+        "forest_match": {
+          "location_id": "mount_sutro",
+          "rationale": "The most ethereal, dreamlike forest in SF. Body melt + cloud forest."
+        },
+        "botanical_garden_route": "Australian Collection (eucalyptus) → Redwood Grove",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 17,
+      "name": "Pinnacle",
+      "farm": "Dos Rios Farms",
+      "county": "Mendocino",
+      "total_terpenes_pct": 3.35,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.61,
+        "Limonene": 0.46,
+        "α-Humulene": 0.19,
+        "trans-β-Farnesene": 0.14
+      },
+      "effects": "Heavy, Sedative, Blissful",
+      "intent": "Deep surrender into velvet quiet",
+      "aroma": "Sweet Cream, Nutmeg, Fennel Seeds",
+      "vibe_category": "Deep Rest",
+      "essential_oil_recipe": "Black Pepper 12, Sweet Orange 10, Rosemary 6, Sage 6, Ylang Ylang 4, Clove 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.78,
+          "terpene_overlap": ["β-Caryophyllene (patchouli, rosemary)"],
+          "rationale": "Heaviest sedative strain. Deep patchouli + rosemary scent pre-loads the surrender pathway."
+        },
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "Deep surrender + ancient forest. The weight of 1,400-year-old trees overhead creates the 'velvet quiet' the strain describes."
+        },
+        "botanical_garden_route": "Garden of Fragrance (patchouli → rosemary → wormwood)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 18,
+      "name": "Pink Jesus Reserve",
+      "farm": "Sonoma Hills Farm",
+      "county": "Sonoma",
+      "total_terpenes_pct": 1.89,
+      "dominant_terpene": "β-Caryophyllene",
+      "terpene_profile": {
+        "β-Caryophyllene": 0.78,
+        "Myrcene": 0.38,
+        "α-Humulene": 0.27,
+        "α-Bisabolol": 0.15
+      },
+      "effects": "Social, Uplifting, Euphoric",
+      "intent": "Buoyant and warm, ready to share",
+      "aroma": "Raspberry, French Lavender, Pineapple",
+      "vibe_category": "Social & Bright",
+      "essential_oil_recipe": "Black Pepper 14, Lemongrass 8, Lavender 6, Sage 6, German Chamomile 4, Geranium 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.88,
+          "terpene_overlap": ["β-Caryophyllene (patchouli)", "Linalool (lavender)", "α-Bisabolol (chamomile)"],
+          "rationale": "HIGHEST CARYOPHYLLENE of any strain (0.78%). 'French Lavender' is literally the second aroma note — and lavender IS in the Fragrance Garden. Patchouli pre-loads CB2. Lavender pre-loads GABA-A. This is the strongest strain-to-Fragrance-Garden match."
+        },
+        "secondary": [
+          {
+            "location_id": "menzies_native_garden",
+            "match_score": 0.65,
+            "terpene_overlap": ["Linalool (sage)", "α-Humulene (sage)"],
+            "rationale": "Sage provides both linalool and humulene (0.27%). Matches the herbal depth."
+          }
+        ],
+        "forest_match": {
+          "location_id": "armstrong_redwoods",
+          "rationale": "Sonoma farm → Sonoma forest. Social, uplifting energy matches the accessible trails. 30 min from Solful Sebastopol."
+        },
+        "botanical_garden_route": "Garden of Fragrance (lavender beds → patchouli → chamomile) → Menzies (sage)",
+        "route_duration_min": 20
+      }
+    },
+
+    {
+      "id": 19,
+      "name": "Love and Laughter (CBD)",
+      "farm": "Heartrock Mountain Farm",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.72,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 0.56,
+        "Terpinolene": 0.28,
+        "β-Caryophyllene": 0.20,
+        "α-Pinene": 0.13
+      },
+      "effects": "Energizing, Focusing, Non-Intoxicating",
+      "intent": "Clear and steady, nothing clouded",
+      "aroma": "Flowers, Eucalyptus, Berries",
+      "vibe_category": "Calm Focus",
+      "essential_oil_recipe": "Lemongrass 14, Tea Tree 8, Eucalyptus 8, Black Pepper 6, Geranium 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "mount_sutro",
+          "match_score": 0.88,
+          "terpene_overlap": ["1,8-cineole (eucalyptus)", "α-Pinene (eucalyptus secondary)"],
+          "rationale": "'EUCALYPTUS' IS LITERALLY THE SECOND AROMA NOTE. Mount Sutro is an 80-acre eucalyptus cloud forest. This is the most direct strain-to-forest match in the entire database. Walk through Sutro's eucalyptus canopy → consume Love and Laughter → the same molecule (1,8-cineole) bridges the experience."
+        },
+        "secondary": [
+          {
+            "location_id": "australian_collection",
+            "match_score": 0.82,
+            "terpene_overlap": ["1,8-cineole (eucalyptus species)", "Terpinen-4-ol (tea tree relatives)"],
+            "rationale": "Australian Collection has both eucalyptus AND tea tree family plants (Melaleuca). Tea tree oil is literally in the essential oil recipe. The Garden of Fragrance flowers match the 'Flowers' aroma note."
+          },
+          {
+            "location_id": "presidio_ecology_trail",
+            "match_score": 0.75,
+            "terpene_overlap": ["1,8-cineole (eucalyptus groves)", "α-Pinene (redwood/pine)"],
+            "rationale": "Mixed eucalyptus + pine exposure matches the full terpene profile. Energizing trail matches 'clear and steady' intent."
+          }
+        ],
+        "forest_match": {
+          "location_id": "mount_sutro",
+          "rationale": "The only CBD strain, the only eucalyptus-aroma strain, and the only eucalyptus cloud forest in SF. Made for each other."
+        },
+        "botanical_garden_route": "Australian Collection (eucalyptus) → Garden of Fragrance (flowers + tea tree relatives)",
+        "route_duration_min": 15
+      }
+    },
+
+    {
+      "id": 20,
+      "name": "Peach Flambé",
+      "farm": "Sunrise Gardens",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.05,
+      "dominant_terpene": "Myrcene",
+      "effects": "Euphoric, Light",
+      "vibe_category": "Euphoric Lift",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.60,
+          "rationale": "Lowest total terpenes (1.05%). Broad Fragrance Garden exposure maximizes receptor priming for a light-terpene strain."
+        },
+        "botanical_garden_route": "Garden of Fragrance (full circuit)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 21,
+      "name": "Mandarin Cherry Tree",
+      "farm": "Sticky Fields",
+      "county": "Mendocino",
+      "total_terpenes_pct": 1.75,
+      "dominant_terpene": "Limonene",
+      "terpene_profile": {
+        "Limonene": 0.52,
+        "β-Caryophyllene": 0.36,
+        "α-Humulene": 0.13,
+        "Linalool": 0.11
+      },
+      "effects": "Full Body Relaxation, Serenity, Creativity",
+      "intent": "Settled body, gently wandering mind",
+      "aroma": "Mandarin Orange, Sandalwood, Lavender",
+      "vibe_category": "Cozy Comfort",
+      "essential_oil_recipe": "Sweet Orange 16, Black Pepper 10, Lavender 6, Sage 4, Ylang Ylang 4",
+      "location_matches": {
+        "primary": {
+          "location_id": "garden_of_fragrance",
+          "match_score": 0.85,
+          "terpene_overlap": ["Linalool (lavender)", "β-Caryophyllene (patchouli)"],
+          "rationale": "'LAVENDER' is the third aroma note. Lavender in the Fragrance Garden directly pre-loads the linalool pathway (0.11%). Patchouli pre-loads caryophyllene (0.36%). Sandalwood note matches patchouli's deep resinous character."
+        },
+        "secondary": [
+          {
+            "location_id": "menzies_native_garden",
+            "match_score": 0.60,
+            "terpene_overlap": ["Linalool (sage)"],
+            "rationale": "Sage-derived linalool. Serene, creative atmosphere matches the 'gently wandering mind' intent."
+          }
+        ],
+        "forest_match": {
+          "location_id": "mount_sutro",
+          "rationale": "Serenity and creativity match the otherworldly cloud forest atmosphere. Wandering mind + wandering through fog-wrapped trails."
+        },
+        "botanical_garden_route": "Garden of Fragrance (lavender → patchouli → ylang ylang if present)",
+        "route_duration_min": 10
+      }
+    },
+
+    {
+      "id": 22,
+      "name": "Glitter Bomb",
+      "farm": "Sol Spirit Farm",
+      "county": "Trinity",
+      "total_terpenes_pct": 2.39,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": 1.23,
+        "β-Caryophyllene": 0.42,
+        "β-Ocimene": 0.17,
+        "Linalool": 0.15
+      },
+      "effects": "Physically Relaxing, Cerebral, Euphoric",
+      "intent": "Body at ease, mind sparkling",
+      "aroma": "Kiwi, Pine, Musk",
+      "vibe_category": "Euphoric Lift",
+      "essential_oil_recipe": "Lemongrass 14, Black Pepper 10, Basil 6, Lavender 4, Pine 4, Geranium 2",
+      "location_matches": {
+        "primary": {
+          "location_id": "muir_woods",
+          "match_score": 0.78,
+          "terpene_overlap": ["α-Pinene (redwood)"],
+          "rationale": "'PINE' is the second aroma note. Pine essential oil is in the recipe. Old-growth redwood forest delivers pinene pre-loading. 'Body at ease, mind sparkling' matches the physical relaxation of walking soft forest trails while being mentally awed by towering trees."
+        },
+        "secondary": [
+          {
+            "location_id": "garden_of_fragrance",
+            "match_score": 0.70,
+            "terpene_overlap": ["Linalool (lavender)", "β-Caryophyllene (patchouli)"],
+            "rationale": "Significant linalool (0.15%) and caryophyllene (0.42%) provide Fragrance Garden overlap."
+          }
+        ],
+        "forest_match": {
+          "location_id": "muir_woods",
+          "rationale": "Pine aroma + physically relaxing + cerebral = old-growth redwood immersion."
+        },
+        "botanical_garden_route": "Redwood Grove → Garden of Fragrance (lavender → patchouli) → Conifer Lawn (pine)",
+        "route_duration_min": 20
+      }
+    },
+
+    {
+      "id": 23,
+      "name": "Moonlight",
+      "farm": "Various",
+      "total_terpenes_pct": null,
+      "dominant_terpene": "Myrcene",
+      "terpene_profile": {
+        "Myrcene": "dominant",
+        "Terpinolene": "secondary",
+        "α-Bisabolol": "present"
+      },
+      "effects": "Grounded, Contemplative, Ease",
+      "vibe_category": "Grounded & Present",
+      "location_matches": {
+        "primary": {
+          "location_id": "mount_sutro",
+          "match_score": 0.70,
+          "terpene_overlap": ["1,8-cineole (eucalyptus atmosphere)"],
+          "rationale": "'Moonlight' + Mt. Sutro's foggy, ethereal atmosphere. The contemplative cloud forest matches the contemplative strain intent. Evening visit when fog wraps the trees = actual moonlight through eucalyptus."
+        },
+        "forest_match": {
+          "location_id": "mount_sutro",
+          "rationale": "Moonlight through fog-wrapped eucalyptus. Visit at dusk for the full experience."
+        },
+        "botanical_garden_route": "Australian Collection → Moon Viewing Garden (thematic match)",
+        "route_duration_min": 15
+      }
+    }
+  ],
+
+  "matching_summary": {
+    "top_location_by_strain_matches": {
+      "garden_of_fragrance": 18,
+      "armstrong_redwoods": 6,
+      "mount_sutro": 5,
+      "muir_woods": 3,
+      "redwood_grove_botanical": 5,
+      "samuel_p_taylor": 2,
+      "presidio_ecology_trail": 2,
+      "grove_of_old_trees": 3,
+      "angel_island": 2,
+      "roys_redwoods": 1,
+      "conifer_lawn": 4,
+      "mediterranean_garden": 3,
+      "menzies_native_garden": 5,
+      "australian_collection": 3
+    },
+    "flagship_pairings": [
+      {
+        "strain": "Avenue of the Giants",
+        "location": "Armstrong Redwoods",
+        "why": "The strain is named after a redwood drive. The aroma is 'Pine Needles, Menthol, Jasmine.' Armstrong has 310-ft Parson Jones Tree. This is the most poetic strain-to-location match."
+      },
+      {
+        "strain": "Love and Laughter (CBD)",
+        "location": "Mount Sutro Forest",
+        "why": "The strain's second aroma note is 'Eucalyptus.' Mount Sutro is an 80-acre eucalyptus cloud forest. Same molecule, same atmosphere, different botanical source. Source independence in action."
+      },
+      {
+        "strain": "Pink Jesus Reserve",
+        "location": "Garden of Fragrance (lavender beds)",
+        "why": "Highest caryophyllene strain (0.78%) with 'French Lavender' as second aroma note. Lavender is physically present in the Fragrance Garden. Patchouli provides CB2 pre-loading."
+      },
+      {
+        "strain": "Pineapple Mojito",
+        "location": "Full Botanical Garden Circuit",
+        "why": "Broadest terpene diversity of any strain (7 terpenes). Only the full botanical garden walk across all zones can pre-load this many receptor pathways simultaneously."
+      },
+      {
+        "strain": "Mule Fuel",
+        "location": "Armstrong Redwoods",
+        "why": "Highest total terpenes (3.97%) with significant pinene (0.54%). Armstrong's 55 inches annual rainfall creates peak phytoncide concentration. Most sedating strain meets most immersive forest."
+      }
+    ]
+  }
+}

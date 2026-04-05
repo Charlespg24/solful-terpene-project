@@ -1,0 +1,827 @@
+{
+  "meta": {
+    "name": "Bay Area Terpene Locations Database",
+    "version": "1.0",
+    "created": "2026-03-08",
+    "description": "Comprehensive location layer for the Vibe Curator platform. Maps Bay Area forests, parks, and botanical garden zones to their dominant terpene emissions, receptor targets, and cannabis strain matches. Covers SF, Marin, and Sonoma launch geography.",
+    "launch_markets": ["San Francisco", "Marin County", "Sonoma County"],
+    "dispensary_partners": [
+      {
+        "name": "Solful Cannabis Dispensary - San Francisco",
+        "address": "900 Irving St, San Francisco, CA 94122",
+        "latitude": 37.7641837,
+        "longitude": -122.4675777,
+        "place_id": "ChIJd2de9auHhYAR2Sjb_QLfN_c",
+        "hours": "9am-9pm daily",
+        "nearby_locations": ["sf_botanical_garden", "mount_sutro", "presidio_ecology_trail"]
+      },
+      {
+        "name": "Solful Cannabis Dispensary - Sebastopol",
+        "address": "785 Gravenstein Hwy S, Sebastopol, CA 95472",
+        "latitude": 38.3951183,
+        "longitude": -122.8185316,
+        "place_id": "ChIJu6dVaLAwhIARcw8T52qlFa8",
+        "hours": "10am-8pm daily",
+        "nearby_locations": ["armstrong_redwoods", "grove_of_old_trees", "pomo_canyon"]
+      }
+    ]
+  },
+
+  "location_types": {
+    "forest": "Natural forest environment for full forest bathing immersion. Extended terpene exposure (1-3 hours). Highest phytoncide concentrations.",
+    "botanical_garden_zone": "Curated micro-zone within SF Botanical Garden. Concentrated terpene exposure (5-15 minutes per zone). Ideal for targeted pre-loading walks.",
+    "urban_forest": "Urban forest canopy within city limits. Moderate terpene exposure. Accessible without car or transit."
+  },
+
+  "locations": [
+
+    {
+      "id": "muir_woods",
+      "name": "Muir Woods National Monument",
+      "type": "forest",
+      "region": "Marin County",
+      "address": "Mill Valley, CA 94941",
+      "latitude": 37.897,
+      "longitude": -122.5811,
+      "place_id": "ChIJrWJnvbSRhYAR-a__aHZY_3o",
+      "rating": 4.8,
+      "access": {
+        "parking_reservation_required": true,
+        "entry_fee": "$15 per person",
+        "hours": "8am-5pm daily",
+        "transit_accessible": true,
+        "shuttle_available": true,
+        "dogs_allowed": false
+      },
+      "forest_type": "Old-growth coast redwood",
+      "dominant_tree_species": ["Sequoia sempervirens", "Pseudotsuga menziesii", "Alnus rubra", "Quercus agrifolia"],
+      "understory_species": ["sword fern", "redwood sorrel", "huckleberry", "rhododendron"],
+      "acreage": 554,
+      "old_growth_acres": 240,
+      "tree_age_range": "600-1500 years",
+      "tallest_tree_ft": 258,
+      "microclimate": {
+        "fog_frequency": "high - regular summer coastal fog",
+        "humidity": "high year-round",
+        "temperature_range_f": "40-70",
+        "fog_drip": true,
+        "description": "Canyon on western slope of Mt. Tamalpais. Pacific fog creates wet environment year-round. Dense canopy = maximum terpene trapping."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene", "β-pinene"],
+        "secondary": ["limonene", "camphene", "myrcene"],
+        "trace": ["δ-3-carene", "sabinene", "terpinolene"],
+        "source_notes": "Coast redwoods produce terpenoids and tannic acid in leaves, roots, bark, and wood. Dense old-growth canopy creates highest phytoncide concentration per cubic foot. Douglas fir understory adds myrcene. Cathedral Grove and Bohemian Grove are densest terpene zones."
+      },
+      "receptor_targets": ["GABA-A (pinene anxiolytic)", "AChE inhibition (pinene memory)", "bronchodilation (pinene)"],
+      "experience_profile": {
+        "intensity": "high",
+        "duration_recommended_min": 60,
+        "best_time": "Early morning or late afternoon for fog and fewer crowds",
+        "sensory_notes": "Cathedral-like silence. Damp earth and pine. Crepuscular light rays through fog. Redwood Creek sounds.",
+        "key_zones": ["Cathedral Grove - densest canopy", "Bohemian Grove - tallest trees", "Fern Creek Trail - mixed species"]
+      },
+      "distance_from_solful_sf_mi": 17,
+      "distance_from_solful_sebastopol_mi": 45,
+      "drive_time_from_solful_sf_min": 45,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Pinene-forward strains. Forest pre-loads α-pinene receptor systems.",
+        "strain_categories": ["pinene-dominant sativas", "pine/earth nose profiles"]
+      }
+    },
+
+    {
+      "id": "roys_redwoods",
+      "name": "Roy's Redwoods Preserve",
+      "type": "forest",
+      "region": "Marin County",
+      "address": "Nicasio Valley Road, Woodacre, CA 94973",
+      "latitude": 38.0208,
+      "longitude": -122.6551,
+      "place_id": "ChIJDRdTtD--hYARaAKrbg24Xco",
+      "rating": 4.7,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Free",
+        "hours": "6:30am-8pm daily",
+        "transit_accessible": false,
+        "dogs_allowed": true,
+        "notes": "Free roadside parking on Nicasio Valley Road. New ADA-accessible boardwalk trails completed 2024."
+      },
+      "forest_type": "Old-growth coast redwood grove",
+      "dominant_tree_species": ["Sequoia sempervirens"],
+      "understory_species": ["enchanter's nightshade", "fungi", "lichens", "mosses"],
+      "acreage": 293,
+      "old_growth_acres": 19.5,
+      "tree_age_range": "300+ years",
+      "tallest_tree_ft": 200,
+      "microclimate": {
+        "fog_frequency": "moderate",
+        "humidity": "moderate - drier than other Marin redwood groves",
+        "temperature_range_f": "45-75",
+        "fog_drip": false,
+        "description": "San Geronimo Valley. Drier microclimate than coastal groves - produces different understory plant community. No redwood sorrel (unlike other groves). Larsen Creek watershed runs through preserve."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene"],
+        "secondary": ["β-pinene", "limonene"],
+        "trace": ["camphene", "myrcene"],
+        "source_notes": "Drier grove = lower overall phytoncide concentration but more concentrated pinene ratio. One of only four old-growth redwood areas in Marin. Different understory terpene mix due to absence of moisture-dependent species."
+      },
+      "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)"],
+      "experience_profile": {
+        "intensity": "moderate",
+        "duration_recommended_min": 45,
+        "best_time": "Morning for solitude. Any season works - each brings different character.",
+        "sensory_notes": "Intimate and quiet. Fairy Ring redwood circles. New boardwalk trails create immersive elevated walk through canopy understory. Low crowds.",
+        "key_zones": ["Fairy Ring Trail - circular old-growth formation", "Boardwalk Trail - immersive elevated path", "Forest Trail - soft surface through canopy"]
+      },
+      "distance_from_solful_sf_mi": 30,
+      "distance_from_solful_sebastopol_mi": 20,
+      "drive_time_from_solful_sf_min": 50,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Clean pinene profile without strong secondary terpenes. Good for pure pinene pre-loading.",
+        "strain_categories": ["pinene-dominant strains", "clear-headed sativas"]
+      }
+    },
+
+    {
+      "id": "samuel_p_taylor",
+      "name": "Samuel P. Taylor State Park",
+      "type": "forest",
+      "region": "Marin County",
+      "address": "8889 Sir Francis Drake Blvd, Lagunitas, CA 94938",
+      "latitude": 38.0243,
+      "longitude": -122.7214,
+      "place_id": "ChIJrRYlc4jAhYARaAKrbg24Xco",
+      "rating": 4.7,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "$8-10 per vehicle",
+        "hours": "Open 24 hours (camping available)",
+        "transit_accessible": false,
+        "dogs_allowed": "On Cross Marin Trail and fire roads only",
+        "camping": true,
+        "campsites": 59,
+        "notes": "Camping among redwoods enables multi-day forest immersion. Pioneer Tree Trail (1.6 mi) is family-friendly."
+      },
+      "forest_type": "Mixed coast redwood, oak woodland, and grassland",
+      "dominant_tree_species": ["Sequoia sempervirens", "Quercus agrifolia", "Lithocarpus densiflorus", "Arbutus menziesii", "Umbellularia californica", "Pseudotsuga menziesii"],
+      "understory_species": ["California laurel", "tanoak", "madrone", "buttercups", "milkmaids", "Indian paintbrush"],
+      "acreage": 2882,
+      "old_growth_acres": null,
+      "tree_age_range": "Mixed - some old growth",
+      "microclimate": {
+        "fog_frequency": "moderate",
+        "humidity": "high along Papermill Creek",
+        "temperature_range_f": "40-80",
+        "fog_drip": true,
+        "description": "Unique contrast of redwood canyon groves and open grassland. Lagunitas Creek / Papermill Creek creates riparian corridor. Multi-species forest = complex terpene cocktail in air."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene", "1,8-cineole"],
+        "secondary": ["β-pinene", "umbellulone", "myrcene", "limonene"],
+        "trace": ["linalool", "camphene", "terpinolene"],
+        "source_notes": "MOST COMPLEX terpene profile of any location. Redwoods contribute pinenes, California bay laurel (Umbellularia californica) contributes 1,8-cineole and umbellulone, Douglas fir adds myrcene and β-pinene, madrone and tanoak add additional monoterpenes. Creek microclimate amplifies volatile emissions. Camping enables Li's 2-3 day immersion protocol (NK cell effects lasting 30+ days)."
+      },
+      "receptor_targets": ["GABA-A (pinene, linalool)", "AChE inhibition (1,8-cineole, pinene)", "CB2 potential (complex blend)", "serotonergic (complex blend)"],
+      "experience_profile": {
+        "intensity": "high",
+        "duration_recommended_min": 120,
+        "best_time": "Summer for shaded respite. Winter for salmon runs and lush understory.",
+        "sensory_notes": "Creek sounds throughout. Shifting terpene zones as you move between redwood canyon and open grassland. Bay laurel produces strong aromatic presence. Coho salmon spawn Dec-Jan.",
+        "key_zones": ["Pioneer Tree Trail - family-friendly old growth", "Barnabe Peak Trail - elevation gradient terpene shift", "Creek corridor - maximum humidity and volatiles"]
+      },
+      "distance_from_solful_sf_mi": 35,
+      "distance_from_solful_sebastopol_mi": 22,
+      "drive_time_from_solful_sf_min": 55,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Complex multi-terpene profile. Pre-loads multiple receptor systems simultaneously. Best for full-spectrum entourage strains.",
+        "strain_categories": ["complex terpene profiles", "full-spectrum indica-hybrid"]
+      }
+    },
+
+    {
+      "id": "armstrong_redwoods",
+      "name": "Armstrong Redwoods State Natural Reserve",
+      "type": "forest",
+      "region": "Sonoma County",
+      "address": "17000 Armstrong Woods Rd, Guerneville, CA 95446",
+      "latitude": 38.537,
+      "longitude": -123.0063,
+      "place_id": "ChIJJwzFDt0ehIARUpa8jJe8zbw",
+      "rating": 4.9,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "$10 per vehicle, free for pedestrians/cyclists",
+        "hours": "8am to one hour after sunset",
+        "transit_accessible": false,
+        "dogs_allowed": false,
+        "notes": "Closest major redwood reserve to Solful Sebastopol. Adjacent Austin Creek Recreation Area has camping."
+      },
+      "forest_type": "Old-growth coast redwood, temperate rainforest",
+      "dominant_tree_species": ["Sequoia sempervirens", "Lithocarpus densiflorus", "Pseudotsuga menziesii", "Umbellularia californica", "Acer macrophyllum"],
+      "understory_species": ["bracken fern", "sword fern", "trillium", "fairy bells", "redwood orchids"],
+      "acreage": 805,
+      "old_growth_acres": 805,
+      "tree_age_range": "Up to 1400 years (Colonel Armstrong tree)",
+      "tallest_tree_ft": 310,
+      "microclimate": {
+        "fog_frequency": "high - abundant summer fog",
+        "humidity": "very high",
+        "temperature_range_f": "40-75",
+        "fog_drip": true,
+        "rainfall_inches_annual": 55,
+        "description": "Temperate rainforest. 55 inches annual rainfall. Abundant fog maintains moist conditions year-round. Fife Creek alluvial flat = maximum tree size. Peak phytoncide emission environment."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene", "β-pinene"],
+        "secondary": ["myrcene", "limonene", "1,8-cineole"],
+        "trace": ["camphene", "terpinolene", "linalool"],
+        "source_notes": "ANCHOR LOCATION for Solful Sebastopol. 1,400-year-old trees in temperate rainforest = peak phytoncide concentration. Highest annual rainfall of any location (55 inches). Alluvial flat setting maximizes tree growth and terpene production. Bay laurel and Douglas fir add secondary terpene complexity. Colonel Armstrong Tree and Parson Jones Tree are named specimens."
+      },
+      "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)", "bronchodilation (pinene)", "NK cell activation (phytoncides)"],
+      "experience_profile": {
+        "intensity": "very high",
+        "duration_recommended_min": 90,
+        "best_time": "Early morning for fog and solitude. Spring for wildflower understory.",
+        "sensory_notes": "Cathedral-like. 310-foot Parson Jones tree creates overwhelming scale. Temperate rainforest humidity amplifies scent. Redwood Forest Theater outdoor amphitheater. Winter rain turns understory into green carpet.",
+        "key_zones": ["Colonel Armstrong Tree - 1400 years old, 0.5 mi from entrance", "Parson Jones Tree - tallest at 310 ft, 100 yards from entrance", "Pioneer Nature Trail - wheelchair accessible", "East Ridge Trail - elevation for different terpene exposure"]
+      },
+      "distance_from_solful_sf_mi": 75,
+      "distance_from_solful_sebastopol_mi": 18,
+      "drive_time_from_solful_sebastopol_min": 30,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Maximum pinene saturation environment. Ancient trees = highest terpenoid concentrations. Best for pinene-dominant strains consumed same evening.",
+        "strain_categories": ["pinene-dominant", "pine/forest nose", "clear-headed sativa"]
+      }
+    },
+
+    {
+      "id": "grove_of_old_trees",
+      "name": "Grove of Old Trees (LandPaths)",
+      "type": "forest",
+      "region": "Sonoma County",
+      "address": "17599 Fitzpatrick Ln, Occidental, CA 95465",
+      "latitude": 38.398,
+      "longitude": -122.9915,
+      "place_id": "ChIJ64mM14ImhIAR7xasBh7lb5U",
+      "rating": 4.9,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Free",
+        "hours": "Dawn to dusk",
+        "transit_accessible": false,
+        "dogs_allowed": false,
+        "notes": "Free. Hidden gem near Occidental on Bohemian Highway wine route. Short loop trail. 15°F cooler inside canopy."
+      },
+      "forest_type": "Old-growth coast redwood",
+      "dominant_tree_species": ["Sequoia sempervirens"],
+      "acreage": null,
+      "old_growth_acres": null,
+      "tree_age_range": "Old-growth, several hundred years",
+      "microclimate": {
+        "fog_frequency": "moderate-high",
+        "humidity": "high inside grove",
+        "temperature_drop_inside_f": 15,
+        "description": "Dramatic temperature drop inside canopy (15°F cooler). Creates condensed terpene atmosphere. Near coast between Sebastopol and Pacific. Forever Wild conservation easement."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene", "β-pinene"],
+        "secondary": ["limonene", "camphene"],
+        "trace": ["myrcene"],
+        "source_notes": "Temperature drop inside grove condenses volatile terpenes into concentrated atmosphere. Anne's Circle is most dramatic section - dense old-growth in tight formation. Short trail but intense sensory experience. Near Bohemian Highway wine route for multi-sensory day."
+      },
+      "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)"],
+      "experience_profile": {
+        "intensity": "high (concentrated)",
+        "duration_recommended_min": 30,
+        "best_time": "Hot days for maximum temperature contrast. Mornings for solitude.",
+        "sensory_notes": "Short but intense. Dramatic temperature shift at entrance like walking into natural AC. Anne's Circle is the most dramatic dense old-growth section. Picnic table available. Very few visitors.",
+        "key_zones": ["Anne's Circle - densest old-growth section", "Main loop trail"]
+      },
+      "distance_from_solful_sf_mi": 65,
+      "distance_from_solful_sebastopol_mi": 12,
+      "drive_time_from_solful_sebastopol_min": 20,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Concentrated pinene atmosphere due to temperature inversion. Short intense exposure ideal for quick pre-loading before evening session.",
+        "strain_categories": ["pinene-dominant", "focused sativa"]
+      }
+    },
+
+    {
+      "id": "mount_sutro",
+      "name": "Mount Sutro Forest (Open Space Reserve)",
+      "type": "urban_forest",
+      "region": "San Francisco",
+      "address": "Mount Sutro Open Space Reserve, San Francisco, CA",
+      "latitude": 37.7592,
+      "longitude": -122.4577,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Free",
+        "hours": "Dawn to dusk",
+        "transit_accessible": true,
+        "transit_notes": "N-Judah streetcar stops near trailheads",
+        "dogs_allowed": "On leash",
+        "trailheads": 7,
+        "notes": "Hidden urban forest. Trail entrances tucked between houses. 80-acre eucalyptus cloud forest in heart of SF."
+      },
+      "forest_type": "Eucalyptus cloud forest (80% Eucalyptus globulus)",
+      "dominant_tree_species": ["Eucalyptus globulus (Tasmanian blue gum)"],
+      "secondary_tree_species": ["Monterey pine", "Monterey cypress", "coast live oak"],
+      "acreage": 80,
+      "tree_age_range": "100+ years (planted late 1800s by Adolph Sutro)",
+      "tree_height_ft": "100-200",
+      "microclimate": {
+        "fog_frequency": "very high - within SF fog belt",
+        "humidity": "very high",
+        "temperature_moderation": "10% cooler daytime, 5% warmer nighttime vs. outside",
+        "relative_humidity_increase": "5% higher inside forest",
+        "light_reduction": "90% inside forest",
+        "fog_drip_increase": "300% more moisture from fog inside forest vs. outside",
+        "description": "Cloud forest microclimate. Fog belt location means eucalyptus trees precipitate fog year-round. 300% increase in fog-drip moisture inside forest. Air is saturated with eucalyptol vapors. 909 ft elevation - SF's third tallest hill."
+      },
+      "terpene_profile": {
+        "dominant": ["1,8-cineole (eucalyptol)"],
+        "secondary": ["α-pinene", "p-cymene", "limonene"],
+        "trace": ["β-pinene", "γ-terpinene", "β-myrcene", "aromadendrene", "globulol"],
+        "concentration_data": "Eucalyptus globulus essential oil: 63-86% 1,8-cineole, 7-11% α-pinene, 3-7% limonene, 3-8% p-cymene",
+        "source_notes": "80% eucalyptus forest creates dominant 1,8-cineole atmosphere. Fog-drip mechanism intensifies volatile release. UC Berkeley study showed eucalyptus groves moderate temperature and dramatically increase humidity, creating optimal conditions for terpene volatilization. Over 60 bird species. Poison oak present - stay on trails."
+      },
+      "receptor_targets": ["AChE inhibition (1,8-cineole)", "anti-inflammatory (1,8-cineole)", "bronchodilation (1,8-cineole)", "GABA-A (α-pinene)"],
+      "experience_profile": {
+        "intensity": "high",
+        "duration_recommended_min": 45,
+        "best_time": "Foggy days for peak cloud forest atmosphere. Weekdays for solitude.",
+        "sensory_notes": "On foggy days, may be most beautiful place in SF. Mist wraps treetops. Self-contained rain from fog drip. Ethereal, otherworldly atmosphere. 100-200 ft trees overhead. No city views from inside (unlike Twin Peaks). Feels like being transported entirely out of SF.",
+        "key_zones": ["Fairy Gates Trail - best entrance experience", "North Ridge Trail - favorite path, winding through eucalyptus and coast live oaks", "Rotary Meadow - summit, California native plants surrounded by eucalyptus"]
+      },
+      "distance_from_solful_sf_mi": 2,
+      "drive_time_from_solful_sf_min": 8,
+      "walk_time_from_solful_sf_min": 25,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Eucalyptol-dominant atmosphere. Pre-loads AChE inhibition and anti-inflammatory pathways. Best for strains with cooling/menthol notes.",
+        "strain_categories": ["eucalyptol-present strains", "cineole-forward", "cooling/menthol profiles"]
+      }
+    },
+
+    {
+      "id": "presidio_ecology_trail",
+      "name": "Presidio Ecology Trail",
+      "type": "urban_forest",
+      "region": "San Francisco",
+      "address": "Ecology Trail, Presidio, San Francisco, CA",
+      "latitude": 37.793,
+      "longitude": -122.4589,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Free",
+        "hours": "Open 24 hours",
+        "transit_accessible": true,
+        "dogs_allowed": true,
+        "notes": "1.4-mile trail. Upper trail pedestrian only. Multi-biome = most diverse terpene exposure per step in Bay Area."
+      },
+      "forest_type": "Mixed urban forest - multiple biomes",
+      "dominant_tree_species": ["Eucalyptus globulus", "Pinus radiata (Monterey pine)", "Cupressus macrocarpa (Monterey cypress)", "Sequoia sempervirens"],
+      "secondary_tree_species": ["Quercus agrifolia (coast live oak)"],
+      "special_features": ["Andy Goldsworthy Spire sculpture (Monterey cypress)", "Andy Goldsworthy Wood Line (eucalyptus)", "serpentine grasslands", "Tennessee Hollow watershed"],
+      "microclimate": {
+        "description": "Multi-biome trail crosses through redwood grove, eucalyptus forest, serpentine grassland, and mixed conifer forest in 1.4 miles. Each zone has distinct terpene atmosphere."
+      },
+      "terpene_profile": {
+        "dominant": ["1,8-cineole", "α-pinene"],
+        "secondary": ["β-pinene", "limonene", "sabinene", "myrcene"],
+        "trace": ["camphene", "terpinolene"],
+        "source_notes": "MOST DIVERSE terpene exposure per distance walked. Eucalyptus zones produce 1,8-cineole. Redwood grove produces pinenes. Monterey pine/cypress produce different pinene ratios and sabinene. Serpentine grassland produces aromatic sage compounds. You cross through 4-5 distinct terpene zones in a single short hike. Inspiration Point overlook at south end."
+      },
+      "receptor_targets": ["AChE inhibition (1,8-cineole, pinene)", "GABA-A (pinene, linalool from grasslands)", "bronchodilation (1,8-cineole, pinene)"],
+      "experience_profile": {
+        "intensity": "moderate-high (varied)",
+        "duration_recommended_min": 45,
+        "best_time": "Any time. Sunset for views from Inspiration Point.",
+        "sensory_notes": "Shifting aromatic zones as you walk. Eucalyptus scent gives way to pine gives way to redwood gives way to grassland. Bay views from Inspiration Point. Art installations by Goldsworthy add contemplative dimension.",
+        "key_zones": ["Redwood grove - pinene zone", "Eucalyptus forest near Wood Line - cineole zone", "Serpentine grassland - aromatic herb zone", "Inspiration Point - panoramic views"]
+      },
+      "distance_from_solful_sf_mi": 4,
+      "drive_time_from_solful_sf_min": 15,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Multi-terpene pre-loading across diverse zones. Activates multiple receptor systems in sequence. Best for complex terpene profile strains.",
+        "strain_categories": ["complex profiles", "balanced hybrids", "full-spectrum strains"]
+      }
+    },
+
+    {
+      "id": "mount_tamalpais",
+      "name": "Mount Tamalpais State Park",
+      "type": "forest",
+      "region": "Marin County",
+      "address": "3801 Panoramic Hwy, Mill Valley, CA 94941",
+      "latitude": 37.889,
+      "longitude": -122.6108,
+      "place_id": "ChIJVbc0nryRhYARrctM6NuBQMw",
+      "rating": 4.8,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Day use parking fee varies",
+        "hours": "Open 24 hours",
+        "transit_accessible": false,
+        "dogs_allowed": "Limited - not on most trails",
+        "notes": "Steep Ravine has old-growth redwoods. Summit has chaparral. TCC Trail accesses redwoods without Muir Woods reservation."
+      },
+      "forest_type": "Elevation gradient: coast redwood → mixed hardwood → chaparral",
+      "dominant_tree_species": ["Sequoia sempervirens (ravines)", "Quercus agrifolia", "Arbutus menziesii", "Arctostaphylos spp. (summit)"],
+      "secondary_tree_species": ["Pseudotsuga menziesii", "Umbellularia californica"],
+      "summit_vegetation": ["California sage", "manzanita", "chaparral"],
+      "acreage": 6300,
+      "summit_elevation_ft": 2571,
+      "microclimate": {
+        "description": "Dramatic elevation gradient from sea level to 2,571 ft. Each elevation band has distinct vegetation and terpene profile. Lower canyons = redwood/humid. Mid-slopes = mixed hardwood. Summit = aromatic chaparral with sage and manzanita. Above fog line at summit."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene (all elevations)", "1,8-cineole (mid-elevation bay laurel)"],
+        "secondary": ["β-pinene", "camphor (summit sage)", "myrcene", "limonene"],
+        "trace": ["thujone (sage)", "carvacrol", "linalool"],
+        "source_notes": "Elevation gradient creates shifting terpene zones. Steep Ravine old-growth redwoods produce pinenes. Mid-slope bay laurel produces 1,8-cineole and umbellulone. Summit chaparral (California sage, manzanita) produces camphor, thujone, linalool. One of few places to experience three distinct terpene ecosystems in a single hike."
+      },
+      "receptor_targets": ["GABA-A (pinene, linalool)", "AChE inhibition (1,8-cineole, camphor)", "serotonergic (complex blend)"],
+      "experience_profile": {
+        "intensity": "variable by elevation",
+        "duration_recommended_min": 120,
+        "best_time": "Clear days for summit views. Foggy days for lower trail atmosphere.",
+        "sensory_notes": "Dramatic sensory shifts as you climb. Damp redwood canyon → dry chaparral scrub. Fog below at summit. Panoramic views of SF Bay, Pacific, and Marin. Can see Solful SF's neighborhood from summit.",
+        "key_zones": ["Steep Ravine - old-growth redwoods, highest pinene", "TCC Trail - redwoods without Muir Woods reservation", "Summit - aromatic chaparral, sage and manzanita", "Pantoll trailhead - access to multiple zones"]
+      },
+      "distance_from_solful_sf_mi": 15,
+      "distance_from_solful_sebastopol_mi": 35,
+      "drive_time_from_solful_sf_min": 35,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Multi-zone pre-loading. Lower = pinene priming. Summit = camphor/linalool priming. Choose elevation zone based on target strain profile.",
+        "strain_categories": ["complex profiles", "multi-terpene strains"]
+      }
+    },
+
+    {
+      "id": "angel_island",
+      "name": "Angel Island State Park",
+      "type": "forest",
+      "region": "Marin County / SF Bay",
+      "address": "Tiburon, CA 94920",
+      "latitude": 37.8636,
+      "longitude": -122.4319,
+      "place_id": "ChIJ29Fd3-yDhYARget8QXU6QIM",
+      "rating": 4.8,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Ferry fare",
+        "hours": "Varies by ferry schedule",
+        "transit_accessible": true,
+        "ferry_from": ["Tiburon", "San Francisco"],
+        "dogs_allowed": false,
+        "notes": "Ferry ride creates sensory transition from city. Island microclimate traps volatiles. 5-mile Perimeter Road loop."
+      },
+      "forest_type": "Mixed eucalyptus groves, bay laurel woodland, coastal scrub",
+      "dominant_tree_species": ["Eucalyptus globulus", "Quercus agrifolia (coast live oak)", "Umbellularia californica (bay laurel)"],
+      "secondary_tree_species": ["Corylus cornuta (hazelnut)", "Heteromeles arbutifolia (toyon)", "Arctostaphylos spp. (manzanita)"],
+      "summit_elevation_ft": 788,
+      "microclimate": {
+        "description": "Island microclimate traps terpenes. Bay breezes circulate volatiles. Mixed native (bay laurel, coast live oak) and planted (eucalyptus) groves. Southwest slopes have Sunset Trail through shady bay laurel forest."
+      },
+      "terpene_profile": {
+        "dominant": ["1,8-cineole (eucalyptus + bay laurel)", "α-pinene"],
+        "secondary": ["umbellulone (bay laurel)", "limonene", "β-pinene"],
+        "trace": ["myrcene", "camphene"],
+        "source_notes": "Dual 1,8-cineole sources - eucalyptus groves and native bay laurel produce same primary terpene from different botanical origins. Perfect demonstration of terpene source independence thesis. Island microclimate traps volatiles. Sunset Trail through bay laurel/oak forest is most aromatic section."
+      },
+      "receptor_targets": ["AChE inhibition (1,8-cineole)", "anti-inflammatory (1,8-cineole)", "GABA-A (pinene)"],
+      "experience_profile": {
+        "intensity": "moderate-high",
+        "duration_recommended_min": 180,
+        "best_time": "Clear days for bay views. Spring for wildflowers.",
+        "sensory_notes": "Ferry crossing creates ritual transition from urban to natural. Salt air → eucalyptus → bay laurel → open grassland as you hike. Immigration Station history adds contemplative weight. 360° bay views from Mt. Livermore summit.",
+        "key_zones": ["Sunset Trail - bay laurel and coast live oak, most aromatic", "Perimeter Road - through eucalyptus groves", "Mt. Livermore summit - open grassland and coastal scrub"]
+      },
+      "distance_from_solful_sf_mi": 8,
+      "drive_time_from_solful_sf_min": "30 + ferry",
+      "cannabis_strain_matches": {
+        "terpene_logic": "1,8-cineole dominant from dual botanical sources. Demonstrates source independence. Pre-loads respiratory and cognitive pathways.",
+        "strain_categories": ["eucalyptol-present strains", "cooling profiles"]
+      }
+    },
+
+    {
+      "id": "pomo_canyon",
+      "name": "Pomo Canyon Trail",
+      "type": "forest",
+      "region": "Sonoma County",
+      "address": "Pomo Canyon Trail, Sonoma Coast, CA",
+      "latitude": 38.4274,
+      "longitude": -123.0865,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Parking fee",
+        "hours": "Dawn to dusk",
+        "transit_accessible": false,
+        "notes": "Coastal proximity + redwood canopy = fog-trapped terpene chamber. Near Russian River cannabis corridor. Fairy ring redwood formations."
+      },
+      "forest_type": "Coast redwood with coastal influence",
+      "dominant_tree_species": ["Sequoia sempervirens"],
+      "special_features": ["Fairy ring redwood formations (circles)", "coastal proximity"],
+      "microclimate": {
+        "description": "Redwood canyon near Sonoma Coast. Coastal fog + redwood canopy creates natural terpene chamber. Fairy ring formations (redwoods growing in circles) concentrate phytoncides in enclosed spaces."
+      },
+      "terpene_profile": {
+        "dominant": ["α-pinene", "β-pinene"],
+        "secondary": ["limonene", "myrcene"],
+        "trace": ["camphene"],
+        "source_notes": "Fairy ring formations create natural enclosed terpene chambers - redwoods growing in circles trap air and concentrate phytoncides. Coastal fog keeps humidity high and enhances volatile release. Near Pomo Canyon Campground."
+      },
+      "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)"],
+      "experience_profile": {
+        "intensity": "high (especially inside fairy rings)",
+        "duration_recommended_min": 90,
+        "best_time": "Summer mornings when fog is thick in canyon.",
+        "sensory_notes": "Standing inside a fairy ring of redwoods is a uniquely enclosed terpene experience. Coastal mist drifts through canyon. Ferns and wildflowers in understory.",
+        "key_zones": ["Fairy ring formations near lower campsites", "Canyon bottom - maximum terpene concentration"]
+      },
+      "distance_from_solful_sf_mi": 80,
+      "distance_from_solful_sebastopol_mi": 25,
+      "drive_time_from_solful_sebastopol_min": 40,
+      "cannabis_strain_matches": {
+        "terpene_logic": "Concentrated pinene in natural enclosures. Fairy rings are nature's diffuser chambers.",
+        "strain_categories": ["pinene-dominant", "forest/pine nose profiles"]
+      }
+    },
+
+    {
+      "id": "sf_botanical_garden",
+      "name": "San Francisco Botanical Garden",
+      "type": "botanical_garden",
+      "region": "San Francisco",
+      "address": "1199 9th Ave, San Francisco, CA 94122",
+      "latitude": 37.7677,
+      "longitude": -122.4693,
+      "place_id": "ChIJW5w2V2iHhYARQoOl_ZsQlOg",
+      "rating": 4.8,
+      "access": {
+        "parking_reservation_required": false,
+        "entry_fee": "Free before 9am daily, free for SF residents, free 2nd Tuesday monthly. $13 non-resident.",
+        "hours": "7:30am-5pm daily (varies seasonally)",
+        "transit_accessible": true,
+        "dogs_allowed": false,
+        "notes": "4-MINUTE WALK from Solful SF (900 Irving St). Main entrance at 9th Ave & Lincoln Way. North/Friend Gate on MLK Jr Drive."
+      },
+      "total_acreage": 55,
+      "total_species": 8000,
+      "canopy_species_original": ["Cupressus macrocarpa (Monterey cypress)", "Pinus radiata (Monterey pine)", "Eucalyptus globulus"],
+      "total_conifer_species": 250,
+      "walk_time_from_solful_sf_min": 4,
+      "proximity_note": "Closest dispensary-to-terpene-garden pairing in America. Customer can walk from Solful to living terpene laboratory in under 5 minutes.",
+
+      "zones": [
+        {
+          "id": "garden_of_fragrance",
+          "name": "Garden of Fragrance",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "Just inside main gate, turn right",
+          "latitude": 37.7685,
+          "longitude": -122.4685,
+          "description": "Designed in 1965 for visually impaired. Raised beds for touch-and-smell. 12th-century Spanish monastery stones (shipped by William Randolph Hearst). Bronze Saint Francis sculpture. Winding pathways and garden benches.",
+          "key_plants": ["lavender (multiple varieties)", "rosemary (cascading bank)", "sage (multiple varieties)", "mint (multiple varieties)", "patchouli", "wormwood", "Yerba Buena", "jasmine", "lemon verbena", "honeysuckle", "chamomile", "rockrose", "fennel", "curry plant", "Savin Juniper", "pelargonium"],
+          "terpene_profile": {
+            "dominant": ["linalool (lavender, jasmine)", "1,8-cineole (rosemary, sage)"],
+            "secondary": ["camphor (rosemary)", "menthol (mint, Yerba Buena)", "β-caryophyllene (patchouli)"],
+            "trace": ["thujone (wormwood, sage)", "limonene (lemon verbena)", "geraniol (pelargonium)"],
+            "source_notes": "Contains botanical sources of nearly half of your 18 essential oils in living form. Raised beds designed for releasing scent through touch. Multi-receptor activation zone hitting GABA-A (linalool), CB2 (β-caryophyllene from patchouli), and cholinergic systems (1,8-cineole from rosemary) simultaneously. Peak bloom in summer."
+          },
+          "receptor_targets": ["GABA-A (linalool, thujone)", "CB2 (β-caryophyllene from patchouli)", "AChE inhibition (1,8-cineole from rosemary)", "serotonergic (linalool)"],
+          "experience_profile": {
+            "intensity": "high (concentrated aromatic)",
+            "duration_recommended_min": 10,
+            "best_time": "Summer for peak lavender, salvia, and pelargonium bloom.",
+            "sensory_notes": "Touch plants to release volatiles. Layer scents by moving between beds. Designed as sensory experience, not just visual. Sun-dappled. Intimate scale."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Linalool + cineole pre-loading. Primes anxiolytic and cognitive pathways.",
+            "strain_categories": ["linalool-dominant", "floral/herbal nose", "indica-leaning for relaxation"]
+          }
+        },
+
+        {
+          "id": "menzies_native_garden",
+          "name": "Arthur L. Menzies Garden of California Native Plants",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "South side, 4 acres. Access from main entrance heading south.",
+          "latitude": 37.7665,
+          "longitude": -122.471,
+          "description": "4-acre California native plant garden designed by Ron Lutsko Jr. in 1986. Arroyos, ponds, woodlands, and wildflower meadow. 70+ manzanita species. ASLA Honor Award for Design. Being redesigned with new interpretive signs in 2026.",
+          "key_plants": ["California sage / Salvia spp. (many varieties)", "manzanita / Arctostaphylos spp. (70+ species)", "coyote mint / Monardella villosa", "Western azalea / Rhododendron occidentale", "California buckeye / Aesculus californica", "yarrow / Achillea millefolium", "Douglas iris", "native bunch grasses"],
+          "terpene_profile": {
+            "dominant": ["linalool (sage)", "camphor (sage)", "α-pinene (manzanita)"],
+            "secondary": ["1,8-cineole (sage)", "menthol/pulegone (coyote mint)", "myrcene (manzanita)"],
+            "trace": ["thujone (sage)", "β-caryophyllene", "terpinolene"],
+            "source_notes": "California sages produce exact terpenes driving anxiolytic effects in Silexan research (Article 2). 70+ manzanita species provide α-pinene + myrcene diversity. Coyote mint is wild menthol/pulegone source. Native California terpene pharmacy in curated form."
+          },
+          "receptor_targets": ["GABA-A (linalool from sage, pinene from manzanita)", "AChE inhibition (1,8-cineole, camphor from sage)", "TRPM8 (menthol from coyote mint)"],
+          "experience_profile": {
+            "intensity": "moderate-high",
+            "duration_recommended_min": 15,
+            "best_time": "April-May for peak wildflower bloom. Summer for sage aromatics.",
+            "sensory_notes": "Aromatic sages dominate when brushed. Manzanita bark has distinctive smooth red texture. Wildflower meadow in spring. Bird and insect activity. Feels wild despite being in the city."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Sage-dominant terpene exposure. Primes GABA-A and cholinergic systems. Best for strains with herbal/sage nose.",
+            "strain_categories": ["herbal nose profiles", "OG lineage", "earthy indica"]
+          }
+        },
+
+        {
+          "id": "redwood_grove_botanical",
+          "name": "Redwood Grove (SF Botanical Garden)",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "South-central. Access from North/Friend Gate or from Menzies Garden.",
+          "latitude": 37.766,
+          "longitude": -122.472,
+          "description": "Century-old coast redwoods (planted ~1900). Only redwood forest within San Francisco city limits. Includes rare albino redwood at section 48F. Multiple sub-sections (48A through 48R). Succulent Garden on adjacent hillside.",
+          "key_plants": ["Sequoia sempervirens (coast redwood)", "rare albino/achlorophyllous redwood (48F)"],
+          "terpene_profile": {
+            "dominant": ["α-pinene", "β-pinene"],
+            "secondary": ["limonene", "camphene"],
+            "trace": ["myrcene", "terpinolene"],
+            "source_notes": "Same species and terpene emission as Muir Woods, in urban setting. Century-old trees have had time to establish mature terpene production. Fog-drip from Golden Gate Park maritime influence keeps grove humid. Albino redwood demonstrates genetic variation in same species."
+          },
+          "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)", "bronchodilation (pinene)"],
+          "experience_profile": {
+            "intensity": "moderate",
+            "duration_recommended_min": 10,
+            "best_time": "Foggy summer mornings. Hot days for cool shade.",
+            "sensory_notes": "Feels remarkably like entering Muir Woods but you're in San Francisco. Temperature drops noticeably. Can combine with adjacent Succulent Garden for sensory contrast."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Urban pinene pre-loading. Same molecules as Muir Woods, 4 minutes from the dispensary.",
+            "strain_categories": ["pinene-dominant", "pine/earth nose"]
+          }
+        },
+
+        {
+          "id": "conifer_lawn",
+          "name": "Conifer Lawn",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "Western section, between New Zealand collection and Redwood Grove",
+          "latitude": 37.7668,
+          "longitude": -122.473,
+          "description": "30+ conifer species around large lawn. Part of garden's 250+ total conifer species collection. Includes giant sequoia (Sequoiadendron giganteum), fir (Abies) and spruce (Picea) species. Enormous Monterey cypress in center. Nobel Dwarf Conifer Garden, Dawn Redwood Grove also nearby.",
+          "key_plants": ["Sequoiadendron giganteum (giant sequoia)", "Abies spp. (fir - multiple species)", "Picea spp. (spruce - multiple species)", "Cupressus macrocarpa (Monterey cypress)"],
+          "terpene_profile": {
+            "dominant": ["α-pinene (from all species, varying ratios)"],
+            "secondary": ["camphene", "δ-3-carene", "β-pinene", "limonene"],
+            "trace": ["sabinene", "myrcene", "terpinolene", "bornyl acetate"],
+            "source_notes": "BROADEST PINENE DIVERSITY in one location. Each of 30+ species produces different α-pinene/β-pinene ratios plus unique secondary terpenes (δ-3-carene from fir, camphene from spruce, sabinene from cypress). Walking through this area is like sampling 30+ variations of pinene-dominant essential oils. Giant sequoia is only one in SF."
+          },
+          "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)", "bronchodilation (pinene)"],
+          "experience_profile": {
+            "intensity": "moderate",
+            "duration_recommended_min": 10,
+            "best_time": "Any time - conifers are evergreen year-round.",
+            "sensory_notes": "Open lawn setting allows you to move between individual specimen trees and compare their aromatic profiles. Different pine/fir/spruce species have subtly different scents - this is terpene terroir in action."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Pinene diversity - 30+ variations of the same primary terpene. Ideal for understanding how minor ratio differences create distinct experiences.",
+            "strain_categories": ["pinene-dominant (any)", "comparative tasting/education"]
+          }
+        },
+
+        {
+          "id": "mediterranean_garden",
+          "name": "Mediterranean Garden",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "Central-east section",
+          "latitude": 37.767,
+          "longitude": -122.4695,
+          "description": "Plants from all five Mediterranean climate regions: California, Mediterranean Basin, Chile, South Africa, and Southwestern Australia. Culinary herbs, aromatic shrubs, Echium species.",
+          "key_plants": ["rosemary (Rosmarinus)", "thyme (Thymus)", "oregano (Origanum)", "lavender (Lavandula)", "Echium spp.", "rockrose (Cistus)", "various Mediterranean shrubs"],
+          "terpene_profile": {
+            "dominant": ["1,8-cineole (rosemary)", "linalool (lavender)", "thymol (thyme)"],
+            "secondary": ["carvacrol (oregano)", "camphor (rosemary)", "α-pinene"],
+            "trace": ["borneol", "geraniol", "β-caryophyllene"],
+            "source_notes": "Five Mediterranean climate zones concentrated. Culinary herbs = familiar terpene sources. Overlapping 1,8-cineole, thymol, carvacrol, and linalool profiles. Strong aromatic presence especially in warm weather when volatiles increase."
+          },
+          "receptor_targets": ["GABA-A (linalool, thymol)", "AChE inhibition (1,8-cineole)", "anti-inflammatory (carvacrol, thymol)", "serotonergic (linalool)"],
+          "experience_profile": {
+            "intensity": "moderate-high",
+            "duration_recommended_min": 10,
+            "best_time": "Warm sunny days when volatile emission peaks.",
+            "sensory_notes": "Familiar culinary aromatics in garden setting. Warm sun releases oils from herb leaves. Echium flowers add visual spectacle. Can brush herbs to intensify scent release."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Multi-herb terpene blend. Cineole + linalool + thymol combo. Pre-loads multiple receptor systems for complex strains.",
+            "strain_categories": ["complex terp profiles", "herbal/spicy nose", "full-spectrum hybrids"]
+          }
+        },
+
+        {
+          "id": "australian_collection",
+          "name": "Australian Collection",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "Western section",
+          "latitude": 37.7665,
+          "longitude": -122.4735,
+          "description": "Plants from wet and dry regions of Australia. Eucalyptus species, Banksia, tea tree relatives, spear lilies (Doryanthes palmeri). Part of original canopy (Eucalyptus globulus planted 1800s).",
+          "key_plants": ["Eucalyptus spp. (multiple species)", "Banksia spp.", "Melaleuca relatives (tea tree family)", "Doryanthes palmeri (spear lily)"],
+          "terpene_profile": {
+            "dominant": ["1,8-cineole (eucalyptol)"],
+            "secondary": ["α-pinene", "limonene", "p-cymene"],
+            "trace": ["γ-terpinene", "terpinen-4-ol (tea tree)", "aromadendrene"],
+            "source_notes": "Eucalyptus globulus was one of three original canopy species (450,000 trees planted in mid-1800s). Australian section concentrates multiple eucalyptus species plus tea tree relatives (Melaleuca family produces terpinen-4-ol). Living demonstration of eucalyptol production across related but distinct species."
+          },
+          "receptor_targets": ["AChE inhibition (1,8-cineole)", "anti-inflammatory (1,8-cineole, terpinen-4-ol)", "bronchodilation (1,8-cineole)"],
+          "experience_profile": {
+            "intensity": "moderate",
+            "duration_recommended_min": 10,
+            "best_time": "Any time - eucalyptus are evergreen. Warm days increase volatile emission.",
+            "sensory_notes": "Eucalyptus scent is immediately recognizable. Banksia have bold, otherworldly shapes. Tea tree relatives add medicinal aromatic notes."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Eucalyptol saturation zone. Same primary terpene as Mount Sutro but in curated garden setting.",
+            "strain_categories": ["eucalyptol-present", "cooling/menthol profiles"]
+          }
+        },
+
+        {
+          "id": "monterey_canopy",
+          "name": "Monterey Cypress & Pine Canopy",
+          "zone_type": "botanical_garden_zone",
+          "location_within_garden": "Throughout garden, especially Great Meadow and perimeter",
+          "latitude": 37.768,
+          "longitude": -122.4688,
+          "description": "Iconic Monterey Cypress silhouettes frame the entire garden skyline. Part of original 450,000-tree canopy planting (mid-1800s). Monterey Pine (Pinus radiata) throughout. These create persistent background terpene atmosphere for entire 55-acre site.",
+          "key_plants": ["Cupressus macrocarpa (Monterey cypress)", "Pinus radiata (Monterey pine)"],
+          "terpene_profile": {
+            "dominant": ["α-pinene"],
+            "secondary": ["sabinene", "limonene", "myrcene"],
+            "trace": ["δ-3-carene", "β-pinene", "terpinolene"],
+            "source_notes": "Background terpene layer for entire garden. These canopy trees create ambient pinene atmosphere from moment of entry. Monterey cypress and pine produce distinct pinene ratios from redwoods - different α/β pinene balance and unique sabinene component. You're getting passive terpene pre-loading throughout your entire visit regardless of which zone you're in."
+          },
+          "receptor_targets": ["GABA-A (pinene)", "AChE inhibition (pinene)"],
+          "experience_profile": {
+            "intensity": "low-moderate (ambient/background)",
+            "duration_recommended_min": null,
+            "best_time": "Always present. Windy days distribute volatiles more broadly.",
+            "sensory_notes": "You may not consciously notice this canopy terpene layer, but it's pharmacologically active. The iconic Monterey Cypress silhouettes against the skyline are the visual marker. Great Meadow is the best open-air location to sense the ambient canopy."
+          },
+          "cannabis_strain_matches": {
+            "terpene_logic": "Ambient background pre-loading. Enhances all other zone exposures.",
+            "strain_categories": ["any - this is background enhancement"]
+          }
+        }
+      ]
+    }
+  ],
+
+  "suggested_routes": {
+    "solful_sf_quick_preload": {
+      "name": "The 45-Minute Terpene Walk (Solful SF → Botanical Garden → Solful SF)",
+      "description": "Walk from Solful, enter Botanical Garden at main gate (free before 9am), hit 3 terpene zones, return to Solful with receptor systems primed.",
+      "total_time_min": 45,
+      "stops": ["garden_of_fragrance", "menzies_native_garden", "redwood_grove_botanical"],
+      "terpene_coverage": ["linalool", "1,8-cineole", "α-pinene", "β-caryophyllene", "camphor"]
+    },
+    "solful_sf_full_immersion": {
+      "name": "The Full Spectrum Walk (All 7 Botanical Garden Zones)",
+      "description": "Complete terpene circuit through all seven zones. Maximum receptor diversity pre-loading.",
+      "total_time_min": 90,
+      "stops": ["garden_of_fragrance", "mediterranean_garden", "menzies_native_garden", "redwood_grove_botanical", "conifer_lawn", "australian_collection", "monterey_canopy"],
+      "terpene_coverage": ["linalool", "1,8-cineole", "α-pinene", "β-pinene", "thymol", "carvacrol", "camphor", "β-caryophyllene", "menthol", "limonene", "sabinene", "camphene"]
+    },
+    "solful_sf_plus_sutro": {
+      "name": "The Eucalyptol Deep Dive (Solful SF → Botanical Garden → Mt. Sutro)",
+      "description": "Australian Collection at Botanical Garden then Mt. Sutro cloud forest. Maximum 1,8-cineole exposure.",
+      "total_time_min": 120,
+      "stops": ["australian_collection", "mount_sutro"],
+      "terpene_coverage": ["1,8-cineole", "α-pinene", "p-cymene", "limonene"]
+    },
+    "solful_sebastopol_redwood_circuit": {
+      "name": "The Sonoma Pinene Circuit (Solful Sebastopol → Grove of Old Trees → Armstrong)",
+      "description": "Two old-growth redwood experiences near Sebastopol. Maximum pinene pre-loading.",
+      "total_time_min": 180,
+      "stops": ["grove_of_old_trees", "armstrong_redwoods"],
+      "terpene_coverage": ["α-pinene", "β-pinene", "limonene", "camphene", "myrcene"]
+    },
+    "marin_forest_bathing_full": {
+      "name": "The Marin Terpene Trail (Full Day)",
+      "description": "Multiple Marin forests for maximum phytoncide diversity and duration.",
+      "total_time_min": 360,
+      "stops": ["muir_woods", "mount_tamalpais", "roys_redwoods"],
+      "terpene_coverage": ["α-pinene", "β-pinene", "1,8-cineole", "camphor", "myrcene", "limonene", "umbellulone"]
+    }
+  },
+
+  "terpene_timing_notes": {
+    "nocturnal_emission_increase": "3.7x higher terpene emission rates at night vs. day (research finding)",
+    "fog_amplification": "300% increase in moisture inside eucalyptus forest vs. outside, intensifying volatile release",
+    "seasonal_peak": "September has highest terpene diversity (α-pinene, myrcene, D-limonene, camphene, p-cymene all detected). January lowest.",
+    "temperature_effect": "Warm sunny days increase volatile emission from herb gardens. Cool foggy conditions optimize conifer/eucalyptus emission.",
+    "optimal_protocol": "Evening forest walks (sunset hikes) produce nearly 4x terpene exposure vs. midday. Ideal timing: late afternoon walk → evening cannabis session.",
+    "multi_day_immersion": "Li et al. showed 2-3 day forest bathing trips produce NK cell effects lasting 30+ days. Samuel P. Taylor and Armstrong both offer camping for extended immersion."
+  }
+}
