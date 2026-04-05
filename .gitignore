@@ -21,3 +21,16 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# SQLite transient files
+*.db-shm
+*.db-wal
+
+# Local Claude Code settings
+.claude/
+
+# User staging folder (Claude Project file drops)
+claude.ai project files/
+
+# Archive backups
+archives/
