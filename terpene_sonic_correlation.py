@@ -52,7 +52,7 @@ def load_receptor_matrix():
 
 def load_strain_data():
     """Load all strain data from individual JSON files with music parameters."""
-    strain_dir = PROJECT / "strains"
+    strain_dir = PROJECT / "strains" / "strain-profiles"
     strains_json = PROJECT / "data" / "strains.json"
 
     # Load the 23 core strains for terpene profiles

@@ -103,7 +103,7 @@ def pearson_r(xs, ys):
 
 def load_all_strain_layers():
     """Load all quantifiable layer parameters from every strain file."""
-    strain_dir = PROJECT / "strains"
+    strain_dir = PROJECT / "strains" / "strain-profiles"
     core_path = PROJECT / "data" / "strains.json"
     with open(core_path) as f:
         core = {s["name"]: s for s in json.load(f)["strains"]}
